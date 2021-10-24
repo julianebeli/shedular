@@ -1,0 +1,15 @@
+race,start,event_id,event_name,event_code,seats,alpha,lane,heat,distance,school,crew,cox,coach,boat,rerig,launch_time,dock_by
+57,2020-10-25T09:04:00+00:00,41,Under 19 Women's Coxed Four,U19 W 4+,4,F,2,Division 2,2000,Friends,"['K.Fajrianto', 'A.Gardner', 'C.Balmforth', 'C.Ralph']",['C.Mead'],['T.Pilkington'],James Bennett,True,2020-10-25T08:39:00+00:00,2020-10-25T09:37:00+00:00
+57,2020-10-25T09:04:00+00:00,41,Under 19 Women's Coxed Four,U19 W 4+,4,F,4,Division 2,2000,Friends,"['J.Powell-Davies', 'Y.Cho', 'M.White', 'C.Hornett']",['I.Fox'],['T.Pilkington'],Stephanie Farrell,True,2020-10-25T08:39:00+00:00,2020-10-25T09:37:00+00:00
+62,2020-10-25T09:34:00+00:00,43,Under 19 Men's Pair,U19 M 2-,2,K,1,Final,2000,Friends,"['R.Fox', 'C.Johnson']",[],[],GH2,False,2020-10-25T09:09:00+00:00,2020-10-25T10:07:00+00:00
+62,2020-10-25T09:34:00+00:00,43,Under 19 Men's Pair,U19 M 2-,2,K,4,Final,2000,Friends,"['E.Wilkins', 'T.Neal']",[],[],David Reid,False,2020-10-25T09:09:00+00:00,2020-10-25T10:07:00+00:00
+62,2020-10-25T09:34:00+00:00,43,Under 19 Men's Pair,U19 M 2-,2,K,5,Final,2000,Friends,"['T.Doyle', 'J.Downie']",[],[],Alex Hutchinson,False,2020-10-25T09:09:00+00:00,2020-10-25T10:07:00+00:00
+69,2020-10-25T10:50:00+00:00,49,Under 19 Women's Eight,U19 W 8+,8,R,4,Final,2000,Friends,"['J.Powell-Davies', 'A.Gardner', 'C.Hornett', 'E.Underwood', 'C.Balmforth', 'K.Fajrianto', 'M.White', 'C.Ralph']",['I.Fox'],['T.Pilkington'],The Gunn,False,2020-10-25T10:25:00+00:00,2020-10-25T11:23:00+00:00
+84,2020-10-25T13:11:00+00:00,62,Under 19 Men's Single Scull,U19 M 1X,1,G,2,Division 1,2000,Friends,['T.Neal'],[],[],Leonie Mulchay,False,2020-10-25T12:46:00+00:00,2020-10-25T13:44:00+00:00
+85,2020-10-25T13:17:00+00:00,62,Under 19 Men's Single Scull,U19 M 1X,1,H,2,Division 2,2000,Friends,['C.Johnson'],[],[],Walker,False,2020-10-25T12:52:00+00:00,2020-10-25T13:50:00+00:00
+85,2020-10-25T13:17:00+00:00,62,Under 19 Men's Single Scull,U19 M 1X,1,H,4,Division 2,2000,Friends,['E.Wilkins'],[],[],Hodgkin,False,2020-10-25T12:52:00+00:00,2020-10-25T13:50:00+00:00
+85,2020-10-25T13:17:00+00:00,62,Under 19 Men's Single Scull,U19 M 1X,1,H,5,Division 2,2000,Friends,['J.Downie'],[],[],Unwin,False,2020-10-25T12:52:00+00:00,2020-10-25T13:50:00+00:00
+88,2020-10-25T13:35:00+00:00,64,Under 19 Women's Double Scull,U19 W 2X,2,K,3,Division 2,2000,Friends,"['J.Powell-Davies', 'Y.Cho']",[],['T.Pilkington'],Alex Hutchinson,True,2020-10-25T13:10:00+00:00,2020-10-25T14:08:00+00:00
+88,2020-10-25T13:35:00+00:00,64,Under 19 Women's Double Scull,U19 W 2X,2,K,6,Division 2,2000,Friends,"['C.Hornett', 'E.Underwood']",[],['T.Pilkington'],David Reid,True,2020-10-25T13:10:00+00:00,2020-10-25T14:08:00+00:00
+89,2020-10-25T13:41:00+00:00,64,Under 19 Women's Double Scull,U19 W 2X,2,L,2,Division 3,2000,Friends,"['A.Gardner', 'C.Ralph']",[],['T.Pilkington'],GH2,True,2020-10-25T13:16:00+00:00,2020-10-25T14:14:00+00:00
+89,2020-10-25T13:41:00+00:00,64,Under 19 Women's Double Scull,U19 W 2X,2,L,3,Division 3,2000,Friends,"['A.Gardner', 'C.Balmforth']",[],['T.Pilkington'],Dianna Wilson,False,2020-10-25T13:16:00+00:00,2020-10-25T14:14:00+00:00

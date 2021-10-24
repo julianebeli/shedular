@@ -1,0 +1,70 @@
+event_id,code,name,gender,stroke,seats,distance
+1,U17 M 4X+,Under 17 Men's Coxed Quad Scull,Male,Scull,4,1500M
+2,U21 W 8+,U21 Women's 8+,Female,Sweep,8,2000M
+3,S M 1X,Senior Men's Single Scull,Male,Scull,1,2000M
+4,U19 M 4+,Under 19 Men's Coxed Four,Male,Sweep,4,2000M
+5,S W 1X,Senior Women's Single Scull,Female,Scull,1,2000M
+6,U19 W 2-,Under 19 Women's Pair,Female,Sweep,2,2000M
+7,U21 M 1X,Under 21 Men's Single Scull,Male,Scull,1,2000M
+8,S M 2-,Senior Men's Pair,Male,Sweep,2,2000M
+9,U17 W 2X,Under 17 Women's Double Scull,Female,Scull,2,1500M
+10,M/W 8+,Mens/Womens Eight,Mixed,Sweep,8,1000M
+11,PARA 500M,Para Single Scull 500m,Mixed,Scull,1,500M
+12,M  Mixed 2X,Master's Mixed Double Scull,Mixed,Scull,2,1000M
+13,U19 M 8+,Under 19 Men's Eight,Male,Sweep,8,2000M
+14,S W 4-,Senior Women's Coxless Four,Female,Sweep,4,2000M
+15,U19 W 4X+,Under 19 Women's Coxed Quad Scull,Female,Scull,4,2000M
+16,U21 W 4-,Under 21 Women's Coxless Four,Female,Sweep,4,2000M
+17,U21 M 4X-,Under 21 Men's Coxless Quad,Male,Scull,4,2000M
+18,S M 4X-,Senior Men's Coxless Quad Scull,Male,Scull,4,2000M
+19,U17 M 1X,Under 17 Men's Single Scull,Male,Scull,1,1500M
+20,U17 W 4+ 1000,Under 17 Women's Coxed Four 1000m,Female,Sweep,4,1000M
+21,M M 2X,Mens Masters Double Scull,Male,Scull,2,1000M
+22,M W 4-,Masters Women's Coxless Four,Female,Sweep,4,1000M
+23,Para 1000m,Para 1000 M,Mixed,Scull,1,1000M
+24,U21 M 2-,Under 21 Men's Pair,Male,Sweep,2,2000M
+25,U19 W 1X,Under 19 Women's Single Scull,Female,Scull,1,2000M
+26,U21 W 2X,Under 21 Women's Double Scull,Female,Scull,2,2000M
+27,U19 M 2X,Under 19 Men's Double Scull,Male,Scull,2,2000M
+28,U17 W 4X+ 1000,Under 17 Women's Coxed Quad Scull 1000m,Female,Scull,4,1000M
+29,U17 M 2X 1000,Under 17 Men's Double Scull 1000m,Male,Scull,2,1000M
+30,PARA 2X,Para Double Scull,Mixed,Scull,2,1000M
+31,M W 1X,Masters Women's Single Scull,Female,Scull,1,1000M
+32,M M 4X-,Masters Men's Coxless Quad Scull,Male,Scull,4,1000M
+33,S W 8+,Senior Women's Eight,Female,Sweep,8,2000M
+34,S M 8+,Senior Men's Eight,Male,Sweep,8,2000M
+35,U17 W 4X+,Under 17 Women's Coxed Quad Scull,Female,Scull,4,1500M
+36,U21 M 8+,U21 Men's Eight,Male,Sweep,8,2000M
+37,S W 1X (2),Senior Women's Single Scull,Female,Scull,1,2000M
+38,U19 W 4+,Under 19 Women's Coxed Four,Female,Sweep,4,2000M
+39,S M 1X (2),Senior Men's Single Scull,Male,Scull,1,2000M
+40,U19 M 2-,Under 19 Men's Pair,Male,Sweep,2,2000M
+41,U21 W 1X,Under 21 Women's Single Scull,Female,Scull,1,2000M
+42,S W 2-,Senior Women's Pair,Female,Sweep,2,2000M
+43,U17 M 2X,Under 17 Men's Double Scull,Male,Scull,2,1500M
+44,M M 2-,Masters Men's Pair,Male,Sweep,2,1000M
+45,M W 2-,Masters Women's Pair,Female,Sweep,2,1000M
+46,Para 1000M(2),Para Single Scull 1000m,Mixed,Scull,1,1000M
+47,M Mixed 4X-,Masters Mixed Quad Scull 1000m,Mixed,Scull,4,1000M
+48,U17 M 4+ 1000,Under 17 Men's Coxed Four 1000m,Male,Sweep,4,1000M
+49,U19 W 8+,Under 19 Women's Eight,Female,Sweep,8,2000M
+50,S M 4-,Senior Men's Coxless Four,Male,Sweep,4,2000M
+51,U19 M 4X+,Under 19 Men's Coxed Quad Scull,Male,Scull,4,2000M
+52,U21 W 4X-,Under 21 Women's Coxless Quad,Female,Scull,4,2000M
+53,U21 M 4-,Under 21 Men's Coxless Four,Male,Sweep,4,2000M
+54,S W 4X-,Senior Women's Coxless Quad Scull,Female,Scull,4,2000M
+55,U17 W 1X,Under 17 Women's Single Scull,Female,Scull,1,1500M
+56,M W 2X,Masters Women's Double Scull,Female,Scull,2,1000M
+57,M M 4-,Masters Men's Coxless Four,Male,Sweep,4,1000M
+58,PARA 500 (2),Para Single Scull 500m,Mixed,Scull,1,500M
+59,S M 2X,Senior Men's Double Scull,Male,Scull,2,2000M
+60,U21 W 2-,Under 21 Women's Pair,Female,Sweep,2,2000M
+61,U19 M 1X,Under 19 Men's Single Scull,Male,Scull,1,2000M
+62,U21 M 2X,Under 21 Men's Double Scull,Male,Scull,2,2000M
+63,U19 W 2X,Under 19 Women's Double Scull,Female,Scull,2,2000M
+64,S W 2X,Senior Women's Double Scull,Female,Scull,2,2000M
+65,S M 4+,Senior Men's Coxed Four,Male,Sweep,4,2000M
+66,U17 M 4X+ 1000,U17 Men's Coxed Quad Scull 1000m,Male,Scull,4,1000M
+67,U17 W 2X 1000,U17 Women's Double Scull 1000m,Female,Scull,2,1000M
+68,MM 1X,Masters Men's Single Scull,Male,Scull,1,1000M
+69,M W 4X-,Masters Women's Coxless Quad Scull,Female,Scull,4,1000M

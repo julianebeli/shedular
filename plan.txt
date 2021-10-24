@@ -1,0 +1,69 @@
+which regatta?
+
+with regatta
+	create regatta name
+		name/data
+		name/data/html/
+		name/data/xlxs
+
+	regatta file path -> param {rootpath:path, sourcedata: path + "data"}
+	which data source html/xlsx? -> param ['html','xlsx']
+
+with regatta with source type
+	which data is required? -> function list [get_events_html, get_draw_html]
+
+
+
+boat picking algorithm
+tries to match all the attributes but it needs a backout plan.
+The current version is trying to pick a boat that doesn't need rerigging off the trailer
+then back out to pick a new boat from the shed.
+need to back out of age_group restriction
+need to backout of gender restriction
+
+start with the boats on the trailer.
+filter for seats and cox
+then
+	filter the result for stroke -> filtered | not_filtered 
+	filter the result for rigged -> filtered | not_filtered
+	filter the result for gender -> filtered | not_filtered
+	filter the result for age_group -> filtered | not_filtered
+
+		if the result is empty pass back the original list
+
+def find_boats(this_event, location):
+    # print(">", this_event)
+    rigged = list(
+        filter(
+            lambda x: (this_event.stroke in x.stroke)
+            and (x.seats == this_event.seats)
+            and (x.rig in [Stroke.NONE, this_event.stroke])
+            and (this_event.gender in x.gender)
+            and (this_event.age_group in x.age_group)
+            and (this_event.cox == x.cox)
+            and (x.location == location),
+            boats,
+        )
+    )
+    # print(location, ">>>>>>>rigged", rigged)
+    if not rigged:
+        # print(
+        #     "did not find a boat with the right rigging at"
+        #     f" {location}.>>>>>>>>>>>>>>>"
+        # )
+        rigged = list(
+            filter(
+                lambda x: (this_event.stroke in x.stroke)
+                and (x.seats == this_event.seats)
+                # and (x.rig in [Stroke.NONE, this_event.stroke])
+                and (this_event.gender in x.gender)
+                and (this_event.age_group in x.age_group)
+                and (this_event.cox == x.cox)
+                and (x.location == location),
+                boats,
+            )
+        )
+        # print()
+        # print(location, "rigged<<<<<<<", rigged)
+    # print()
+    return rigged

@@ -1,0 +1,888 @@
+race,start,event_id,event_name,event_code,seats,alpha,lane,heat,distance,school,crew,cox,coach
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,2,Heat 1,1000,Scotch Oakburn 2,"['H.Woolston', 'E.Jepson', 'G.Taylor', 'M.MacKenzie']",['H.Lynch'],"['A.Foot', 'S.Guest']"
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,3,Heat 1,1000,Friends,"['K.Fajrianto', 'C.Balmforth', 'C.Hornett', 'I.Nation']",['C.Ralph'],[]
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,4,Heat 1,1000,Collegiate,"['M.Mampieri', 'E.Palmer', 'M.West', 'R.Curry']",['S.Johnston'],['N.Stump']
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,5,Heat 1,1000,Grammar,"['E.Brown', 'M.Dowling', 'E.Tucker', 'E.Swan']",['O.Frost'],[]
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,6,Heat 1,1000,Fahan,"['M.Jones', 'H.Riches', 'S.Lambert', 'M.Jones']",['S.Rolls'],"['S.Manson', 'C.Parnham']"
+1,2021-03-06T08:00:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,A,7,Heat 1,1000,Fahan 4,"['J.Clements', 'A.Kennedy', 'G.Smyth', 'A.Lumsden-Steel']",['H.Clifford'],['A.Wirtz']
+2,2021-03-06T08:04:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,B,2,Heat 2,1000,Guilford,"['U.Harris', 'C.Forster', 'A.Raymond', 'E.Triffett']",['C.Mead'],['C.Harris']
+2,2021-03-06T08:04:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,B,3,Heat 2,1000,Collegiate,"['H.Gregory', 'E.Bird', 'R.Forsyth', 'A.McCoid']",['C.Elrick'],['N.Stump']
+2,2021-03-06T08:04:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,B,4,Heat 2,1000,Scotch Oakburn 1,"['J.Finnigan', 'O.Willows', 'M.Duigan', 'C.Loane']",['K.Napier'],"['A.Foot', 'S.Guest']"
+2,2021-03-06T08:04:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,B,5,Heat 2,1000,Grammar,"['C.Lalor', 'S.Loo', 'E.Goess-Howe', 'A.Mayes']",['L.Eastaugh'],[]
+2,2021-03-06T08:04:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,B,6,Heat 2,1000,Fahan 3,"['M.Crosby', 'S.Leary', 'S.Rolls', 'E.Farquer']",['E.Chung'],['A.Wirtz']
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,1,Heat 1,1000,St Virgils,"['H.Grubb', 'C.James']",[],['P.Bird']
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,2,Heat 1,1000,Scotch Oakburn,"['S.Brown', 'M.Russell']",[],"['M.Bonham', 'M.Cameron']"
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,3,Heat 1,1000,Dominic,"['T.Browning', 'J.Triffett']",[],"['J.Bannon', 'P.Nichols']"
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,4,Heat 1,1000,Grammar,"['M.Mitchell', 'T.Carins']",[],['W.Adkins']
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,5,Heat 1,1000,New Town,"['H.Thomas', 'O.Coulson']",[],"['J.Bannon', 'P.Nichols']"
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,6,Heat 1,1000,Hutchins,"['T.Daengdej', ""L.O'Brien""]",[],[]
+3,2021-03-06T08:08:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,C,7,Heat 1,1000,Scotch Oakburn,"['H.Fyffe', 'R.MacKenzie']",[],"['M.Bonham', 'M.Cameron']"
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,1,Heat 2,1000,Friends,"['O.Atwell', 'B.Stankovich']",[],['M.McQueeney']
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,2,Heat 2,1000,Scotch Oakburn,"['L.James-Wever', 'S.Stopford']",[],"['M.Cameron', 'M.Bonham']"
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,3,Heat 2,1000,Hutchins,"['J.Crehan', 'R.Sanderson']",[],[]
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,4,Heat 2,1000,Hutchins,"['A.Stewart', 'F.Palmer']",[],[]
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,5,Heat 2,1000,New Town,"['E.Raymond', 'N.Lisson']",[],"['J.Bannon', 'P.Nichols', 'L.Geappen']"
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,6,Heat 2,1000,St Virgils,"['N.Blackwell', 'O.Dinnessen']",[],['P.Bird']
+4,2021-03-06T08:12:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,D,7,Heat 2,1000,Grammar,"['F.Billing', 'J.Gray']",[],['W.Adkins']
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,2,Heat 3,1000,Scotch Oakburn,"['A.Scott', 'J.Bamford']",[],"['M.Cameron', 'M.Bonham']"
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,3,Heat 3,1000,St Virgils,"['O.McLaren', 'X.Nichols']",[],['P.Bird']
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,4,Heat 3,1000,Grammar,"['K.Glynn', 'N.Adkins']",[],['W.Adkins']
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,5,Heat 3,1000,Ulverstone SC/Brendan Shaw,"['M.Nield [SBSC]', 'L.Baker [USC]']",[],"['D.Tippett', 'M.Tippett', 'M.Wilson']"
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,6,Heat 3,1000,Scotch Oakburn,"['M.Fulton', 'S.Wells']",[],"['M.Cameron', 'M.Bonham']"
+5,2021-03-06T08:16:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,E,7,Heat 3,1000,Friends,"['G.Williams', 'A.Ballard']",[],['M.McQueeney']
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,2,Heat 4,1000,St Virgils,"['F.Di Ubaldo', 'E.Kounelis']",[],['P.Bird']
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,3,Heat 4,1000,Hutchins,"['J.Fiedler', 'B.Brown']",[],[]
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,4,Heat 4,1000,Hutchins,"['W.Terry', 'J.Richards']",[],[]
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,5,Heat 4,1000,Hobart/Huonville,"['J.Wynter [HHS]', 'P.Robbie [HC]']",[],['P.Newbon']
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,6,Heat 4,1000,Grammar,"['G.Collette', 'T.Peck']",[],['W.Adkins']
+6,2021-03-06T08:20:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,F,7,Heat 4,1000,Friends,"['A.Rackham', 'C.Gibson']",[],['M.McQueeney']
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,1,Heat 1,1000,Grammar,['A.Dunne'],[],"['F.Woolcock', 'P.Dehnert']"
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,2,Heat 1,1000,St Marys,['E.Atkins'],[],[]
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,3,Heat 1,1000,Grammar,['L.Andersen'],[],"['F.Woolcock', 'P.Dehnert']"
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,4,Heat 1,1000,Friends,['J.Wilcox'],[],[]
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,5,Heat 1,1000,Brendan Shaw,['O.Yeates'],[],"['D.Tippett', 'M.Tippett']"
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,6,Heat 1,1000,Grammar,['L.Hucker'],[],"['F.Woolcock', 'P.Dehnert']"
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,7,Heat 1,1000,Mt Carmel,['L.Balfour'],[],[]
+7,2021-03-06T08:24:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,G,8,Heat 1,1000,St Marys,['H.Kelly'],[],[]
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,1,Heat 2,1000,Friends,['E.Newman'],[],[]
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,2,Heat 2,1000,Grammar,['E.Henty'],[],"['F.Woolcock', 'P.Dehnert']"
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,3,Heat 2,1000,Grammar,['A.Bennett'],[],"['F.Woolcock', 'P.Dehnert']"
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,4,Heat 2,1000,Scotch Oakburn,['K.Atherton'],[],['A.McLean']
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,5,Heat 2,1000,Grammar,['L.Dunn'],[],"['F.Woolcock', 'P.Dehnert']"
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,6,Heat 2,1000,St Patricks,['R.Hudson'],[],['D.Birtwistle']
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,7,Heat 2,1000,Grammar,['M.Bradfield'],[],"['F.Woolcock', 'P.Dehnert']"
+8,2021-03-06T08:28:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,H,8,Heat 2,1000,Grammar,['R.Rockliff'],[],"['F.Woolcock', 'P.Dehnert']"
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,1,Heat 3,1000,Ogilvie,['J.Webberley'],[],['P.Hansen']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,2,Heat 3,1000,Ogilvie,['S.North'],[],['P.Hansen']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,3,Heat 3,1000,Ogilvie,['R.Morgan'],[],['P.Hansen']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,4,Heat 3,1000,Brendan Shaw,['M.Castles'],[],"['D.Tippett', 'M.Tippett']"
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,5,Heat 3,1000,Grammar,['C.Stewart'],[],['C.Symons']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,6,Heat 3,1000,Ogilvie,['C.Wright'],[],['P.Hansen']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,7,Heat 3,1000,Brendan Shaw,['L.Mansell'],[],['G.Scattergood']
+9,2021-03-06T08:32:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,I,8,Heat 3,1000,Grammar,['S.Gray'],[],"['F.Woolcock', 'P.Dehnert']"
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,1,Heat 4,1000,St Patricks,['J.Axman-Friend'],[],[]
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,2,Heat 4,1000,Brendan Shaw,['S.Ellis'],[],"['D.Tippett', 'M.Tippett']"
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,3,Heat 4,1000,Friends,['E.Lo'],[],[]
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,4,Heat 4,1000,Friends,['M.Bylsma'],[],[]
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,5,Heat 4,1000,St Marys,['C.Oliver'],[],[]
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,6,Heat 4,1000,St Patricks,['A.Cherry'],[],['D.Birtwistle']
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,7,Heat 4,1000,Brendan Shaw,['L.Doonan'],[],"['D.Tippett', 'M.Tippett']"
+10,2021-03-06T08:36:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,J,8,Heat 4,1000,Ogilvie,['L.Morgan'],[],['P.Hansen']
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,2,Heat 1,1000,St Virgils/New Town,"['T.Campbell [NTHS]', 'A.Grotaers [NTHS]', 'D.Berry [SVC]', 'I.Lang [SVC]']",['K.King [SVC]'],[]
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,3,Heat 1,1000,Hutchins,"['E.Bignell', 'T.Stewart', 'O.Parsons', 'B.Pafitis']",['N.Leesong'],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,4,Heat 1,1000,St Virgils,"['T.Weeding', 'J.Mitchell', 'M.Woods', 'H.Paynter']",['D.Berry'],"['O.Wilson-Haffenden', 'D.Martin']"
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,5,Heat 1,1000,Grammar 1,"['A.Creese', 'C.Ancher', 'O.Quinn', 'J.Stedman']",['P.Bennett'],['M.Rowan']
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,6,Heat 1,1000,St Patricks 2,"['T.Mineall', 'H.McGovern', 'J.Humphreys', 'D.Wilkins']",['L.Humphreys'],"['J.McCullagh', 'R.Clark']"
+11,2021-03-06T08:40:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,K,7,Heat 1,1000,Hutchins,"['C.Black', 'J.Wise', 'H.Bourne', 'H.Pitt']",['S.McIntosh'],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,2,Heat 2,1000,Hutchins,"['O.Hart', 'J.Moy', 'C.Leesong', 'C.Boman']",['R.Cousins'],"['J.McIntosh', 'A.Hall', 'M.Vermey']"
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,3,Heat 2,1000,St Patricks,"['G.Miedecke', 'G.Hudson', 'D.Tweedale', 'A.Bird']",['C.Axman-Friend'],[]
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,4,Heat 2,1000,Hutchins,"['M.McIntosh', 'O.Sproule', 'A.McShane', 'C.Mounter']",['A.Whatling'],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,5,Heat 2,1000,Scotch Oakburn 1,"[""O.O'Connor"", 'G.Russell', 'N.Neville - Clark', 'C.Parker']",['L.Jenkins'],"['A.Brown', 'D.Ottaway']"
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,6,Heat 2,1000,St Virgils,"['E.McLeod', 'I.Lang', 'D.Berry', 'T.Marr']",['K.King'],"['O.Wilson-Haffenden', 'D.Martin']"
+12,2021-03-06T08:44:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,7,Heat 2,1000,Friends/Grammar,"['O.Dean [LCGS]', 'C.McHugh [TFNDS]', 'A.Tucker [LCGS]', 'H.Clyne [TFNDS]']",['H.Barrenger [LCGS]'],"['M.Rowan', 'I.McMahon']"
+13,2021-03-06T08:48:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,M,2,Heat 3,1000,Hutchins,"['L.Ramsay', 'S.Lyons', 'H.Wilkie', 'C.Goldspink']",['E.Bignell'],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+13,2021-03-06T08:48:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,M,3,Heat 3,1000,St Virgils,"['H.Sylvester', ""O.O'Donovan"", 'J.Smith', 'J.Young']",['J.Woods'],"['O.Wilson-Haffenden', 'D.Martin']"
+13,2021-03-06T08:48:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,M,4,Heat 3,1000,St Patricks 1,"['M.Roney', 'J.Clark', 'D.Rae', 'N.McCullagh']",['I.McCullagh'],"['J.McCullagh', 'R.Clark']"
+13,2021-03-06T08:48:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,M,5,Heat 3,1000,Scotch Oakburn 2,"['P.Sundaram', 'F.Viney', 'D.Hill', 'L.Jenkins']",['A.Jindal'],"['A.Brown', 'D.Ottaway']"
+13,2021-03-06T08:48:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,M,6,Heat 3,1000,Friends,"['H.Webster', 'E.Vince', 'L.Underwood', 'J.Connah']",['T.Campbell-Jones'],['I.McMahon']
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,1,Heat 1,1000,St Marys,"['E.Webster', 'E.Hyland']",[],"['M.Lamb', 'C.Stanley']"
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,2,Heat 1,1000,Collegiate,"['A.Acuna', 'C.Elrick']",[],"['S.Mollard', 'S.Sluce']"
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,3,Heat 1,1000,St Patricks,"['E.Donovan', 'A.McNeair']",[],['A.Izbicki']
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,4,Heat 1,1000,Collegiate,"['G.Witt', 'A.Parsons']",[],"['S.Mollard', 'S.Sluce']"
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,5,Heat 1,1000,Grammar 2,"['Y.Wyly', 'C.Lockrey']",[],"['A.White', 'D.Wyly']"
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,6,Heat 1,1000,St Marys,"['I.Juvakka', 'A.Buddle']",[],"['M.Lamb', 'C.Stanley']"
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,7,Heat 1,1000,Friends,"['E.Falloon', 'B.Vickers']",[],[]
+14,2021-03-06T08:52:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,8,Heat 1,1000,Scotch Oakburn,"['L.Hoare', 'A.Cook']",[],"['A.Gruber', 'R.Banner']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,1,Heat 2,1000,Sacred Heart,"['M.Kelly', 'A.Fewkes']",[],"['L.Geappen', 'P.Nichols']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,2,Heat 2,1000,St Marys,"['M.Higgins', 'H.Teale']",[],"['M.Lamb', 'C.Stanley']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,3,Heat 2,1000,Collegiate,"['M.Healy', 'M.Ferguson']",[],"['S.Mollard', 'S.Sluce']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,4,Heat 2,1000,Sheffield,"['J.Behrmann', 'I.Ritter']",[],['G.Scattergood']
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,5,Heat 2,1000,Scotch Oakburn,"['G.Barron', 'A.McLean']",[],"['A.Gruber', 'R.Banner']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,6,Heat 2,1000,Grammar,"['M.Brown', 'P.Crisp Williams']",[],"['A.White', 'D.Wyly']"
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,7,Heat 2,1000,Ogilvie,"['E.Coulson', 'C.Fenton']",[],['P.Hansen']
+15,2021-03-06T08:56:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,O,8,Heat 2,1000,Fahan,"['P.Clarke', 'K.Hayes']",[],['J.Withers']
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,1,Heat 3,1000,Grammar 1,"['C.Knowles', 'S.Dunne']",[],"['A.White', 'D.Wyly']"
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,2,Heat 3,1000,Scotch Oakburn,"['M.Buck', 'A.Corrigan']",[],"['A.Gruber', 'R.Banner']"
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,3,Heat 3,1000,Mt Carmel,"['L.Nesbitt', 'I.Gerathy']",[],[]
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,4,Heat 3,1000,St Patricks,"['L.Mansfield', 'J.Axman-Friend']",[],['A.Izbicki']
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,5,Heat 3,1000,Brendan Shaw,"['S.Welch', 'L.Barker']",[],['G.Scattergood']
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,6,Heat 3,1000,Collegiate,"['M.Cummings', 'O.Bridgeman']",[],"['S.Mollard', 'S.Sluce']"
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,7,Heat 3,1000,Friends,"['S.Mitchelmore', 'S.Neal']",[],[]
+16,2021-03-06T09:00:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,P,8,Heat 3,1000,Fahan,"['A.Lumsden-Steel', 'G.Couser']",[],['J.Withers']
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,1,Heat 4,1000,St Marys,"['B.Metwari', 'L.Castellana']",[],"['M.Lamb', 'C.Stanley']"
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,2,Heat 4,1000,Collegiate,"['C.Leicester', 'E.Kingston']",[],"['S.Mollard', 'S.Sluce']"
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,3,Heat 4,1000,St Patricks,"['A.Duffy', 'A.Dettmer']",[],['A.Izbicki']
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,4,Heat 4,1000,Fahan,"['M.Cocker', 'L.Valta']",[],['J.Withers']
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,5,Heat 4,1000,Friends,"['E.Ralph', 'H.Wigston']",[],[]
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,6,Heat 4,1000,Mt Carmel,"['A.Mullins', 'A.Riseley']",[],[]
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,7,Heat 4,1000,Scotch Oakburn,"['L.Ashman', 'L.Ponnusamy']",[],"['A.Gruber', 'R.Banner']"
+17,2021-03-06T09:04:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,Q,8,Heat 4,1000,Grammar 4,"['L.Gardner', 'L.Ayers']",[],"['A.White', 'D.Wyly']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,1,Heat 5,1000,St Marys,"['O.Walter', 'F.Tsakirakis']",[],"['M.Lamb', 'C.Stanley']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,2,Heat 5,1000,Scotch Oakburn,"['A.Woolston', 'L.Wilson']",[],"['A.Gruber', 'R.Banner']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,3,Heat 5,1000,Friends,"['E.Gardner', 'A.Edwards']",[],[]
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,4,Heat 5,1000,Kingston High/Marist,"['A.Pratt [MCOLL]', 'P.Kennett [KHS]']",[],"['A.Bain', 'M.Wilson']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,5,Heat 5,1000,Collegiate,"['A.Dalton', 'G.Leicester']",[],"['S.Mollard', 'S.Sluce']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,6,Heat 5,1000,Grammar 3,"['S.Henderson', 'Z.Brown']",[],"['A.White', 'D.Wyly']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,7,Heat 5,1000,Grammar 5,"['M.Brown', 'T.Rosa']",[],"['A.White', 'D.Wyly']"
+18,2021-03-06T09:08:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,R,8,Heat 5,1000,Fahan,"['O.Wilson', 'S.Lang']",[],['J.Withers']
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,1,Heat 1,1000,St Patricks,"['A.Kingston', 'C.Buck', 'G.Miedecke', 'A.Bird']",['A.White'],['C.Miedecke']
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,2,Heat 1,1000,Friends,"['J.Crosbie-Seabourne', 'R.Ziegler', 'T.Exarhakos', 'A.Cooper']",['O.Shearing'],[]
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,3,Heat 1,1000,Hutchins,"['C.Fiedler', 'D.Shulman', 'H.Wilkins', 'D.Sillifant']",['F.Dobson'],['T.Fiedler']
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,4,Heat 1,1000,Scotch Oakburn,"['L.Hoare', 'S.Taylor', 'F.Wagner', 'O.Dowling']",['C.Ball'],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,5,Heat 1,1000,Hutchins,"['F.Egan', ""O.O'Brien"", 'W.Roehrer', 'N.Steele']",['F.Kennedy'],"[""L.O'Connor""]"
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,6,Heat 1,1000,St Virgils,"['Z.Zehmeister', 'S.Van Anholt', 'E.Higginson', 'S.Stewart']",['L.Gray'],[]
+19,2021-03-06T09:12:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,S,7,Heat 1,1000,Hutchins,"['H.Scott', 'M.Wang', 'B.Wills', 'A.Willsmore']",['O.Parsons'],['A.Cretney']
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,2,Heat 2,1000,St Virgils,"['K.Polley', 'T.Coad', 'D.Mulcahy', 'H.Todd']",['M.Pinelli'],[]
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,3,Heat 2,1000,Hutchins,"['F.Clifford', 'L.Jones', 'A.Lord', 'A.Dawar']",['S.Manns'],['M.Lord']
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,4,Heat 2,1000,Grammar,"['W.Hill', 'M.Smith', 'O.Nicholls', 'F.Glynn']",['M.Wall'],"['J.Cuming', 'E.Beacham']"
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,5,Heat 2,1000,Grammar,"['B.Stewart', 'F.Mayes', 'G.Beacham', 'H.Cuming']",['L.White'],"['J.Cuming', 'E.Beacham']"
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,6,Heat 2,1000,Hutchins,"['T.Stewart', 'E.Brown', 'J.Fielding', 'J.Gibson']",['C.Morgan'],['K.Morgan']
+20,2021-03-06T09:16:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,T,7,Heat 2,1000,Friends,"['H.Maning', 'R.Middendorf', 'H.Chuter', 'C.Fox']",['O.Shearing'],[]
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,2,Heat 3,1000,St Virgils,"['B.Schramm', 'O.Scott', 'L.Stewart', 'M.Toms']",['T.Hicks'],[]
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,3,Heat 3,1000,Hutchins,"['S.Jones', 'J.Knowles', 'S.Bishop', 'S.Gorringe']",['H.Cooper'],"['T.Fiedler', 'M.Lord']"
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,4,Heat 3,1000,St Virgils,"['A.Volta', 'S.Igarashi-Myers', 'S.Murray', 'N.Haas']",['E.Higginson'],[]
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,5,Heat 3,1000,Friends,"['F.Read', 'O.Latham', 'J.Cho', 'T.Latimer']",['O.Shearing'],[]
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,6,Heat 3,1000,Hutchins,"['G.Harkness', 'G.Cane', 'T.Mansfield', 'T.Morgan']",['C.Morgan'],['K.Morgan']
+21,2021-03-06T09:20:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,U,7,Heat 3,1000,New Town,"['S.Raymond', 'J.Harrington', 'J.Charles-Wilkinson', 'O.Woolley']",['J.Triffett'],"['L.Geappen', 'P.Nichols']"
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,1,Heat 1,500,Scotch Oakburn,['J.Bamford'],[],"['W.Birchmore', 'J.Malisauskas', 'J.Wever']"
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,2,Heat 1,500,Friends 8,['T.Bowerman'],[],['J.Morgan']
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,3,Heat 1,500,St Virgils,['A.Lamprey'],[],[]
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,4,Heat 1,500,St Virgils,['M.Sylvester'],[],['P.Vaszocz']
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,5,Heat 1,500,St Virgils,['L.Grubb'],[],['P.Vaszocz']
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,6,Heat 1,500,Friends 4,['B.Rugen'],[],['J.Morgan']
+22,2021-03-06T09:28:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,V,7,Heat 1,500,St Patricks,['W.Symons'],[],"['R.Clark', 'O.Marsden']"
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,2,Heat 2,500,Friends 9,['J.Dick'],[],['J.Morgan']
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,3,Heat 2,500,St Patricks,['L.Tonelly'],[],"['R.Clark', 'O.Marsden']"
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,4,Heat 2,500,St Virgils,['K.King'],[],[]
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,5,Heat 2,500,Friends 1,['D.Rumsby'],[],['J.Morgan']
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,6,Heat 2,500,Friends 5,['L.Clyne'],[],['J.Morgan']
+23,2021-03-06T09:32:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,W,7,Heat 2,500,Scotch Oakburn,['H.Dennis'],[],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,2,Heat 3,500,Friends 10,['L.Everett'],[],['J.Morgan']
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,3,Heat 3,500,Friends 3,['J.Wong'],[],['J.Morgan']
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,4,Heat 3,500,Clarence,['S.Anderson'],[],[]
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,5,Heat 3,500,Marist,['W.Jackson'],[],['G.Scattergood']
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,6,Heat 3,500,Friends 6,['M.Ikedife'],[],['J.Morgan']
+24,2021-03-06T09:36:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,X,7,Heat 3,500,St Virgils,['A.Parkinson'],[],[]
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,2,Heat 4,500,St Virgils,['A.Godfrey'],[],[]
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,3,Heat 4,500,St Virgils,['H.Costelloe'],[],[]
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,4,Heat 4,500,St Virgils,['L.Gray'],[],[]
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,5,Heat 4,500,Friends 2,['W.Petty'],[],['J.Morgan']
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,6,Heat 4,500,Friends 7,['H.Leis'],[],['J.Morgan']
+25,2021-03-06T09:40:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Y,7,Heat 4,500,Friends 11,['N.Fajrianto'],[],['J.Morgan']
+26,2021-03-06T09:44:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,Z,2,Division 1,500,Hutchins 8,"['H.Saunders', 'C.Harris', 'A.Varghese', 'Y.Wang']",['A.Rowley'],[]
+26,2021-03-06T09:44:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,Z,3,Division 1,500,Grammar,"['M.Green', 'L.Hirst', 'C.Gabbedy', 'H.Ancher']",['P.Bennett'],"['P.Quinn', 'K.Stedman', 'M.Quinn']"
+26,2021-03-06T09:44:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,Z,4,Division 1,500,Hutchins 9,"['H.Harris', 'L.Hanna', 'S.Archer', 'O.Copeland']",['H.West'],[]
+26,2021-03-06T09:44:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,Z,5,Division 1,500,St Patricks,"['T.Clark', 'N.Bristol', 'C.Stingle', 'L.Mineall']",['S.Agelopoulos'],"['R.Clark', 'O.Marsden']"
+26,2021-03-06T09:44:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,Z,6,Division 1,500,Hutchins 7,"['L.Luttrell', 'S.Taylor', 'T.Lyons', 'E.Jones']",['H.McCoid'],[]
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,2,Division 2,500,Friends,"['W.Baukes', 'C.Doyle', 'H.Heathercote', 'S.Williams']",['C.Gibson'],[]
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,3,Division 2,500,Hutchins 10,"['C.Blackwood', 'H.King', 'G.Leesong', 'H.Merchant']",['M.Healy'],[]
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,4,Division 2,500,Scotch Oakburn Composite,"['L.Mineall [STPAT]', ""W.O'Shea [LCGS]"", 'A.Caldwell [LCGS]', 'O.Davey [SCOAK]']",['H.Barrenger [LCGS]'],[]
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,5,Division 2,500,Grammar,"['A.Lockwood', 'J.Brown', 'H.Legge', 'L.Walker']",['G.Robertson'],"['P.Quinn', 'K.Stedman', 'M.Quinn']"
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,6,Division 2,500,Hutchins 6,"['H.Kerr', 'S.Jones', 'C.Davies', 'O.Bourne']",['N.Leesong'],[]
+27,2021-03-06T09:48:00+00:00,11,School Boys Under 13 coxed quad scull (B),SB U13 4X+ (B),4,A,7,Division 2,500,Scotch Oakburn,"['O.Davey', 'J.Bamford', 'T.Stopford', 'H.Dennis']",['E.Gowland'],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,1,Heat 1,500,Friends,"['M.Hopster', 'I.Calvert']",[],[]
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,2,Heat 1,500,Collegiate,"['L.Palmer', 'C.Brown']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,3,Heat 1,500,Fahan,"['A.Nelson', 'E.Baird']",[],"['S.Gregg', 'S.Baxter']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,4,Heat 1,500,Scotch Oakburn,"['A.Saunders', 'E.Knaggs']",[],"['V.Wilson', 'R.McDonald']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,5,Heat 1,500,Fahan,"['J.Goodey', 'R.Grosvenor']",[],"['S.Gregg', 'S.Baxter']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,6,Heat 1,500,Scotch Oakburn,"['L.van der Aa', 'O.Stevens']",[],"['V.Wilson', 'R.McDonald']"
+28,2021-03-06T09:52:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,B,7,Heat 1,500,St Marys,"['R.Berry', 'S.Thomas']",[],"['M.Dixon', 'P.Schouten']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,1,Heat 2,500,St Patricks,"['R.Milne', 'I.Miedecke']",[],"['C.Miedecke', 'G.Axman-Friend']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,2,Heat 2,500,Collegiate,"['S.Weissel', 'E.Brown']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,3,Heat 2,500,Friends,"['O.Rayner', 'M.Ebeli']",[],[]
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,4,Heat 2,500,Fahan,"['M.Coyne', 'I.Dickson']",[],"['S.Gregg', 'S.Baxter']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,5,Heat 2,500,Scotch Oakburn,"['A.Lloyd-Bostock', 'M.Burns']",[],"['V.Wilson', 'R.McDonald']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,6,Heat 2,500,Scotch Oakburn,"['P.Brown', 'I.Skirving']",[],"['V.Wilson', 'R.McDonald']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,7,Heat 2,500,St Marys,"['M.Graves', 'L.Crowe']",[],"['M.Dixon', 'P.Schouten']"
+29,2021-03-06T09:56:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,C,8,Heat 2,500,Grammar,"['M.James', 'H.Rockliff']",[],"['P.Quinn', 'K.Stedman', 'M.Quinn']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,1,Heat 3,500,St Patricks,"['E.Holloway', 'C.Axman-Friend']",[],"['C.Miedecke', 'G.Axman-Friend']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,2,Heat 3,500,Grammar,"['E.Dunne', 'T.Bailey']",[],"['D.Wyly', 'B.Townsend', 'A.White']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,3,Heat 3,500,St Marys,"['A.Graves', 'R.Wighton']",[],"['M.Dixon', 'P.Schouten']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,4,Heat 3,500,Friends,"['L.Wells', 'M.Jotic']",[],[]
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,5,Heat 3,500,Scotch Oakburn,"['C.Barron', 'I.Wilson']",[],"['V.Wilson', 'R.McDonald']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,6,Heat 3,500,Fahan,"['P.Abberton', 'A.Crosby']",[],"['S.Gregg', 'S.Baxter']"
+30,2021-03-06T10:00:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,D,7,Heat 3,500,Scotch Oakburn,"['S.Storay', 'E.Popa']",[],"['V.Wilson', 'R.McDonald']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,2,Heat 4,500,St Patricks,"['O.Kelly', 'K.Jones']",[],"['C.Miedecke', 'G.Axman-Friend']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,3,Heat 4,500,St Marys,"['Z.Brooks', 'T.Wise']",[],"['M.Dixon', 'P.Schouten']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,4,Heat 4,500,Collegiate,"['C.Roff', 'A.Heath']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,5,Heat 4,500,Scotch Oakburn,"['E.Barnes', 'E.Breden']",[],"['V.Wilson', 'R.McDonald']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,6,Heat 4,500,Fahan,"['C.Atkins', 'M.Porter']",[],"['S.Gregg', 'S.Baxter']"
+31,2021-03-06T10:04:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,E,7,Heat 4,500,St Marys,"['C.Wanandy', 'B.Carter']",[],"['M.Dixon', 'P.Schouten']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,2,Heat 5,500,St Marys,"['J.Marley', 'A.Smith']",[],"['M.Dixon', 'P.Schouten']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,3,Heat 5,500,Scotch Oakburn,"['L.Gurudoss', 'S.Christie']",[],"['V.Wilson', 'R.McDonald']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,4,Heat 5,500,Grammar,"['O.Creese', 'M.Clark']",[],"['P.Quinn', 'K.Stedman']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,5,Heat 5,500,Collegiate,"['A.Rule', 'L.Jamieson']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,6,Heat 5,500,St Marys,"['T.Millhouse', 'A.King']",[],"['M.Dixon', 'P.Schouten']"
+32,2021-03-06T10:08:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,F,7,Heat 5,500,Fahan,"['Z.Bury', 'E.Mazengarb']",[],"['S.Gregg', 'S.Baxter']"
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,2,Heat 1,1000,Scotch Oakburn,"['W.Gray', 'H.Birchmore']",[],['J.Russell']
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,3,Heat 1,1000,Hutchins,"['J.Dalton', 'T.Bayley']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,4,Heat 1,1000,Friends,"['T.Doyle', 'A.Ibbott']",[],[]
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,5,Heat 1,1000,Hutchins,"['A.Vermey', 'S.Henning']",[],"['R.Matson', 'A.Palmer', 'T.Allwright']"
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,6,Heat 1,1000,Hutchins,"['D.Matson', 'H.Mounter']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+33,2021-03-06T10:33:00+00:00,13,Schoolboys Pair,SB 2-,2,G,7,Heat 1,1000,Hutchins,"['H.Johnstone', 'T.Neuberger']",[],[]
+34,2021-03-06T10:37:00+00:00,13,Schoolboys Pair,SB 2-,2,H,2,Heat 2,1000,Hutchins,"['H.Sillifant', 'O.Newbury']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+34,2021-03-06T10:37:00+00:00,13,Schoolboys Pair,SB 2-,2,H,3,Heat 2,1000,St Patricks,"['L.Dean', 'O.Birtwistle']",[],['D.Birtwistle']
+34,2021-03-06T10:37:00+00:00,13,Schoolboys Pair,SB 2-,2,H,4,Heat 2,1000,Hutchins,"['B.Boman', 'S.Mounter']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+34,2021-03-06T10:37:00+00:00,13,Schoolboys Pair,SB 2-,2,H,5,Heat 2,1000,Friends,"['E.Wilkins', 'T.Neal']",[],[]
+34,2021-03-06T10:37:00+00:00,13,Schoolboys Pair,SB 2-,2,H,6,Heat 2,1000,Guilford/Elizabeth,"['A.Midson [EC]', 'R.Browning [GYC]']",[],[]
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,1,Heat 1,1000,Guilford,"['J.Woods', 'S.Woodhouse']",[],[]
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,2,Heat 1,1000,Hutchins,"['M.Riches', 'S.Fry']",[],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,3,Heat 1,1000,Elizabeth,"['P.Loring', 'N.Stozki']",[],"['J.Bannon', 'P.Nichols', 'L.Geappen']"
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,4,Heat 1,1000,Grammar,"['L.Dean', 'A.Ralph']",[],"['D.Lalor', 'L.Malcolm']"
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,5,Heat 1,1000,Scotch Oakburn 1,"['J.Lawrence', 'W.Hurd']",[],['J.Russell']
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,6,Heat 1,1000,Guilford,"['J.Connolly', 'A.Paynter']",[],[]
+35,2021-03-06T10:41:00+00:00,14,Schoolboys Double Scull,SB 2X,2,I,7,Heat 1,1000,Scotch Oakburn 2,"['W.Dowling', 'A.Neville - Clark']",[],['J.Russell']
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,2,Heat 2,1000,Hutchins,"['J.Lucas', 'C.Parnham']",[],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,3,Heat 2,1000,Scotch Oakburn 4,"['S.McTaggart Williams', 'L.Breden']",[],['J.Russell']
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,4,Heat 2,1000,Grammar,"['A.Farquhar', 'H.Hirst']",[],"['D.Lalor', 'L.Malcolm']"
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,5,Heat 2,1000,St Patricks,"['C.Rae', 'J.Mineall']",[],['D.Birtwistle']
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,6,Heat 2,1000,Friends,"['R.Fox', 'C.Johnson']",[],[]
+36,2021-03-06T10:45:00+00:00,14,Schoolboys Double Scull,SB 2X,2,J,7,Heat 2,1000,Scotch Oakburn 3,"['J.Briggs', 'H.Wagner']",[],['J.Russell']
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,2,Heat 3,1000,Guilford,"['T.Oliver', 'H.King']",[],[]
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,3,Heat 3,1000,Brendan Shaw,"['M.Nield', 'H.Nield']",[],"['D.Tippett', 'M.Tippett']"
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,4,Heat 3,1000,Grammar,"['C.Townsend', 'L.Pohan']",[],"['D.Lalor', 'L.Malcolm']"
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,5,Heat 3,1000,Ulverstone SC,"['B.Murray', 'L.Baker']",[],"['M.Wilson', 'H.Lewis']"
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,6,Heat 3,1000,Friends,"['J.Downie', 'C.Colhoun']",[],[]
+37,2021-03-06T10:49:00+00:00,14,Schoolboys Double Scull,SB 2X,2,K,7,Heat 3,1000,Hutchins,"['A.Bradley', 'J.Maumill']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,2,Heat 1,1000,St Marys,"['A.McInerney', 'E.Taylor', 'E.Mason', 'F.Carter']",['B.Carter'],[]
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,3,Heat 1,1000,Grammar,"['E.Brown', 'E.Tucker', 'M.Dowling', 'P.White']",['O.Frost'],[]
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,4,Heat 1,1000,Friends,"['K.Fajrianto', 'C.Balmforth', 'E.Underwood', 'I.Nation']",['I.Fox'],[]
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,5,Heat 1,1000,Grammar,"['E.Fryett', 'I.Goss', 'A.Billing', 'E.Swan']",['P.Eastaugh'],[]
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,6,Heat 1,1000,Brendan Shaw,"['R.Skirving', 'S.Grave', 'E.Spaulding', 'C.Greenhill']",['M.Nield'],"['D.Tippett', 'M.Tippett', 'G.Scattergood']"
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,7,Heat 1,1000,Guilford,"['U.Harris', 'C.Forster', 'A.Raymond', 'E.Triffett']",['C.Mead'],['C.Harris']
+38,2021-03-06T10:53:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,L,8,Heat 1,1000,Scotch Oakburn 2,"['J.Finnigan', 'O.Willows', 'M.Duigan', 'M.MacKenzie']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,2,Heat 2,1000,Scotch Oakburn 1,"['H.Woolston', 'E.Jepson', 'G.Taylor', 'M.MacKenzie']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,3,Heat 2,1000,Grammar,"['S.Loo', 'E.Goess-Howe', 'C.Lalor', 'E.Ferrall']",['L.White'],[]
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,4,Heat 2,1000,St Patricks,"['E.March', 'B.Duffy', 'M.Brown', 'E.Morrow']",['A.White'],[]
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,5,Heat 2,1000,St Marys,"['A.Roberts', 'A.Schrader', 'G.Woodhouse', 'P.Teale']",['M.Pinelli'],['M.Stott']
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,6,Heat 2,1000,St Marys,"['H.Sice', 'J.Bremner', 'C.Stanley', 'C.Hutchinson']",['J.Mitchell'],['M.Stott']
+39,2021-03-06T10:57:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,M,7,Heat 2,1000,Collegiate,"['M.Mampieri', 'E.Shelley', 'E.Palmer', 'R.Curry']",['C.Bayley'],['N.Stump']
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,1,Heat 1,1000,Friends,['A.Rackham'],[],['M.McQueeney']
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,2,Heat 1,1000,New Town,['H.Thomas'],[],"['J.Bannon', 'P.Nichols']"
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,3,Heat 1,1000,Hutchins,['B.Brown'],[],[]
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,4,Heat 1,1000,Hobart,['P.Robbie'],[],['P.Newbon']
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,5,Heat 1,1000,Dominic,['J.Triffett'],[],"['J.Bannon', 'P.Nichols']"
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,6,Heat 1,1000,Grammar,['G.Collette'],[],['W.Adkins']
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,7,Heat 1,1000,Scotch Oakburn,['S.Wells'],[],"['M.Cameron', 'M.Bonham']"
+40,2021-03-06T11:01:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,N,8,Heat 1,1000,Grammar,['H.Barrenger'],[],['W.Adkins']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,1,Heat 2,1000,St Virgils,['O.McLaren'],[],['P.Bird']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,2,Heat 2,1000,Friends,['B.Stankovich'],[],['M.McQueeney']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,3,Heat 2,1000,Grammar,['T.Peck'],[],['W.Adkins']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,4,Heat 2,1000,Huonville,['J.Wynter'],[],['P.Newbon']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,5,Heat 2,1000,Grammar,['K.Glynn'],[],['W.Adkins']
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,6,Heat 2,1000,Hutchins,['R.Sanderson'],[],[]
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,7,Heat 2,1000,Hutchins,"[""L.O'Brien""]",[],[]
+41,2021-03-06T11:05:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,O,8,Heat 2,1000,Brendan Shaw,['M.Nield'],[],"['D.Tippett', 'M.Tippett']"
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,1,Heat 3,1000,New Town,['E.Raymond'],[],"['J.Bannon', 'P.Nichols']"
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,2,Heat 3,1000,Grammar,['M.Mitchell'],[],['W.Adkins']
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,3,Heat 3,1000,St Virgils,['H.Grubb'],[],['P.Bird']
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,4,Heat 3,1000,Grammar,['N.Adkins'],[],['W.Adkins']
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,5,Heat 3,1000,New Town,['O.Coulson'],[],"['J.Bannon', 'P.Nichols']"
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,6,Heat 3,1000,St Virgils,['F.Di Ubaldo'],[],['P.Bird']
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,7,Heat 3,1000,Hutchins,['J.Fiedler'],[],[]
+42,2021-03-06T11:09:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,P,8,Heat 3,1000,Hutchins,['L.Healy'],[],[]
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,1,Heat 4,1000,St Virgils,['N.Blackwell'],[],['P.Bird']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,2,Heat 4,1000,Friends,['G.Williams'],[],['M.McQueeney']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,3,Heat 4,1000,Friends,['O.Atwell'],[],['M.McQueeney']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,4,Heat 4,1000,Ulverstone SC,['L.Baker'],[],"['H.Lewis', 'M.Wilson']"
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,5,Heat 4,1000,Grammar,['T.Carins'],[],['W.Adkins']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,6,Heat 4,1000,St Virgils,['C.James'],[],['P.Bird']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,7,Heat 4,1000,Grammar,['F.Billing'],[],['W.Adkins']
+43,2021-03-06T11:13:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,Q,8,Heat 4,1000,Hutchins,['J.Richards'],[],[]
+44,2021-03-06T11:17:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,R,3,Heat 1,1000,Grammar,"['T.Klower', 'L.Hucker', 'E.Henty', 'A.Dunne']",['L.Eastaugh'],"['F.Woolcock', 'P.Dehnert']"
+44,2021-03-06T11:17:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,R,4,Heat 1,1000,Friends,"['A.Hope', 'L.Cooper', 'J.Gunner', 'S.Bryant']",['O.Cowen'],[]
+44,2021-03-06T11:17:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,R,5,Heat 1,1000,Fahan,"['J.Benyon', 'E.Banks-Smith', 'E.Hanna', 'A.Edwards']",['M.Reardon'],"['T.Skipworth', 'J.Campbell-Jones']"
+44,2021-03-06T11:17:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,R,6,Heat 1,1000,St Marys/Grammar,"['S.Devine [SMC]', 'H.Kelly [SMC]', 'S.Gray [LCGS]', 'B.Sice [SMC]']",['M.Christie Johnston [SMC]'],[]
+44,2021-03-06T11:17:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,R,7,Heat 1,1000,Scotch Oakburn,"['K.Napier', 'K.Atherton', 'J.Irani', 'A.Hughes']",['B.Lee-Archer'],['A.McLean']
+45,2021-03-06T11:21:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,S,2,Heat 2,1000,Grammar,"['P.Loane', 'A.Bennett', 'L.Dunn', 'M.Bradfield']",['G.Robertson'],"['F.Woolcock', 'P.Dehnert']"
+45,2021-03-06T11:21:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,S,3,Heat 2,1000,Fahan,"['M.Crosby', 'L.Evans-Gregg', 'O.Sampson', 'T.McDonough']",['O.Farquer'],"['T.Skipworth', 'J.Campbell-Jones']"
+45,2021-03-06T11:21:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,S,4,Heat 2,1000,Brendan Shaw,"['S.Ellis', 'L.Doonan', 'O.Yeates', 'M.Castles']",['M.Spaulding'],"['D.Tippett', 'M.Tippett']"
+45,2021-03-06T11:21:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,S,5,Heat 2,1000,St Marys,"['C.Barnes', 'E.Atkins', 'E.Monks', 'C.Oliver']",['A.Graves'],[]
+45,2021-03-06T11:21:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,S,6,Heat 2,1000,Friends,"['E.Lo', 'B.Woolley', 'M.Bylsma', 'J.Wilcox']",['K.Gallen'],[]
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,1,Heat 1,1000,Scotch Oakburn,['G.Wilson'],[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,2,Heat 1,1000,Fahan,['P.Leditschke'],[],['J.Withers']
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,3,Heat 1,1000,Grammar,['G.Loane'],[],['M.Waddingham']
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,4,Heat 1,1000,Fahan,['M.Cocker'],[],['J.Withers']
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,5,Heat 1,1000,Ogilvie,['C.Fenton'],[],"['M.McCausland', 'R.Kerr']"
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,6,Heat 1,1000,Collegiate,['C.Luders'],[],['R.Griffiths']
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,7,Heat 1,1000,Ogilvie,['A.Loring'],[],"['M.McCausland', 'R.Kerr']"
+46,2021-03-06T11:25:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,T,8,Heat 1,1000,Scotch Oakburn,['L.Carter'],[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,1,Heat 2,1000,Grammar,['N.Farquhar'],[],['M.Waddingham']
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,2,Heat 2,1000,St Marys,['M.Mackey'],[],"['M.Dixon', 'P.Schouten']"
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,3,Heat 2,1000,Collegiate,['S.Quilliam'],[],['R.Griffiths']
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,4,Heat 2,1000,Friends,['U.Nation'],[],[]
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,5,Heat 2,1000,Grammar,['J.Johnston'],[],['M.Waddingham']
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,6,Heat 2,1000,Marist,['A.Pratt'],[],['M.Wilson']
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,7,Heat 2,1000,Grammar,['S.Britton'],[],['M.Waddingham']
+47,2021-03-06T11:29:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,U,8,Heat 2,1000,St Patricks,['M.Rickerby'],[],['C.Miedecke']
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,1,Heat 3,1000,Fahan,['E.Manson'],[],['J.Withers']
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,2,Heat 3,1000,Fahan,['B.Perrott'],[],[]
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,3,Heat 3,1000,Scotch Oakburn,['H.Bingley'],[],"['J.Wilson', 'J.Wever', 'T.Brient']"
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,4,Heat 3,1000,Grammar,['E.Dunn'],[],['M.Waddingham']
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,5,Heat 3,1000,Friends,['J.MacIntyre'],[],[]
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,6,Heat 3,1000,Ogilvie,['S.Midgley'],[],"['M.McCausland', 'R.Kerr']"
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,7,Heat 3,1000,Fahan,['G.Parnham'],[],['J.Withers']
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,8,Heat 3,1000,St Patricks,['C.Anderson'],[],['C.Miedecke']
+48,2021-03-06T11:33:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,V,9,Heat 3,1000,Fahan,['S.Jones'],[],['J.Withers']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,1,Heat 4,1000,Fahan,['E.Stoksik'],[],['J.Withers']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,2,Heat 4,1000,Grammar,['P.Cuming'],[],['M.Waddingham']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,3,Heat 4,1000,Friends,['E.Grimm'],[],[]
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,4,Heat 4,1000,Ogilvie,['M.North'],[],"['M.McCausland', 'R.Kerr']"
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,5,Heat 4,1000,Collegiate,['L.Lawler'],[],['R.Griffiths']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,6,Heat 4,1000,Collegiate,['T.Brown'],[],['R.Griffiths']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,7,Heat 4,1000,Grammar,['A.Farquhar'],[],['M.Waddingham']
+49,2021-03-06T11:37:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,W,8,Heat 4,1000,Grammar,['L.Wood'],[],['M.Waddingham']
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,1,Heat 1,1000,Grammar,"['O.Nicholls', 'F.Glynn']",[],"['J.Cuming', 'E.Beacham']"
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,2,Heat 1,1000,Brendan Shaw/Taroona,"['M.Rees [TAR]', 'L.Nield [SBSC]']",[],[]
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,3,Heat 1,1000,Hutchins,"['H.Wilkins', 'D.Sillifant']",[],['T.Fiedler']
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,4,Heat 1,1000,New Town,"['J.Harrington', 'S.Raymond']",[],"['P.Nichols', 'L.Geappen']"
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,5,Heat 1,1000,St Virgils,"['H.Todd', 'D.Mulcahy']",[],[]
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,6,Heat 1,1000,Hutchins,"['C.Fiedler', 'D.Shulman']",[],['T.Fiedler']
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,7,Heat 1,1000,Friends,"['C.Fox', 'R.Ziegler']",[],[]
+50,2021-03-06T11:41:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,X,8,Heat 1,1000,Hutchins,"['F.Dobson', 'N.Steele']",[],"[""L.O'Connor"", 'T.Fiedler']"
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,1,Heat 2,1000,Hutchins,"['F.Clifford', 'S.Gorringe']",[],['M.Lord']
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,2,Heat 2,1000,St Patricks,"['A.Kingston', 'C.Buck']",[],"['C.Miedecke', 'G.Axman-Friend']"
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,3,Heat 2,1000,Friends,"['H.Maning', 'R.Middendorf']",[],[]
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,4,Heat 2,1000,Hutchins,"['H.Scott', 'A.Willsmore']",[],['A.Cretney']
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,5,Heat 2,1000,Hutchins,"['S.Manns', 'A.Dawar']",[],['M.Lord']
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,6,Heat 2,1000,Scotch Oakburn,"['J.Bamford', 'E.Gowland']",[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+51,2021-03-06T11:45:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Y,7,Heat 2,1000,St Virgils,"['S.Murray', 'N.Haas']",[],[]
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,1,Heat 3,1000,Friends,"['J.Cho', 'J.Crosbie-Seabourne']",[],[]
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,2,Heat 3,1000,New Town,"['J.Charles-Wilkinson', 'O.Woolley']",[],"['P.Nichols', 'L.Geappen']"
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,3,Heat 3,1000,Hutchins,"['L.Jones', 'A.Lord']",[],['M.Lord']
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,4,Heat 3,1000,Grammar,"['F.Mayes', 'B.Stewart']",[],"['J.Cuming', 'E.Beacham']"
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,5,Heat 3,1000,St Virgils,"['A.Volta', 'S.Igarashi-Myers']",[],[]
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,6,Heat 3,1000,Hutchins,"['O.Parsons', 'F.Kennedy']",[],"[""L.O'Connor"", 'A.Cretney']"
+52,2021-03-06T11:49:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,Z,7,Heat 3,1000,Hutchins,"[""O.O'Brien"", 'W.Roehrer']",[],"[""L.O'Connor""]"
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,1,Heat 4,1000,St Patricks,"['D.Tweedale', 'G.Hudson']",[],['A.Izbicki']
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,2,Heat 4,1000,Hutchins,"['M.Wang', 'B.Wills']",[],['A.Cretney']
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,3,Heat 4,1000,Friends,"['H.Chuter', 'A.Cooper']",[],[]
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,4,Heat 4,1000,Hutchins,"['S.Bishop', 'T.Banks-Smith']",[],['T.Fiedler']
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,5,Heat 4,1000,Hutchins,"['F.Egan', 'G.Harkness']",[],"['K.Morgan', 'T.Fiedler']"
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,6,Heat 4,1000,St Virgils,"['S.Van Anholt', 'Z.Zehmeister']",[],[]
+53,2021-03-06T11:53:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,7,Heat 4,1000,St Virgils,"['T.Coad', 'K.Polley']",[],[]
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,1,Heat 5,1000,Scotch Oakburn,"['L.Hoare', 'F.Wagner']",[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,2,Heat 5,1000,St Virgils,"['L.Stewart', 'M.Toms']",[],[]
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,3,Heat 5,1000,Friends,"['F.Read', 'O.Latham']",[],[]
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,4,Heat 5,1000,St Virgils,"['E.Higginson', 'S.Stewart']",[],[]
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,5,Heat 5,1000,Grammar,"['W.Hill', 'M.Smith']",[],"['J.Cuming', 'E.Beacham']"
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,6,Heat 5,1000,Hutchins 1,"['T.Mansfield', 'J.Fielding']",[],['K.Morgan']
+54,2021-03-06T11:57:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,7,Heat 5,1000,Hutchins 2,"['J.Gibson', 'T.Stewart']",[],['K.Morgan']
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,1,Heat 6,1000,Friends,"['O.Shearing', 'T.Latimer']",[],[]
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,2,Heat 6,1000,Scotch Oakburn,"['S.Taylor', 'O.Dowling']",[],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,3,Heat 6,1000,St Virgils,"['O.Scott', 'B.Schramm']",[],[]
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,4,Heat 6,1000,St Patricks/St Virgils,"['C.Stocks [SVC]', 'A.Bird [STPAT]']",[],['A.Izbicki']
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,5,Heat 6,1000,Hutchins 3,"['T.Morgan', 'E.Brown']",[],['K.Morgan']
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,6,Heat 6,1000,Grammar,"['G.Beacham', 'H.Cuming']",[],"['J.Cuming', 'E.Beacham']"
+55,2021-03-06T12:01:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,7,Heat 6,1000,Hutchins 4,"['C.Jager', 'G.Cane']",[],['K.Morgan']
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,2,Heat 1,500,St Marys,"['J.Marley', 'A.Smith', 'S.Fidanza', 'L.Crowe']",['S.Carter'],"['M.Dixon', 'P.Schouten']"
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,3,Heat 1,500,Friends,"['M.Hopster', 'M.Ebeli', 'L.Wells', 'M.Jotic']",['E.Ralph'],[]
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,4,Heat 1,500,Collegiate,"['E.Brown', 'S.Weissel', 'L.Palmer', 'A.Rule']",['A.Parsons'],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,5,Heat 1,500,Scotch Oakburn,"['M.Gale', 'A.Saunders', 'M.Marshall', 'I.Skirving']",['A.Byron'],"['V.Wilson', 'R.McDonald']"
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,6,Heat 1,500,Fahan,"['E.Baird', 'M.Coyne', 'J.Goodey', 'R.Grosvenor']",['O.Farquer'],"['S.Gregg', 'S.Baxter']"
+56,2021-03-06T12:09:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,D,7,Heat 1,500,Scotch Oakburn,"['S.Dick', 'E.Barnes', 'M.Burns', 'A.Lloyd-Bostock']",['M.Fulton'],"['V.Wilson', 'R.McDonald']"
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,2,Heat 2,500,St Patricks,"['C.Axman-Friend', 'E.Holloway', 'R.Milne', 'I.Miedecke']",['A.White'],['C.Miedecke']
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,3,Heat 2,500,St Marys,"['C.Wanandy', 'T.Millhouse', 'A.Graves', 'B.Carter']",['A.Carter'],"['M.Dixon', 'P.Schouten']"
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,4,Heat 2,500,Fahan,"['P.Abberton', 'A.Crosby', 'Z.Bury', 'E.Mazengarb']",['A.Lumsden-Steel'],"['S.Gregg', 'S.Baxter']"
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,5,Heat 2,500,Collegiate,"['A.Heath', 'C.Brown', 'C.Roff', 'E.Einoder']",['L.Jamieson'],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,6,Heat 2,500,Scotch Oakburn,"['L.van der Aa', 'O.Stevens', 'L.Gurudoss', 'S.Christie']",['E.Knaggs'],"['W.Birchmore', 'R.McDonald']"
+57,2021-03-06T12:13:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,E,7,Heat 2,500,Grammar,"['H.Rockliff', 'M.James', 'M.Clark', 'E.Dunne']",['O.Frost'],"['P.Quinn', 'K.Stedman', 'M.Quinn']"
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,2,Heat 3,500,St Marys,"['Z.Brooks', 'T.Wise', 'R.Berry', 'S.Thomas']",['L.Pinelli'],"['M.Dixon', 'P.Schouten']"
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,3,Heat 3,500,Scotch Oakburn,"['C.Barron', 'E.Popa', 'S.Storay', 'I.Wilson']",['E.Breden'],"['V.Wilson', 'R.McDonald']"
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,4,Heat 3,500,Fahan,"['C.Atkins', 'M.Porter', 'K.Edwards', 'I.Dickson']",['S.Bury'],"['S.Gregg', 'S.Baxter']"
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,5,Heat 3,500,St Marys/Friends,"['I.Calvert [TFNDS]', 'O.Rayner [TFNDS]', 'M.Graves [SMC]', 'A.King [SMC]']",['L.Bakes [SMC]'],[]
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,6,Heat 3,500,Friends,"['K.Walker', 'T.Kruger', 'I.Calvert', 'O.Rayner']",['Z.Fenton'],[]
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,7,Heat 3,500,St Patricks/Grammar,"['O.Creese [LCGS]', 'T.Bailey [LCGS]', 'K.Jones [STPAT]', 'A.Jones [STPAT]']",['L.Humphreys [STPAT]'],"['K.Stedman', 'C.Miedecke', 'K.Stedman']"
+58,2021-03-06T12:17:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,F,8,Heat 3,500,St Marys,"['L.Hofler', 'M.Graves', 'A.King', 'S.Fidanza']",['L.Bakes'],"['M.Dixon', 'P.Schouten']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,1,Heat 1,1000,New Town,['A.Grotaers'],[],"['M.McCausland', 'R.Kerr']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,2,Heat 1,1000,St Patricks,['H.McGovern'],[],"['J.McCullagh', 'R.Clark']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,3,Heat 1,1000,Hutchins,['C.Mounter'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,4,Heat 1,1000,Scotch Oakburn,['C.Parker'],[],"['A.Brown', 'D.Ottaway']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,5,Heat 1,1000,Grammar 3,['C.Ancher'],[],['M.Rowan']
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,6,Heat 1,1000,Scotch Oakburn,['G.Russell'],[],"['A.Brown', 'D.Ottaway']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,7,Heat 1,1000,St Patricks,['D.Wilkins'],[],"['J.McCullagh', 'R.Clark']"
+59,2021-03-06T12:25:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,G,8,Heat 1,1000,St Patricks,['N.McCullagh'],[],"['J.McCullagh', 'R.Clark']"
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,1,Heat 2,1000,St Virgils,['J.Young'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,2,Heat 2,1000,Grammar 4,['A.Creese'],[],['M.Rowan']
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,3,Heat 2,1000,St Patricks,['D.Rae'],[],"['J.McCullagh', 'R.Clark']"
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,4,Heat 2,1000,Grammar 1,['O.Quinn'],[],['M.Rowan']
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,5,Heat 2,1000,St Virgils,['J.Mitchell'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,6,Heat 2,1000,Hutchins,['H.Pitt'],[],[]
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,7,Heat 2,1000,Friends,['T.Campbell-Jones'],[],['I.McMahon']
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,8,Heat 2,1000,Friends,['J.Connah'],[],['I.McMahon']
+60,2021-03-06T12:29:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,H,9,Heat 2,1000,Hutchins,['C.Boman'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,1,Heat 3,1000,Scotch Oakburn,['D.Hill'],[],"['A.Brown', 'D.Ottaway']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,2,Heat 3,1000,Scotch Oakburn,['N.Neville - Clark'],[],"['A.Brown', 'D.Ottaway']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,3,Heat 3,1000,Hutchins,['C.Leesong'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,4,Heat 3,1000,St Virgils,['T.Weeding'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,5,Heat 3,1000,Scotch Oakburn,"[""O.O'Connor""]",[],"['A.Brown', 'D.Ottaway']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,6,Heat 3,1000,St Virgils,['M.Woods'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,7,Heat 3,1000,Friends,['C.McHugh'],[],['I.McMahon']
+61,2021-03-06T12:33:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,I,8,Heat 3,1000,Hutchins,['C.Black'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,1,Heat 4,1000,Hutchins,['A.McShane'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,2,Heat 4,1000,Friends,['H.Clyne'],[],['I.McMahon']
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,3,Heat 4,1000,St Patricks,['J.Clark'],[],"['J.McCullagh', 'R.Clark']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,4,Heat 4,1000,Grammar 2,['J.Stedman'],[],['M.Rowan']
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,5,Heat 4,1000,St Virgils,['H.Paynter'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,6,Heat 4,1000,St Patricks,['M.Roney'],[],"['J.McCullagh', 'R.Clark']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,7,Heat 4,1000,Scotch Oakburn,['F.Viney'],[],"['A.Brown', 'D.Ottaway']"
+62,2021-03-06T12:37:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,J,8,Heat 4,1000,St Patricks,['J.Humphreys'],[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,1,Heat 1,500,Hutchins 4,"['H.Kerr', 'S.Jones']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,2,Heat 1,500,Hutchins 13,"['G.Leesong', 'H.Harris']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,3,Heat 1,500,Scotch Oakburn,"['J.Bamford [SCOAK]', 'ATHLETE UNKNOWN']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,4,Heat 1,500,Clarence/Marist,"['W.Jackson [MCOLL]', 'S.Anderson [CHS]']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,5,Heat 1,500,Grammar,"['L.Walker', 'J.Brown']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,6,Heat 1,500,St Virgils,"['A.Lamprey', 'H.Costelloe']",[],['P.Vaszocz']
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,7,Heat 1,500,Hutchins 3,"['C.Davies', 'O.Bourne']",[],[]
+63,2021-03-06T13:17:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,K,8,Heat 1,500,Friends 6,"['S.Williams', 'N.Fajrianto']",[],['J.Morgan']
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,1,Heat 2,500,St Patricks,"['C.Stingle', 'L.Mineall']",[],"['R.Clark', 'O.Marsden']"
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,2,Heat 2,500,Hutchins 10,"['A.Rowley', 'T.Waterworth']",[],[]
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,3,Heat 2,500,Hutchins 8,"['L.Luttrell', 'O.Copeland']",[],[]
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,4,Heat 2,500,Friends 2,"['B.Rugen', 'L.Clyne']",[],['J.Morgan']
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,5,Heat 2,500,Grammar,"['H.Ancher', ""W.O'Shea""]",[],"['P.Quinn', 'K.Stedman']"
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,6,Heat 2,500,Hutchins 7,"['E.Jones', 'T.Lyons']",[],[]
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,7,Heat 2,500,St Virgils,"['A.Godfrey', 'L.Gray']",[],['P.Vaszocz']
+64,2021-03-06T13:21:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,L,8,Heat 2,500,Scotch Oakburn,"['O.Davey', 'H.Dennis']",[],[]
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,1,Heat 3,500,St Patricks,"['N.Bristol', 'W.Symons']",[],"['R.Clark', 'O.Marsden']"
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,2,Heat 3,500,Hutchins 1,"['L.Hanna', 'T.Banks-Smith']",[],[]
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,3,Heat 3,500,Friends 3,"['M.Ikedife', 'J.Wong']",[],['J.Morgan']
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,4,Heat 3,500,St Virgils,"['A.Parkinson', 'K.King']",[],['P.Vaszocz']
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,5,Heat 3,500,Hutchins 2,"['H.King', 'H.Cooper']",[],[]
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,6,Heat 3,500,Grammar,"['L.Hirst', 'H.Legge']",[],"['P.Quinn', 'K.Stedman']"
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,7,Heat 3,500,Hutchins 12,"['S.Archer', 'H.McCoid']",[],[]
+65,2021-03-06T13:25:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,M,8,Heat 3,500,Friends 1,"['W.Petty', 'D.Rumsby']",[],['J.Morgan']
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,1,Heat 4,500,Friends 4,"['H.Leis', 'T.Bowerman']",[],['J.Morgan']
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,2,Heat 4,500,Grammar,"['A.Caldwell', 'C.Gabbedy']",[],"['P.Quinn', 'K.Stedman']"
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,3,Heat 4,500,Hutchins 14,"['H.West', 'C.Harris']",[],[]
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,4,Heat 4,500,Hutchins 15,"['J.Knowles', 'M.Healy']",[],[]
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,5,Heat 4,500,Friends 5,"['L.Everett', 'J.Dick']",[],['J.Morgan']
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,6,Heat 4,500,St Patricks,"['T.Clark', 'L.Tonelly']",[],"['R.Clark', 'O.Marsden']"
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,7,Heat 4,500,St Virgils,"['M.Sylvester', 'L.Grubb']",[],['P.Vaszocz']
+66,2021-03-06T13:29:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,N,8,Heat 4,500,Hutchins 11,"['A.Varghese', 'Y.Wang']",[],[]
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,1,Heat 5,500,St Virgils,"['B.Riseley', 'O.Byrne']",[],['P.Vaszocz']
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,2,Heat 5,500,Friends 8,"['C.Doyle', 'W.Baukes']",[],['J.Morgan']
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,3,Heat 5,500,Hutchins 5,"['C.Crawford', 'N.Leesong']",[],[]
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,4,Heat 5,500,Grammar,"['A.Lockwood', 'M.Green']",[],[]
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,5,Heat 5,500,Hutchins 6,"['H.Merchant', 'C.Blackwood']",[],[]
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,6,Heat 5,500,Hutchins 9,"['S.Taylor', 'H.Saunders']",[],[]
+67,2021-03-06T13:33:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,O,7,Heat 5,500,Friends 7,"['H.Heathercote', 'M.Vickers']",[],['J.Morgan']
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,2,Heat 1,1000,Scotch Oakburn 2,"['J.Briggs', 'H.Wagner', 'J.Lawrence', 'W.Dowling']",['G.Russell'],['J.Russell']
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,3,Heat 1,1000,Hutchins,"['T.Gibson', 'T.Neuberger', 'J.Maumill', 'T.Chilcott']",['R.Cousins'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,4,Heat 1,1000,St Patricks,"['C.Rae', 'L.Dean', 'N.Douglas', 'O.Birtwistle']",['A.White'],['D.Birtwistle']
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,5,Heat 1,1000,Hutchins,"['H.Johnstone', 'A.Bradley', 'A.Vermey', 'S.Henning']",['C.Boman'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,6,Heat 1,1000,Scotch Oakburn 3,"['L.Breden', 'S.McTaggart Williams', 'P.Brown', 'S.Stopford']",['L.Cleeland'],['J.Russell']
+68,2021-03-06T13:41:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,P,7,Heat 1,1000,Grammar,"['Z.Finlay', 'C.Townsend', 'H.Hirst', 'W.Bates']",['L.White'],"['D.Lalor', 'L.Malcolm']"
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,2,Heat 2,1000,Guilford,"['R.Browning', 'H.King', 'T.Oliver', 'S.Woodhouse']",['B.Carter'],[]
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,3,Heat 2,1000,Scotch Oakburn 1,"['H.Birchmore', 'W.Gray', 'A.Neville - Clark', 'W.Hurd']",['L.Cleeland'],['J.Russell']
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,4,Heat 2,1000,Grammar,"['A.Farquhar', 'L.Dean', 'L.Pohan', 'A.Ralph']",['G.Robertson'],"['D.Lalor', 'L.Malcolm']"
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,5,Heat 2,1000,Hutchins,"['M.Riches', 'J.Lucas', 'C.Parnham', 'S.Fry']",['H.West'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,6,Heat 2,1000,St Patricks,"['J.Mineall', 'J.Pearce', 'O.Scharapow', 'W.Reilly']",['A.White'],['D.Birtwistle']
+69,2021-03-06T13:45:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,Q,7,Heat 2,1000,Elizabeth/Dominic,"['P.Loring [EC]', 'T.Browning [DOMC]', 'N.Stozki [EC]', 'A.Midson [EC]']",['J.Triffett [DOMC]'],"['K.Graham', 'J.Bannon', 'P.Nichols']"
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,1,Heat 1,1000,St Marys,['F.Carter'],[],['M.Stott']
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,2,Heat 1,1000,Grammar,['E.Ferrall'],[],[]
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,3,Heat 1,1000,Don 2,['P.Tippett'],[],[]
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,4,Heat 1,1000,Don,['L.Tippett'],[],[]
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,5,Heat 1,1000,Scotch Oakburn,['L.Calvert'],[],"['A.Foot', 'S.Guest']"
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,6,Heat 1,1000,Friends,['I.Nation'],[],[]
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,7,Heat 1,1000,St Marys,['A.Schrader'],[],['M.Stott']
+70,2021-03-06T13:49:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,R,8,Heat 1,1000,St Marys,['H.Sice'],[],[]
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,1,Heat 2,1000,Guilford,['C.Forster'],[],[]
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,2,Heat 2,1000,Friends,['M.White'],[],[]
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,3,Heat 2,1000,St Marys,['G.Woodhouse'],[],['M.Stott']
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,4,Heat 2,1000,Scotch Oakburn,['A.Florance'],[],"['A.Foot', 'S.Guest']"
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,5,Heat 2,1000,St Marys,['P.Teale'],[],['M.Stott']
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,6,Heat 2,1000,Grammar,['E.Swan'],[],[]
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,7,Heat 2,1000,Guilford,['A.Raymond'],[],[]
+71,2021-03-06T13:53:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,S,8,Heat 2,1000,Fahan,['A.Lumsden-Steel'],[],['A.Wirtz']
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,1,Heat 3,1000,St Marys,['A.Roberts'],[],[]
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,2,Heat 3,1000,Brendan Shaw,['J.Welch'],[],['G.Scattergood']
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,3,Heat 3,1000,St Patricks,['E.Morrow'],[],['D.Birtwistle']
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,4,Heat 3,1000,Brendan Shaw,['E.Spaulding'],[],"['D.Tippett', 'M.Tippett']"
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,5,Heat 3,1000,Grammar,['A.Billing'],[],[]
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,6,Heat 3,1000,Grammar,['E.Fryett'],[],[]
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,7,Heat 3,1000,Guilford,['E.Triffett'],[],[]
+72,2021-03-06T13:57:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,T,8,Heat 3,1000,Grammar,['K.Hill'],[],[]
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,1,Heat 4,1000,Brendan Shaw,['R.Skirving'],[],[]
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,2,Heat 4,1000,Brendan Shaw,['S.Grave'],[],"['D.Tippett', 'M.Tippett']"
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,3,Heat 4,1000,St Patricks,['M.Brown'],[],['D.Birtwistle']
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,4,Heat 4,1000,Grammar,['I.Goss'],[],[]
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,5,Heat 4,1000,St Patricks,['E.Hepburn'],[],['D.Birtwistle']
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,6,Heat 4,1000,Brendan Shaw,['C.Greenhill'],[],"['D.Tippett', 'M.Tippett']"
+73,2021-03-06T14:01:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,U,7,Heat 4,1000,Fahan,['S.Rolls'],[],['A.Wirtz']
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,1,Heat 1,1000,Friends,"['E.Newman', 'L.Cooper', 'O.Cowen', 'S.Bryant']",['K.Gallen'],[]
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,2,Heat 1,1000,St Marys,"['S.Devine', 'C.Barnes', 'M.Christie Johnston', 'E.Monks']",['L.Pinelli'],[]
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,3,Heat 1,1000,St Marys,"['B.Sice', 'E.Atkins', 'H.Kelly', 'C.Oliver']",['B.Carter'],[]
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,4,Heat 1,1000,Brendan Shaw,"['S.Ellis', 'L.Doonan', 'O.Yeates', 'M.Castles']",['M.Spaulding'],"['D.Tippett', 'M.Tippett']"
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,5,Heat 1,1000,Grammar 1,"['P.Loane', 'L.Hucker', 'A.Bennett', 'A.Dunne']",['L.Eastaugh'],"['F.Woolcock', 'P.Dehnert']"
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,6,Heat 1,1000,Fahan,"['M.Crosby', 'L.Evans-Gregg', 'O.Sampson', 'T.McDonough']",['O.Farquer'],"['T.Skipworth', 'J.Campbell-Jones']"
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,7,Heat 1,1000,Friends,"['M.Bylsma', 'B.Woolley', 'E.Lo', 'J.Wilcox']",['A.Hope'],[]
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,8,Heat 1,1000,St Patricks,"['E.Donovan', 'A.Duffy', 'A.Dettmer', 'A.McNeair']",['L.Mansfield'],['A.Izbicki']
+74,2021-03-06T14:05:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,V,9,Heat 1,1000,Friends,"['E.Lo', 'J.Wilcox', 'M.Bylsma', 'S.Bryant']",['K.Gallen'],[]
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,1,Heat 2,1000,Mt Carmel,"['A.Doyle', 'K.Steele', 'S.Riseley', 'L.Balfour']",['I.Gerathy'],[]
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,2,Heat 2,1000,Grammar,"['S.Gray', 'E.Henty', 'R.Rockliff', 'L.Dunn']",['H.Barrenger'],"['F.Woolcock', 'P.Dehnert']"
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,3,Heat 2,1000,Scotch Oakburn,"['B.Lee-Archer', 'K.Atherton', 'J.Irani', 'A.Hughes']",['K.Napier'],['A.McLean']
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,4,Heat 2,1000,Ogilvie,"['C.Wright', 'R.Morgan', 'L.Morgan', 'S.North']",['H.Midgley'],['P.Hansen']
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,5,Heat 2,1000,Grammar 2,"['L.Johnstone', 'L.Andersen', 'T.Klower', 'M.Bradfield']",['O.Frost'],"['F.Woolcock', 'P.Dehnert']"
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,6,Heat 2,1000,Fahan,"['J.Benyon', 'E.Banks-Smith', 'E.Hanna', 'A.Edwards']",['M.Reardon'],"['T.Skipworth', 'J.Campbell-Jones']"
+75,2021-03-06T14:09:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,W,7,Heat 2,1000,St Patricks,"['R.Finn', 'R.Hudson', 'A.Cherry', 'L.Brooks']",['I.McCullagh'],['D.Birtwistle']
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,1,Heat 1,1000,Scotch Oakburn,"['J.Bamford', 'E.Auton']",[],"['J.Wilson', 'J.Wever', 'T.Brient']"
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,2,Heat 1,1000,Scotch Oakburn,"['H.Lynch', 'H.Bingley']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,3,Heat 1,1000,St Marys,"['S.Harback', 'H.McKay']",[],"['M.Dixon', 'P.Schouten']"
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,4,Heat 1,1000,Friends,"['U.Nation', 'H.Zalstein']",[],[]
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,5,Heat 1,1000,St Marys,"['L.Midson', 'A.Smith']",[],"['M.Dixon', 'P.Schouten']"
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,6,Heat 1,1000,Grammar,"['N.Farquhar', 'A.Farquhar']",[],['M.Waddingham']
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,7,Heat 1,1000,Fahan,"['J.Clark', 'E.Manson']",[],['J.Withers']
+76,2021-03-06T14:13:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,X,8,Heat 1,1000,St Patricks,"['C.Barrett', 'M.Rickerby']",[],['C.Miedecke']
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,1,Heat 2,1000,Scotch Oakburn,"['E.Duigan', 'S.Palmer']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,2,Heat 2,1000,Friends,"['J.MacIntyre', 'E.Grimm']",[],[]
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,3,Heat 2,1000,St Marys,"['E.Christie-Johnston', 'F.Shanny']",[],"['M.Dixon', 'P.Schouten']"
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,4,Heat 2,1000,Grammar,"['G.Loane', 'S.Britton']",[],['M.Waddingham']
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,5,Heat 2,1000,Fahan,"['P.Leditschke', 'M.Cocker']",[],['J.Withers']
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,6,Heat 2,1000,Scotch Oakburn,"['Z.Ballantyne', 'S.Donlon']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,7,Heat 2,1000,St Marys,"['E.Kerstan', 'S.Kelly']",[],"['M.Dixon', 'P.Schouten']"
+77,2021-03-06T14:17:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Y,8,Heat 2,1000,St Patricks,"['G.Crack', 'N.Mulder']",[],['C.Miedecke']
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,1,Heat 3,1000,St Marys/Friends,"['L.Routley [TFNDS]', 'L.Midson [SMC]']",[],[]
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,2,Heat 3,1000,Grammar,"['P.Cuming', 'E.Dunn']",[],['M.Waddingham']
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,3,Heat 3,1000,Collegiate,"['A.Bent', 'C.Luders']",[],['R.Griffiths']
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,4,Heat 3,1000,Scotch Oakburn,"['M.Wain', 'I.Wilson']",[],"['J.Wilson', 'S.Guest', 'J.Wever']"
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,5,Heat 3,1000,Fahan,"['Z.Pitt', 'N.Terry']",[],['J.Withers']
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,6,Heat 3,1000,St Marys,"['M.Medina', 'T.Purves']",[],"['M.Dixon', 'P.Schouten']"
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,7,Heat 3,1000,Scotch Oakburn,"['S.Boden', 'A.Napier']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+78,2021-03-06T14:21:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,Z,8,Heat 3,1000,St Patricks,"['A.Dettmer', 'B.Pether']",[],['C.Miedecke']
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,1,Heat 4,1000,Friends,"['G.Hill', 'C.Frawley']",[],[]
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,2,Heat 4,1000,Scotch Oakburn,"['G.Wilson', 'M.Gray']",[],"['J.Wilson', 'J.Wever', 'T.Brient']"
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,3,Heat 4,1000,St Marys,"['M.Mackey', 'A.Dickman']",[],"['M.Dixon', 'P.Schouten']"
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,4,Heat 4,1000,Grammar,"['E.Doyle', 'O.Goodacre']",[],['M.Waddingham']
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,5,Heat 4,1000,Ogilvie,"['S.Midgley', 'A.Loring']",[],"['M.McCausland', 'R.Kerr']"
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,6,Heat 4,1000,Collegiate,"['T.Brown', 'L.Lawler']",[],['R.Griffiths']
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,7,Heat 4,1000,Fahan,"['A.Nelson', 'B.Perrott']",[],['J.Withers']
+79,2021-03-06T14:25:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,A,8,Heat 4,1000,St Patricks,"['C.Anderson', 'E.Johnson']",[],['C.Miedecke']
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,1,Heat 5,1000,Grammar,"['L.Wood', 'L.Dowling']",[],['M.Waddingham']
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,2,Heat 5,1000,Scotch Oakburn,"['G.Briggs', 'L.Carter']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,3,Heat 5,1000,St Marys,"['S.Gillow', 'B.McInerney']",[],"['M.Dixon', 'P.Schouten']"
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,4,Heat 5,1000,Friends,"['I.Atwell', 'C.Loney']",[],[]
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,5,Heat 5,1000,Ogilvie,"['C.Fenton', 'M.North']",[],"['M.McCausland', 'R.Kerr']"
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,6,Heat 5,1000,Grammar,"['C.Waddingham', 'J.Johnston']",[],['M.Waddingham']
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,7,Heat 5,1000,Fahan,"['S.Jones', 'G.Parnham']",[],['J.Withers']
+80,2021-03-06T14:29:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,B,8,Heat 5,1000,Brendan Shaw,"['M.Spaulding', 'M.Phyland']",[],[]
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,1,Heat 6,1000,Fahan,"['L.Tomlin', 'E.Stoksik']",[],['J.Withers']
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,2,Heat 6,1000,Collegiate,"['R.Dorahy', 'G.Ward']",[],['R.Griffiths']
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,3,Heat 6,1000,St Marys,"['A.Bakes', 'L.Rolls']",[],"['M.Dixon', 'P.Schouten']"
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,4,Heat 6,1000,Marist/Sheffield,"['T.Jago [SHEFF]', 'A.Pratt [MCOLL]']",[],"['M.Wilson', 'G.Scattergood']"
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,5,Heat 6,1000,Scotch Oakburn,"['B.Findlay', ""L.O'Connor""]",[],"['J.Russell', 'T.Brient', 'J.Wever']"
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,6,Heat 6,1000,Grammar,"['M.Chiselett', 'L.Rockliff']",[],['M.Waddingham']
+81,2021-03-06T14:33:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,C,7,Heat 6,1000,Grammar,"['M.Wall', 'P.Thompson']",[],['M.Waddingham']
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,1,Heat 1,1000,Mt Carmel,"['A.Mullins', 'A.Riseley', 'L.Nesbitt', 'I.Gerathy']",['M.Balfour'],[]
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,2,Heat 1,1000,Scotch Oakburn 1,"['L.Hoare', 'A.Woolston', 'L.Wilson', 'A.Cook']",['C.Ball'],"['A.Gruber', 'R.Banner']"
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,3,Heat 1,1000,St Patricks,"['A.Dettmer', 'L.Mansfield', 'C.Anderson', 'E.Johnson']",['I.Miedecke'],"['C.Miedecke', 'A.Izbicki']"
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,4,Heat 1,1000,Collegiate,"['M.Healy', 'G.Witt', 'G.Leicester', 'M.Ferguson']",['Z.Carr'],"['S.Mollard', 'S.Sluce']"
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,5,Heat 1,1000,Collegiate,"['C.Leicester', 'A.Dalton', 'A.Parsons', 'M.Cummings']",['I.Leicester'],"['S.Mollard', 'S.Sluce']"
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,6,Heat 1,1000,Fahan,"['G.Parnham', 'L.Valta', 'A.Lumsden-Steel', 'G.Couser']",['S.Bury'],['J.Withers']
+82,2021-03-06T14:37:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,D,7,Heat 1,1000,Grammar,"['P.Thompson', 'L.Gardner', 'M.Brown', 'Z.Brown']",['P.Eastaugh'],"['A.White', 'D.Wyly']"
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,2,Heat 2,1000,Friends,"['Z.Fenton', 'B.Vickers', 'S.Mitchelmore', 'S.Neal']",['V.Bunting'],[]
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,3,Heat 2,1000,St Patricks,"['J.Axman-Friend', 'A.Duffy', 'A.McNeair', 'E.Donovan']",['L.Mansfield'],"['C.Miedecke', 'A.Izbicki']"
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,4,Heat 2,1000,Sheffield/Brendan Shaw,"['S.Welch [SBSC]', 'L.Barker [SBSC]', 'J.Behrmann [SHEFF]', 'I.Ritter [SHEFF]']",['T.Jago [SHEFF]'],[]
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,5,Heat 2,1000,Collegiate,"['S.Johnston', 'A.Acuna', 'C.Elrick', 'E.Kingston']",['M.Rogers'],"['S.Mollard', 'S.Sluce']"
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,6,Heat 2,1000,Fahan,"['P.Clarke', 'O.Wilson', 'S.Lang', 'K.Hayes']",['S.Bury'],"['J.Withers', 'J.Withers']"
+83,2021-03-06T14:41:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,E,7,Heat 2,1000,St Marys,"['H.Teale', 'M.Higgins', 'O.Walter', 'F.Tsakirakis']",['M.Pinelli'],"['M.Lamb', 'C.Stanley']"
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,2,Heat 3,1000,Ogilvie/Sacred Heart,"['E.Coulson [OHS]', 'M.Kelly [SHC-T]', 'A.Fewkes [SHC-T]', 'L.Midson [OHS]']",['J.Triffett [DOMC]'],"['P.Hansen', 'L.Geappen', 'P.Nichols']"
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,3,Heat 3,1000,Scotch Oakburn,"['L.Ashman', 'M.Buck', 'A.McLean', 'G.Barron']",['H.Lynch'],"['A.Gruber', 'R.Banner']"
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,4,Heat 3,1000,Grammar,"['C.Knowles', 'Y.Wyly', 'S.Dunne', 'C.Lockrey']",['L.White'],"['A.White', 'D.Wyly']"
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,5,Heat 3,1000,Friends,"['E.Ralph', 'H.Wigston', 'E.Gardner', 'A.Edwards']",['E.Falloon'],[]
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,6,Heat 3,1000,St Marys,"['I.Juvakka', 'E.Hyland', 'L.Castellana', 'A.Buddle']",['O.Mclaren'],"['M.Lamb', 'C.Stanley']"
+84,2021-03-06T14:45:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,F,7,Heat 3,1000,Grammar/Scotch Oakburn 3,"['A.Corrigan [SCOAK]', 'S.Henderson [LCGS]', 'P.Crisp Williams [LCGS]', 'L.Ayers [LCGS]']",['P.Bennett [LCGS]'],"['A.White', 'D.Wyly']"
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,1,Heat 1,1000,Elizabeth,['A.Midson'],[],['K.Graham']
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,2,Heat 1,1000,Grammar,['H.Hirst'],[],"['D.Lalor', 'L.Malcolm']"
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,3,Heat 1,1000,Guilford,['A.Paynter'],[],[]
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,4,Heat 1,1000,St Patricks,['L.Dean'],[],['D.Birtwistle']
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,5,Heat 1,1000,Guilford,['J.Connolly'],[],[]
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,6,Heat 1,1000,St Patricks,['C.Rae'],[],['D.Birtwistle']
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,7,Heat 1,1000,Elizabeth,['N.Stozki'],[],"['J.Bannon', 'P.Nichols']"
+85,2021-03-06T14:49:00+00:00,29,Schoolboys Single Scull,SB 1X,1,G,8,Heat 1,1000,Elizabeth,['P.Loring'],[],"['L.Geappen', 'P.Nichols']"
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,1,Heat 2,1000,Ulverstone SC,['B.Murray'],[],"['H.Lewis', 'M.Wilson']"
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,2,Heat 2,1000,Brendan Shaw,['H.Nield'],[],"['D.Tippett', 'M.Tippett']"
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,3,Heat 2,1000,Grammar,['L.Pohan'],[],"['D.Lalor', 'L.Malcolm']"
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,4,Heat 2,1000,St Patricks,['O.Birtwistle'],[],['D.Birtwistle']
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,5,Heat 2,1000,Grammar,['A.Farquhar'],[],"['D.Lalor', 'L.Malcolm']"
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,6,Heat 2,1000,St Patricks,['N.Douglas'],[],['D.Birtwistle']
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,7,Heat 2,1000,St Patricks,['J.Mineall'],[],['D.Birtwistle']
+86,2021-03-06T14:53:00+00:00,29,Schoolboys Single Scull,SB 1X,1,H,8,Heat 2,1000,Grammar,['Z.Finlay'],[],"['D.Lalor', 'L.Malcolm']"
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,1,Heat 1,1000,Guilford,"['C.Forster', 'E.Triffett']",[],['C.Harris']
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,2,Heat 1,1000,Collegiate,"['H.Curry', 'P.Davis']",[],['N.Stump']
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,3,Heat 1,1000,Fahan,"['M.Jones', 'L.Ansell']",[],"['S.Manson', 'C.Parnham']"
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,4,Heat 1,1000,Scotch Oakburn 1,"['L.Calvert', 'H.Schouten']",[],"['A.Foot', 'S.Guest']"
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,5,Heat 1,1000,Brendan Shaw,"['E.Spaulding', 'C.Greenhill']",[],"['D.Tippett', 'M.Tippett']"
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,6,Heat 1,1000,St Patricks,"['B.Duffy', 'E.Morrow']",[],['D.Birtwistle']
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,7,Heat 1,1000,Friends,"['M.Bylsma', 'J.Wilcox']",[],[]
+87,2021-03-06T14:57:00+00:00,30,Schoolgirls Pair,SG 2-,2,I,8,Heat 1,1000,Scotch Oakburn 2,"['A.Jepson', 'A.Florance']",[],"['A.Foot', 'S.Guest']"
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,1,Heat 2,1000,Fahan,"['H.Riches', 'L.Cooper']",[],"['S.Manson', 'C.Parnham']"
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,2,Heat 2,1000,Collegiate,"['M.Prescott', 'A.McMahon']",[],['N.Stump']
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,3,Heat 2,1000,St Patricks,"['L.Waud', 'E.March']",[],['D.Birtwistle']
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,4,Heat 2,1000,Friends,"['C.Hornett', 'E.Underwood']",[],[]
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,5,Heat 2,1000,Friends,"['A.Gardner', 'C.Ralph']",[],[]
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,6,Heat 2,1000,Fahan,"['S.Lambert', 'M.Jones']",[],"['S.Manson', 'C.Parnham']"
+88,2021-03-06T15:01:00+00:00,30,Schoolgirls Pair,SG 2-,2,J,7,Heat 2,1000,Fahan,"['O.Wilkins', 'D.Maning']",[],"['S.Manson', 'C.Parnham']"
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,1,Heat 1,1000,Grammar,"['T.Klower', 'K.Hill']",[],[]
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,2,Heat 1,1000,Grammar,"['E.Tucker', 'E.Brown']",[],[]
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,3,Heat 1,1000,St Patricks,"['E.Hepburn', 'M.Brown']",[],['D.Birtwistle']
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,4,Heat 1,1000,Don,"['L.Tippett', 'P.Tippett']",[],[]
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,5,Heat 1,1000,Fahan,"['S.Rolls', 'S.Leary']",[],['A.Wirtz']
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,6,Heat 1,1000,Collegiate,"['R.Curry', 'E.Bird']",[],['N.Stump']
+89,2021-03-06T15:05:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,K,7,Heat 1,1000,St Marys,"['H.Sice', 'J.Bremner']",[],['M.Stott']
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,2,Heat 2,1000,Guilford,"['A.Raymond', 'U.Harris']",[],['C.Harris']
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,3,Heat 2,1000,Grammar,"['C.Lalor', 'E.Ferrall']",[],[]
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,4,Heat 2,1000,St Marys,"['A.Schrader', 'P.Teale']",[],['M.Stott']
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,5,Heat 2,1000,Brendan Shaw,"['J.Welch', 'R.Skirving']",[],['G.Scattergood']
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,6,Heat 2,1000,Collegiate,"['E.Palmer', 'M.West']",[],['N.Stump']
+90,2021-03-06T15:09:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,L,7,Heat 2,1000,Friends,"['I.Nation', 'M.White']",[],[]
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,2,Heat 3,1000,Grammar,"['A.Mayes', 'S.Loo']",[],[]
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,3,Heat 3,1000,Friends,"['K.Fajrianto', 'J.Powell-Davies']",[],[]
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,4,Heat 3,1000,Grammar,"['E.Fryett', 'E.Swan']",[],[]
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,5,Heat 3,1000,Collegiate,"['R.Forsyth', 'H.Gregory']",[],['N.Stump']
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,6,Heat 3,1000,Scotch Oakburn 1,"['M.MacKenzie', 'H.Woolston']",[],"['T.Brient', 'A.Foot']"
+91,2021-03-06T15:13:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,M,7,Heat 3,1000,St Marys,"['C.Hutchinson', 'F.Carter']",[],['M.Stott']
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,2,Heat 4,1000,St Marys,"['G.Woodhouse', 'E.Taylor']",[],['M.Stott']
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,3,Heat 4,1000,Collegiate,"['E.Shelley', 'E.Palmer']",[],['N.Stump']
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,4,Heat 4,1000,Grammar,"['A.Billing', 'I.Goss']",[],[]
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,5,Heat 4,1000,Scotch Oakburn 2,"['G.Taylor', 'E.Jepson']",[],"['S.Guest', 'A.Foot']"
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,6,Heat 4,1000,Grammar,"['M.Dowling', 'P.White']",[],[]
+92,2021-03-06T15:17:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,N,7,Heat 4,1000,St Marys,"['A.Roberts', 'A.McInerney']",[],['M.Stott']
+93,2021-03-06T15:21:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,O,2,Heat 1,1000,Grammar,"['J.Gray', 'F.Billing', 'G.Collette', 'T.Carins']",['O.Frost'],['W.Adkins']
+93,2021-03-06T15:21:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,O,3,Heat 1,1000,Scotch Oakburn 2,"['C.Auton', 'J.Bamford', 'L.James-Wever', 'R.MacKenzie']",['S.Wells'],"['M.Cameron', 'M.Bonham']"
+93,2021-03-06T15:21:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,O,4,Heat 1,1000,Hutchins,"['A.Stewart', 'R.Sanderson', 'B.Brown', 'F.Palmer']",['J.Richards'],[]
+93,2021-03-06T15:21:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,O,5,Heat 1,1000,Grammar,"['T.Peck', 'M.Mitchell', 'N.Adkins', 'K.Glynn']",['H.Barrenger'],['W.Adkins']
+93,2021-03-06T15:21:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,O,6,Heat 1,1000,St Virgils,"['O.Dinnessen', 'O.McLaren', 'N.Blackwell', 'X.Nichols']",['D.Berry'],['P.Bird']
+94,2021-03-06T15:25:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,2,Heat 2,1000,St Virgils,"['F.Di Ubaldo', 'E.Kounelis', 'H.Grubb', 'C.James']",['N.Haas'],['P.Vaszocz']
+94,2021-03-06T15:25:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,3,Heat 2,1000,Hutchins,"['L.Healy', 'J.Fiedler', 'T.Daengdej', ""L.O'Brien""]",['W.Terry'],[]
+94,2021-03-06T15:25:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,4,Heat 2,1000,Scotch Oakburn 1,"['S.Brown', 'S.Stopford', 'H.Fyffe', 'M.Russell']",['M.Fulton'],"['M.Cameron', 'M.Bonham']"
+94,2021-03-06T15:25:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,5,Heat 2,1000,Friends,"['G.Williams', 'C.Gibson', 'O.Atwell', 'B.Stankovich']",['A.Hooper'],['M.McQueeney']
+94,2021-03-06T15:25:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,6,Heat 2,1000,Hutchins/Friends,"['A.Ballard [TFNDS]', 'E.Russell [TFNDS]', 'A.Rackham [TFNDS]', 'J.Crehan [THS]']",['A.Hope [TFNDS]'],['M.McQueeney']
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,1,Heat 1,1000,Hutchins 7,['C.Fiedler'],[],['T.Fiedler']
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,2,Heat 1,1000,Hutchins 4,['J.Gibson'],[],['K.Morgan']
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,3,Heat 1,1000,St Virgils,['H.Todd'],[],[]
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,4,Heat 1,1000,St Virgils,['N.Haas'],[],[]
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,5,Heat 1,1000,Grammar,['M.Smith'],[],"['J.Cuming', 'E.Beacham']"
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,6,Heat 1,1000,Grammar,['W.Hill'],[],"['J.Cuming', 'E.Beacham']"
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,7,Heat 1,1000,St Patricks,['C.Buck'],[],['C.Miedecke']
+95,2021-03-06T15:50:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,Q,8,Heat 1,1000,Grammar,['F.Glynn'],[],"['J.Cuming', 'E.Beacham']"
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,1,Heat 2,1000,Hutchins,['A.Willsmore'],[],[]
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,2,Heat 2,1000,St Virgils,['S.Igarashi-Myers'],[],[]
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,3,Heat 2,1000,Friends,['H.Manning'],[],[]
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,4,Heat 2,1000,New Town,['O.Woolley'],[],"['P.Nichols', 'L.Geappen']"
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,5,Heat 2,1000,St Virgils,['S.Murray'],[],[]
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,6,Heat 2,1000,Hutchins 2,['F.Dobson'],[],['T.Fiedler']
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,7,Heat 2,1000,St Patricks,['G.Hudson'],[],['C.Miedecke']
+96,2021-03-06T15:54:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,8,Heat 2,1000,Hutchins 9,['N.Steele'],[],"[""L.O'Connor""]"
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,1,Heat 3,1000,Grammar,['O.Nicholls'],[],"['J.Cuming', 'E.Beacham']"
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,2,Heat 3,1000,Hutchins 5,['D.Sillifant'],[],['T.Fiedler']
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,3,Heat 3,1000,Hutchins 1,['H.Wilkins'],[],['T.Fiedler']
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,4,Heat 3,1000,Scotch Oakburn,['S.Taylor'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,5,Heat 3,1000,Friends,['R.Middendorf'],[],[]
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,6,Heat 3,1000,Hutchins 3,['E.Brown'],[],['K.Morgan']
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,7,Heat 3,1000,Hutchins 6,['T.Stewart'],[],['K.Morgan']
+97,2021-03-06T15:58:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,8,Heat 3,1000,St Virgils,['T.Coad'],[],[]
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,1,Heat 4,1000,Hutchins 8,['J.Fielding'],[],['K.Morgan']
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,2,Heat 4,1000,Scotch Oakburn,['O.Dowling'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,3,Heat 4,1000,Scotch Oakburn,['F.Wagner'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,4,Heat 4,1000,St Virgils,['A.Volta'],[],[]
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,5,Heat 4,1000,New Town,['J.Charles-Wilkinson'],[],"['P.Nichols', 'L.Geappen']"
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,6,Heat 4,1000,Friends,['F.Read'],[],[]
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,7,Heat 4,1000,Friends,['C.Fox'],[],[]
+98,2021-03-06T16:02:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,T,8,Heat 4,1000,St Virgils,['K.Polley'],[],[]
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,1,Heat 1,500,St Virgils,"['L.Grubb', 'L.Gray', 'A.Lamprey', 'M.Sylvester']",['H.Costelloe'],['P.Vaszocz']
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,2,Heat 1,500,Friends 2,"['T.Bowerman', 'H.Leis', 'M.Ikedife', 'J.Wong']",['W.Baukes'],['J.Morgan']
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,3,Heat 1,500,Hutchins 2,"['H.Merchant', 'C.Blackwood', 'C.Crawford', 'N.Leesong']",['T.Lyons'],[]
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,4,Heat 1,500,St Patricks,"['T.Clark', 'W.Symons', 'L.Mineall', 'L.Tonelly']",['G.Miedecke'],"['R.Clark', 'O.Marsden']"
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,5,Heat 1,500,Friends 3,"['N.Fajrianto', 'L.Everett', 'M.Vickers', 'J.Dick']",['H.Heathercote'],['J.Morgan']
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,6,Heat 1,500,Marist Composite,"['S.Anderson [CHS]', 'J.Brown [LCGS]', 'L.Hirst [LCGS]', 'W.Jackson [MCOLL]']",['P.Eastaugh [LCGS]'],"['P.Quinn', 'K.Stedman']"
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,7,Heat 1,500,Hutchins 4,"['H.West', 'C.Harris', 'G.Leesong', 'H.Harris']",['E.Jones'],[]
+99,2021-03-06T16:10:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,U,8,Heat 1,500,Hutchins 3,"['A.Rowley', 'T.Waterworth', 'S.Taylor', 'H.Saunders']",['C.Davies'],[]
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,1,Heat 2,500,Scotch Oakburn/Hutchins 1,"['O.Davey [SCOAK]', 'J.Bamford [SCOAK]', 'O.Bourne [THS]', 'H.Dennis [SCOAK]']",['E.Breden [SCOAK]'],[]
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,2,Heat 2,500,Friends 1,"['L.Clyne', 'D.Rumsby', 'B.Rugen', 'W.Petty']",['S.Williams'],[]
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,3,Heat 2,500,Grammar,"['A.Lockwood', ""W.O'Shea"", 'C.Gabbedy', 'H.Ancher']",['P.Bennett'],"['P.Quinn', 'K.Stedman']"
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,4,Heat 2,500,St Virgils,"['B.Riseley', 'A.Godfrey', 'K.King', 'A.Parkinson']",['P.Weeding'],['P.Vaszocz']
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,5,Heat 2,500,Hutchins 5,"['S.Archer', 'H.McCoid', 'J.Knowles', 'M.Healy']",['Y.Wang'],[]
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,6,Heat 2,500,Hutchins 1,"['H.King', 'H.Cooper', 'L.Hanna', 'T.Banks-Smith']",['H.Kerr'],[]
+100,2021-03-06T16:14:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,V,7,Heat 2,500,Grammar,"['M.Green', 'A.Caldwell', 'L.Walker', 'H.Legge']",['L.Eastaugh'],"['K.Stedman', 'P.Quinn']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,1,Heat 1,500,St Marys,['R.Berry'],[],"['M.Dixon', 'P.Schouten']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,2,Heat 1,500,St Marys,['L.Crowe'],[],"['M.Dixon', 'P.Schouten']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,3,Heat 1,500,Fahan,['M.Porter'],[],[]
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,4,Heat 1,500,St Marys,['S.Thomas'],[],"['M.Dixon', 'P.Schouten']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,5,Heat 1,500,Collegiate,['E.Einoder'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,6,Heat 1,500,Fahan,['Z.Bury'],[],"['S.Baxter', 'S.Gregg']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,7,Heat 1,500,St Marys,['R.Wighton'],[],"['M.Dixon', 'P.Schouten']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,8,Heat 1,500,Fahan,['I.Dickson'],[],"['S.Gregg', 'S.Baxter']"
+101,2021-03-06T16:18:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,W,9,Heat 1,500,St Marys,['Z.Brooks'],[],"['M.Dixon', 'P.Schouten']"
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,1,Heat 2,500,Friends,['O.Rayner'],[],[]
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,2,Heat 2,500,Friends,['M.Hopster'],[],[]
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,3,Heat 2,500,Friends,['M.Jotic'],[],[]
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,4,Heat 2,500,Collegiate,['A.Heath'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,5,Heat 2,500,Brendan Shaw,['M.Spaulding'],[],[]
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,6,Heat 2,500,Collegiate,['L.Palmer'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,7,Heat 2,500,St Marys,['A.King'],[],"['M.Dixon', 'P.Schouten']"
+102,2021-03-06T16:22:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,X,8,Heat 2,500,St Patricks,['I.Miedecke'],[],[]
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,1,Heat 3,500,Collegiate,['C.Roff'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,2,Heat 3,500,St Marys,['B.Carter'],[],"['M.Dixon', 'P.Schouten']"
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,3,Heat 3,500,Collegiate,['S.Weissel'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,4,Heat 3,500,Friends,['L.Wells'],[],[]
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,5,Heat 3,500,Scotch Oakburn,['I.Wilson'],[],"['V.Wilson', 'R.McDonald']"
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,6,Heat 3,500,Collegiate,['C.Brown'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,7,Heat 3,500,Friends,['M.Ebeli'],[],[]
+103,2021-03-06T16:26:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Y,8,Heat 3,500,Fahan,['P.Abberton'],[],[]
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,1,Heat 4,500,Collegiate,['L.Jamieson'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,2,Heat 4,500,Friends,['I.Calvert'],[],[]
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,3,Heat 4,500,Collegiate,['A.Rule'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,4,Heat 4,500,St Marys,['A.Smith'],[],"['M.Dixon', 'P.Schouten']"
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,5,Heat 4,500,St Patricks,['R.Milne'],[],['C.Miedecke']
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,6,Heat 4,500,St Marys,['T.Wise'],[],"['M.Dixon', 'P.Schouten']"
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,7,Heat 4,500,St Marys,['C.Wanandy'],[],"['M.Dixon', 'P.Schouten']"
+104,2021-03-06T16:30:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,Z,8,Heat 4,500,St Patricks,['C.Axman-Friend'],[],[]
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,1,Division,500,Scotch Oakburn,"['E.Knaggs', 'O.Stevens', 'L.Gurudoss', 'S.Christie']",['L.Ashman'],"['V.Wilson', 'R.McDonald']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,2,Division,500,Grammar,"['M.Clark', 'O.Creese', 'M.James', 'T.Bailey']",['L.Eastaugh'],"['K.Stedman', 'P.Quinn', 'M.Quinn']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,3,Division,500,Scotch Oakburn,"['C.Barron', 'E.Popa', 'S.Storay', 'E.Breden']",['A.Cook'],"['V.Wilson', 'R.McDonald']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,4,Division,500,St Marys,"['J.Marley', 'M.Graves', 'T.Millhouse', 'A.Graves']",['L.Pinelli'],"['M.Dixon', 'P.Schouten']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,5,Division,500,Scotch Oakburn,"['M.Fulton', 'E.Barnes', 'M.Burns', 'P.Brown']",['S.Dick'],[]
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,6,Division,500,Scotch Oakburn/Grammar,"['H.Rockliff [LCGS]', 'E.Dunne [LCGS]', 'L.van der Aa [SCOAK]', 'A.Saunders [SCOAK]']",['P.Eastaugh [LCGS]'],"['M.Quinn', 'K.Stedman', 'P.Quinn']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,7,Division,500,Scotch Oakburn,"['A.Byron', 'M.Gale', 'M.Marshall', 'I.Skirving']",['L.Wilson'],"['V.Wilson', 'R.McDonald']"
+105,2021-03-06T16:34:00+00:00,37,School Girls Under 13 coxed quad scull (B),SG U13 4X+ (B),4,A,8,Division,500,St Patricks,"['A.Jones', 'K.Jones', 'O.Kelly', 'E.Holloway']",['L.Humphreys'],"['C.Miedecke', 'G.Axman-Friend']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,1,Heat 1,1000,St Virgils,"['J.Mitchell', 'T.Weeding']",[],"['O.Wilson-Haffenden', 'D.Martin']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,2,Heat 1,1000,Friends,"['J.Connah', 'T.Campbell-Jones']",[],['I.McMahon']
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,3,Heat 1,1000,Hutchins,"['M.McIntosh', 'C.Mounter']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,4,Heat 1,1000,Hutchins,"['C.Boman', 'C.Leesong']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,5,Heat 1,1000,Hutchins,"['J.Wise', 'O.Hart']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,6,Heat 1,1000,Grammar 2,"['A.Creese', 'C.Ancher']",[],['M.Rowan']
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,7,Heat 1,1000,St Virgils,"['J.Smith', 'J.Young']",[],"['O.Wilson-Haffenden', 'D.Martin']"
+106,2021-03-06T16:42:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,B,8,Heat 1,1000,St Patricks 1,"['J.Clark', 'M.Roney']",[],"['J.McCullagh', 'R.Clark']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,1,Heat 2,1000,Hutchins,"['O.Sproule', 'H.Bourne']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,2,Heat 2,1000,Hutchins,"['H.Wilkie', 'B.Pafitis']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,3,Heat 2,1000,St Virgils,"[""O.O'Donovan"", 'H.Sylvester']",[],"['O.Wilson-Haffenden', 'D.Martin']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,4,Heat 2,1000,Grammar,"['J.Stedman', 'O.Quinn']",[],['M.Rowan']
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,5,Heat 2,1000,Scotch Oakburn,"['D.Hill', ""O.O'Connor""]",[],"['A.Brown', 'D.Ottaway']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,6,Heat 2,1000,Friends,"['E.Vince', 'L.Underwood']",[],['I.McMahon']
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,7,Heat 2,1000,Hutchins,"['L.Ramsay', 'E.Bignell']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+107,2021-03-06T16:46:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,C,8,Heat 2,1000,St Patricks 2,"['D.Rae', 'N.McCullagh']",[],"['J.McCullagh', 'R.Clark']"
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,1,Heat 3,1000,Hutchins,"['S.Lyons', 'C.Goldspink']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,2,Heat 3,1000,St Virgils,"['B.Santalucia', 'T.Marr']",[],['O.Wilson-Haffenden']
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,3,Heat 3,1000,Hutchins,"['J.Moy', 'C.Black']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,4,Heat 3,1000,Scotch Oakburn,"['N.Neville - Clark', 'C.Parker']",[],"['J.Wilson', 'D.Ottaway']"
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,5,Heat 3,1000,St Virgils,"['M.Woods', 'H.Paynter']",[],['O.Wilson-Haffenden']
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,6,Heat 3,1000,Grammar,"['O.Dean', 'A.Tucker']",[],['M.Rowan']
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,7,Heat 3,1000,St Virgils,"['J.Reynolds', 'E.McLeod']",[],['O.Wilson-Haffenden']
+108,2021-03-06T16:50:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,D,8,Heat 3,1000,St Patricks 4,"['J.Humphreys', 'T.Mineall']",[],"['J.McCullagh', 'R.Clark']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,1,Heat 4,1000,New Town,"['T.Campbell', 'A.Grotaers']",[],"['R.Kerr', 'M.McCausland', 'P.Nichols']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,2,Heat 4,1000,Friends,"['C.McHugh', 'H.Clyne']",[],['I.McMahon']
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,3,Heat 4,1000,St Virgils,"['D.Berry', 'I.Lang']",[],['O.Wilson-Haffenden']
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,4,Heat 4,1000,Scotch Oakburn,"['F.Viney', 'G.Russell']",[],"['A.Brown', 'D.Ottaway']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,5,Heat 4,1000,Hutchins,"['A.McShane', 'H.Pitt']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,6,Heat 4,1000,Hutchins,"['E.Bignell', 'T.Stewart']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,7,Heat 4,1000,Scotch Oakburn,"['L.Hoare', 'L.Jenkins']",[],"['A.Brown', 'D.Ottaway']"
+109,2021-03-06T16:54:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,E,8,Heat 4,1000,St Patricks 3,"['H.McGovern', 'D.Wilkins']",[],"['J.McCullagh', 'R.Clark']"
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,1,Heat 1,1000,Friends,"['U.Nation', 'H.Zalstein', 'E.Grimm', 'J.MacIntyre']",['I.Atwell'],[]
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,2,Heat 1,1000,St Patricks,"['B.Pether', 'A.Dettmer', 'C.Barrett', 'M.Rickerby']",['L.Mansfield'],['C.Miedecke']
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,3,Heat 1,1000,St Marys,"['S.Harback', 'L.Midson', 'T.Purves', 'M.Medina']",['L.Bakes'],"['M.Dixon', 'P.Schouten']"
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,4,Heat 1,1000,Ogilvie,"['S.Midgley', 'C.Fenton', 'M.North', 'A.Loring']",['H.Midgley'],"['M.McCausland', 'R.Kerr']"
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,5,Heat 1,1000,St Marys/Marist,"['A.Bakes [SMC]', 'A.Pratt [MCOLL]', 'E.Kerstan [SMC]', 'E.Christie-Johnston [SMC]']",['A.Carter [SMC]'],"['M.Dixon', 'P.Schouten']"
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,6,Heat 1,1000,Grammar 3,"['O.Goodacre', 'L.Wood', 'L.Dowling', 'S.Britton']",['E.Doyle'],['M.Waddingham']
+110,2021-03-06T16:58:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,F,7,Heat 1,1000,Scotch Oakburn,"['A.Napier', 'G.Wilson', 'M.Gray', 'H.Bingley']",['S.Donlon'],"['J.Wilson', 'J.Wever', 'T.Brient']"
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,1,Heat 2,1000,Collegiate,"['S.Quilliam', 'C.Luders', 'L.Lawler', 'T.Brown']",['G.Ward'],['R.Griffiths']
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,2,Heat 2,1000,Fahan,"['M.Coyne', 'B.Perrott', 'Z.Pitt', 'N.Terry']",['K.Hayes'],['J.Withers']
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,3,Heat 2,1000,Scotch Oakburn,"['G.Briggs', 'L.Carter', 'S.Boden', 'H.Lynch']",['Z.Ballantyne'],"['J.Wilson', 'T.Brient', 'J.Wever']"
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,4,Heat 2,1000,Grammar 1,"['E.Dunn', 'P.Cuming', 'C.Waddingham', 'J.Johnston']",['M.Wall'],[]
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,5,Heat 2,1000,St Patricks,"['G.Crack', 'N.Mulder', 'C.Anderson', 'E.Johnson']",['J.Axman-Friend'],['C.Miedecke']
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,6,Heat 2,1000,St Marys,"['S.Kelly', 'S.Gillow', 'H.McKay', 'B.McInerney']",['L.Pinelli'],"['M.Dixon', 'P.Schouten']"
+111,2021-03-06T17:02:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,G,7,Heat 2,1000,Friends/Collegiate,"['R.Dorahy [STMIC]', 'L.Routley [TFNDS]', 'C.Loney [TFNDS]', 'G.Hill [TFNDS]']",['C.Frawley [TFNDS]'],[]
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,2,Heat 3,1000,Scotch Oakburn,"['E.Duigan', 'S.Palmer', 'J.Bamford', 'E.Auton']","[""L.O'Connor""]","['J.Breden', 'T.Brient', 'J.Wever']"
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,3,Heat 3,1000,Grammar 2,"['N.Farquhar', 'A.Farquhar', 'G.Loane', 'P.Thompson']",['L.Rockliff'],['M.Waddingham']
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,4,Heat 3,1000,Fahan,"['E.Stoksik', 'S.Jones', 'G.Parnham', 'L.Tomlin']",['S.Bury'],['J.Withers']
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,5,Heat 3,1000,Fahan,"['J.Clark', 'E.Manson', 'P.Leditschke', 'M.Cocker']",['O.Farquer'],['J.Withers']
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,6,Heat 3,1000,Scotch Oakburn,"['B.Findlay', 'M.Wain', 'E.Popa', 'I.Wilson']",['E.Knaggs'],"['J.Wilson', 'V.Wilson']"
+112,2021-03-06T17:06:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,H,7,Heat 3,1000,St Marys,"['F.Shanny', 'L.Rolls', 'A.Dickman', 'M.Mackey']",['F.Dickman'],"['M.Dixon', 'P.Schouten']"
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,1,Heat 1,1000,Collegiate,['O.Bridgeman'],[],"['S.Mollard', 'S.Sluce']"
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,2,Heat 1,1000,Friends,['S.Mitchelmore'],[],[]
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,3,Heat 1,1000,Collegiate,['G.Witt'],[],"['S.Mollard', 'S.Sluce']"
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,4,Heat 1,1000,Brendan Shaw,['L.Barker'],[],['G.Scattergood']
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,5,Heat 1,1000,Friends,['A.Edwards'],[],[]
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,6,Heat 1,1000,Grammar 2,['L.Ayers'],[],"['A.White', 'D.Wyly']"
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,7,Heat 1,1000,Collegiate,['C.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+113,2021-03-06T17:10:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,8,Heat 1,1000,Friends,['Z.Fenton'],[],[]
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,1,Heat 2,1000,Collegiate,['O.Bridgeman'],[],"['S.Mollard', 'S.Sluce']"
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,2,Heat 2,1000,Friends,['S.Mitchelmore'],[],[]
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,3,Heat 2,1000,Collegiate,['G.Witt'],[],"['S.Mollard', 'S.Sluce']"
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,4,Heat 2,1000,Brendan Shaw,['L.Barker'],[],['G.Scattergood']
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,5,Heat 2,1000,Friends,['A.Edwards'],[],[]
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,6,Heat 2,1000,Grammar 2,['L.Ayers'],[],"['A.White', 'D.Wyly']"
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,7,Heat 2,1000,Collegiate,['C.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+114,2021-03-06T17:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,8,Heat 2,1000,Friends,['Z.Fenton'],[],[]
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,1,Heat 3,1000,Collegiate,['O.Bridgeman'],[],"['S.Mollard', 'S.Sluce']"
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,2,Heat 3,1000,Friends,['S.Mitchelmore'],[],[]
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,3,Heat 3,1000,Collegiate,['G.Witt'],[],"['S.Mollard', 'S.Sluce']"
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,4,Heat 3,1000,Brendan Shaw,['L.Barker'],[],['G.Scattergood']
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,5,Heat 3,1000,Friends,['A.Edwards'],[],[]
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,6,Heat 3,1000,Grammar 2,['L.Ayers'],[],"['A.White', 'D.Wyly']"
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,7,Heat 3,1000,Collegiate,['C.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+115,2021-03-06T17:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,8,Heat 3,1000,Friends,['Z.Fenton'],[],[]
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,1,Heat 4,1000,Collegiate,['O.Bridgeman'],[],"['S.Mollard', 'S.Sluce']"
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,2,Heat 4,1000,Friends,['S.Mitchelmore'],[],[]
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,3,Heat 4,1000,Collegiate,['G.Witt'],[],"['S.Mollard', 'S.Sluce']"
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,4,Heat 4,1000,Brendan Shaw,['L.Barker'],[],['G.Scattergood']
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,5,Heat 4,1000,Friends,['A.Edwards'],[],[]
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,6,Heat 4,1000,Grammar 2,['L.Ayers'],[],"['A.White', 'D.Wyly']"
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,7,Heat 4,1000,Collegiate,['C.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+116,2021-03-06T17:22:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,I,8,Heat 4,1000,Friends,['Z.Fenton'],[],[]
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,1,Heat 1,1000,Hutchins/Friends,"['W.Terry [THS]', 'J.Richards [THS]', 'A.Ballard [TFNDS]', 'T.Daengdej [THS]']",['S.McIntosh [THS]'],[]
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,2,Heat 1,1000,New Town,"['E.Raymond', 'N.Lisson', 'O.Coulson', 'H.Thomas']",['S.Raymond'],"['J.Bannon', 'P.Nichols', 'L.Geappen']"
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,3,Heat 1,1000,Dominic Composite,"['M.Nield [SBSC]', 'L.Baker [USC]', 'T.Browning [DOMC]', 'J.Triffett [DOMC]']",['J.Triffett [DOMC]'],"['J.Bannon', 'P.Nichols']"
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,4,Heat 1,1000,Scotch Oakburn 1,"['H.Fyffe', 'R.MacKenzie', 'S.Brown', 'M.Russell']",['M.Fulton'],"['M.Cameron', 'M.Bonham']"
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,5,Heat 1,1000,St Patricks 1,"['M.Roney', 'J.Clark', 'D.Rae', 'N.McCullagh']",['I.McCullagh'],"['J.McCullagh', 'R.Clark']"
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,6,Heat 1,1000,Friends,"['G.Williams', 'C.Gibson', 'O.Atwell', 'B.Stankovich']",['A.Hooper'],['M.McQueeney']
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,7,Heat 1,1000,Hutchins,"['L.Healy', 'J.Fiedler', 'J.Crehan', ""L.O'Brien""]",['C.Brown'],[]
+117,2021-03-06T17:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,M,8,Heat 1,1000,St Patricks,"['G.Hudson', 'D.Tweedale', 'C.Buck', 'G.Miedecke']",['I.Miedecke'],['C.Miedecke']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,1,Heat 2,1000,St Virgils,"['O.Dinnessen', 'E.Kounelis', 'N.Blackwell', 'X.Nichols']",['S.Woodhouse'],['P.Bird']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,2,Heat 2,1000,Friends,"['A.Ballard', 'E.Russell', 'A.Rackham', 'H.Clyne']",['K.Gallen'],['M.McQueeney']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,3,Heat 2,1000,Grammar,"['F.Billing', 'J.Gray', 'M.Mitchell', 'T.Peck']",['A.Bennett'],['W.Adkins']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,4,Heat 2,1000,Grammar,"['G.Collette', 'T.Carins', 'K.Glynn', 'N.Adkins']",['H.Barrenger'],['W.Adkins']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,5,Heat 2,1000,St Virgils,"['F.Di Ubaldo', 'O.McLaren', 'H.Grubb', 'C.James']",['D.Berry'],['P.Bird']
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,6,Heat 2,1000,St Patricks 1,"['T.Mineall', 'H.McGovern', 'J.Humphreys', 'D.Wilkins']",['L.Humphreys'],"['J.McCullagh', 'R.Clark']"
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,7,Heat 2,1000,Scotch Oakburn 2,"['L.James-Wever', 'S.Stopford', 'J.Bamford', 'C.Auton']",['S.Wells'],"['M.Cameron', 'R.McDonald']"
+118,2021-03-06T17:30:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,N,8,Heat 2,1000,Hutchins,"['A.Stewart', 'R.Sanderson', 'B.Brown', 'F.Palmer']",['J.Richards'],[]
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,1,Heat 1,1000,St Marys/Ogilvie,"['J.Webberley [OHS]', 'S.Devine [SMC]']",[],"['P.Hansen', 'K.Graham']"
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,2,Heat 1,1000,St Marys,"['H.Kelly', 'B.Sice']",[],[]
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,3,Heat 1,1000,Ogilvie,"['R.Morgan', 'L.Morgan']",[],['P.Hansen']
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,4,Heat 1,1000,Brendan Shaw,"['O.Yeates', 'M.Castles']",[],"['D.Tippett', 'M.Tippett']"
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,5,Heat 1,1000,Grammar 2,"['L.Andersen', 'L.Hucker']",[],"['F.Woolcock', 'P.Dehnert']"
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,6,Heat 1,1000,St Patricks,"['A.Cherry', 'R.Hudson']",[],['D.Birtwistle']
+119,2021-03-06T17:34:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,O,7,Heat 1,1000,Grammar,"['L.Johnstone', 'T.Klower']",[],"['F.Woolcock', 'P.Dehnert']"
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,1,Heat 2,1000,Mt Carmel,"['S.Riseley', 'K.Steele']",[],[]
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,2,Heat 2,1000,Scotch Oakburn 3,"['A.McLean', 'B.Lee-Archer']",[],['A.McLean']
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,3,Heat 2,1000,Grammar,"['P.Loane', 'A.Bennett']",[],"['F.Woolcock', 'P.Dehnert']"
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,4,Heat 2,1000,Friends,"['M.Bylsma', 'J.Wilcox']",[],[]
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,5,Heat 2,1000,Friends,"['E.Lo', 'B.Woolley']",[],[]
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,6,Heat 2,1000,Grammar,"['E.Henty', 'A.Dunne']",[],"['F.Woolcock', 'P.Dehnert']"
+120,2021-03-06T17:38:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,P,7,Heat 2,1000,St Patricks,"['R.Finn', 'L.Brooks']",[],['D.Birtwistle']
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,1,Heat 3,1000,Friends,"['J.Gunner', 'A.Hope']",[],[]
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,2,Heat 3,1000,Scotch Oakburn 2,"['J.Irani', 'A.Hughes']",[],['A.McLean']
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,3,Heat 3,1000,Brendan Shaw,"['S.Ellis', 'L.Doonan']",[],[]
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,4,Heat 3,1000,St Marys,"['C.Oliver', 'E.Atkins']",[],[]
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,5,Heat 3,1000,Ogilvie,"['C.Wright', 'S.North']",[],['P.Hansen']
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,6,Heat 3,1000,Friends,"['L.Cooper', 'S.Bryant']",[],[]
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,7,Heat 3,1000,Elizabeth/St Marys,"['S.Devine [SMC]', 'J.Lobb [EC]']",[],[]
+121,2021-03-06T17:42:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,Q,8,Heat 3,1000,Scotch Oakburn 1,"['K.Napier', 'K.Atherton']",[],['A.McLean']
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,1,Heat 4,1000,Mt Carmel,"['A.Doyle', 'L.Balfour']",[],[]
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,2,Heat 4,1000,Grammar,"['A.Pohan', 'L.Eastaugh']",[],"['F.Woolcock', 'P.Dehnert']"
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,3,Heat 4,1000,Brendan Shaw/Kingston High,"['P.Kennett [KHS]', 'L.Mansell [SBSC]']",[],"['G.Scattergood', 'A.Bain']"
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,4,Heat 4,1000,Grammar 1,"['M.Bradfield', 'L.Dunn']",[],"['F.Woolcock', 'P.Dehnert']"
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,5,Heat 4,1000,St Marys,"['E.Monks', 'C.Barnes']",[],[]
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,6,Heat 4,1000,St Patricks,"['R.Finn', 'L.Brooks']",[],['D.Birtwistle']
+122,2021-03-06T17:46:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,R,7,Heat 4,1000,Grammar,"['R.Rockliff', 'L.Eastaugh']",[],"['F.Woolcock', 'P.Dehnert']"
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,2,Heat 1,1500,Brendan Shaw/Don,"['L.Mansell [SBSC]', 'J.Welch [SBSC]', 'R.Skirving [SBSC]', 'L.Tippett [DC]', 'P.Tippett [DC]', 'E.Spaulding [SBSC]', 'S.Grave [SBSC]', 'C.Greenhill [SBSC]']",['M.Spaulding [SBSC]'],"['D.Tippett', 'M.Tippett', 'G.Scattergood']"
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,3,Heat 1,1500,Guilford Composite,"['H.Sice [SMC]', 'J.Bremner [SMC]', 'C.Stanley [SMC]', 'R.Curry [STMIC]', 'C.Forster [GYC]', 'E.Triffett [GYC]', 'A.Raymond [GYC]', 'U.Harris [GYC]']",['C.Mead [GYC]'],['M.Stott']
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,4,Heat 1,1500,Friends,"['K.Fajrianto', 'C.Balmforth', 'A.Gardner', 'C.Ralph', 'C.Hornett', 'E.Underwood', 'J.Powell-Davies', 'M.White']",['I.Fox'],[]
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,5,Heat 1,1500,Scotch Oakburn 1,"['M.Duigan', 'O.Willows', 'A.Jepson', 'C.Loane', 'L.Calvert', 'A.Florance', 'J.Finnigan', 'H.Schouten']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,6,Heat 1,1500,Fahan,"['M.Jones', 'H.Riches', 'S.Lambert', 'M.Jones', 'L.Cooper', 'L.Ansell', 'O.Wilkins', 'D.Maning']",['S.Bury'],"['S.Manson', 'C.Parnham']"
+123,2021-03-06T17:54:00+00:00,45,Schoolgirls Eight,SG 8+,8,S,7,Heat 1,1500,St Marys,"['A.Roberts', 'E.Taylor', 'A.Schrader', 'E.Mason', 'C.Hutchinson', 'F.Carter', 'G.Woodhouse', 'P.Teale']",['M.Pinelli'],['M.Stott']
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,2,Heat 2,1500,Fahan 2,"['J.Clements', 'A.Kennedy', 'A.Lumsden-Steel', 'S.Rolls', 'G.Smyth', 'S.Leary', 'M.Crosby', 'E.Farquer']",['E.Chung'],['A.Wirtz']
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,3,Heat 2,1500,Grammar,"['A.Mayes', 'R.Rockliff', 'S.Gray', 'K.Hill', 'S.Loo', 'E.Goess-Howe', 'C.Lalor', 'E.Ferrall']",['O.Frost'],[]
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,4,Heat 2,1500,St Patricks,"['L.Brooks', 'R.Hudson', 'M.Brown', 'A.Cherry', 'B.Duffy', 'E.Morrow', 'L.Waud', 'E.March']",['A.White'],['D.Birtwistle']
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,5,Heat 2,1500,Collegiate,"['H.Gregory', 'A.McCoid', 'M.Prescott', 'A.McMahon', 'O.Viney', 'E.Bird', 'H.Curry', 'P.Davis']",['C.Bayley'],['N.Stump']
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,6,Heat 2,1500,Grammar,"['E.Fryett', 'E.Brown', 'E.Tucker', 'M.Dowling', 'A.Billing', 'P.White', 'I.Goss', 'E.Swan']",['P.Eastaugh'],[]
+124,2021-03-06T17:58:00+00:00,45,Schoolgirls Eight,SG 8+,8,T,7,Heat 2,1500,Scotch Oakburn 2,"['J.Irani', 'K.Atherton', 'M.MacKenzie', 'A.Hughes', 'E.Jepson', 'G.Taylor', 'H.Woolston', 'B.Lee-Archer']",['K.Napier'],"['S.Guest', 'A.Foot']"

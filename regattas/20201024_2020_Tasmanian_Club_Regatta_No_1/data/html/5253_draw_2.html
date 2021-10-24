@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rowing Tasmania Regattas</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" href="/css/rowing/regattas-TAS.css?v=5"  rel="stylesheet" /> 
+<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5253;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+$("#day_tabs").tabs({active:1,activate: function(event, ui){var day = ui.newTab.index() + 1;var href = $("#draw_download_link").attr('href');href = href.replace(/;day=[1-9]$/,'');href += ';day=' + day;$("#draw_download_link").attr('href',href);}}).show();
+});
+
+</script>
+</head>  
+<body>    
+
+<div class="headerContainer">
+<div class="headerInner">
+
+<div class="topbox">
+<a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a>&nbsp;|&nbsp;
+<a href="http://www.rowingtasmania.com.au" title="Rowing Tasmania Website">Rowing Tasmania Home <i class="fa fa-chevron-right rm_fs_100"></i></a>
+</div>
+
+<table>
+  <tr>
+<td style="padding:3px 0px 0px 26px; width:240px;"><a href="http://www.rowingtasmania.com.au/"><img src="/images/rtas/rtas.png" alt="Rowing Tasmania" style="width:200px;"/></a></td>
+<td style="vertical-align:bottom;"><span class="headerTxt">Regattas</span></td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div class="headerContainerNav">
+<div class="headerInner">
+
+<div id="nav_menu">
+    <ul>
+<li class="nav" id="first"><a href="/tas">Regatta Calendar</a></li>
+<li class="nav"><a href="/tas/mobile">Mobile Results</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+              
+<div class="pageContent">          
+<div class="rm_content">
+
+
+
+<!--START RM-->
+
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2020 Tasmanian Club Regatta No 1</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Sat 24th - Sun 25th October&nbsp;, 2020</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Franklin</div></td></tr>
+</table>
+
+<table id="rm_tabs_container" class="rm_noprint rm_pad_2"><tr><td id="rm_tabs_cell"><ul id="rm_tabs"><li><a href="/regattas/5253">Regatta Home</a></li><li ><a href="/regattas/5253/events">Events</a></li><li ><a href="/regattas/5253/entries">Entries</a></li><li ><a href="/regattas/5253/races">Races</a></li><li class="tab_active"><a href="/regattas/5253/draw">Draw</a></li><li ><a href="/regattas/5253/results">Results</a></li></ul></td></tr></table>
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="rm_bq">
+<b class="rm_big">Lane Draw</b><br><div class="rm_noprint rm_nowrap" style="padding-bottom:4px; margin-bottom:6px; margin-top:4px; "><small><b>Options:</b></small>&nbsp;
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-align-left" onclick="SetCookie('drawView','page');self.location='/regattas/5253/draw?view=page';" disabled>&nbsp;Page View</button>
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-table" onclick="SetCookie('drawView','table');self.location='/regattas/5253/draw?view=table';" >&nbsp;Table View</button>
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-user-o" onclick="SetCookie('drawView','club');self.location='/regattas/5253/draw?view=club';" >Club Draw</button>&nbsp;&nbsp;&nbsp;&nbsp;<small>Show</small>:&nbsp;<small><label><input type="checkbox"  onclick="SetCookie('displayIndex',this.checked);ToggleRaceIndex(2);">race index</label></small></div>
+<div id="day_tabs" class="tabs_nohdr tabs_small" style="clear:both; margin-top:6px; display:none;">
+<ul id="the_day_tabs">
+<li><a href="/regattas/5253/draw?day=1;ajax=1">&nbsp; Saturday <span id="spinner_0">&nbsp;&nbsp;</span></a></li>
+<li><a href="#tab_2">&nbsp; Sunday <span >&nbsp;&nbsp;</span></a></li>
+
+</ul>
+<div id="tab_2">
+<div style="padding:5px 0;"><b>Sunday 25th October, 2020</b></div>
+<div id="rindex_2" style="margin-top:6px;display:none;">
+<table class="rm_tbl rm_list_items rm_pad_2">
+<tr><td><a class="rm_lnk" href="#R52">52</a></td><td class="rm_nowrap rm_pad_l">8:30 AM</td><td class="rm_nowrap"><div class="e_num">38.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=38">S W 1X (2)</a></div></td><td class="rm_pad_l">Senior Women's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R53">53</a></td><td class="rm_nowrap rm_pad_l">8:36 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R54">54</a></td><td class="rm_nowrap rm_pad_l">8:42 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R55">55</a></td><td class="rm_nowrap rm_pad_l">8:48 AM</td><td class="rm_nowrap"><div class="e_num">39.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=39">U17 W 4X+</a></div></td><td class="rm_pad_l">Under 17 Women's Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R56">56</a></td><td class="rm_nowrap rm_pad_l">8:58 AM</td><td class="rm_nowrap"><div class="e_num">41.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=41">U19 W 4+</a></div></td><td class="rm_pad_l">Under 19 Women's Coxed Four</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R57">57</a></td><td class="rm_nowrap rm_pad_l">9:04 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R58">58</a></td><td class="rm_nowrap rm_pad_l">9:10 AM</td><td class="rm_nowrap"><div class="e_num">42.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=42">S M 1X (2)</a></div></td><td class="rm_pad_l">Senior Men's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R59">59</a></td><td class="rm_nowrap rm_pad_l">9:16 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R60">60</a></td><td class="rm_nowrap rm_pad_l">9:22 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R61">61</a></td><td class="rm_nowrap rm_pad_l">9:28 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 4</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R62">62</a></td><td class="rm_nowrap rm_pad_l">9:34 AM</td><td class="rm_nowrap"><div class="e_num">43.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=43">U19 M 2-</a></div></td><td class="rm_pad_l">Under 19 Men's Pair</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R63">63</a></td><td class="rm_nowrap rm_pad_l">9:40 AM</td><td class="rm_nowrap"><div class="e_num">44.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=44">S W 2-</a></div></td><td class="rm_pad_l">Senior Women's Pair</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R64">64</a></td><td class="rm_nowrap rm_pad_l">9:46 AM</td><td class="rm_nowrap"><div class="e_num">45.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=45">U21 W 1X</a></div></td><td class="rm_pad_l">Under 21 Women's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R65">65</a></td><td class="rm_nowrap rm_pad_l">9:52 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R66">66</a></td><td class="rm_nowrap rm_pad_l">9:58 AM</td><td class="rm_nowrap"><div class="e_num">46.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=46">U17 M 2X</a></div></td><td class="rm_pad_l">Under 17 Men's Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R67">67</a></td><td class="rm_nowrap rm_pad_l">10:04 AM</td><td class="rm_nowrap"><div class="e_num">47.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=47">M Mixed 4X-</a></div></td><td class="rm_pad_l">Masters Mixed Quad Scull 1000m</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R68">68</a></td><td class="rm_nowrap rm_pad_l">10:09 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R69">69</a></td><td class="rm_nowrap rm_pad_l">10:50 AM</td><td class="rm_nowrap"><div class="e_num">49.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=49">U19 W 8+</a></div></td><td class="rm_pad_l">Under 19 Women's Eight</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R70">70</a></td><td class="rm_nowrap rm_pad_l">10:56 AM</td><td class="rm_nowrap"><div class="e_num">50.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=50">S M 4-</a></div></td><td class="rm_pad_l">Senior Men's Coxless Four</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R71">71</a></td><td class="rm_nowrap rm_pad_l">11:02 AM</td><td class="rm_nowrap"><div class="e_num">52.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=52">U21 M 4-</a></div></td><td class="rm_pad_l">Under 21 Men's Coxless Four</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R72">72</a></td><td class="rm_nowrap rm_pad_l">11:12 AM</td><td class="rm_nowrap"><div class="e_num">53.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=53">M W 2X</a></div></td><td class="rm_pad_l">Masters Women's Double Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R73">73</a></td><td class="rm_nowrap rm_pad_l">11:17 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R74">74</a></td><td class="rm_nowrap rm_pad_l">11:22 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R75">75</a></td><td class="rm_nowrap rm_pad_l">11:27 AM</td><td class="rm_nowrap"><div class="e_num">54.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=54">M M 4-</a></div></td><td class="rm_pad_l">Masters Men's Coxless Four</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R76">76</a></td><td class="rm_nowrap rm_pad_l">11:37 AM</td><td class="rm_nowrap"><div class="e_num">56.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=56">U17 W 1X</a></div></td><td class="rm_pad_l">Under 17 Women's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R77">77</a></td><td class="rm_nowrap rm_pad_l">11:43 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R78">78</a></td><td class="rm_nowrap rm_pad_l">11:49 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R79">79</a></td><td class="rm_nowrap rm_pad_l">11:55 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 4</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R80">80</a></td><td class="rm_nowrap rm_pad_l">12:05 PM</td><td class="rm_nowrap"><div class="e_num">57.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=57">U21 W 4X-</a></div></td><td class="rm_pad_l">Under 21 Women's Coxless Quad</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R81">81</a></td><td class="rm_nowrap rm_pad_l">12:11 PM</td><td class="rm_nowrap"><div class="e_num">58.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=58">S M 2X</a></div></td><td class="rm_pad_l">Senior Men's Double Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R82">82</a></td><td class="rm_nowrap rm_pad_l">12:17 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R83">83</a></td><td class="rm_nowrap rm_pad_l">1:05 PM</td><td class="rm_nowrap"><div class="e_num">61.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=61">S W 4X-</a></div></td><td class="rm_pad_l">Senior Women's Coxless Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R84">84</a></td><td class="rm_nowrap rm_pad_l">1:11 PM</td><td class="rm_nowrap"><div class="e_num">62.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=62">U19 M 1X</a></div></td><td class="rm_pad_l">Under 19 Men's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R85">85</a></td><td class="rm_nowrap rm_pad_l">1:17 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R86">86</a></td><td class="rm_nowrap rm_pad_l">1:23 PM</td><td class="rm_nowrap"><div class="e_num">63.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=63">U21 M 2X</a></div></td><td class="rm_pad_l">Under 21 Men's Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R87">87</a></td><td class="rm_nowrap rm_pad_l">1:29 PM</td><td class="rm_nowrap"><div class="e_num">64.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=64">U19 W 2X</a></div></td><td class="rm_pad_l">Under 19 Women's Double Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R88">88</a></td><td class="rm_nowrap rm_pad_l">1:35 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R89">89</a></td><td class="rm_nowrap rm_pad_l">1:41 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R90">90</a></td><td class="rm_nowrap rm_pad_l">1:47 PM</td><td class="rm_nowrap"><div class="e_num">65.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=65">U17 M 4X+ 1000</a></div></td><td class="rm_pad_l">U17 Men's Coxed Quad Scull 1000m</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R91">91</a></td><td class="rm_nowrap rm_pad_l">1:53 PM</td><td class="rm_nowrap"><div class="e_num">66.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=66">U17 W 2X 1000</a></div></td><td class="rm_pad_l">U17 Women's Double Scull 1000m</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R92">92</a></td><td class="rm_nowrap rm_pad_l">1:59 PM</td><td class="rm_nowrap"><div class="e_num">67.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=67">MM 1X</a></div></td><td class="rm_pad_l">Masters Men's Single Scull</td><td class="rm_nowrap rm_pad_l">Division 1</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R93">93</a></td><td class="rm_nowrap rm_pad_l">2:04 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 2</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R94">94</a></td><td class="rm_nowrap rm_pad_l">2:09 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Division 3</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R95">95</a></td><td class="rm_nowrap rm_pad_l">2:14 PM</td><td class="rm_nowrap"><div class="e_num">68.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5253/results?event=68">M W 4X-</a></div></td><td class="rm_pad_l">Masters Women's Coxless Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+</table></div>
+<a id="R52" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 52</td><td>38. S W 1X (2) : Senior Women's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 8:30 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>A1</td><td>38.10</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>A.Boutcher</td></tr>
+<tr><td>A2</td><td>38.04</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>K.Hall, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td>A3</td><td>38.03</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>E.Mure, Coach:&nbsp;J.Driessen</td></tr>
+<tr><td>A4</td><td>38.13</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>S.Ashlin</td></tr>
+<tr><td>A5</td><td>38.07</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>M.McCausland</td></tr>
+<tr><td>A6</td><td>38.05</td><td class="rm_nowrap">Mersey 1</td><td class="rm_ta_right">&nbsp;</td><td>E.Marshall</td></tr>
+
+</table><a id="R53" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 53</td><td>38. S W 1X (2) : Senior Women's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 8:36 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>B2</td><td>38.06</td><td class="rm_nowrap">Mersey 2</td><td class="rm_ta_right">&nbsp;</td><td>C.Brinkman</td></tr>
+<tr><td>B3</td><td>38.12</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>L.Wrigley</td></tr>
+<tr><td>B4</td><td>38.09</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>G.Brown</td></tr>
+<tr><td>B5</td><td>38.11</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>J.Malisauskas</td></tr>
+
+</table><a id="R54" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 54</td><td>38. S W 1X (2) : Senior Women's Single Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 8:42 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>C2</td><td>38.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>C.Vicars</td></tr>
+<tr><td>C3</td><td>38.08</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>J.Stephens</td></tr>
+<tr><td>C4</td><td>38.14</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>B.Schultz</td></tr>
+<tr><td>C5</td><td>38.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>M.Mace</td></tr>
+
+</table><a id="R55" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 55</td><td>39. U17 W 4X+ : Under 17 Women's Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 8:48 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>D1</td><td>39.05</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Mitchelmore, M.Cocker, A.Fry, P.Kennett, Cox:&nbsp;H.Paynter</td></tr>
+<tr><td>D2</td><td>39.02</td><td class="rm_nowrap">Kentish</td><td class="rm_ta_right">&nbsp;</td><td>S.Welch, J.Behrmann, L.Barker, J.Welch, Cox:&nbsp;T.Jago, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>D3</td><td>39.01</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>A.Bent, E.Palmer, M.West, A.McCoid, Cox:&nbsp;E.Shelley, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>D4</td><td>39.04</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>L.Midson, L.Morgan, R.Morgan, J.Lobb, Cox:&nbsp;J.Triffett, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>D5</td><td>39.03</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>S.Ellis, L.Doonan, O.Yeates, M.Castles, Cox:&nbsp;M.Spaulding</td></tr>
+
+</table><a id="R56" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 56</td><td>41. U19 W 4+ : Under 19 Women's Coxed Four</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 8:58 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>E2</td><td>41.01</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>R.Forsyth, H.Gregory, M.Mampieri, E.Bird, Cox:&nbsp;M.Harrison, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>E3</td><td>41.05</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>C.Greenhill, E.Spaulding, L.Tippett, P.Tippett, Cox:&nbsp;M.Spaulding</td></tr>
+<tr><td>E4</td><td>41.07</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Rule, A.Schrader, T.Thomas, S.Russell, Cox:&nbsp;M.Lamb</td></tr>
+<tr><td>E5</td><td>41.02</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>H.Curry, A.McMahon, M.Prescott, P.Davis, Cox:&nbsp;C.Bayley, Coach:&nbsp;N.Stump</td></tr>
+
+</table><a id="R57" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 57</td><td>41. U19 W 4+ : Under 19 Women's Coxed Four</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 9:04 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>F2</td><td>41.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>K.Fajrianto, A.Gardner, C.Balmforth, C.Ralph, Cox:&nbsp;C.Mead, Coach:&nbsp;T.Pilkington</td></tr>
+<tr><td>F3</td><td>41.06</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>C.Geappen, E.Triffett, E.Lisson, C.Forster, Cox:&nbsp;J.Triffett</td></tr>
+<tr><td>F4</td><td>41.03</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Powell-Davies, Y.Cho, M.White, C.Hornett, Cox:&nbsp;I.Fox, Coach:&nbsp;T.Pilkington</td></tr>
+
+</table><a id="R58" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 58</td><td>42. S M 1X (2) : Senior Men's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 9:10 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>G1</td><td>42.15</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>A.Paynter</td></tr>
+<tr><td>G2</td><td>42.09</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>J.Barrett</td></tr>
+<tr><td>G3</td><td>42.19</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>H.Youl</td></tr>
+<tr><td>G4</td><td>42.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>A.Paterson</td></tr>
+<tr><td>G5</td><td>42.04</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>L.Davey</td></tr>
+<tr><td>G6</td><td>42.02</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>M.Digney</td></tr>
+
+</table><a id="R59" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 59</td><td>42. S M 1X (2) : Senior Men's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 9:16 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>H1</td><td>42.10</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>R.Colley</td></tr>
+<tr><td>H2</td><td>42.20</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>M.Wyton</td></tr>
+<tr><td>H3</td><td>42.16</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Casey</td></tr>
+<tr><td>H4</td><td>42.05</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>H.Johnston</td></tr>
+<tr><td>H5</td><td>42.12</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>R.Fenner</td></tr>
+
+</table><a id="R60" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 60</td><td>42. S M 1X (2) : Senior Men's Single Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 9:22 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>I1</td><td>42.18</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>W.Birchmore</td></tr>
+<tr><td>I2</td><td>42.06</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>S.Mollard</td></tr>
+<tr><td><s>I3</s></td><td>42.08</td><td class="rm_nowrap"><s>Mersey</s></td><td class="rm_ta_right">&nbsp;</td><td>J.Pears</td></tr>
+<tr><td>I4</td><td>42.14</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>H.Bevan</td></tr>
+<tr><td>I5</td><td>42.03</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>J.Wilson</td></tr>
+<tr><td>I6</td><td>42.21</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>W.Rafferty</td></tr>
+
+</table><a id="R61" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 61</td><td>42. S M 1X (2) : Senior Men's Single Scull</td><td>Division 4</td></tr>
+<tr><td></td><td>Start Time: 9:28 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>J2</s></td><td>42.13</td><td class="rm_nowrap"><s>Sandy Bay</s></td><td class="rm_ta_right">&nbsp;</td><td>D.Fisher</td></tr>
+<tr><td><s>J3</s></td><td>42.17</td><td class="rm_nowrap"><s>Tamar</s></td><td class="rm_ta_right">&nbsp;</td><td>T.Bates</td></tr>
+<tr><td><s>J4</s></td><td>42.23</td><td class="rm_nowrap"><s>Ulverstone</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Streeter</td></tr>
+<tr><td><s>J5</s></td><td>42.22</td><td class="rm_nowrap"><s>Ulverstone</s></td><td class="rm_ta_right">&nbsp;</td><td>M.Wilson</td></tr>
+
+</table><a id="R62" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 62</td><td>43. U19 M 2- : Under 19 Men's Pair</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:34 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>K1</td><td>43.03</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>R.Fox, C.Johnson</td></tr>
+<tr><td>K2</td><td>43.04</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>R.Browning, A.Monks</td></tr>
+<tr><td>K3</td><td>43.05</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>T.Morgan, A.Midson</td></tr>
+<tr><td>K4</td><td>43.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Wilkins, T.Neal</td></tr>
+<tr><td>K5</td><td>43.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>T.Doyle, J.Downie</td></tr>
+
+</table><a id="R63" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 63</td><td>44. S W 2- : Senior Women's Pair</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:40 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>L2</td><td>44.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>H.Dobbie, J.Janssens</td></tr>
+<tr><td>L3</td><td>44.04</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Robinson, K.Oliver</td></tr>
+<tr><td>L4</td><td>44.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>C.Blyth, M.Messer</td></tr>
+<tr><td>L5</td><td>44.03</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>J.Stephens, M.McCausland</td></tr>
+
+</table><a id="R64" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 64</td><td>45. U21 W 1X : Under 21 Women's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 9:46 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>M1</td><td>45.10</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>E.Hepburn</td></tr>
+<tr><td>M2</td><td>45.06</td><td class="rm_nowrap">Mersey 2</td><td class="rm_ta_right">&nbsp;</td><td>C.Brinkman</td></tr>
+<tr><td>M3</td><td>45.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>P.Teale</td></tr>
+<tr><td>M4</td><td>45.05</td><td class="rm_nowrap">Mersey 1</td><td class="rm_ta_right">&nbsp;</td><td>E.Marshall</td></tr>
+<tr><td>M5</td><td>45.04</td><td class="rm_nowrap">Kentish</td><td class="rm_ta_right">&nbsp;</td><td>J.Welch, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>M6</td><td>45.11</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>V.Mauderer</td></tr>
+
+</table><a id="R65" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 65</td><td>45. U21 W 1X : Under 21 Women's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 9:52 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>N1</td><td>45.08</td><td class="rm_nowrap">Mersey 4</td><td class="rm_ta_right">&nbsp;</td><td>C.Ellis</td></tr>
+<tr><td>N2</td><td>45.09</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>A.Billing</td></tr>
+<tr><td>N3</td><td>45.03</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>I.Goss</td></tr>
+<tr><td>N4</td><td>45.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>R.Lang</td></tr>
+<tr><td>N5</td><td>45.07</td><td class="rm_nowrap">Mersey 3</td><td class="rm_ta_right">&nbsp;</td><td>E.Gair</td></tr>
+
+</table><a id="R66" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 66</td><td>46. U17 M 2X : Under 17 Men's Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:58 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>O2</td><td>46.04</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>C.James, H.Paynter</td></tr>
+<tr><td>O3</td><td>46.01</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>P.Robbie, J.Wynter, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td>O4</td><td>46.02</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>N.Lisson, J.Triffett, Coach:&nbsp;P.Nichols</td></tr>
+<tr><td>O5</td><td>46.03</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>T.Browning, H.Thomas, Coach:&nbsp;P.Nichols</td></tr>
+
+</table><a id="R67" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 67</td><td>47. M Mixed 4X- : Masters Mixed Quad Scull 1000m</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 10:04 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>P2</td><td>47.09</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>K.Badcock, S.Wilson, M.Wilson, A.Streeter, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>P3</td><td>47.06</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>S.Sonda, R.Ojeda, R.Wrigley, N.Servant, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>P4</td><td>47.05</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>M.Greenhill, M.Hansen, S.Nowell, J.Pears, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>P5</td><td>47.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>D.Ray, R.Hudson, G.Keppel, C.Vicars, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+
+</table><a id="R68" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 68</td><td>47. M Mixed 4X- : Masters Mixed Quad Scull 1000m</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 10:09 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Q1</td><td>47.04</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>T.Jackson, S.Greenwood, D.Devaka, R.Griffiths, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>Q2</td><td>47.08</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>K.Barker, S.Paine, P.Walker, M.Paine, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>Q3</td><td>47.07</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>M.Reardon, J.Pirie, D.Fisher, P.Brodribb, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>Q4</td><td>47.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>D.Minnucci, M.Driessen, P.Vaszocz, M.Mace, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>Q5</td><td>47.03</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>Z.Brown, M.Muller, A.Jones, J.Hickman, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+
+</table><a id="R69" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 69</td><td>49. U19 W 8+ : Under 19 Women's Eight</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:50 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>R2</td><td>49.01</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>R.Forsyth, A.McCoid, E.Shelley, E.Bird, M.Prescott, A.McMahon, H.Curry, P.Davis, Cox:&nbsp;C.Bayley, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>R3</td><td>49.04</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Rule, A.Schrader, T.Thomas, G.Woodhouse, M.Lamb, V.Mauderer, S.Robinson, S.Russell, Cox:&nbsp;K.Oliver</td></tr>
+<tr><td>R4</td><td>49.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Powell-Davies, A.Gardner, C.Hornett, E.Underwood, C.Balmforth, K.Fajrianto, M.White, C.Ralph, Cox:&nbsp;I.Fox, Coach:&nbsp;T.Pilkington</td></tr>
+<tr><td>R5</td><td>49.03</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>L.Midson, L.Morgan, R.Morgan, J.Lobb, C.Geappen, E.Triffett, E.Lisson, C.Forster, Cox:&nbsp;J.Triffett, Coaches:&nbsp;K.Graham, P.Hansen</td></tr>
+
+</table><a id="R70" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 70</td><td>50. S M 4- : Senior Men's Coxless Four</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:56 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>S2</s></td><td>50.01</td><td class="rm_nowrap"><s>TUBC</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Paynter, H.Bevan, S.Casey, S.Hall</td></tr>
+
+</table><a id="R71" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 71</td><td>52. U21 M 4- : Under 21 Men's Coxless Four</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 11:02 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>T2</td><td>52.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>J.Connolly, J.Wilson, H.Johnston, T.Messer</td></tr>
+<tr><td>T3</td><td>52.02</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>T.Morgan, R.Browning, A.Monks, A.Midson</td></tr>
+<tr><td>T5</td><td>52.03</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>O.Marsden, W.Birchmore, M.Digney, H.Youl</td></tr>
+
+</table><a id="R72" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 72</td><td>53. M W 2X : Masters Women's Double Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 11:12 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>U1</td><td>53.08</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>H.Dixon, J.Fenner</td></tr>
+<tr><td>U2</td><td>53.05</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>E.Lancaster, L.Cooper</td></tr>
+<tr><td>U3</td><td>53.06</td><td class="rm_nowrap">Lindisfarne</td><td class="rm_ta_right">&nbsp;</td><td>J.Johnstone, J.Hope</td></tr>
+<tr><td>U4</td><td>53.14</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>K.Badcock, S.Wilson</td></tr>
+<tr><td>U5</td><td>53.11</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>M.Reardon, P.Brodribb</td></tr>
+
+</table><a id="R73" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 73</td><td>53. M W 2X : Masters Women's Double Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 11:17 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>V1</td><td>53.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>M.Mace, F.Ward</td></tr>
+<tr><td>V2</td><td>53.10</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>K.Barker, S.Paine</td></tr>
+<tr><td>V3</td><td>53.03</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>Z.Brown, J.Hickman</td></tr>
+<tr><td>V4</td><td>53.09</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>S.Sonda, N.Servant</td></tr>
+<tr><td>V5</td><td>53.12</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>B.Schultz, R.Gray</td></tr>
+
+</table><a id="R74" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 74</td><td>53. M W 2X : Masters Women's Double Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 11:22 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>W2</td><td>53.13</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>D.Johnston, J.Streeter</td></tr>
+<tr><td>W3</td><td>53.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>D.Ray, M.Driessen</td></tr>
+<tr><td>W4</td><td>53.07</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>M.Hansen, M.Greenhill</td></tr>
+<tr><td>W5</td><td>53.04</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>S.Greenwood, R.Griffiths</td></tr>
+
+</table><a id="R75" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 75</td><td>54. M M 4- : Masters Men's Coxless Four</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 11:27 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>X1</td><td>54.04</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>J.Triffett, O.Coulson, T.Browning, H.Thomas, Cox:&nbsp;L.Thomas, Coach:&nbsp;P.Nichols</td></tr>
+<tr><td>X3</td><td>54.03</td><td class="rm_nowrap">TUBC/Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>M.Vermey [TUBC], R.Mauderer [TUBC], P.Walker [SDBAY], M.Nermut [TUBC], Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>X4</td><td>54.02</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>R.Stephens, T.Jackson, D.Devaka, A.Jones, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>X5</td><td>54.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>W.Ayliffe, D.Minnucci, P.Vaszocz, T.Otte, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+
+</table><a id="R76" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 76</td><td>56. U17 W 1X : Under 17 Women's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 11:37 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>Y1</s></td><td>56.04</td><td class="rm_nowrap"><s>DMCRC</s></td><td class="rm_ta_right">&nbsp;</td><td>A.McCoid, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>Y2</td><td>56.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>M.White</td></tr>
+<tr><td>Y3</td><td>56.05</td><td class="rm_nowrap">Kentish</td><td class="rm_ta_right">&nbsp;</td><td>J.Welch, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>Y4</td><td>56.06</td><td class="rm_nowrap">Mersey 1</td><td class="rm_ta_right">&nbsp;</td><td>M.Castles</td></tr>
+<tr><td>Y5</td><td>56.20</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>C.Stewart</td></tr>
+<tr><td>Y6</td><td>56.19</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>A.Fry</td></tr>
+
+</table><a id="R77" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 77</td><td>56. U17 W 1X : Under 17 Women's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 11:43 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Z1</td><td>56.07</td><td class="rm_nowrap">Mersey 2</td><td class="rm_ta_right">&nbsp;</td><td>O.Yeates</td></tr>
+<tr><td>Z2</td><td>56.11</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>L.Morgan, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>Z3</td><td>56.14</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>J.Lobb, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>Z4</td><td>56.12</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>R.Morgan, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>Z5</td><td>56.08</td><td class="rm_nowrap">Mersey 3</td><td class="rm_ta_right">&nbsp;</td><td>S.Ellis</td></tr>
+
+</table><a id="R78" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 78</td><td>56. U17 W 1X : Under 17 Women's Single Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 11:49 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>A1</td><td>56.18</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>P.Kennett</td></tr>
+<tr><td>A2</td><td>56.03</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>H.Teale</td></tr>
+<tr><td>A3</td><td>56.15</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>U.Nation, Coach:&nbsp;L.Ims</td></tr>
+<tr><td>A4</td><td>56.21</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>R.Hudson</td></tr>
+<tr><td>A5</td><td>56.13</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>E.Coulson, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>A6</td><td>56.22</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>M.Spaulding</td></tr>
+
+</table><a id="R79" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 79</td><td>56. U17 W 1X : Under 17 Women's Single Scull</td><td>Division 4</td></tr>
+<tr><td></td><td>Start Time: 11:55 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>B2</td><td>56.10</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>L.Midson, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>B3</td><td>56.16</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Mitchelmore</td></tr>
+<tr><td>B4</td><td>56.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>E.Ralph</td></tr>
+<tr><td>B5</td><td>56.17</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>M.Cocker</td></tr>
+
+</table><a id="R80" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 80</td><td>57. U21 W 4X- : Under 21 Women's Coxless Quad</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 12:05 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>C2</td><td>57.01</td><td class="rm_nowrap">Mersey 1</td><td class="rm_ta_right">&nbsp;</td><td>C.Ellis, E.Gair, C.Brinkman, E.Marshall</td></tr>
+<tr><td>C3</td><td>57.02</td><td class="rm_nowrap">Mersey 2</td><td class="rm_ta_right">&nbsp;</td><td>S.Grave, E.Spaulding, L.Tippett, P.Tippett</td></tr>
+<tr><td>C4</td><td>57.04</td><td class="rm_nowrap">North Esk/Grammar</td><td class="rm_ta_right">&nbsp;</td><td>I.Goss [LCGS], A.Billing [LCGS], E.Hepburn [NESK], G.Brown [NESK]</td></tr>
+<tr><td>C5</td><td>57.03</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>E.Triffett, E.Lisson, J.Stephens, M.McCausland</td></tr>
+
+</table><a id="R81" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 81</td><td>58. S M 2X : Senior Men's Double Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 12:11 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>D2</td><td>58.07</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>W.Birchmore, H.Youl</td></tr>
+<tr><td>D3</td><td>58.03</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>J.Barrett, R.Ojeda</td></tr>
+<tr><td>D4</td><td>58.01</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>O.Marsden, M.Digney</td></tr>
+<tr><td>D5</td><td>58.04</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>R.Fenner, R.Colley</td></tr>
+
+</table><a id="R82" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 82</td><td>58. S M 2X : Senior Men's Double Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 12:17 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>E2</td><td>58.02</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>H.Nield, J.Pears</td></tr>
+<tr><td>E3</td><td>58.06</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>W.Rafferty, M.Wyton</td></tr>
+<tr><td>E4</td><td>58.05</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>A.Hutchinson, S.Casey</td></tr>
+
+</table><a id="R83" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 83</td><td>61. S W 4X- : Senior Women's Coxless Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:05 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>F2</td><td>61.04</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>M.Lamb, T.Thomas, S.Robinson, K.Oliver</td></tr>
+<tr><td>F3</td><td>61.02</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>L.Hocking, K.Cook, K.Hall, E.Mure, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td>F4</td><td>61.03</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>S.Ashlin, L.Wrigley, A.Boutcher, J.Malisauskas</td></tr>
+<tr><td>F5</td><td>61.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>R.Lang, C.Blyth, M.Messer, H.Dobbie</td></tr>
+
+</table><a id="R84" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 84</td><td>62. U19 M 1X : Under 19 Men's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 1:11 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>G1</td><td>62.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>J.Wilson</td></tr>
+<tr><td>G2</td><td>62.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>T.Neal</td></tr>
+<tr><td>G3</td><td>62.10</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>A.Paynter</td></tr>
+<tr><td>G4</td><td>62.08</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>T.Morgan</td></tr>
+<tr><td>G5</td><td>62.11</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>H.Bevan</td></tr>
+<tr><td>G6</td><td>62.09</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>A.Midson</td></tr>
+
+</table><a id="R85" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 85</td><td>62. U19 M 1X : Under 19 Men's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 1:17 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>H2</s></td><td>62.03</td><td class="rm_nowrap"><s>Friends</s></td><td class="rm_ta_right">&nbsp;</td><td>C.Johnson</td></tr>
+<tr><td>H3</td><td>62.07</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>H.Nield</td></tr>
+<tr><td>H4</td><td>62.05</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Wilkins</td></tr>
+<tr><td>H5</td><td>62.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Downie</td></tr>
+
+</table><a id="R86" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 86</td><td>63. U21 M 2X : Under 21 Men's Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:23 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>I2</td><td>63.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>T.Messer, H.Johnston</td></tr>
+<tr><td>I3</td><td>63.02</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>R.Browning, A.Monks</td></tr>
+
+</table><a id="R87" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 87</td><td>64. U19 W 2X : Under 19 Women's Double Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 1:29 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>J1</td><td>64.09</td><td class="rm_nowrap">Mersey 2</td><td class="rm_ta_right">&nbsp;</td><td>S.Grave, C.Greenhill</td></tr>
+<tr><td>J2</td><td>64.07</td><td class="rm_nowrap">Huon</td><td class="rm_ta_right">&nbsp;</td><td>L.Hocking, K.Cook, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td><s>J3</s></td><td>64.16</td><td class="rm_nowrap"><s>TUBC</s></td><td class="rm_ta_right">&nbsp;</td><td>V.Mauderer, S.Russell</td></tr>
+<tr><td>J4</td><td>64.08</td><td class="rm_nowrap">Mersey 1</td><td class="rm_ta_right">&nbsp;</td><td>L.Tippett, P.Tippett</td></tr>
+<tr><td>J5</td><td>64.13</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>E.Hepburn, G.Brown</td></tr>
+<tr><td>J6</td><td>64.15</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>S.Rule, A.Schrader</td></tr>
+
+</table><a id="R88" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 88</td><td>64. U19 W 2X : Under 19 Women's Double Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 1:35 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>K1</td><td>64.11</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>C.Geappen, C.Forster</td></tr>
+<tr><td><s>K2</s></td><td>64.12</td><td class="rm_nowrap"><s>New Norfolk</s></td><td class="rm_ta_right">&nbsp;</td><td>E.Lisson, E.Triffett</td></tr>
+<tr><td>K3</td><td>64.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Powell-Davies, Y.Cho, Coach:&nbsp;T.Pilkington</td></tr>
+<tr><td>K4</td><td>64.14</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>I.Goss, A.Billing</td></tr>
+<tr><td>K5</td><td>64.10</td><td class="rm_nowrap">Mersey 3</td><td class="rm_ta_right">&nbsp;</td><td>C.Ellis, E.Gair</td></tr>
+<tr><td>K6</td><td>64.05</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>C.Hornett, E.Underwood, Coach:&nbsp;T.Pilkington</td></tr>
+
+</table><a id="R89" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 89</td><td>64. U19 W 2X : Under 19 Women's Double Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 1:41 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>L1</td><td>64.17</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>U.Harris, G.Woodhouse</td></tr>
+<tr><td><s>L2</s></td><td>64.03</td><td class="rm_nowrap"><s>Friends</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Gardner, C.Ralph, Coach:&nbsp;T.Pilkington</td></tr>
+<tr><td><s>L3</s></td><td>64.06</td><td class="rm_nowrap"><s>Friends</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Gardner, C.Balmforth, Coach:&nbsp;T.Pilkington</td></tr>
+<tr><td>L4</td><td>64.02</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>M.West, E.Shelley, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>L5</td><td>64.01</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>M.Mampieri, H.Gregory, Coach:&nbsp;N.Stump</td></tr>
+
+</table><a id="R90" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 90</td><td>65. U17 M 4X+ 1000 : U17 Men's Coxed Quad Scull 1000m</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:47 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>M2</td><td>65.01</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>H.Thomas, J.Triffett, O.Coulson, N.Lisson, Cox:&nbsp;J.Triffett, Coach:&nbsp;P.Nichols</td></tr>
+<tr><td>M3</td><td>65.02</td><td class="rm_nowrap">TUBC/New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>T.Browning [NWNFK], C.James [TUBC], T.Marr [TUBC], H.Paynter [TUBC], Cox:&nbsp;M.Lamb [TUBC]</td></tr>
+
+</table><a id="R91" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 91</td><td>66. U17 W 2X 1000 : U17 Women's Double Scull 1000m</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:53 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>N1</td><td>66.03</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>E.Coulson, L.Midson, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>N2</td><td>66.02</td><td class="rm_nowrap">Mersey</td><td class="rm_ta_right">&nbsp;</td><td>O.Yeates, S.Ellis</td></tr>
+<tr><td>N3</td><td>66.04</td><td class="rm_nowrap">New Norfolk</td><td class="rm_ta_right">&nbsp;</td><td>L.Morgan, R.Morgan, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>N4</td><td>66.05</td><td class="rm_nowrap">Tamar</td><td class="rm_ta_right">&nbsp;</td><td>R.Hudson, C.Stewart</td></tr>
+<tr><td>N5</td><td>66.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>E.Ralph, H.Teale</td></tr>
+
+</table><a id="R92" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 92</td><td>67. MM 1X : Masters Men's Single Scull</td><td>Division 1</td></tr>
+<tr><td></td><td>Start Time: 1:59 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>O1</td><td>67.15</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>A.Streeter</td></tr>
+<tr><td>O2</td><td>67.14</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>M.Wilson</td></tr>
+<tr><td><s>O3</s></td><td>67.03</td><td class="rm_nowrap"><s>Bucks</s></td><td class="rm_ta_right">&nbsp;</td><td>L.Davey</td></tr>
+<tr><td><s>O4</s></td><td>67.07</td><td class="rm_nowrap"><s>Mersey</s></td><td class="rm_ta_right">&nbsp;</td><td>J.Pears</td></tr>
+<tr><td>O5</td><td>67.09</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>R.Ojeda</td></tr>
+
+</table><a id="R93" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 93</td><td>67. MM 1X : Masters Men's Single Scull</td><td>Division 2</td></tr>
+<tr><td></td><td>Start Time: 2:04 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>P1</td><td>67.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>G.Keppel</td></tr>
+<tr><td>P2</td><td>67.05</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>S.Mollard</td></tr>
+<tr><td>P3</td><td>67.04</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>R.Stephens</td></tr>
+<tr><td>P4</td><td>67.12</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>D.Fisher</td></tr>
+<tr><td>P5</td><td>67.13</td><td class="rm_nowrap">TUBC</td><td class="rm_ta_right">&nbsp;</td><td>M.Vermey</td></tr>
+
+</table><a id="R94" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 94</td><td>67. MM 1X : Masters Men's Single Scull</td><td>Division 3</td></tr>
+<tr><td></td><td>Start Time: 2:09 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Q1</td><td>67.06</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>M.Muller</td></tr>
+<tr><td>Q2</td><td>67.02</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>P.Vaszocz</td></tr>
+<tr><td>Q3</td><td>67.08</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>R.Wrigley</td></tr>
+<tr><td>Q4</td><td>67.10</td><td class="rm_nowrap">Sandy Bay</td><td class="rm_ta_right">&nbsp;</td><td>P.Walker</td></tr>
+<tr><td><s>Q5</s></td><td>67.11</td><td class="rm_nowrap"><s>Sandy Bay</s></td><td class="rm_ta_right">&nbsp;</td><td>J.Pirie</td></tr>
+
+</table><a id="R95" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 95</td><td>68. M W 4X- : Masters Women's Coxless Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 2:14 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>R1</td><td>68.02</td><td class="rm_nowrap">DMCRC</td><td class="rm_ta_right">&nbsp;</td><td>Z.Brown, S.Greenwood, J.Hickman, R.Griffiths, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>R2</td><td>68.01</td><td class="rm_nowrap">Bucks</td><td class="rm_ta_right">&nbsp;</td><td>F.Ward, M.Driessen, C.Vicars, M.Mace, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>R3</td><td>68.03</td><td class="rm_nowrap">Lindisfarne/Huon</td><td class="rm_ta_right">&nbsp;</td><td>E.Lancaster [HUON], L.Cooper [HUON], J.Johnstone [LINDF], J.Hope [LINDF], Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>R4</td><td>68.05</td><td class="rm_nowrap">Ulverstone</td><td class="rm_ta_right">&nbsp;</td><td>R.Gray, B.Schultz, K.Badcock, S.Wilson, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+<tr><td>R5</td><td>68.04</td><td class="rm_nowrap">North Esk</td><td class="rm_ta_right">&nbsp;</td><td>J.Fenner, S.Sonda, N.Servant, H.Dixon, Cox:&nbsp;ATHLETE UNKNOWN</td></tr>
+
+</table>
+</div>
+</div> <!--end tabs-->
+</div>
+
+<!--END RM-->
+
+
+</div> <!-- rm_container -->
+
+</div> <!-- pageContent -->
+
+<div class="footerContainer">  
+<div class="footer">
+          
+<div class="footer-block">
+  <a href="http://www.rowingtasmania.com.au"><img src="/images/rtas/rtas-w.png" alt="Rowing Tasmania" style="width:180px;" /></a>
+</div>
+
+<div class="footer-block">
+<a class="footer-link" href="http://www.rowingtasmania.com.au">&copy; Rowing Tasmania</a>
+<br /><br />
+PO Box 912 Launceston Tasmania. 7250  <br /><br />
+<a href="tel:0418130758">0418130758</a>
+<br />
+<a href="mailto:admin@rowingtasmania.com.au">admin@rowingtasmania.com.au</a>
+</div>
+
+<div class="footer-block right">
+  <a class="social" target="_blank" href="https://www.facebook.com/RowingTasmania"><i class="fa fa-facebook"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.twitter.com/RowingTas"><i class="fa fa-twitter"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.youtube.com/channel/UCnW2-aHRHlIU2Eq_ZMT3cPQ"><i class="fa fa-youtube"></i></a>
+</div>
+          
+</div>
+</div>
+
+</body>
+</html>
+

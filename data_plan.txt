@@ -1,0 +1,44 @@
+'''
+get a regatta id and load the regatta home page which has:
+	regatta name
+	regatta date
+	regatta venue
+	documents
+		draw html
+		draw pdf
+
+required data
+		www/id/events
+		www/id/draw
+
+file_structure
+date_regatta_name
+	data
+		events
+			events.html	
+			events.xlsx		
+		draw
+			draw.html
+			draw_doc.html
+			draw.pdf
+			draw.xlsx
+	regatta.db
+	events.csv
+	draw.csv
+	entries.csv
+	allocation.csv
+	schedule.csv
+
+regatta = Regatta(**data)
+
+@dataclass
+class Regatta:
+	name: str
+	date: Arrow
+	venue: str
+	complete: bool
+	folder: Path
+	data: Path
+	
+	boats: List[Boat]
+

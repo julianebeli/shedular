@@ -1,0 +1,448 @@
+race,start,event_id,event_name,event_code,seats,alpha,lane,heat,distance,school,crew,cox,coach
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,1,Semi-Final 1,1000,St Virgils,"['H.Todd', 'D.Mulcahy']",[],[]
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,2,Semi-Final 1,1000,Hutchins,"['H.Wilkins', 'D.Sillifant']",[],['T.Fiedler']
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,3,Semi-Final 1,1000,Grammar,"['G.Beacham', 'H.Cuming']",[],"['J.Cuming', 'E.Beacham']"
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,4,Semi-Final 1,1000,Grammar,"['W.Hill', 'M.Smith']",[],"['J.Cuming', 'E.Beacham']"
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,5,Semi-Final 1,1000,New Town,"['J.Charles-Wilkinson', 'O.Woolley']",[],"['P.Nichols', 'L.Geappen']"
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,6,Semi-Final 1,1000,Hutchins 1,"['T.Mansfield', 'J.Fielding']",[],['K.Morgan']
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,7,Semi-Final 1,1000,Grammar,"['F.Mayes', 'B.Stewart']",[],"['J.Cuming', 'E.Beacham']"
+125,2021-03-07T08:00:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,8,Semi-Final 1,1000,Hutchins,"['F.Clifford', 'S.Gorringe']",[],['M.Lord']
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,1,Semi-Final 2,1000,St Patricks,"['D.Tweedale', 'G.Hudson']",[],['A.Izbicki']
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,2,Semi-Final 2,1000,Hutchins 2,"['J.Gibson', 'T.Stewart']",[],['K.Morgan']
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,3,Semi-Final 2,1000,Friends,"['H.Maning', 'R.Middendorf']",[],[]
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,4,Semi-Final 2,1000,Friends,"['H.Chuter', 'A.Cooper']",[],[]
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,5,Semi-Final 2,1000,St Virgils,"['S.Murray', 'N.Haas']",[],[]
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,6,Semi-Final 2,1000,Grammar,"['O.Nicholls', 'F.Glynn']",[],"['J.Cuming', 'E.Beacham']"
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,7,Semi-Final 2,1000,St Virgils,"['T.Coad', 'K.Polley']",[],[]
+126,2021-03-07T08:04:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,B,8,Semi-Final 2,1000,Hutchins,"['M.Wang', 'B.Wills']",[],['A.Cretney']
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,1,Semi-Final 3,1000,Friends,"['F.Read', 'O.Latham']",[],[]
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,2,Semi-Final 3,1000,Brendan Shaw/Taroona,"['M.Rees [TAR]', 'L.Nield [SBSC]']",[],[]
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,3,Semi-Final 3,1000,St Virgils,"['A.Volta', 'S.Igarashi-Myers']",[],[]
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,4,Semi-Final 3,1000,Hutchins,"['F.Dobson', 'N.Steele']",[],"[""L.O'Connor"", 'T.Fiedler']"
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,5,Semi-Final 3,1000,Scotch Oakburn,"['S.Taylor', 'O.Dowling']",[],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,6,Semi-Final 3,1000,Friends,"['C.Fox', 'R.Ziegler']",[],[]
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,7,Semi-Final 3,1000,Scotch Oakburn,"['L.Hoare', 'F.Wagner']",[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+127,2021-03-07T08:08:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,C,8,Semi-Final 3,1000,Hutchins 3,"['T.Morgan', 'E.Brown']",[],['K.Morgan']
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,1,Semi-Final 1,1000,Collegiate,"['A.Bent', 'C.Luders']",[],['R.Griffiths']
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,2,Semi-Final 1,1000,Friends,"['J.MacIntyre', 'E.Grimm']",[],[]
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,3,Semi-Final 1,1000,Ogilvie,"['C.Fenton', 'M.North']",[],"['M.McCausland', 'R.Kerr']"
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,4,Semi-Final 1,1000,Collegiate,"['T.Brown', 'L.Lawler']",[],['R.Griffiths']
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,5,Semi-Final 1,1000,Grammar,"['P.Cuming', 'E.Dunn']",[],['M.Waddingham']
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,6,Semi-Final 1,1000,Ogilvie,"['S.Midgley', 'A.Loring']",[],"['M.McCausland', 'R.Kerr']"
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,7,Semi-Final 1,1000,St Patricks,"['C.Anderson', 'E.Johnson']",[],['C.Miedecke']
+128,2021-03-07T08:12:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,D,8,Semi-Final 1,1000,Scotch Oakburn,"['G.Wilson', 'M.Gray']",[],"['J.Wilson', 'J.Wever', 'T.Brient']"
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,1,Semi-Final 2,1000,Fahan,"['Z.Pitt', 'N.Terry']",[],['J.Withers']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,2,Semi-Final 2,1000,Scotch Oakburn,"['H.Lynch', 'H.Bingley']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,3,Semi-Final 2,1000,Grammar,"['G.Loane', 'S.Britton']",[],['M.Waddingham']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,4,Semi-Final 2,1000,Fahan,"['P.Leditschke', 'M.Cocker']",[],['J.Withers']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,5,Semi-Final 2,1000,Fahan,"['L.Tomlin', 'E.Stoksik']",[],['J.Withers']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,6,Semi-Final 2,1000,Grammar,"['L.Wood', 'L.Dowling']",[],['M.Waddingham']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,7,Semi-Final 2,1000,Fahan,"['J.Clark', 'E.Manson']",[],['J.Withers']
+129,2021-03-07T08:16:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,E,8,Semi-Final 2,1000,St Marys,"['M.Medina', 'T.Purves']",[],"['M.Dixon', 'P.Schouten']"
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,1,Semi-Final 3,1000,St Patricks,"['C.Barrett', 'M.Rickerby']",[],['C.Miedecke']
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,2,Semi-Final 3,1000,Scotch Oakburn,"['G.Briggs', 'L.Carter']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,3,Semi-Final 3,1000,Grammar,"['C.Waddingham', 'J.Johnston']",[],['M.Waddingham']
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,4,Semi-Final 3,1000,Grammar,"['N.Farquhar', 'A.Farquhar']",[],['M.Waddingham']
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,5,Semi-Final 3,1000,Fahan,"['S.Jones', 'G.Parnham']",[],['J.Withers']
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,6,Semi-Final 3,1000,St Marys,"['M.Mackey', 'A.Dickman']",[],"['M.Dixon', 'P.Schouten']"
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,7,Semi-Final 3,1000,Scotch Oakburn,"['S.Boden', 'A.Napier']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+130,2021-03-07T08:20:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,F,8,Semi-Final 3,1000,Grammar,"['M.Chiselett', 'L.Rockliff']",[],['M.Waddingham']
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,1,Final,2000,St Patricks 1,"['B.Duffy', 'E.Morrow', 'L.Waud', 'E.March']",['A.White'],['D.Birtwistle']
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,2,Final,2000,Brendan Shaw,"['S.Grave', 'J.Welch', 'E.Spaulding', 'C.Greenhill']",['S.Ellis'],"['D.Tippett', 'M.Tippett', 'G.Scattergood']"
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,3,Final,2000,Fahan,"['L.Cooper', 'L.Ansell', 'O.Wilkins', 'D.Maning']",['S.Bury'],"['S.Manson', 'C.Parnham']"
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,4,Final,2000,Grammar,"['E.Fryett', 'A.Billing', 'I.Goss', 'P.White']",['P.Eastaugh'],[]
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,5,Final,2000,Scotch Oakburn,"['L.Calvert', 'A.Florance', 'A.Jepson', 'H.Schouten']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,6,Final,2000,Collegiate,"['M.Prescott', 'O.Viney', 'H.Curry', 'P.Davis']",['C.Bayley'],['N.Stump']
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,7,Final,2000,Friends,"['J.Powell-Davies', 'M.White', 'A.Gardner', 'E.Underwood']",['I.Fox'],[]
+131,2021-03-07T09:00:00+00:00,1,Schoolgirls Four (Firsts),SG 4+ (1),4,G,8,Final,2000,St Marys,"['H.Sice', 'E.Mason', 'F.Carter', 'G.Woodhouse']",['M.Pinelli'],[]
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,1,Final,2000,Guilford/Elizabeth,"['N.Stozki [EC]', 'P.Loring [EC]', 'R.Browning [GYC]', 'H.King [GYC]', 'T.Oliver [GYC]', 'A.Midson [EC]', 'J.Connolly [GYC]', 'A.Paynter [GYC]']",['A.Raymond [GYC]'],[]
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,2,Final,2000,Hutchins,"['T.Gibson', 'T.Neuberger', 'J.Maumill', 'T.Chilcott', 'H.Johnstone', 'A.Bradley', 'A.Vermey', 'S.Henning']",['R.Cousins'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,3,Final,2000,Scotch Oakburn 1,"['J.Briggs', 'H.Wagner', 'J.Lawrence', 'P.Brown', 'H.Birchmore', 'W.Gray', 'A.Neville - Clark', 'W.Hurd']",['M.Russell'],['J.Russell']
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,4,Final,2000,Hutchins,"['J.Dalton', 'H.Mounter', 'D.Matson', 'T.Bayley', 'H.Sillifant', 'O.Newbury', 'S.Mounter', 'B.Boman']",['A.Whatling'],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,5,Final,2000,Friends,"['C.Colhoun', 'J.Downie', 'T.Doyle', 'A.Ibbott', 'T.Neal', 'E.Wilkins', 'R.Fox', 'C.Johnson']",['D.Ibbott'],[]
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,6,Final,2000,Grammar,"['C.Townsend', 'T.Cannell', 'H.Hirst', 'A.Farquhar', 'L.Dean', 'W.Bates', 'L.Pohan', 'A.Ralph']",['G.Robertson'],"['D.Lalor', 'L.Malcolm']"
+132,2021-03-07T09:06:00+00:00,2,Schoolboys Eights,SB 8+,8,H,7,Final,2000,St Patricks,"['J.Mineall', 'W.Reilly', 'J.Pearce', 'O.Scharapow', 'L.Dean', 'C.Rae', 'N.Douglas', 'O.Birtwistle']",['J.Axman-Friend'],['D.Birtwistle']
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,1,Final,2000,Grammar,"['C.Lalor', 'S.Loo', 'E.Goess-Howe', 'A.Mayes']",['L.Eastaugh'],[]
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,2,Final,2000,Grammar,"['E.Brown', 'M.Dowling', 'E.Tucker', 'E.Swan']",['O.Frost'],[]
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,3,Final,2000,Scotch Oakburn 2,"['H.Woolston', 'E.Jepson', 'G.Taylor', 'M.MacKenzie']",['H.Lynch'],"['A.Foot', 'S.Guest']"
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,4,Final,2000,Collegiate,"['H.Gregory', 'E.Bird', 'R.Forsyth', 'A.McCoid']",['C.Elrick'],['N.Stump']
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,5,Final,2000,Friends,"['K.Fajrianto', 'C.Balmforth', 'C.Hornett', 'I.Nation']",['C.Ralph'],[]
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,6,Final,2000,Guilford,"['U.Harris', 'C.Forster', 'A.Raymond', 'E.Triffett']",['C.Mead'],['C.Harris']
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,7,Final,2000,Fahan,"['M.Jones', 'H.Riches', 'S.Lambert', 'M.Jones']",['S.Rolls'],"['S.Manson', 'C.Parnham']"
+133,2021-03-07T09:12:00+00:00,3,Schoolgirls Four (Seconds),SG 4+ (2),4,I,8,Final,2000,Collegiate,"['M.Mampieri', 'E.Palmer', 'M.West', 'R.Curry']",['S.Johnston'],['N.Stump']
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,1,Final,1500,Scotch Oakburn,"['H.Fyffe', 'R.MacKenzie']",[],"['M.Bonham', 'M.Cameron']"
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,2,Final,1500,Scotch Oakburn,"['S.Brown', 'M.Russell']",[],"['M.Bonham', 'M.Cameron']"
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,3,Final,1500,Hutchins,"['A.Stewart', 'F.Palmer']",[],[]
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,4,Final,1500,Grammar,"['K.Glynn', 'N.Adkins']",[],['W.Adkins']
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,5,Final,1500,Dominic,"['T.Browning', 'J.Triffett']",[],"['J.Bannon', 'P.Nichols']"
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,6,Final,1500,Hobart/Huonville,"['J.Wynter [HHS]', 'P.Robbie [HC]']",[],['P.Newbon']
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,7,Final,1500,Grammar,"['M.Mitchell', 'T.Carins']",[],['W.Adkins']
+134,2021-03-07T09:22:00+00:00,4,Schoolboys Under 16 Double Scull,SB U16 2X,2,J,8,Final,1500,Grammar,"['G.Collette', 'T.Peck']",[],['W.Adkins']
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,1,Final,1500,St Marys,['C.Oliver'],[],[]
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,2,Final,1500,Grammar,['C.Stewart'],[],['C.Symons']
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,3,Final,1500,Brendan Shaw,['O.Yeates'],[],"['D.Tippett', 'M.Tippett']"
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,4,Final,1500,Friends,['M.Bylsma'],[],[]
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,5,Final,1500,Grammar,['L.Dunn'],[],"['F.Woolcock', 'P.Dehnert']"
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,6,Final,1500,Brendan Shaw,['M.Castles'],[],"['D.Tippett', 'M.Tippett']"
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,7,Final,1500,Friends,['E.Lo'],[],[]
+135,2021-03-07T09:26:00+00:00,5,Schoolgirls Under 16 Single Scull,SG U16 1X,1,K,8,Final,1500,Ogilvie,['R.Morgan'],[],['P.Hansen']
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,1,Final,1000,St Virgils,"['H.Sylvester', ""O.O'Donovan"", 'J.Smith', 'J.Young']",['J.Woods'],"['O.Wilson-Haffenden', 'D.Martin']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,2,Final,1000,Hutchins,"['M.McIntosh', 'O.Sproule', 'A.McShane', 'C.Mounter']",['A.Whatling'],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,3,Final,1000,St Patricks 1,"['M.Roney', 'J.Clark', 'D.Rae', 'N.McCullagh']",['I.McCullagh'],"['J.McCullagh', 'R.Clark']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,4,Final,1000,Grammar 1,"['A.Creese', 'C.Ancher', 'O.Quinn', 'J.Stedman']",['P.Bennett'],['M.Rowan']
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,5,Final,1000,Scotch Oakburn 1,"[""O.O'Connor"", 'G.Russell', 'N.Neville - Clark', 'C.Parker']",['L.Jenkins'],"['A.Brown', 'D.Ottaway']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,6,Final,1000,St Virgils,"['T.Weeding', 'J.Mitchell', 'M.Woods', 'H.Paynter']",['D.Berry'],"['O.Wilson-Haffenden', 'D.Martin']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,7,Final,1000,Hutchins,"['O.Hart', 'J.Moy', 'C.Leesong', 'C.Boman']",['R.Cousins'],"['J.McIntosh', 'A.Hall', 'M.Vermey']"
+136,2021-03-07T09:34:00+00:00,6,Schoolboys Under 15 Coxed Quad Scull,SB U15 4X+,4,L,8,Final,1000,St Patricks 2,"['T.Mineall', 'H.McGovern', 'J.Humphreys', 'D.Wilkins']",['L.Humphreys'],"['J.McCullagh', 'R.Clark']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,1,B Final,1000,Scotch Oakburn,"['A.Woolston', 'L.Wilson']",[],"['A.Gruber', 'R.Banner']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,2,B Final,1000,Collegiate,"['M.Cummings', 'O.Bridgeman']",[],"['S.Mollard', 'S.Sluce']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,3,B Final,1000,Grammar 4,"['L.Gardner', 'L.Ayers']",[],"['A.White', 'D.Wyly']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,4,B Final,1000,Collegiate,"['G.Witt', 'A.Parsons']",[],"['S.Mollard', 'S.Sluce']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,5,B Final,1000,Sheffield,"['J.Behrmann', 'I.Ritter']",[],['G.Scattergood']
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,6,B Final,1000,Kingston High/Marist,"['A.Pratt [MCOLL]', 'P.Kennett [KHS]']",[],"['A.Bain', 'M.Wilson']"
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,7,B Final,1000,Fahan,"['P.Clarke', 'K.Hayes']",[],['J.Withers']
+137,2021-03-07T09:38:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,M,8,B Final,1000,St Marys,"['O.Walter', 'F.Tsakirakis']",[],"['M.Lamb', 'C.Stanley']"
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,1,A Final,1000,Grammar 1,"['C.Knowles', 'S.Dunne']",[],"['A.White', 'D.Wyly']"
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,2,A Final,1000,Collegiate,"['M.Healy', 'M.Ferguson']",[],"['S.Mollard', 'S.Sluce']"
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,3,A Final,1000,Brendan Shaw,"['S.Welch', 'L.Barker']",[],['G.Scattergood']
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,4,A Final,1000,Grammar 2,"['Y.Wyly', 'C.Lockrey']",[],"['A.White', 'D.Wyly']"
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,5,A Final,1000,Friends,"['E.Ralph', 'H.Wigston']",[],[]
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,6,A Final,1000,Collegiate,"['A.Dalton', 'G.Leicester']",[],"['S.Mollard', 'S.Sluce']"
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,7,A Final,1000,Friends,"['E.Gardner', 'A.Edwards']",[],[]
+138,2021-03-07T09:42:00+00:00,7,Schoolgirls Under 15 Double Scull,SG U15 2X,2,N,8,A Final,1000,Collegiate,"['C.Leicester', 'E.Kingston']",[],"['S.Mollard', 'S.Sluce']"
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,1,Final,1000,St Virgils,"['K.Polley', 'T.Coad', 'D.Mulcahy', 'H.Todd']",['M.Pinelli'],[]
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,2,Final,1000,Grammar,"['B.Stewart', 'F.Mayes', 'G.Beacham', 'H.Cuming']",['L.White'],"['J.Cuming', 'E.Beacham']"
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,3,Final,1000,St Virgils,"['A.Volta', 'S.Igarashi-Myers', 'S.Murray', 'N.Haas']",['E.Higginson'],[]
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,4,Final,1000,Scotch Oakburn,"['L.Hoare', 'S.Taylor', 'F.Wagner', 'O.Dowling']",['C.Ball'],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,5,Final,1000,Hutchins,"['T.Stewart', 'E.Brown', 'J.Fielding', 'J.Gibson']",['C.Morgan'],['K.Morgan']
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,6,Final,1000,Grammar,"['W.Hill', 'M.Smith', 'O.Nicholls', 'F.Glynn']",['M.Wall'],"['J.Cuming', 'E.Beacham']"
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,7,Final,1000,Friends,"['H.Maning', 'R.Middendorf', 'H.Chuter', 'C.Fox']",['O.Shearing'],[]
+139,2021-03-07T09:46:00+00:00,8,Schoolboys Under 14 Coxed Quad Scull,SB U14 4X+,4,O,8,Final,1000,Hutchins,"['C.Fiedler', 'D.Shulman', 'H.Wilkins', 'D.Sillifant']",['F.Dobson'],['T.Fiedler']
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,1,B Final,500,St Virgils,['A.Lamprey'],[],[]
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,2,B Final,500,St Patricks,['W.Symons'],[],"['R.Clark', 'O.Marsden']"
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,3,B Final,500,St Patricks,['L.Tonelly'],[],"['R.Clark', 'O.Marsden']"
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,4,B Final,500,Friends 8,['T.Bowerman'],[],['J.Morgan']
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,5,B Final,500,Friends 10,['L.Everett'],[],['J.Morgan']
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,6,B Final,500,St Virgils,['H.Costelloe'],[],[]
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,7,B Final,500,Friends 3,['J.Wong'],[],['J.Morgan']
+140,2021-03-07T09:54:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,P,8,B Final,500,Friends 2,['W.Petty'],[],['J.Morgan']
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,1,A Final,500,St Virgils,['A.Parkinson'],[],[]
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,2,A Final,500,Clarence,['S.Anderson'],[],[]
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,3,A Final,500,Marist,['W.Jackson'],[],['G.Scattergood']
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,4,A Final,500,St Virgils,['M.Sylvester'],[],['P.Vaszocz']
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,5,A Final,500,St Virgils,['L.Gray'],[],[]
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,6,A Final,500,St Virgils,['K.King'],[],[]
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,7,A Final,500,Friends 1,['D.Rumsby'],[],['J.Morgan']
+141,2021-03-07T09:58:00+00:00,10,Schoolboys Under 13 Single Scull,SB U13 1X,1,Q,8,A Final,500,Friends 6,['M.Ikedife'],[],['J.Morgan']
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,1,B Final,500,Fahan,"['J.Goodey', 'R.Grosvenor']",[],"['S.Gregg', 'S.Baxter']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,2,B Final,500,Scotch Oakburn,"['P.Brown', 'I.Skirving']",[],"['V.Wilson', 'R.McDonald']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,3,B Final,500,Friends,"['M.Hopster', 'I.Calvert']",[],[]
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,4,B Final,500,Fahan,"['Z.Bury', 'E.Mazengarb']",[],"['S.Gregg', 'S.Baxter']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,5,B Final,500,St Marys,"['J.Marley', 'A.Smith']",[],"['M.Dixon', 'P.Schouten']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,6,B Final,500,St Marys,"['C.Wanandy', 'B.Carter']",[],"['M.Dixon', 'P.Schouten']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,7,B Final,500,St Marys,"['T.Millhouse', 'A.King']",[],"['M.Dixon', 'P.Schouten']"
+142,2021-03-07T10:02:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,R,8,B Final,500,St Patricks,"['R.Milne', 'I.Miedecke']",[],"['C.Miedecke', 'G.Axman-Friend']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,1,A Final,500,Collegiate,"['L.Palmer', 'C.Brown']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,2,A Final,500,St Marys,"['M.Graves', 'L.Crowe']",[],"['M.Dixon', 'P.Schouten']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,3,A Final,500,St Marys,"['R.Berry', 'S.Thomas']",[],"['M.Dixon', 'P.Schouten']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,4,A Final,500,Friends,"['L.Wells', 'M.Jotic']",[],[]
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,5,A Final,500,Collegiate,"['C.Roff', 'A.Heath']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,6,A Final,500,Collegiate,"['A.Rule', 'L.Jamieson']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,7,A Final,500,St Marys,"['Z.Brooks', 'T.Wise']",[],"['M.Dixon', 'P.Schouten']"
+143,2021-03-07T10:06:00+00:00,12,Schoolgirls Under 13 Double Scull,SG U13 2X,2,S,8,A Final,500,Collegiate,"['S.Weissel', 'E.Brown']",[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,1,Final,2000,Friends,"['T.Doyle', 'A.Ibbott']",[],[]
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,2,Final,2000,Hutchins,"['J.Dalton', 'T.Bayley']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,3,Final,2000,Scotch Oakburn,"['W.Gray', 'H.Birchmore']",[],['J.Russell']
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,4,Final,2000,Hutchins,"['H.Sillifant', 'O.Newbury']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,5,Final,2000,Hutchins,"['D.Matson', 'H.Mounter']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,6,Final,2000,Hutchins,"['B.Boman', 'S.Mounter']",[],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,7,Final,2000,Friends,"['E.Wilkins', 'T.Neal']",[],[]
+144,2021-03-07T10:16:00+00:00,13,Schoolboys Pair,SB 2-,2,T,8,Final,2000,Hutchins,"['A.Vermey', 'S.Henning']",[],"['R.Matson', 'A.Palmer', 'T.Allwright']"
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,1,Final,2000,Hutchins,"['M.Riches', 'S.Fry']",[],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,2,Final,2000,Scotch Oakburn 2,"['W.Dowling', 'A.Neville - Clark']",[],['J.Russell']
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,3,Final,2000,Guilford,"['J.Connolly', 'A.Paynter']",[],[]
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,4,Final,2000,Friends,"['J.Downie', 'C.Colhoun']",[],[]
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,5,Final,2000,Friends,"['R.Fox', 'C.Johnson']",[],[]
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,6,Final,2000,St Patricks,"['C.Rae', 'J.Mineall']",[],['D.Birtwistle']
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,7,Final,2000,Scotch Oakburn 1,"['J.Lawrence', 'W.Hurd']",[],['J.Russell']
+145,2021-03-07T10:22:00+00:00,14,Schoolboys Double Scull,SB 2X,2,U,8,Final,2000,Elizabeth,"['P.Loring', 'N.Stozki']",[],"['J.Bannon', 'P.Nichols', 'L.Geappen']"
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,1,Final,2000,Guilford,"['U.Harris', 'C.Forster', 'A.Raymond', 'E.Triffett']",['C.Mead'],['C.Harris']
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,2,Final,2000,Friends,"['K.Fajrianto', 'C.Balmforth', 'E.Underwood', 'I.Nation']",['I.Fox'],[]
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,3,Final,2000,Grammar,"['E.Brown', 'E.Tucker', 'M.Dowling', 'P.White']",['O.Frost'],[]
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,4,Final,2000,St Marys,"['A.Roberts', 'A.Schrader', 'G.Woodhouse', 'P.Teale']",['M.Pinelli'],['M.Stott']
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,5,Final,2000,Grammar,"['E.Fryett', 'I.Goss', 'A.Billing', 'E.Swan']",['P.Eastaugh'],[]
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,6,Final,2000,St Patricks,"['E.March', 'B.Duffy', 'M.Brown', 'E.Morrow']",['A.White'],[]
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,7,Final,2000,Brendan Shaw,"['R.Skirving', 'S.Grave', 'E.Spaulding', 'C.Greenhill']",['M.Nield'],"['D.Tippett', 'M.Tippett', 'G.Scattergood']"
+146,2021-03-07T10:28:00+00:00,15,Schoolgirls Coxed Quad Sculls,SG 4X+,4,V,8,Final,2000,Scotch Oakburn 1,"['H.Woolston', 'E.Jepson', 'G.Taylor', 'M.MacKenzie']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,1,Final,1500,Dominic,['J.Triffett'],[],"['J.Bannon', 'P.Nichols']"
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,2,Final,1500,Grammar,['K.Glynn'],[],['W.Adkins']
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,3,Final,1500,Ulverstone SC,['L.Baker'],[],"['H.Lewis', 'M.Wilson']"
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,4,Final,1500,Hobart,['P.Robbie'],[],['P.Newbon']
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,5,Final,1500,Grammar,['N.Adkins'],[],['W.Adkins']
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,6,Final,1500,Huonville,['J.Wynter'],[],['P.Newbon']
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,7,Final,1500,Grammar,['T.Carins'],[],['W.Adkins']
+147,2021-03-07T10:38:00+00:00,16,Schoolboys Under 16 Single Scull,SB U16 1X,1,W,8,Final,1500,St Virgils,['C.James'],[],['P.Bird']
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,1,Final,1500,Grammar,"['P.Loane', 'A.Bennett', 'L.Dunn', 'M.Bradfield']",['G.Robertson'],"['F.Woolcock', 'P.Dehnert']"
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,2,Final,1500,St Marys,"['C.Barnes', 'E.Atkins', 'E.Monks', 'C.Oliver']",['A.Graves'],[]
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,3,Final,1500,Scotch Oakburn,"['K.Napier', 'K.Atherton', 'J.Irani', 'A.Hughes']",['B.Lee-Archer'],['A.McLean']
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,4,Final,1500,Friends,"['E.Lo', 'B.Woolley', 'M.Bylsma', 'J.Wilcox']",['K.Gallen'],[]
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,5,Final,1500,Grammar,"['T.Klower', 'L.Hucker', 'E.Henty', 'A.Dunne']",['L.Eastaugh'],"['F.Woolcock', 'P.Dehnert']"
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,6,Final,1500,Brendan Shaw,"['S.Ellis', 'L.Doonan', 'O.Yeates', 'M.Castles']",['M.Spaulding'],"['D.Tippett', 'M.Tippett']"
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,7,Final,1500,Fahan,"['J.Benyon', 'E.Banks-Smith', 'E.Hanna', 'A.Edwards']",['M.Reardon'],"['T.Skipworth', 'J.Campbell-Jones']"
+148,2021-03-07T10:42:00+00:00,17,Schoolgirls Under 16 Coxed Four,SG U16 4+,4,X,8,Final,1500,Fahan,"['M.Crosby', 'L.Evans-Gregg', 'O.Sampson', 'T.McDonough']",['O.Farquer'],"['T.Skipworth', 'J.Campbell-Jones']"
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,1,B Final,1000,Ogilvie,['A.Loring'],[],"['M.McCausland', 'R.Kerr']"
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,2,B Final,1000,St Marys,['M.Mackey'],[],"['M.Dixon', 'P.Schouten']"
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,3,B Final,1000,Fahan,['P.Leditschke'],[],['J.Withers']
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,4,B Final,1000,Grammar,['E.Dunn'],[],['M.Waddingham']
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,5,B Final,1000,Grammar,['J.Johnston'],[],['M.Waddingham']
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,6,B Final,1000,Marist,['A.Pratt'],[],['M.Wilson']
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,7,B Final,1000,Grammar,['G.Loane'],[],['M.Waddingham']
+149,2021-03-07T11:42:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Y,8,B Final,1000,Ogilvie,['S.Midgley'],[],"['M.McCausland', 'R.Kerr']"
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,1,A Final,1000,Ogilvie,['C.Fenton'],[],"['M.McCausland', 'R.Kerr']"
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,2,A Final,1000,Ogilvie,['M.North'],[],"['M.McCausland', 'R.Kerr']"
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,3,A Final,1000,Friends,['U.Nation'],[],[]
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,4,A Final,1000,Fahan,['M.Cocker'],[],['J.Withers']
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,5,A Final,1000,Grammar,['A.Farquhar'],[],['M.Waddingham']
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,6,A Final,1000,Scotch Oakburn,['H.Bingley'],[],"['J.Wilson', 'J.Wever', 'T.Brient']"
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,7,A Final,1000,Collegiate,['L.Lawler'],[],['R.Griffiths']
+150,2021-03-07T11:46:00+00:00,18,Schoolgirls Under 14 Single Scull,SG U14 1X,1,Z,8,A Final,1000,Fahan,['E.Manson'],[],['J.Withers']
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,1,Final,1000,Grammar,"['W.Hill', 'M.Smith']",[],"['J.Cuming', 'E.Beacham']"
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,2,Final,1000,Grammar,"['G.Beacham', 'H.Cuming']",[],"['J.Cuming', 'E.Beacham']"
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,3,Final,1000,St Virgils,"['S.Murray', 'N.Haas']",[],[]
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,4,Final,1000,Scotch Oakburn,"['S.Taylor', 'O.Dowling']",[],"['W.Birchmore', 'L.Paige', 'J.Malisauskas']"
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,5,Final,1000,Hutchins,"['H.Wilkins', 'D.Sillifant']",[],['T.Fiedler']
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,6,Final,1000,Friends,"['H.Maning', 'R.Middendorf']",[],[]
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,7,Final,1000,St Virgils,"['A.Volta', 'S.Igarashi-Myers']",[],[]
+151,2021-03-07T11:50:00+00:00,19,Schoolboys Under 14 Double Scull,SB U14 2X,2,A,8,Final,1000,Hutchins 2,"['J.Gibson', 'T.Stewart']",[],['K.Morgan']
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,1,Final,500,St Marys,"['C.Wanandy', 'T.Millhouse', 'A.Graves', 'B.Carter']",['A.Carter'],"['M.Dixon', 'P.Schouten']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,2,Final,500,Fahan,"['C.Atkins', 'M.Porter', 'K.Edwards', 'I.Dickson']",['S.Bury'],"['S.Gregg', 'S.Baxter']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,3,Final,500,Friends,"['M.Hopster', 'M.Ebeli', 'L.Wells', 'M.Jotic']",['E.Ralph'],[]
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,4,Final,500,St Marys,"['Z.Brooks', 'T.Wise', 'R.Berry', 'S.Thomas']",['L.Pinelli'],"['M.Dixon', 'P.Schouten']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,5,Final,500,Collegiate,"['A.Heath', 'C.Brown', 'C.Roff', 'E.Einoder']",['L.Jamieson'],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,6,Final,500,Scotch Oakburn,"['C.Barron', 'E.Popa', 'S.Storay', 'I.Wilson']",['E.Breden'],"['V.Wilson', 'R.McDonald']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,7,Final,500,St Marys,"['J.Marley', 'A.Smith', 'S.Fidanza', 'L.Crowe']",['S.Carter'],"['M.Dixon', 'P.Schouten']"
+152,2021-03-07T11:58:00+00:00,20,Schoolgirls Under 13 Coxed Quad Scull,SG U13 4X+,4,B,8,Final,500,Scotch Oakburn,"['L.van der Aa', 'O.Stevens', 'L.Gurudoss', 'S.Christie']",['E.Knaggs'],"['W.Birchmore', 'R.McDonald']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,1,B Final,1000,St Patricks,['J.Clark'],[],"['J.McCullagh', 'R.Clark']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,2,B Final,1000,Scotch Oakburn,['F.Viney'],[],"['A.Brown', 'D.Ottaway']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,3,B Final,1000,St Virgils,['J.Mitchell'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,4,B Final,1000,St Virgils,['M.Woods'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,5,B Final,1000,Scotch Oakburn,['G.Russell'],[],"['A.Brown', 'D.Ottaway']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,6,B Final,1000,St Patricks,['D.Rae'],[],"['J.McCullagh', 'R.Clark']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,7,B Final,1000,St Patricks,['M.Roney'],[],"['J.McCullagh', 'R.Clark']"
+153,2021-03-07T12:06:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,C,8,B Final,1000,Scotch Oakburn,['N.Neville - Clark'],[],"['A.Brown', 'D.Ottaway']"
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,1,A Final,1000,Friends,['H.Clyne'],[],['I.McMahon']
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,2,A Final,1000,St Virgils,['H.Paynter'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,3,A Final,1000,Scotch Oakburn,['C.Parker'],[],"['A.Brown', 'D.Ottaway']"
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,4,A Final,1000,Grammar 2,['J.Stedman'],[],['M.Rowan']
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,5,A Final,1000,Grammar 1,['O.Quinn'],[],['M.Rowan']
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,6,A Final,1000,St Virgils,['T.Weeding'],[],"['O.Wilson-Haffenden', 'D.Martin']"
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,7,A Final,1000,Hutchins,['C.Leesong'],[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+154,2021-03-07T12:10:00+00:00,21,Schoolboys Under 15 Single Scull,SB U15 1X,1,D,8,A Final,1000,Scotch Oakburn,"[""O.O'Connor""]",[],"['A.Brown', 'D.Ottaway']"
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,1,B Final,500,Hutchins 10,"['A.Rowley', 'T.Waterworth']",[],[]
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,2,B Final,500,Friends 4,"['H.Leis', 'T.Bowerman']",[],['J.Morgan']
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,3,B Final,500,Friends 3,"['M.Ikedife', 'J.Wong']",[],['J.Morgan']
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,4,B Final,500,St Patricks,"['T.Clark', 'L.Tonelly']",[],"['R.Clark', 'O.Marsden']"
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,5,B Final,500,Scotch Oakburn,"['O.Davey', 'H.Dennis']",[],[]
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,6,B Final,500,Hutchins 2,"['H.King', 'H.Cooper']",[],[]
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,7,B Final,500,Hutchins 1,"['L.Hanna', 'T.Banks-Smith']",[],[]
+155,2021-03-07T12:18:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,E,8,B Final,500,Hutchins 12,"['S.Archer', 'H.McCoid']",[],[]
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,1,A Final,500,St Virgils,"['A.Lamprey', 'H.Costelloe']",[],['P.Vaszocz']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,2,A Final,500,Clarence/Marist,"['W.Jackson [MCOLL]', 'S.Anderson [CHS]']",[],[]
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,3,A Final,500,St Virgils,"['M.Sylvester', 'L.Grubb']",[],['P.Vaszocz']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,4,A Final,500,St Virgils,"['A.Godfrey', 'L.Gray']",[],['P.Vaszocz']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,5,A Final,500,Friends 7,"['H.Heathercote', 'M.Vickers']",[],['J.Morgan']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,6,A Final,500,Friends 1,"['W.Petty', 'D.Rumsby']",[],['J.Morgan']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,7,A Final,500,St Virgils,"['A.Parkinson', 'K.King']",[],['P.Vaszocz']
+156,2021-03-07T12:22:00+00:00,22,Schoolboys Under 13 Double Scull,SB U13 2X,2,F,8,A Final,500,Friends 2,"['B.Rugen', 'L.Clyne']",[],['J.Morgan']
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,1,Final,2000,Scotch Oakburn 2,"['J.Briggs', 'H.Wagner', 'J.Lawrence', 'W.Dowling']",['G.Russell'],['J.Russell']
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,2,Final,2000,Grammar,"['Z.Finlay', 'C.Townsend', 'H.Hirst', 'W.Bates']",['L.White'],"['D.Lalor', 'L.Malcolm']"
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,3,Final,2000,Scotch Oakburn 1,"['H.Birchmore', 'W.Gray', 'A.Neville - Clark', 'W.Hurd']",['L.Cleeland'],['J.Russell']
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,4,Final,2000,Hutchins,"['T.Gibson', 'T.Neuberger', 'J.Maumill', 'T.Chilcott']",['R.Cousins'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,5,Final,2000,Grammar,"['A.Farquhar', 'L.Dean', 'L.Pohan', 'A.Ralph']",['G.Robertson'],"['D.Lalor', 'L.Malcolm']"
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,6,Final,2000,Hutchins,"['H.Johnstone', 'A.Bradley', 'A.Vermey', 'S.Henning']",['C.Boman'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,7,Final,2000,Elizabeth/Dominic,"['P.Loring [EC]', 'T.Browning [DOMC]', 'N.Stozki [EC]', 'A.Midson [EC]']",['J.Triffett [DOMC]'],"['K.Graham', 'J.Bannon', 'P.Nichols']"
+157,2021-03-07T12:32:00+00:00,23,Schoolboys Coxed Quad Scull,SB 4X+,4,G,8,Final,2000,Hutchins,"['M.Riches', 'J.Lucas', 'C.Parnham', 'S.Fry']",['H.West'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,1,Final,2000,St Patricks,['E.Morrow'],[],['D.Birtwistle']
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,2,Final,2000,St Marys,['P.Teale'],[],['M.Stott']
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,3,Final,2000,Scotch Oakburn,['L.Calvert'],[],"['A.Foot', 'S.Guest']"
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,4,Final,2000,Scotch Oakburn,['A.Florance'],[],"['A.Foot', 'S.Guest']"
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,5,Final,2000,Brendan Shaw,['E.Spaulding'],[],"['D.Tippett', 'M.Tippett']"
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,6,Final,2000,St Patricks,['E.Hepburn'],[],['D.Birtwistle']
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,7,Final,2000,Grammar,['I.Goss'],[],[]
+158,2021-03-07T12:38:00+00:00,24,Schoolgirls Single Scull,SG 1X,1,H,8,Final,2000,Brendan Shaw,['J.Welch'],[],['G.Scattergood']
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,2,Final,1500,St Virgils,"['X.Nichols', 'N.Blackwell', 'O.Dinnessen', 'O.McLaren', 'C.James', 'F.Di Ubaldo', 'E.Kounelis', 'H.Grubb']",['D.Berry'],['P.Bird']
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,3,Final,1500,Grammar,"['J.Gray', 'F.Billing', 'T.Peck', 'T.Carins', 'G.Collette', 'M.Mitchell', 'N.Adkins', 'K.Glynn']",['H.Barrenger'],['W.Adkins']
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,4,Final,1500,Scotch Oakburn,"['C.Auton', 'L.James-Wever', 'S.Brown', 'R.MacKenzie', 'J.Bamford', 'S.Stopford', 'H.Fyffe', 'M.Russell']",['M.Fulton'],"['M.Cameron', 'M.Bonham']"
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,5,Final,1500,Hutchins,"['L.Healy', 'J.Fiedler', 'T.Daengdej', ""L.O'Brien"", 'A.Stewart', 'R.Sanderson', 'B.Brown', 'F.Palmer']",['J.Richards'],[]
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,6,Final,1500,New Town Composite,"['E.Raymond [NTHS]', 'N.Lisson [NTHS]', 'T.Browning [DOMC]', 'J.Wynter [HHS]', 'P.Robbie [HC]', 'J.Triffett [DOMC]', 'O.Coulson [NTHS]', 'H.Thomas [NTHS]']",['J.Triffett [DOMC]'],"['J.Bannon', 'P.Nichols', 'P.Newbon']"
+159,2021-03-07T12:48:00+00:00,25,Schoolboys Under 16 Eight,SB U16 8+,8,I,7,Final,1500,Friends/Hutchins,"['A.Rackham [TFNDS]', 'A.Ballard [TFNDS]', 'G.Williams [TFNDS]', 'E.Russell [TFNDS]', 'O.Atwell [TFNDS]', 'W.Terry [THS]', 'C.Gibson [TFNDS]', 'B.Stankovich [TFNDS]']",['A.Hooper [TFNDS]'],['M.McQueeney']
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,1,Final,1500,Grammar 1,"['P.Loane', 'L.Hucker', 'A.Bennett', 'A.Dunne']",['L.Eastaugh'],"['F.Woolcock', 'P.Dehnert']"
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,2,Final,1500,Friends,"['E.Newman', 'L.Cooper', 'O.Cowen', 'S.Bryant']",['K.Gallen'],[]
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,3,Final,1500,St Marys,"['B.Sice', 'E.Atkins', 'H.Kelly', 'C.Oliver']",['B.Carter'],[]
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,4,Final,1500,Ogilvie,"['C.Wright', 'R.Morgan', 'L.Morgan', 'S.North']",['H.Midgley'],['P.Hansen']
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,5,Final,1500,Brendan Shaw,"['S.Ellis', 'L.Doonan', 'O.Yeates', 'M.Castles']",['M.Spaulding'],"['D.Tippett', 'M.Tippett']"
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,6,Final,1500,Grammar 2,"['L.Johnstone', 'L.Andersen', 'T.Klower', 'M.Bradfield']",['O.Frost'],"['F.Woolcock', 'P.Dehnert']"
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,7,Final,1500,Fahan,"['M.Crosby', 'L.Evans-Gregg', 'O.Sampson', 'T.McDonough']",['O.Farquer'],"['T.Skipworth', 'J.Campbell-Jones']"
+160,2021-03-07T12:52:00+00:00,26,Schoolgirls Under 16 Coxed Quad Scull,SG U16 4X+,4,J,8,Final,1500,Fahan,"['J.Benyon', 'E.Banks-Smith', 'E.Hanna', 'A.Edwards']",['M.Reardon'],"['T.Skipworth', 'J.Campbell-Jones']"
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,1,Final,1000,Collegiate,"['T.Brown', 'L.Lawler']",[],['R.Griffiths']
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,2,Final,1000,Grammar,"['C.Waddingham', 'J.Johnston']",[],['M.Waddingham']
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,3,Final,1000,Grammar,"['P.Cuming', 'E.Dunn']",[],['M.Waddingham']
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,4,Final,1000,Fahan,"['P.Leditschke', 'M.Cocker']",[],['J.Withers']
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,5,Final,1000,Fahan,"['S.Jones', 'G.Parnham']",[],['J.Withers']
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,6,Final,1000,Scotch Oakburn,"['H.Lynch', 'H.Bingley']",[],"['J.Wilson', 'T.Brient', 'J.Wever']"
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,7,Final,1000,Ogilvie,"['C.Fenton', 'M.North']",[],"['M.McCausland', 'R.Kerr']"
+161,2021-03-07T13:00:00+00:00,27,Schoolgirls Under 14 Double Scull,SG U14 2X,2,K,8,Final,1000,Grammar,"['N.Farquhar', 'A.Farquhar']",[],['M.Waddingham']
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,1,Final,1000,Collegiate,"['S.Johnston', 'A.Acuna', 'C.Elrick', 'E.Kingston']",['M.Rogers'],"['S.Mollard', 'S.Sluce']"
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,2,Final,1000,Fahan,"['P.Clarke', 'O.Wilson', 'S.Lang', 'K.Hayes']",['S.Bury'],"['J.Withers', 'J.Withers']"
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,3,Final,1000,Grammar,"['C.Knowles', 'Y.Wyly', 'S.Dunne', 'C.Lockrey']",['L.White'],"['A.White', 'D.Wyly']"
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,4,Final,1000,Collegiate,"['M.Healy', 'G.Witt', 'G.Leicester', 'M.Ferguson']",['Z.Carr'],"['S.Mollard', 'S.Sluce']"
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,5,Final,1000,Sheffield/Brendan Shaw,"['S.Welch [SBSC]', 'L.Barker [SBSC]', 'J.Behrmann [SHEFF]', 'I.Ritter [SHEFF]']",['T.Jago [SHEFF]'],[]
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,6,Final,1000,Friends,"['E.Ralph', 'H.Wigston', 'E.Gardner', 'A.Edwards']",['E.Falloon'],[]
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,7,Final,1000,Collegiate,"['C.Leicester', 'A.Dalton', 'A.Parsons', 'M.Cummings']",['I.Leicester'],"['S.Mollard', 'S.Sluce']"
+162,2021-03-07T13:04:00+00:00,28,Schoolgirl Under 15 Coxed Quad Scull,SG U15 4X+,4,L,8,Final,1000,St Patricks,"['J.Axman-Friend', 'A.Duffy', 'A.McNeair', 'E.Donovan']",['L.Mansfield'],"['C.Miedecke', 'A.Izbicki']"
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,1,Final,2000,Elizabeth,['A.Midson'],[],['K.Graham']
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,2,Final,2000,St Patricks,['C.Rae'],[],['D.Birtwistle']
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,3,Final,2000,Guilford,['J.Connolly'],[],[]
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,4,Final,2000,St Patricks,['O.Birtwistle'],[],['D.Birtwistle']
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,5,Final,2000,Guilford,['A.Paynter'],[],[]
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,6,Final,2000,Brendan Shaw,['H.Nield'],[],"['D.Tippett', 'M.Tippett']"
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,7,Final,2000,St Patricks,['L.Dean'],[],['D.Birtwistle']
+163,2021-03-07T13:14:00+00:00,29,Schoolboys Single Scull,SB 1X,1,M,8,Final,2000,Elizabeth,['N.Stozki'],[],"['J.Bannon', 'P.Nichols']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,1,Final,2000,Brendan Shaw,"['E.Spaulding', 'C.Greenhill']",[],"['D.Tippett', 'M.Tippett']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,2,Final,2000,Fahan,"['M.Jones', 'L.Ansell']",[],"['S.Manson', 'C.Parnham']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,3,Final,2000,Fahan,"['O.Wilkins', 'D.Maning']",[],"['S.Manson', 'C.Parnham']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,4,Final,2000,Friends,"['C.Hornett', 'E.Underwood']",[],[]
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,5,Final,2000,Scotch Oakburn 1,"['L.Calvert', 'H.Schouten']",[],"['A.Foot', 'S.Guest']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,6,Final,2000,Collegiate,"['H.Curry', 'P.Davis']",[],['N.Stump']
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,7,Final,2000,Scotch Oakburn 2,"['A.Jepson', 'A.Florance']",[],"['A.Foot', 'S.Guest']"
+164,2021-03-07T13:20:00+00:00,30,Schoolgirls Pair,SG 2-,2,N,8,Final,2000,Friends,"['A.Gardner', 'C.Ralph']",[],[]
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,1,Final,2000,Collegiate,"['R.Curry', 'E.Bird']",[],['N.Stump']
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,2,Final,2000,Grammar,"['M.Dowling', 'P.White']",[],[]
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,3,Final,2000,Don,"['L.Tippett', 'P.Tippett']",[],[]
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,4,Final,2000,Grammar,"['E.Fryett', 'E.Swan']",[],[]
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,5,Final,2000,Grammar,"['A.Billing', 'I.Goss']",[],[]
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,6,Final,2000,St Marys,"['A.Schrader', 'P.Teale']",[],['M.Stott']
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,7,Final,2000,St Patricks,"['E.Hepburn', 'M.Brown']",[],['D.Birtwistle']
+165,2021-03-07T13:26:00+00:00,31,Schoolgirls Double Scull,SG 2X,2,O,8,Final,2000,St Marys,"['C.Hutchinson', 'F.Carter']",[],['M.Stott']
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,1,Final,1500,Scotch Oakburn 2,"['C.Auton', 'J.Bamford', 'L.James-Wever', 'R.MacKenzie']",['S.Wells'],"['M.Cameron', 'M.Bonham']"
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,2,Final,1500,Grammar,"['J.Gray', 'F.Billing', 'G.Collette', 'T.Carins']",['O.Frost'],['W.Adkins']
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,3,Final,1500,Friends,"['G.Williams', 'C.Gibson', 'O.Atwell', 'B.Stankovich']",['A.Hooper'],['M.McQueeney']
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,4,Final,1500,Hutchins,"['A.Stewart', 'R.Sanderson', 'B.Brown', 'F.Palmer']",['J.Richards'],[]
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,5,Final,1500,Scotch Oakburn 1,"['S.Brown', 'S.Stopford', 'H.Fyffe', 'M.Russell']",['M.Fulton'],"['M.Cameron', 'M.Bonham']"
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,6,Final,1500,Grammar,"['T.Peck', 'M.Mitchell', 'N.Adkins', 'K.Glynn']",['H.Barrenger'],['W.Adkins']
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,7,Final,1500,Hutchins,"['L.Healy', 'J.Fiedler', 'T.Daengdej', ""L.O'Brien""]",['W.Terry'],[]
+166,2021-03-07T14:26:00+00:00,32,Schoolboys Under 16 Coxed Four,SB U16 4+,4,P,8,Final,1500,Hutchins/Friends,"['A.Ballard [TFNDS]', 'E.Russell [TFNDS]', 'A.Rackham [TFNDS]', 'J.Crehan [THS]']",['A.Hope [TFNDS]'],['M.McQueeney']
+167,2021-03-07T14:30:00+00:00,33,Schoolgirls under 16 Eight,SG U16 8+,8,Q,3,Final,1500,Grammar,"['M.Bradfield', 'L.Dunn', 'A.Bennett', 'T.Klower', 'P.Loane', 'L.Hucker', 'E.Henty', 'A.Dunne']",['L.Eastaugh'],"['F.Woolcock', 'P.Dehnert']"
+167,2021-03-07T14:30:00+00:00,33,Schoolgirls under 16 Eight,SG U16 8+,8,Q,4,Final,1500,Friends,"['E.Newman', 'J.Gunner', 'L.Cooper', 'S.Bryant', 'M.Bylsma', 'J.Wilcox', 'E.Lo', 'B.Woolley']",['K.Gallen'],['D.Pilkington']
+167,2021-03-07T14:30:00+00:00,33,Schoolgirls under 16 Eight,SG U16 8+,8,Q,5,Final,1500,Fahan,"['J.Benyon', 'E.Banks-Smith', 'E.Hanna', 'A.Edwards', 'A.Fry', 'L.Evans-Gregg', 'O.Sampson', 'T.McDonough']",['O.Farquer'],"['T.Skipworth', 'J.Campbell-Jones']"
+167,2021-03-07T14:30:00+00:00,33,Schoolgirls under 16 Eight,SG U16 8+,8,Q,6,Final,1500,Grammar Composite,"['H.Kelly [SMC]', 'B.Sice [SMC]', 'M.Christie Johnston [SMC]', 'C.Barnes [SMC]', 'J.Webberley [OHS]', 'E.Monks [SMC]', 'E.Atkins [SMC]', 'R.Rockliff [LCGS]']",['G.Woodhouse [SMC]'],[]
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,1,B Final,1000,Hutchins 6,['T.Stewart'],[],['K.Morgan']
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,2,B Final,1000,Hutchins 2,['F.Dobson'],[],['T.Fiedler']
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,3,B Final,1000,Grammar,['M.Smith'],[],"['J.Cuming', 'E.Beacham']"
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,4,B Final,1000,Friends,['H.Manning'],[],[]
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,5,B Final,1000,Grammar,['O.Nicholls'],[],"['J.Cuming', 'E.Beacham']"
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,6,B Final,1000,Scotch Oakburn,['F.Wagner'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,7,B Final,1000,Grammar,['W.Hill'],[],"['J.Cuming', 'E.Beacham']"
+168,2021-03-07T14:38:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,R,8,B Final,1000,Friends,['R.Middendorf'],[],[]
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,1,A Final,1000,Scotch Oakburn,['O.Dowling'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,2,A Final,1000,St Virgils,['S.Murray'],[],[]
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,3,A Final,1000,St Virgils,['N.Haas'],[],[]
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,4,A Final,1000,Scotch Oakburn,['S.Taylor'],[],"['W.Birchmore', 'J.Malisauskas', 'L.Paige']"
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,5,A Final,1000,St Virgils,['A.Volta'],[],[]
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,6,A Final,1000,New Town,['O.Woolley'],[],"['P.Nichols', 'L.Geappen']"
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,7,A Final,1000,New Town,['J.Charles-Wilkinson'],[],"['P.Nichols', 'L.Geappen']"
+169,2021-03-07T14:42:00+00:00,34,Schoolboys Under 14 Single Scull,SB U14 1X,1,S,8,A Final,1000,Hutchins 1,['H.Wilkins'],[],['T.Fiedler']
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,1,Final,500,Friends 2,"['T.Bowerman', 'H.Leis', 'M.Ikedife', 'J.Wong']",['W.Baukes'],['J.Morgan']
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,2,Final,500,Hutchins 3,"['A.Rowley', 'T.Waterworth', 'S.Taylor', 'H.Saunders']",['C.Davies'],[]
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,3,Final,500,St Patricks,"['T.Clark', 'W.Symons', 'L.Mineall', 'L.Tonelly']",['G.Miedecke'],"['R.Clark', 'O.Marsden']"
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,4,Final,500,St Virgils,"['L.Grubb', 'L.Gray', 'A.Lamprey', 'M.Sylvester']",['H.Costelloe'],['P.Vaszocz']
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,5,Final,500,Hutchins 1,"['H.King', 'H.Cooper', 'L.Hanna', 'T.Banks-Smith']",['H.Kerr'],[]
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,6,Final,500,Friends 1,"['L.Clyne', 'D.Rumsby', 'B.Rugen', 'W.Petty']",['S.Williams'],[]
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,7,Final,500,St Virgils,"['B.Riseley', 'A.Godfrey', 'K.King', 'A.Parkinson']",['P.Weeding'],['P.Vaszocz']
+170,2021-03-07T14:50:00+00:00,35,Schoolboys Under 13 Coxed Quad Scull,SB U13 4X+,4,T,8,Final,500,Scotch Oakburn/Hutchins 1,"['O.Davey [SCOAK]', 'J.Bamford [SCOAK]', 'O.Bourne [THS]', 'H.Dennis [SCOAK]']",['E.Breden [SCOAK]'],[]
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,1,B Final,500,Collegiate,['A.Rule'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,2,B Final,500,St Marys,['L.Crowe'],[],"['M.Dixon', 'P.Schouten']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,3,B Final,500,Collegiate,['E.Einoder'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,4,B Final,500,Collegiate,['C.Roff'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,5,B Final,500,Collegiate,['C.Brown'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,6,B Final,500,St Marys,['T.Wise'],[],"['M.Dixon', 'P.Schouten']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,7,B Final,500,St Marys,['A.King'],[],"['M.Dixon', 'P.Schouten']"
+171,2021-03-07T14:54:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,U,8,B Final,500,Fahan,['Z.Bury'],[],"['S.Baxter', 'S.Gregg']"
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,1,A Final,500,Collegiate,['S.Weissel'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,2,A Final,500,Friends,['M.Jotic'],[],[]
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,3,A Final,500,St Marys,['S.Thomas'],[],"['M.Dixon', 'P.Schouten']"
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,4,A Final,500,St Marys,['A.Smith'],[],"['M.Dixon', 'P.Schouten']"
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,5,A Final,500,Friends,['L.Wells'],[],[]
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,6,A Final,500,Collegiate,['A.Heath'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,7,A Final,500,Brendan Shaw,['M.Spaulding'],[],[]
+172,2021-03-07T14:58:00+00:00,36,Schoolgirls Under 13 Single Scull,SG U13 1X,1,V,8,A Final,500,Collegiate,['L.Palmer'],[],"['D.Sereviratne', 'M.Muller', 'J.Joscelyne']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,1,Final,1000,Hutchins,"['O.Sproule', 'H.Bourne']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,2,Final,1000,Scotch Oakburn,"['N.Neville - Clark', 'C.Parker']",[],"['J.Wilson', 'D.Ottaway']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,3,Final,1000,Grammar,"['J.Stedman', 'O.Quinn']",[],['M.Rowan']
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,4,Final,1000,Scotch Oakburn,"['F.Viney', 'G.Russell']",[],"['A.Brown', 'D.Ottaway']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,5,Final,1000,Hutchins,"['C.Boman', 'C.Leesong']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,6,Final,1000,St Virgils,"['M.Woods', 'H.Paynter']",[],['O.Wilson-Haffenden']
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,7,Final,1000,Scotch Oakburn,"['D.Hill', ""O.O'Connor""]",[],"['A.Brown', 'D.Ottaway']"
+173,2021-03-07T15:06:00+00:00,39,Schoolboys Under 15 Double Scull,SB U15 2X,2,W,8,Final,1000,Hutchins,"['J.Moy', 'C.Black']",[],"['J.McIntosh', 'A.Hall', 'H.Vermey']"
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,1,Final,1000,Scotch Oakburn,"['A.Napier', 'G.Wilson', 'M.Gray', 'H.Bingley']",['S.Donlon'],"['J.Wilson', 'J.Wever', 'T.Brient']"
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,2,Final,1000,Ogilvie,"['S.Midgley', 'C.Fenton', 'M.North', 'A.Loring']",['H.Midgley'],"['M.McCausland', 'R.Kerr']"
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,3,Final,1000,Grammar 1,"['E.Dunn', 'P.Cuming', 'C.Waddingham', 'J.Johnston']",['M.Wall'],[]
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,4,Final,1000,Fahan,"['E.Stoksik', 'S.Jones', 'G.Parnham', 'L.Tomlin']",['S.Bury'],['J.Withers']
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,5,Final,1000,Friends,"['U.Nation', 'H.Zalstein', 'E.Grimm', 'J.MacIntyre']",['I.Atwell'],[]
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,6,Final,1000,Collegiate,"['S.Quilliam', 'C.Luders', 'L.Lawler', 'T.Brown']",['G.Ward'],['R.Griffiths']
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,7,Final,1000,Fahan,"['J.Clark', 'E.Manson', 'P.Leditschke', 'M.Cocker']",['O.Farquer'],['J.Withers']
+174,2021-03-07T15:10:00+00:00,40,Schoolgirls Under 14 Coxed quad Scull,SG U14 4X+,4,X,8,Final,1000,St Patricks,"['G.Crack', 'N.Mulder', 'C.Anderson', 'E.Johnson']",['J.Axman-Friend'],['C.Miedecke']
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,1,B Final,1000,Collegiate,['O.Bridgeman'],[],"['S.Mollard', 'S.Sluce']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,2,B Final,1000,Collegiate,['G.Witt'],[],"['S.Mollard', 'S.Sluce']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,3,B Final,1000,Brendan Shaw,['S.Welch'],[],['D.Tippett']
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,4,B Final,1000,Grammar 3,['Y.Wyly'],[],"['A.White', 'D.Wyly']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,5,B Final,1000,St Marys,['H.Teale'],[],"['M.Lamb', 'C.Stanley']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,6,B Final,1000,Collegiate,['C.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,7,B Final,1000,Grammar 2,['L.Ayers'],[],"['A.White', 'D.Wyly']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,8,B Final,1000,Friends,['S.Mitchelmore'],[],[]
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,9,B Final,1000,Collegiate,['A.Dalton'],[],"['S.Mollard', 'S.Sluce']"
+175,2021-03-07T15:14:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Y,1,B Final,1000,Collegiate,['M.Healy'],[],"['S.Mollard', 'S.Sluce']"
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,1,A Final,1000,Friends,['A.Edwards'],[],[]
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,2,A Final,1000,Collegiate,['G.Leicester'],[],"['S.Mollard', 'S.Sluce']"
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,3,A Final,1000,Sheffield,['I.Ritter'],[],['G.Scattergood']
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,4,A Final,1000,Brendan Shaw,['L.Barker'],[],['G.Scattergood']
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,5,A Final,1000,Grammar 1,['C.Knowles'],[],"['A.White', 'D.Wyly']"
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,6,A Final,1000,Friends,['H.Wigston'],[],[]
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,7,A Final,1000,Collegiate,['M.Ferguson'],[],"['S.Mollard', 'S.Sluce']"
+176,2021-03-07T15:18:00+00:00,41,Schoolgirls Under 15 Single Scull,SG U15 1X,1,Z,8,A Final,1000,Kingston High,['P.Kennett'],[],['A.Bain']
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,1,Final,1500,Scotch Oakburn 2,"['L.James-Wever', 'S.Stopford', 'J.Bamford', 'C.Auton']",['S.Wells'],"['M.Cameron', 'R.McDonald']"
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,2,Final,1500,Dominic Composite,"['M.Nield [SBSC]', 'L.Baker [USC]', 'T.Browning [DOMC]', 'J.Triffett [DOMC]']",['J.Triffett [DOMC]'],"['J.Bannon', 'P.Nichols']"
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,3,Final,1500,St Patricks 1,"['M.Roney', 'J.Clark', 'D.Rae', 'N.McCullagh']",['I.McCullagh'],"['J.McCullagh', 'R.Clark']"
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,4,Final,1500,Hutchins,"['A.Stewart', 'R.Sanderson', 'B.Brown', 'F.Palmer']",['J.Richards'],[]
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,5,Final,1500,Scotch Oakburn 1,"['H.Fyffe', 'R.MacKenzie', 'S.Brown', 'M.Russell']",['M.Fulton'],"['M.Cameron', 'M.Bonham']"
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,6,Final,1500,Grammar,"['G.Collette', 'T.Carins', 'K.Glynn', 'N.Adkins']",['H.Barrenger'],['W.Adkins']
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,7,Final,1500,Grammar,"['F.Billing', 'J.Gray', 'M.Mitchell', 'T.Peck']",['A.Bennett'],['W.Adkins']
+177,2021-03-07T15:26:00+00:00,42,Schoolboys Under 16 Coxed Quad Scull,SB U16 4X+,4,A,8,Final,1500,St Patricks 1,"['T.Mineall', 'H.McGovern', 'J.Humphreys', 'D.Wilkins']",['L.Humphreys'],"['J.McCullagh', 'R.Clark']"
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,1,Final,1500,Grammar 2,"['L.Andersen', 'L.Hucker']",[],"['F.Woolcock', 'P.Dehnert']"
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,2,Final,1500,Ogilvie,"['C.Wright', 'S.North']",[],['P.Hansen']
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,3,Final,1500,St Marys,"['C.Oliver', 'E.Atkins']",[],[]
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,4,Final,1500,Brendan Shaw,"['O.Yeates', 'M.Castles']",[],"['D.Tippett', 'M.Tippett']"
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,5,Final,1500,Grammar 1,"['M.Bradfield', 'L.Dunn']",[],"['F.Woolcock', 'P.Dehnert']"
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,6,Final,1500,Friends,"['M.Bylsma', 'J.Wilcox']",[],[]
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,7,Final,1500,Ogilvie,"['R.Morgan', 'L.Morgan']",[],['P.Hansen']
+178,2021-03-07T15:30:00+00:00,43,Schoolgirls Under 16 Double Scull,SG U16 2X,2,B,8,Final,1500,Brendan Shaw,"['S.Ellis', 'L.Doonan']",[],[]
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,1,Final,2000,Hutchins,"['H.Johnstone', 'A.Bradley', 'A.Vermey', 'S.Henning']",['C.Boman'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,2,Final,2000,Friends,"['C.Colhoun', 'J.Downie', 'T.Doyle', 'A.Ibbott']",['K.Gallen'],[]
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,3,Final,2000,Grammar,"['C.Townsend', 'T.Cannell', 'W.Bates', 'Z.Finlay']",['L.White'],"['D.Lalor', 'L.Malcolm']"
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,4,Final,2000,Scotch Oakburn 2,"['L.Breden', 'S.McTaggart Williams', 'P.Brown', 'S.Stopford']",['C.Ball'],"['M.Cameron', 'M.Bonham', 'J.Breden']"
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,5,Final,2000,Hutchins,"['T.Gibson', 'T.Neuberger', 'J.Maumill', 'T.Chilcott']",['H.West'],"['R.Matson', 'T.Allwright', 'A.Palmer']"
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,6,Final,2000,Hutchins,"['J.Dalton', 'H.Mounter', 'D.Matson', 'T.Bayley']",['R.Cousins'],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+179,2021-03-07T15:40:00+00:00,44,Schoolboys Four (Seconds),SB 4+ (2),4,C,7,Final,2000,Scotch Oakburn,"['J.Briggs', 'H.Wagner', 'A.Neville - Clark', 'W.Dowling']",['G.Russell'],['J.Russell']
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,1,Final,2000,Brendan Shaw/Don,"['L.Mansell [SBSC]', 'J.Welch [SBSC]', 'R.Skirving [SBSC]', 'L.Tippett [DC]', 'P.Tippett [DC]', 'E.Spaulding [SBSC]', 'S.Grave [SBSC]', 'C.Greenhill [SBSC]']",['M.Spaulding [SBSC]'],"['D.Tippett', 'M.Tippett', 'G.Scattergood']"
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,2,Final,2000,Friends,"['K.Fajrianto', 'C.Balmforth', 'A.Gardner', 'C.Ralph', 'C.Hornett', 'E.Underwood', 'J.Powell-Davies', 'M.White']",['I.Fox'],[]
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,3,Final,2000,Fahan,"['M.Jones', 'H.Riches', 'S.Lambert', 'M.Jones', 'L.Cooper', 'L.Ansell', 'O.Wilkins', 'D.Maning']",['S.Bury'],"['S.Manson', 'C.Parnham']"
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,4,Final,2000,Collegiate,"['H.Gregory', 'A.McCoid', 'M.Prescott', 'A.McMahon', 'O.Viney', 'E.Bird', 'H.Curry', 'P.Davis']",['C.Bayley'],['N.Stump']
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,5,Final,2000,Scotch Oakburn 1,"['M.Duigan', 'O.Willows', 'A.Jepson', 'C.Loane', 'L.Calvert', 'A.Florance', 'J.Finnigan', 'H.Schouten']",['L.Cleeland'],"['A.Foot', 'S.Guest']"
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,6,Final,2000,Grammar,"['E.Fryett', 'E.Brown', 'E.Tucker', 'M.Dowling', 'A.Billing', 'P.White', 'I.Goss', 'E.Swan']",['P.Eastaugh'],[]
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,7,Final,2000,St Patricks,"['L.Brooks', 'R.Hudson', 'M.Brown', 'A.Cherry', 'B.Duffy', 'E.Morrow', 'L.Waud', 'E.March']",['A.White'],['D.Birtwistle']
+180,2021-03-07T15:46:00+00:00,45,Schoolgirls Eight,SG 8+,8,D,8,Final,2000,Guilford Composite,"['H.Sice [SMC]', 'J.Bremner [SMC]', 'C.Stanley [SMC]', 'R.Curry [STMIC]', 'C.Forster [GYC]', 'E.Triffett [GYC]', 'A.Raymond [GYC]', 'U.Harris [GYC]']",['C.Mead [GYC]'],['M.Stott']
+181,2021-03-07T15:52:00+00:00,46,Schoolboys Four (Firsts),SB 4+ (1),4,E,2,Final,2000,Hutchins,"['H.Sillifant', 'O.Newbury', 'S.Mounter', 'B.Boman']",['A.Whatling'],"['A.Palmer', 'T.Allwright', 'R.Matson']"
+181,2021-03-07T15:52:00+00:00,46,Schoolboys Four (Firsts),SB 4+ (1),4,E,3,Final,2000,Friends,"['R.Fox', 'E.Wilkins', 'T.Neal', 'C.Johnson']",['D.Ibbott'],[]
+181,2021-03-07T15:52:00+00:00,46,Schoolboys Four (Firsts),SB 4+ (1),4,E,4,Final,2000,Grammar,"['A.Farquhar', 'L.Dean', 'L.Pohan', 'A.Ralph']",['G.Robertson'],"['D.Lalor', 'L.Malcolm']"
+181,2021-03-07T15:52:00+00:00,46,Schoolboys Four (Firsts),SB 4+ (1),4,E,5,Final,2000,Scotch Oakburn,"['H.Birchmore', 'W.Gray', 'J.Lawrence', 'W.Hurd']",['M.Russell'],['J.Russell']
+181,2021-03-07T15:52:00+00:00,46,Schoolboys Four (Firsts),SB 4+ (1),4,E,6,Final,2000,Guilford,"['T.Oliver', 'H.King', 'S.Woodhouse', 'J.Woods']",['M.Pinelli'],[]

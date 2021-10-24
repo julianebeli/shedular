@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rowing Tasmania Regattas</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" href="/css/rowing/regattas-TAS.css?v=5"  rel="stylesheet" /> 
+<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5354;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+$("#tz").tooltip({content: $("#tz").data('zones')});
+});
+
+</script>
+</head>  
+<body>    
+
+<div class="headerContainer">
+<div class="headerInner">
+
+<div class="topbox">
+<a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a>&nbsp;|&nbsp;
+<a href="http://www.rowingtasmania.com.au" title="Rowing Tasmania Website">Rowing Tasmania Home <i class="fa fa-chevron-right rm_fs_100"></i></a>
+</div>
+
+<table>
+  <tr>
+<td style="padding:3px 0px 0px 26px; width:240px;"><a href="http://www.rowingtasmania.com.au/"><img src="/images/rtas/rtas.png" alt="Rowing Tasmania" style="width:200px;"/></a></td>
+<td style="vertical-align:bottom;"><span class="headerTxt">Regattas</span></td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div class="headerContainerNav">
+<div class="headerInner">
+
+<div id="nav_menu">
+    <ul>
+<li class="nav" id="first"><a href="/tas">Regatta Calendar</a></li>
+<li class="nav"><a href="/tas/mobile">Mobile Results</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+              
+<div class="pageContent">          
+<div class="rm_content">
+
+
+
+<!--START RM-->
+<div style="height:0; width:980px;"><div style="float:right;margin-top:0px;margin-right:8px;"><select name="SELECT_REGATTA" class="chosen_select rm_noprint" data-big-text="1" data-placeholder="Select 2020-2021 Regatta"
+style="width:220px; max-width:220px;" data-drop-width="300" onchange="if(this.value>0)self.location='/regattas/' + this.value;">
+<option value=""></option>
+<optgroup label="National Regattas"><option value="5378">2021 Australian Coastal Rowing and Beach Sprint Championships</option>
+<option value="5185">2021 Australian Masters Rowing Championships</option>
+<option value="5110">2021 Australian Rowing Championships</option>
+<option value="5261">Australian Indoor Rowing Championships</option>
+</optgroup>
+<optgroup label="TAS Regattas"><option value="5347">2021 Tasmanian State Club Championships</option>
+<option value="5268">3 Rivers School Twilight Regatta</option>
+<option value="5367">Autumn 2021 Masters Regatta</option>
+<option value="5255">Junior Regatta 1</option>
+<option value="5254">Junior Regatta 2</option>
+<option value="5252">Kirby Cup</option>
+<option value="5334">Launceston & Henley Regatta</option>
+<option value="5267">New Norfolk Long Distance Races inc Aly Cashion V111's and Sharland Scull</option>
+<option value="5256">North Esk Long Distance Races</option>
+<option value="5350">Royal Hobart Regatta</option>
+<option value="5354">SATIS Head of the River Regatta</option>
+<option value="5349">School Boys Regatta 1</option>
+<option value="5348">School Girls Regatta 1</option>
+<option value="5352">Schools Regatta 2</option>
+<option value="5253">Tasmanian Club Regatta No 1</option>
+<option value="5263">Tasmanian Club Regatta No 2</option>
+<option value="5368">Tasmanian Masters</option>
+<option value="5353">Tasmanian School Championships</option>
+<option value="5291">Tasmanian State Club Regatta N0 4</option>
+<option value="5269">Tasmanian State Club Regatta No 3</option>
+<option value="5342">Tasmanian State Club Regatta No 5</option>
+<option value="5343">Tasmanian State Club Regatta No 6</option>
+</optgroup>
+</select></div></div>
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2021 SATIS Head of the River Regatta</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Sat 13th March, 2021</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Lake Barrington</div></td></tr>
+</table>
+
+
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="">
+<div style="padding:10px; clear:both; max-width:960px;">
+<table style="border:1px solid #ddd;">
+<tr><td style="padding:4px; vertical-align:top; width:200px; max-width:200px; overflow-x:hidden; border:1px solid #ddd;"><a href="/regattas/5354/events"><i class="fa fa-list-ul fa-fw"></i>&nbsp;Event List</a>
+<div style="margin-top:12px; padding-top:10px; border-top:1px dashed #888;"></div>
+<p style="margin-top:0px;"><a href="/regattas/5354/entries"><i class="fa fa-male fa-fw"></i>&nbsp;Entry List</a></p>
+<p style="margin-top:8px;"><a href="/regattas/5354/races"><i class="fa fa-clock-o fa-fw"></i>&nbsp;Race Schedule</a></p>
+<p style="margin-top:8px;"><a href="/regattas/5354/draw"><i class="fa fa-random fa-fw"></i>&nbsp;Lane Draw</a></p>
+<p style="margin-top:8px;margin-bottom:6px;"><a href="/regattas/5354/clubs"><i class="fa fa-bookmark-o fa-fw"></i>&nbsp;Clubs &amp; Colours</a></p>
+<p style="margin-top:0px;"><small>Race Draw for: </small><select style="max-width:195px; font-size:11px;" onchange="self.location='/regattas/5354/draw?club='+this.value;"><option>Select Club/School</option><option value="483">Brendan Shaw</option>
+<option value="324">Collegiate</option>
+<option value="481">Fahan</option>
+<option value="332">Friends</option>
+<option value="482">Guilford</option>
+<option value="487">Hutchins</option>
+<option value="528">Launceston Grammar</option>
+<option value="807">Marist</option>
+<option value="327">Scotch Oakburn</option>
+<option value="484">St Marys</option>
+<option value="323">St Patricks</option>
+<option value="485">St Virgils</option>
+</select></p>
+<div style="margin-top:12px; padding-top:10px; border-top:1px dashed #888;"></div><p style="margin-top:0px; margin-bottom:6px;"><a href="/regattas/5354/results"><i class="fa fa-sort-amount-asc fa-fw"></i>&nbsp;Browse Results</a></p>
+
+<form style="margin:0px;" name ="SEARCH_FORM" method="post" action="/regattas/5354/results">
+<small>Name Search:</small>
+<br><input type="text" style="font-size:11px;" name="name_search" id="name_search" size="15" onkeydown="if( event.keyCode==13 ){document.SEARCH_FORM.submit();}">&nbsp;
+<input id="searchbutton" style="font-size:11px;" type="button" value=" Go " onclick="document.SEARCH_FORM.submit();">
+<a id="search_help" title="" href="#"><img src="/images/help.jpg" class="rm_clickable" alt=""></a>
+</form>
+<p style="margin-top:6px;"><small>Results for: </small><select style="max-width:195px; font-size:11px;" onchange="self.location='/regattas/5354/results?club='+this.value;"><option>Select Club/School</option><option value="483">Brendan Shaw</option>
+<option value="324">Collegiate</option>
+<option value="481">Fahan</option>
+<option value="332">Friends</option>
+<option value="482">Guilford</option>
+<option value="487">Hutchins</option>
+<option value="528">Launceston Grammar</option>
+<option value="807">Marist</option>
+<option value="327">Scotch Oakburn</option>
+<option value="484">St Marys</option>
+<option value="323">St Patricks</option>
+<option value="485">St Virgils</option>
+</select></p>
+<div style="margin-top:12px; padding-top:10px; border-top:1px dashed #888;"></div><p style="margin-top:0px;"><a href="/regattas/5354/live"><i class="fa fa-flag-checkered fa-fw"></i>&nbsp;Live Results</a></p>
+<p style="margin-top:10px;"><a href="/mobile/regatta/5354"><i class="fa fa-mobile fa-fw"></i>&nbsp;Mobile Results</a></p>
+</td>
+<td style="padding:4px; vertical-align:top; border:1px solid #ddd;">
+
+<table class="rm_pad_2">
+<tr><td>Regatta:</td><td><b>SATIS Head of the River Regatta</b></td></tr>
+<tr><td>Date:</td><td><b>13/3/2021</b></td></tr>
+<tr><td>Venue:</td><td class="rm_nowrap"><b>Lake Barrington</b><small></small></td></tr>
+<tr><td>Entries&nbsp;Open:&nbsp;</td><td><b>CLOSED</b></td></tr><tr><td>Entries&nbsp;Close:&nbsp;</td><td><b>Tue 9/3/2021 @ 16:00 AEDT</b> <small><span style="white-space:nowrap;">(<a id="tz" data-zones="<table class='rm_tbl'><tr><td>ACT:</td><td> 09/03/2021 @  4:00 PM </td></tr><tr><td>NSW:</td><td> 09/03/2021 @  4:00 PM </td></tr><tr><td>QLD:</td><td> 09/03/2021 @  3:00 PM </td></tr><tr><td>SA:</td><td> 09/03/2021 @  3:30 PM </td></tr><tr><td>TAS:</td><td> 09/03/2021 @  4:00 PM </td></tr><tr><td>VIC:</td><td> 09/03/2021 @  4:00 PM </td></tr><tr><td>WA:</td><td> 09/03/2021 @  1:00 PM </td></tr></table>" class="rm_lnk rm_lnk" href="javascript:;" title="">Local Time Zones</a>)</span></small></td></tr><tr><td style="vertical-align:top;">Statistics:</td><td><b><small>Events: 78<br/>Entries: 579<br/>Seats: 1541 <br/>Athletes: 750</small></b></td></tr></table></td>
+<td style="vertical-align:top; min-width:200px;  "><b>Documents</b><br/>
+<table class="pad_2 rm_tbl rm_pad_2 ">
+<tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15319" data-ajax="false">Results Final </a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">15/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15301" data-ajax="false">HOR Draw 8 Final</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">12/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk rm_fa_icon fa_icon fa-file-text-o" href="/?regatta;file=15302" data-ajax="false">HOR Draw 8 HTML</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">12/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15303" data-ajax="false">HOR Programme 8</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">12/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15294" data-ajax="false">HOR Program Cover Pages</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">11/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15258" data-ajax="false">HOR LBI Site Map</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">10/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15256" data-ajax="false">HOR Regatta Bulletin</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">10/3/2021</td><td></td></tr><tr><td><a class="smallLnk rm_lnk pdf rm_pdf" href="/?regatta;file=15257" data-ajax="false">SATIS Rowing Regulations</a></td><td style="text-align:right; vertical-align:bottom; padding-left:12px;">10/3/2021</td><td></td></tr>
+</table>
+
+</td>
+</tr></table>
+</div>
+<div style="padding-left:8px; width:780px;">
+
+</div>
+</div>
+
+<!--END RM-->
+
+
+</div> <!-- rm_container -->
+
+</div> <!-- pageContent -->
+
+<div class="footerContainer">  
+<div class="footer">
+          
+<div class="footer-block">
+  <a href="http://www.rowingtasmania.com.au"><img src="/images/rtas/rtas-w.png" alt="Rowing Tasmania" style="width:180px;" /></a>
+</div>
+
+<div class="footer-block">
+<a class="footer-link" href="http://www.rowingtasmania.com.au">&copy; Rowing Tasmania</a>
+<br /><br />
+PO Box 912 Launceston Tasmania. 7250  <br /><br />
+<a href="tel:0418130758">0418130758</a>
+<br />
+<a href="mailto:admin@rowingtasmania.com.au">admin@rowingtasmania.com.au</a>
+</div>
+
+<div class="footer-block right">
+  <a class="social" target="_blank" href="https://www.facebook.com/RowingTasmania"><i class="fa fa-facebook"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.twitter.com/RowingTas"><i class="fa fa-twitter"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.youtube.com/channel/UCnW2-aHRHlIU2Eq_ZMT3cPQ"><i class="fa fa-youtube"></i></a>
+</div>
+          
+</div>
+</div>
+
+</body>
+</html>
+

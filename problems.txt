@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "system2.py", line 9, in <module>
+    from allocation import do_allocation
+  File "/home/julian/OneDrive/_work_onedrive/rowing_system2/allocation.py", line 8, in <module>
+    from shed import boats
+  File "/home/julian/OneDrive/_work_onedrive/rowing_system2/shed.py", line 79, in <module>
+    boats = list(map(make_boat, data[1:]))
+  File "/home/julian/OneDrive/_work_onedrive/rowing_system2/shed.py", line 35, in make_boat
+    [name, seats, sweep, scull, cox, age, gender] = r
+ValueError: too many values to unpack (expected 7)
+
+could not get boat data because the database export from sheduler had an extra column, at the start an everythin mis-aligned
+I deleted the column but it should work with named tuples or dicts

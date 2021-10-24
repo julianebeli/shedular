@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rowing Tasmania Regattas</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" href="/css/rowing/regattas-TAS.css?v=5"  rel="stylesheet" /> 
+<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+table.events_table td { padding:3px 10px; }
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5539;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+
+$("#events_table").tablesorter({sortList: [[0,0]],headers: { 0: { sorter: 'metadata' },3: { sorter: 'digit' },7: { sorter: 'digit' },8: { sorter: 'digit' },9: { sorter: false }}});$(".tablesorter >thead>tr>th").attr('title','Click to sort. Use Shift key to sort on multiple columns.');$(".tablesorter").bind("sortStart",function(e,tbl){$(".no_sort").show();$(".entries_container").remove();});$(".tablesorter").bind("sortBegin",function(e,tbl){var list = tbl.config.sortList;if( list[0] && list[0][0] != 0 )$(".no_sort").hide(); });
+});
+
+function ShowEntries(rId,en){if( $("#row_entries_"+en).length )$("#row_entries_"+en).remove();else
+{$('#row_'+en).after('<tr id="row_entries_'+en+'" class="entries_container rm_non_list_item"><td></td><td></td><td colspan="7"><img src="/images/ajax_loader_small.gif"/></td>');$.ajax({type: "GET",url: '/regattas/' + rId + '/entries?event=' + en + ';ajax=1;inline=1',dataType: "text",error: function(XMLHttpRequest,textStatus,errorThrown){alert("SERVER REQUEST ERROR..\r\n\r\n" + XMLHttpRequest.responseText);},success: function(data, textStatus){$('#row_entries_'+en).html('<td></td><td></td><td colspan="7">'+data+'</td>');}});}}
+</script>
+</head>  
+<body>    
+
+<div class="headerContainer">
+<div class="headerInner">
+
+<div class="topbox">
+<a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a>&nbsp;|&nbsp;
+<a href="http://www.rowingtasmania.com.au" title="Rowing Tasmania Website">Rowing Tasmania Home <i class="fa fa-chevron-right rm_fs_100"></i></a>
+</div>
+
+<table>
+  <tr>
+<td style="padding:3px 0px 0px 26px; width:240px;"><a href="http://www.rowingtasmania.com.au/"><img src="/images/rtas/rtas.png" alt="Rowing Tasmania" style="width:200px;"/></a></td>
+<td style="vertical-align:bottom;"><span class="headerTxt">Regattas</span></td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div class="headerContainerNav">
+<div class="headerInner">
+
+<div id="nav_menu">
+    <ul>
+<li class="nav" id="first"><a href="/tas">Regatta Calendar</a></li>
+<li class="nav"><a href="/tas/mobile">Mobile Results</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+              
+<div class="pageContent">          
+<div class="rm_content">
+
+
+
+<!--START RM-->
+
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2021 Junior Sculling Regatta</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Sun 7th November, 2021</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Lake Barrington</div></td></tr>
+</table>
+
+<table id="rm_tabs_container" class="rm_noprint rm_pad_2"><tr><td id="rm_tabs_cell"><ul id="rm_tabs"><li><a href="/regattas/5539">Regatta Home</a></li><li class="tab_active"><a href="/regattas/5539/events">Events</a></li></ul></td></tr></table>
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="rm_bq">
+<b class="rm_big">Regatta Events</b><br>
+<div class="rm_inline" style="min-width:920px;">
+<a class="rm_lnk rm_float_r rm_noprint" style="top:-10px;margin-right:8px;" href="/regattas/5539/events?download=true"><img src="/images/icon_excel.png" alt="" class="rm_va_text" style="margin-right:3px;">Download</a>
+<br class="rm_clear" />
+<table class="rm_tbl rm_list_items tablesorter events_table" id="events_table" style="min-width:920px !important;">
+<thead>
+<tr><th>#</th><th>Code</th><th>Title</th><th>Entries</th><th class="rowing_only">Type</th><th>Gender</th><th>Boat Type</th><th>Seats</th><th style="text-align:right;">Distance</th><th>&nbsp;</th></tr>
+</thead>
+<tbody>
+<tr ><td class='{"sortValue":13}'>13</td><td class="rm_nowrap">SB U13 1X</td><td class="rm_nowrap">Schoolboys Under 13 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":19}'>19</td><td class="rm_nowrap">SB U13 2X</td><td class="rm_nowrap">Schoolboys Under 13 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":1}'>1</td><td class="rm_nowrap">SB U13 4X+</td><td class="rm_nowrap">Schoolboys Under 13 Coxed Quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":14}'>14</td><td class="rm_nowrap">SB U13 4X+ (B)</td><td class="rm_nowrap">Schoolboys Under 13 coxed quad scull (B)</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":21}'>21</td><td class="rm_nowrap">SB U14 1X</td><td class="rm_nowrap">Schoolboys Under 14 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":4}'>4</td><td class="rm_nowrap">SB U14 2X</td><td class="rm_nowrap">Schoolboys Under 14 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":9}'>9</td><td class="rm_nowrap">SB U14 4X+</td><td class="rm_nowrap">Schoolboys Under 14 Coxed Quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":6}'>6</td><td class="rm_nowrap">SB U15 1X</td><td class="rm_nowrap">Schoolboys Under 15 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":11}'>11</td><td class="rm_nowrap">SB U15 2X</td><td class="rm_nowrap">Schoolboys Under 15 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":17}'>17</td><td class="rm_nowrap">SB U15 4X+</td><td class="rm_nowrap">Schoolboys Under 15 Coxed Quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":16}'>16</td><td class="rm_nowrap">SB/SG PARA 1X</td><td class="rm_nowrap">Schoolboys/Schoolgirls Para Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":8}'>8</td><td class="rm_nowrap">SB/SG PARA 2X</td><td class="rm_nowrap">Schoolboys/Schoolgirls Para Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":2}'>2</td><td class="rm_nowrap">SG U13 1X</td><td class="rm_nowrap">Schoolgirls Under 13 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":15}'>15</td><td class="rm_nowrap">SG U13 2X</td><td class="rm_nowrap">Schoolgirls Under 13 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":20}'>20</td><td class="rm_nowrap">SG U13 4X+</td><td class="rm_nowrap">Schoolgirls Under 13 Coxed Quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":3}'>3</td><td class="rm_nowrap">SG U13 4X+ (B)</td><td class="rm_nowrap">Schoolgirls Under 13 coxed quad scull (B)</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":10}'>10</td><td class="rm_nowrap">SG U14 1X</td><td class="rm_nowrap">Schoolgirls Under 14 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":22}'>22</td><td class="rm_nowrap">SG U14 2X</td><td class="rm_nowrap">Schoolgirls Under 14 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":5}'>5</td><td class="rm_nowrap">SG U14 4X+</td><td class="rm_nowrap">Schoolgirls Under 14 Coxed quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":18}'>18</td><td class="rm_nowrap">SG U15 1X</td><td class="rm_nowrap">Schoolgirls Under 15 Single Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":7}'>7</td><td class="rm_nowrap">SG U15 2X</td><td class="rm_nowrap">Schoolgirls Under 15 Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":12}'>12</td><td class="rm_nowrap">SG U15 4X+</td><td class="rm_nowrap">Schoolgirls Under 15 Coxed Quad Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">School</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+
+</tbody>
+</table></div></div>
+
+<!--END RM-->
+
+
+</div> <!-- rm_container -->
+
+</div> <!-- pageContent -->
+
+<div class="footerContainer">  
+<div class="footer">
+          
+<div class="footer-block">
+  <a href="http://www.rowingtasmania.com.au"><img src="/images/rtas/rtas-w.png" alt="Rowing Tasmania" style="width:180px;" /></a>
+</div>
+
+<div class="footer-block">
+<a class="footer-link" href="http://www.rowingtasmania.com.au">&copy; Rowing Tasmania</a>
+<br /><br />
+PO Box 912 Launceston Tasmania. 7250  <br /><br />
+<a href="tel:0418130758">0418130758</a>
+<br />
+<a href="mailto:admin@rowingtasmania.com.au">admin@rowingtasmania.com.au</a>
+</div>
+
+<div class="footer-block right">
+  <a class="social" target="_blank" href="https://www.facebook.com/RowingTasmania"><i class="fa fa-facebook"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.twitter.com/RowingTas"><i class="fa fa-twitter"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.youtube.com/channel/UCnW2-aHRHlIU2Eq_ZMT3cPQ"><i class="fa fa-youtube"></i></a>
+</div>
+          
+</div>
+</div>
+
+</body>
+</html>
+

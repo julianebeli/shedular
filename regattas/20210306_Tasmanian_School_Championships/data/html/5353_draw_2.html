@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rowing Tasmania Regattas</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" href="/css/rowing/regattas-TAS.css?v=5"  rel="stylesheet" /> 
+<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5353;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+$("#day_tabs").tabs({active:1,activate: function(event, ui){var day = ui.newTab.index() + 1;var href = $("#draw_download_link").attr('href');href = href.replace(/;day=[1-9]$/,'');href += ';day=' + day;$("#draw_download_link").attr('href',href);}}).show();
+});
+
+</script>
+</head>  
+<body>    
+
+<div class="headerContainer">
+<div class="headerInner">
+
+<div class="topbox">
+<a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a>&nbsp;|&nbsp;
+<a href="http://www.rowingtasmania.com.au" title="Rowing Tasmania Website">Rowing Tasmania Home <i class="fa fa-chevron-right rm_fs_100"></i></a>
+</div>
+
+<table>
+  <tr>
+<td style="padding:3px 0px 0px 26px; width:240px;"><a href="http://www.rowingtasmania.com.au/"><img src="/images/rtas/rtas.png" alt="Rowing Tasmania" style="width:200px;"/></a></td>
+<td style="vertical-align:bottom;"><span class="headerTxt">Regattas</span></td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div class="headerContainerNav">
+<div class="headerInner">
+
+<div id="nav_menu">
+    <ul>
+<li class="nav" id="first"><a href="/tas">Regatta Calendar</a></li>
+<li class="nav"><a href="/tas/mobile">Mobile Results</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+              
+<div class="pageContent">          
+<div class="rm_content">
+
+
+
+<!--START RM-->
+
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2021 Tasmanian School Championships</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Sat 6th - Sun 7th March&nbsp;, 2021</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Lake Barrington</div></td></tr>
+</table>
+
+<table id="rm_tabs_container" class="rm_noprint rm_pad_2"><tr><td id="rm_tabs_cell"><ul id="rm_tabs"><li><a href="/regattas/5353">Regatta Home</a></li><li ><a href="/regattas/5353/events">Events</a></li><li ><a href="/regattas/5353/entries">Entries</a></li><li ><a href="/regattas/5353/races">Races</a></li><li class="tab_active"><a href="/regattas/5353/draw">Draw</a></li><li ><a href="/regattas/5353/results">Results</a></li><li ><a href="/regattas/5353/live">Live Results</a></li></ul></td></tr></table>
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="rm_bq">
+<b class="rm_big">Lane Draw</b><br><div class="rm_noprint rm_nowrap" style="padding-bottom:4px; margin-bottom:6px; margin-top:4px; "><small><b>Options:</b></small>&nbsp;
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-align-left" onclick="SetCookie('drawView','page');self.location='/regattas/5353/draw?view=page';" disabled>&nbsp;Page View</button>
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-table" onclick="SetCookie('drawView','table');self.location='/regattas/5353/draw?view=table';" >&nbsp;Table View</button>
+&nbsp;<button type="button" class="rm_btn rm_btn-white rm_btn-icon fa-user-o" onclick="SetCookie('drawView','club');self.location='/regattas/5353/draw?view=club';" >Club Draw</button>&nbsp;&nbsp;&nbsp;&nbsp;<small>Show</small>:&nbsp;<small><label><input type="checkbox"  onclick="SetCookie('displayIndex',this.checked);ToggleRaceIndex(2);">race index</label></small></div>
+<div id="day_tabs" class="tabs_nohdr tabs_small" style="clear:both; margin-top:6px; display:none;">
+<ul id="the_day_tabs">
+<li><a href="/regattas/5353/draw?day=1;ajax=1">&nbsp; Saturday <span id="spinner_0">&nbsp;&nbsp;</span></a></li>
+<li><a href="#tab_2">&nbsp; Sunday <span >&nbsp;&nbsp;</span></a></li>
+
+</ul>
+<div id="tab_2">
+<div style="padding:5px 0;"><b>Sunday 7th March, 2021</b></div>
+<div id="rindex_2" style="margin-top:6px;display:none;">
+<table class="rm_tbl rm_list_items rm_pad_2">
+<tr><td><a class="rm_lnk" href="#R125">125</a></td><td class="rm_nowrap rm_pad_l">8:00 AM</td><td class="rm_nowrap"><div class="e_num">19.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=19">SB U14 2X</a></div></td><td class="rm_pad_l">Schoolboys Under 14 Double Scull</td><td class="rm_nowrap rm_pad_l">Semi-Final 1</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R126">126</a></td><td class="rm_nowrap rm_pad_l">8:04 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Semi-Final 2</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R127">127</a></td><td class="rm_nowrap rm_pad_l">8:08 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Semi-Final 3</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R128">128</a></td><td class="rm_nowrap rm_pad_l">8:12 AM</td><td class="rm_nowrap"><div class="e_num">27.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=27">SG U14 2X</a></div></td><td class="rm_pad_l">Schoolgirls Under 14 Double Scull</td><td class="rm_nowrap rm_pad_l">Semi-Final 1</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R129">129</a></td><td class="rm_nowrap rm_pad_l">8:16 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Semi-Final 2</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R130">130</a></td><td class="rm_nowrap rm_pad_l">8:20 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">Semi-Final 3</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R131">131</a></td><td class="rm_nowrap rm_pad_l">9:00 AM</td><td class="rm_nowrap"><div class="e_num">1.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=1">SG 4+ (1)</a></div></td><td class="rm_pad_l">Schoolgirls Four (Firsts)</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R132">132</a></td><td class="rm_nowrap rm_pad_l">9:06 AM</td><td class="rm_nowrap"><div class="e_num">2.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=2">SB 8+</a></div></td><td class="rm_pad_l">Schoolboys Eights</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R133">133</a></td><td class="rm_nowrap rm_pad_l">9:12 AM</td><td class="rm_nowrap"><div class="e_num">3.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=3">SG 4+ (2)</a></div></td><td class="rm_pad_l">Schoolgirls Four (Seconds)</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R134">134</a></td><td class="rm_nowrap rm_pad_l">9:22 AM</td><td class="rm_nowrap"><div class="e_num">4.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=4">SB U16 2X</a></div></td><td class="rm_pad_l">Schoolboys Under 16 Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R135">135</a></td><td class="rm_nowrap rm_pad_l">9:26 AM</td><td class="rm_nowrap"><div class="e_num">5.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=5">SG U16 1X</a></div></td><td class="rm_pad_l">Schoolgirls Under 16 Single Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R136">136</a></td><td class="rm_nowrap rm_pad_l">9:34 AM</td><td class="rm_nowrap"><div class="e_num">6.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=6">SB U15 4X+</a></div></td><td class="rm_pad_l">Schoolboys Under 15 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R137">137</a></td><td class="rm_nowrap rm_pad_l">9:38 AM</td><td class="rm_nowrap"><div class="e_num">7.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=7">SG U15 2X</a></div></td><td class="rm_pad_l">Schoolgirls Under 15 Double Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R138">138</a></td><td class="rm_nowrap rm_pad_l">9:42 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R139">139</a></td><td class="rm_nowrap rm_pad_l">9:46 AM</td><td class="rm_nowrap"><div class="e_num">8.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=8">SB U14 4X+</a></div></td><td class="rm_pad_l">Schoolboys Under 14 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R140">140</a></td><td class="rm_nowrap rm_pad_l">9:54 AM</td><td class="rm_nowrap"><div class="e_num">10.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=10">SB U13 1X</a></div></td><td class="rm_pad_l">Schoolboys Under 13 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R141">141</a></td><td class="rm_nowrap rm_pad_l">9:58 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R142">142</a></td><td class="rm_nowrap rm_pad_l">10:02 AM</td><td class="rm_nowrap"><div class="e_num">12.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=12">SG U13 2X</a></div></td><td class="rm_pad_l">Schoolgirls Under 13 Double Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R143">143</a></td><td class="rm_nowrap rm_pad_l">10:06 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R144">144</a></td><td class="rm_nowrap rm_pad_l">10:16 AM</td><td class="rm_nowrap"><div class="e_num">13.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=13">SB 2-</a></div></td><td class="rm_pad_l">Schoolboys Pair</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R145">145</a></td><td class="rm_nowrap rm_pad_l">10:22 AM</td><td class="rm_nowrap"><div class="e_num">14.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=14">SB 2X</a></div></td><td class="rm_pad_l">Schoolboys Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R146">146</a></td><td class="rm_nowrap rm_pad_l">10:28 AM</td><td class="rm_nowrap"><div class="e_num">15.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=15">SG 4X+</a></div></td><td class="rm_pad_l">Schoolgirls Coxed Quad Sculls</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R147">147</a></td><td class="rm_nowrap rm_pad_l">10:38 AM</td><td class="rm_nowrap"><div class="e_num">16.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=16">SB U16 1X</a></div></td><td class="rm_pad_l">Schoolboys Under 16 Single Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R148">148</a></td><td class="rm_nowrap rm_pad_l">10:42 AM</td><td class="rm_nowrap"><div class="e_num">17.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=17">SG U16 4+</a></div></td><td class="rm_pad_l">Schoolgirls Under 16 Coxed Four</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R149">149</a></td><td class="rm_nowrap rm_pad_l">11:42 AM</td><td class="rm_nowrap"><div class="e_num">18.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=18">SG U14 1X</a></div></td><td class="rm_pad_l">Schoolgirls Under 14 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R150">150</a></td><td class="rm_nowrap rm_pad_l">11:46 AM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R151">151</a></td><td class="rm_nowrap rm_pad_l">11:50 AM</td><td class="rm_nowrap"><div class="e_num">19.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=19">SB U14 2X</a></div></td><td class="rm_pad_l">Schoolboys Under 14 Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R152">152</a></td><td class="rm_nowrap rm_pad_l">11:58 AM</td><td class="rm_nowrap"><div class="e_num">20.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=20">SG U13 4X+</a></div></td><td class="rm_pad_l">Schoolgirls Under 13 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R153">153</a></td><td class="rm_nowrap rm_pad_l">12:06 PM</td><td class="rm_nowrap"><div class="e_num">21.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=21">SB U15 1X</a></div></td><td class="rm_pad_l">Schoolboys Under 15 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R154">154</a></td><td class="rm_nowrap rm_pad_l">12:10 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R155">155</a></td><td class="rm_nowrap rm_pad_l">12:18 PM</td><td class="rm_nowrap"><div class="e_num">22.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=22">SB U13 2X</a></div></td><td class="rm_pad_l">Schoolboys Under 13 Double Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R156">156</a></td><td class="rm_nowrap rm_pad_l">12:22 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R157">157</a></td><td class="rm_nowrap rm_pad_l">12:32 PM</td><td class="rm_nowrap"><div class="e_num">23.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=23">SB 4X+</a></div></td><td class="rm_pad_l">Schoolboys Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R158">158</a></td><td class="rm_nowrap rm_pad_l">12:38 PM</td><td class="rm_nowrap"><div class="e_num">24.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=24">SG 1X</a></div></td><td class="rm_pad_l">Schoolgirls Single Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R159">159</a></td><td class="rm_nowrap rm_pad_l">12:48 PM</td><td class="rm_nowrap"><div class="e_num">25.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=25">SB U16 8+</a></div></td><td class="rm_pad_l">Schoolboys Under 16 Eight</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R160">160</a></td><td class="rm_nowrap rm_pad_l">12:52 PM</td><td class="rm_nowrap"><div class="e_num">26.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=26">SG U16 4X+</a></div></td><td class="rm_pad_l">Schoolgirls Under 16 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R161">161</a></td><td class="rm_nowrap rm_pad_l">1:00 PM</td><td class="rm_nowrap"><div class="e_num">27.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=27">SG U14 2X</a></div></td><td class="rm_pad_l">Schoolgirls Under 14 Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R162">162</a></td><td class="rm_nowrap rm_pad_l">1:04 PM</td><td class="rm_nowrap"><div class="e_num">28.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=28">SG U15 4X+</a></div></td><td class="rm_pad_l">Schoolgirl Under 15 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R163">163</a></td><td class="rm_nowrap rm_pad_l">1:14 PM</td><td class="rm_nowrap"><div class="e_num">29.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=29">SB 1X</a></div></td><td class="rm_pad_l">Schoolboys Single Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R164">164</a></td><td class="rm_nowrap rm_pad_l">1:20 PM</td><td class="rm_nowrap"><div class="e_num">30.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=30">SG 2-</a></div></td><td class="rm_pad_l">Schoolgirls Pair</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R165">165</a></td><td class="rm_nowrap rm_pad_l">1:26 PM</td><td class="rm_nowrap"><div class="e_num">31.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=31">SG 2X</a></div></td><td class="rm_pad_l">Schoolgirls Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R166">166</a></td><td class="rm_nowrap rm_pad_l">2:26 PM</td><td class="rm_nowrap"><div class="e_num">32.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=32">SB U16 4+</a></div></td><td class="rm_pad_l">Schoolboys Under 16 Coxed Four</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R167">167</a></td><td class="rm_nowrap rm_pad_l">2:30 PM</td><td class="rm_nowrap"><div class="e_num">33.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=33">SG U16 8+</a></div></td><td class="rm_pad_l">Schoolgirls under 16 Eight</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R168">168</a></td><td class="rm_nowrap rm_pad_l">2:38 PM</td><td class="rm_nowrap"><div class="e_num">34.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=34">SB U14 1X</a></div></td><td class="rm_pad_l">Schoolboys Under 14 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R169">169</a></td><td class="rm_nowrap rm_pad_l">2:42 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R170">170</a></td><td class="rm_nowrap rm_pad_l">2:50 PM</td><td class="rm_nowrap"><div class="e_num">35.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=35">SB U13 4X+</a></div></td><td class="rm_pad_l">Schoolboys Under 13 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R171">171</a></td><td class="rm_nowrap rm_pad_l">2:54 PM</td><td class="rm_nowrap"><div class="e_num">36.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=36">SG U13 1X</a></div></td><td class="rm_pad_l">Schoolgirls Under 13 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R172">172</a></td><td class="rm_nowrap rm_pad_l">2:58 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R173">173</a></td><td class="rm_nowrap rm_pad_l">3:06 PM</td><td class="rm_nowrap"><div class="e_num">39.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=39">SB U15 2X</a></div></td><td class="rm_pad_l">Schoolboys Under 15 Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R174">174</a></td><td class="rm_nowrap rm_pad_l">3:10 PM</td><td class="rm_nowrap"><div class="e_num">40.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=40">SG U14 4X+</a></div></td><td class="rm_pad_l">Schoolgirls Under 14 Coxed quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R175">175</a></td><td class="rm_nowrap rm_pad_l">3:14 PM</td><td class="rm_nowrap"><div class="e_num">41.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=41">SG U15 1X</a></div></td><td class="rm_pad_l">Schoolgirls Under 15 Single Scull</td><td class="rm_nowrap rm_pad_l">B Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R176">176</a></td><td class="rm_nowrap rm_pad_l">3:18 PM</td><td class="rm_nowrap"></td><td class="rm_pad_l"></td><td class="rm_nowrap rm_pad_l">A Final</td><td class="rm_pad_l">1000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R177">177</a></td><td class="rm_nowrap rm_pad_l">3:26 PM</td><td class="rm_nowrap"><div class="e_num">42.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=42">SB U16 4X+</a></div></td><td class="rm_pad_l">Schoolboys Under 16 Coxed Quad Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R178">178</a></td><td class="rm_nowrap rm_pad_l">3:30 PM</td><td class="rm_nowrap"><div class="e_num">43.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=43">SG U16 2X</a></div></td><td class="rm_pad_l">Schoolgirls Under 16 Double Scull</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">1500M</td></tr>
+<tr><td><a class="rm_lnk" href="#R179">179</a></td><td class="rm_nowrap rm_pad_l">3:40 PM</td><td class="rm_nowrap"><div class="e_num">44.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=44">SB 4+ (2)</a></div></td><td class="rm_pad_l">Schoolboys Four (Seconds)</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R180">180</a></td><td class="rm_nowrap rm_pad_l">3:46 PM</td><td class="rm_nowrap"><div class="e_num">45.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=45">SG 8+</a></div></td><td class="rm_pad_l">Schoolgirls Eight</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+<tr><td><a class="rm_lnk" href="#R181">181</a></td><td class="rm_nowrap rm_pad_l">3:52 PM</td><td class="rm_nowrap"><div class="e_num">46.</div><div class="e_code"><a class="rm_lnk" href="/regattas/5353/results?event=46">SB 4+ (1)</a></div></td><td class="rm_pad_l">Schoolboys Four (Firsts)</td><td class="rm_nowrap rm_pad_l">Final</td><td class="rm_pad_l">2000M</td></tr>
+</table></div>
+<a id="R125" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 125</td><td>19. SB U14 2X : Schoolboys Under 14 Double Scull</td><td>Semi-Final 1</td></tr>
+<tr><td></td><td>Start Time: 8:00 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>A1</td><td>19.37</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>H.Todd, D.Mulcahy</td></tr>
+<tr><td>A2</td><td>19.18</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>H.Wilkins, D.Sillifant, Coach:&nbsp;T.Fiedler</td></tr>
+<tr><td>A3</td><td>19.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Beacham, H.Cuming, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>A4</td><td>19.09</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>W.Hill, M.Smith, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>A5</td><td>19.27</td><td class="rm_nowrap">New Town</td><td class="rm_ta_right">&nbsp;</td><td>J.Charles-Wilkinson, O.Woolley, Coaches:&nbsp;P.Nichols, L.Geappen</td></tr>
+<tr><td>A6</td><td>19.23</td><td class="rm_nowrap">Hutchins 1</td><td class="rm_ta_right">&nbsp;</td><td>T.Mansfield, J.Fielding, Coach:&nbsp;K.Morgan</td></tr>
+<tr><td>A7</td><td>19.08</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>F.Mayes, B.Stewart, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>A8</td><td>19.12</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>F.Clifford, S.Gorringe, Coach:&nbsp;M.Lord</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R126" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 126</td><td>19. SB U14 2X : Schoolboys Under 14 Double Scull</td><td>Semi-Final 2</td></tr>
+<tr><td></td><td>Start Time: 8:04 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>B1</td><td>19.32</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>D.Tweedale, G.Hudson, Coach:&nbsp;A.Izbicki</td></tr>
+<tr><td>B2</td><td>19.24</td><td class="rm_nowrap">Hutchins 2</td><td class="rm_ta_right">&nbsp;</td><td>J.Gibson, T.Stewart, Coach:&nbsp;K.Morgan</td></tr>
+<tr><td>B3</td><td>19.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Maning, R.Middendorf</td></tr>
+<tr><td>B4</td><td>19.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Chuter, A.Cooper</td></tr>
+<tr><td>B5</td><td>19.35</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>S.Murray, N.Haas</td></tr>
+<tr><td>B6</td><td>19.10</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>O.Nicholls, F.Glynn, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>B7</td><td>19.38</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>T.Coad, K.Polley</td></tr>
+<tr><td>B8</td><td>19.13</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>M.Wang, B.Wills, Coach:&nbsp;A.Cretney</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R127" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 127</td><td>19. SB U14 2X : Schoolboys Under 14 Double Scull</td><td>Semi-Final 3</td></tr>
+<tr><td></td><td>Start Time: 8:08 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>C1</td><td>19.05</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>F.Read, O.Latham</td></tr>
+<tr><td>C2</td><td>19.43</td><td class="rm_nowrap">Brendan Shaw/Taroona</td><td class="rm_ta_right">&nbsp;</td><td>M.Rees [TAR], L.Nield [SBSC]</td></tr>
+<tr><td>C3</td><td>19.36</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Volta, S.Igarashi-Myers</td></tr>
+<tr><td>C4</td><td>19.17</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>F.Dobson, N.Steele, Coaches:&nbsp;L.O'Connor, T.Fiedler</td></tr>
+<tr><td>C5</td><td>19.31</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>S.Taylor, O.Dowling, Coaches:&nbsp;W.Birchmore, L.Paige, J.Malisauskas</td></tr>
+<tr><td>C6</td><td>19.03</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>C.Fox, R.Ziegler</td></tr>
+<tr><td>C7</td><td>19.29</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>L.Hoare, F.Wagner, Coaches:&nbsp;W.Birchmore, J.Malisauskas, L.Paige</td></tr>
+<tr><td>C8</td><td>19.25</td><td class="rm_nowrap">Hutchins 3</td><td class="rm_ta_right">&nbsp;</td><td>T.Morgan, E.Brown, Coach:&nbsp;K.Morgan</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R128" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 128</td><td>27. SG U14 2X : Schoolgirls Under 14 Double Scull</td><td>Semi-Final 1</td></tr>
+<tr><td></td><td>Start Time: 8:12 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>D1</td><td>27.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Bent, C.Luders, Coach:&nbsp;R.Griffiths</td></tr>
+<tr><td>D2</td><td>27.38</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.MacIntyre, E.Grimm</td></tr>
+<tr><td>D3</td><td>27.19</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>C.Fenton, M.North, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>D4</td><td>27.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>T.Brown, L.Lawler, Coach:&nbsp;R.Griffiths</td></tr>
+<tr><td>D5</td><td>27.13</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>P.Cuming, E.Dunn, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>D6</td><td>27.20</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>S.Midgley, A.Loring, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>D7</td><td>27.46</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>C.Anderson, E.Johnson, Coach:&nbsp;C.Miedecke</td></tr>
+<tr><td>D8</td><td>27.21</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>G.Wilson, M.Gray, Coaches:&nbsp;J.Wilson, J.Wever, T.Brient</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R129" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 129</td><td>27. SG U14 2X : Schoolgirls Under 14 Double Scull</td><td>Semi-Final 2</td></tr>
+<tr><td></td><td>Start Time: 8:16 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>E1</td><td>27.07</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>Z.Pitt, N.Terry, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>E2</td><td>27.25</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>H.Lynch, H.Bingley, Coaches:&nbsp;J.Wilson, T.Brient, J.Wever</td></tr>
+<tr><td>E3</td><td>27.16</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Loane, S.Britton, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>E4</td><td>27.06</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>P.Leditschke, M.Cocker, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>E5</td><td>27.04</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>L.Tomlin, E.Stoksik, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>E6</td><td>27.14</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>L.Wood, L.Dowling, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>E7</td><td>27.08</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Clark, E.Manson, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>E8</td><td>27.32</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>M.Medina, T.Purves, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R130" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 130</td><td>27. SG U14 2X : Schoolgirls Under 14 Double Scull</td><td>Semi-Final 3</td></tr>
+<tr><td></td><td>Start Time: 8:20 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>F1</td><td>27.43</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>C.Barrett, M.Rickerby, Coach:&nbsp;C.Miedecke</td></tr>
+<tr><td>F2</td><td>27.26</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>G.Briggs, L.Carter, Coaches:&nbsp;J.Wilson, T.Brient, J.Wever</td></tr>
+<tr><td>F3</td><td>27.12</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Waddingham, J.Johnston, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>F4</td><td>27.15</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>N.Farquhar, A.Farquhar, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>F5</td><td>27.05</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>S.Jones, G.Parnham, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>F6</td><td>27.31</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>M.Mackey, A.Dickman, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>F7</td><td>27.27</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>S.Boden, A.Napier, Coaches:&nbsp;J.Wilson, T.Brient, J.Wever</td></tr>
+<tr><td>F8</td><td>27.10</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>M.Chiselett, L.Rockliff, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td colspan="5"><br>Progress: 1,2->Final + 2 Next Fastest Crews</td></tr>
+</table><a id="R131" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 131</td><td>1. SG 4+ (1) : Schoolgirls Four (Firsts)</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:00 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>G1</td><td>01.07</td><td class="rm_nowrap">St Patricks 1</td><td class="rm_ta_right">&nbsp;</td><td>B.Duffy, E.Morrow, L.Waud, E.March, Cox:&nbsp;A.White, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>G2</td><td>01.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Grave, J.Welch, E.Spaulding, C.Greenhill, Cox:&nbsp;S.Ellis, Coaches:&nbsp;D.Tippett, M.Tippett, G.Scattergood</td></tr>
+<tr><td>G3</td><td>01.03</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>L.Cooper, L.Ansell, O.Wilkins, D.Maning, Cox:&nbsp;S.Bury, Coaches:&nbsp;S.Manson, C.Parnham</td></tr>
+<tr><td>G4</td><td>01.05</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Fryett, A.Billing, I.Goss, P.White, Cox:&nbsp;P.Eastaugh</td></tr>
+<tr><td>G5</td><td>01.06</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>L.Calvert, A.Florance, A.Jepson, H.Schouten, Cox:&nbsp;L.Cleeland, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td>G6</td><td>01.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>M.Prescott, O.Viney, H.Curry, P.Davis, Cox:&nbsp;C.Bayley, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>G7</td><td>01.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Powell-Davies, M.White, A.Gardner, E.Underwood, Cox:&nbsp;I.Fox</td></tr>
+<tr><td>G8</td><td>01.08</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>H.Sice, E.Mason, F.Carter, G.Woodhouse, Cox:&nbsp;M.Pinelli</td></tr>
+
+</table><a id="R132" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 132</td><td>2. SB 8+ : Schoolboys Eights</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:06 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>H1</s></td><td>02.03</td><td class="rm_nowrap"><s>Guilford/Elizabeth</s></td><td class="rm_ta_right">&nbsp;</td><td>N.Stozki [EC], P.Loring [EC], R.Browning [GYC], H.King [GYC], T.Oliver [GYC], A.Midson [EC], J.Connolly [GYC], A.Paynter [GYC], Cox:&nbsp;A.Raymond [GYC]</td></tr>
+<tr><td>H2</td><td>02.04</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>T.Gibson, T.Neuberger, J.Maumill, T.Chilcott, H.Johnstone, A.Bradley, A.Vermey, S.Henning, Cox:&nbsp;R.Cousins, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td>H3</td><td>02.06</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>J.Briggs, H.Wagner, J.Lawrence, P.Brown, H.Birchmore, W.Gray, A.Neville - Clark, W.Hurd, Cox:&nbsp;M.Russell, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>H4</td><td>02.05</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>J.Dalton, H.Mounter, D.Matson, T.Bayley, H.Sillifant, O.Newbury, S.Mounter, B.Boman, Cox:&nbsp;A.Whatling, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>H5</td><td>02.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>C.Colhoun, J.Downie, T.Doyle, A.Ibbott, T.Neal, E.Wilkins, R.Fox, C.Johnson, Cox:&nbsp;D.Ibbott</td></tr>
+<tr><td>H6</td><td>02.02</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Townsend, T.Cannell, H.Hirst, A.Farquhar, L.Dean, W.Bates, L.Pohan, A.Ralph, Cox:&nbsp;G.Robertson, Coaches:&nbsp;D.Lalor, L.Malcolm</td></tr>
+<tr><td>H7</td><td>02.07</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>J.Mineall, W.Reilly, J.Pearce, O.Scharapow, L.Dean, C.Rae, N.Douglas, O.Birtwistle, Cox:&nbsp;J.Axman-Friend, Coach:&nbsp;D.Birtwistle</td></tr>
+
+</table><a id="R133" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 133</td><td>3. SG 4+ (2) : Schoolgirls Four (Seconds)</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:12 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>I1</td><td>03.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Lalor, S.Loo, E.Goess-Howe, A.Mayes, Cox:&nbsp;L.Eastaugh</td></tr>
+<tr><td>I2</td><td>03.08</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Brown, M.Dowling, E.Tucker, E.Swan, Cox:&nbsp;O.Frost</td></tr>
+<tr><td>I3</td><td>03.11</td><td class="rm_nowrap">Scotch Oakburn 2</td><td class="rm_ta_right">&nbsp;</td><td>H.Woolston, E.Jepson, G.Taylor, M.MacKenzie, Cox:&nbsp;H.Lynch, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td>I4</td><td>03.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>H.Gregory, E.Bird, R.Forsyth, A.McCoid, Cox:&nbsp;C.Elrick, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>I5</td><td>03.06</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>K.Fajrianto, C.Balmforth, C.Hornett, I.Nation, Cox:&nbsp;C.Ralph</td></tr>
+<tr><td>I6</td><td>03.09</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>U.Harris, C.Forster, A.Raymond, E.Triffett, Cox:&nbsp;C.Mead, Coach:&nbsp;C.Harris</td></tr>
+<tr><td>I7</td><td>03.03</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Jones, H.Riches, S.Lambert, M.Jones, Cox:&nbsp;S.Rolls, Coaches:&nbsp;S.Manson, C.Parnham</td></tr>
+<tr><td>I8</td><td>03.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>M.Mampieri, E.Palmer, M.West, R.Curry, Cox:&nbsp;S.Johnston, Coach:&nbsp;N.Stump</td></tr>
+
+</table><a id="R134" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 134</td><td>4. SB U16 2X : Schoolboys Under 16 Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:22 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>J1</td><td>04.19</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>H.Fyffe, R.MacKenzie, Coaches:&nbsp;M.Bonham, M.Cameron</td></tr>
+<tr><td>J2</td><td>04.20</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>S.Brown, M.Russell, Coaches:&nbsp;M.Bonham, M.Cameron</td></tr>
+<tr><td>J3</td><td>04.12</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>A.Stewart, F.Palmer</td></tr>
+<tr><td>J4</td><td>04.06</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>K.Glynn, N.Adkins, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>J5</td><td>04.01</td><td class="rm_nowrap">Dominic</td><td class="rm_ta_right">&nbsp;</td><td>T.Browning, J.Triffett, Coaches:&nbsp;J.Bannon, P.Nichols</td></tr>
+<tr><td>J6</td><td>04.09</td><td class="rm_nowrap">Hobart/Huonville</td><td class="rm_ta_right">&nbsp;</td><td>J.Wynter [HHS], P.Robbie [HC], Coach:&nbsp;P.Newbon</td></tr>
+<tr><td>J7</td><td>04.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>M.Mitchell, T.Carins, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>J8</td><td>04.08</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Collette, T.Peck, Coach:&nbsp;W.Adkins</td></tr>
+
+</table><a id="R135" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 135</td><td>5. SG U16 1X : Schoolgirls Under 16 Single Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:26 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>K1</td><td>05.30</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Oliver</td></tr>
+<tr><td>K2</td><td>05.33</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Stewart, Coach:&nbsp;C.Symons</td></tr>
+<tr><td>K3</td><td>05.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>O.Yeates, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>K4</td><td>05.08</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>M.Bylsma</td></tr>
+<tr><td>K5</td><td>05.16</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>L.Dunn, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>K6</td><td>05.05</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>M.Castles, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>K7</td><td>05.07</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Lo</td></tr>
+<tr><td>K8</td><td>05.20</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>R.Morgan, Coach:&nbsp;P.Hansen</td></tr>
+
+</table><a id="R136" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 136</td><td>6. SB U15 4X+ : Schoolboys Under 15 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:34 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>L1</td><td>06.16</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>H.Sylvester, O.O'Donovan, J.Smith, J.Young, Cox:&nbsp;J.Woods, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>L2</td><td>06.05</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>M.McIntosh, O.Sproule, A.McShane, C.Mounter, Cox:&nbsp;A.Whatling, Coaches:&nbsp;J.McIntosh, A.Hall, H.Vermey</td></tr>
+<tr><td>L3</td><td>06.12</td><td class="rm_nowrap">St Patricks 1</td><td class="rm_ta_right">&nbsp;</td><td>M.Roney, J.Clark, D.Rae, N.McCullagh, Cox:&nbsp;I.McCullagh, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+<tr><td>L4</td><td>06.03</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>A.Creese, C.Ancher, O.Quinn, J.Stedman, Cox:&nbsp;P.Bennett, Coach:&nbsp;M.Rowan</td></tr>
+<tr><td>L5</td><td>06.09</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>O.O'Connor, G.Russell, N.Neville - Clark, C.Parker, Cox:&nbsp;L.Jenkins, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td>L6</td><td>06.15</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>T.Weeding, J.Mitchell, M.Woods, H.Paynter, Cox:&nbsp;D.Berry, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>L7</td><td>06.04</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>O.Hart, J.Moy, C.Leesong, C.Boman, Cox:&nbsp;R.Cousins, Coaches:&nbsp;J.McIntosh, A.Hall, M.Vermey</td></tr>
+<tr><td>L8</td><td>06.13</td><td class="rm_nowrap">St Patricks 2</td><td class="rm_ta_right">&nbsp;</td><td>T.Mineall, H.McGovern, J.Humphreys, D.Wilkins, Cox:&nbsp;L.Humphreys, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+
+</table><a id="R137" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 137</td><td>7. SG U15 2X : Schoolgirls Under 15 Double Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 9:38 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>M1</td><td>07.27</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>A.Woolston, L.Wilson, Coaches:&nbsp;A.Gruber, R.Banner</td></tr>
+<tr><td>M2</td><td>07.05</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>M.Cummings, O.Bridgeman, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>M3</td><td>07.20</td><td class="rm_nowrap">Grammar 4</td><td class="rm_ta_right">&nbsp;</td><td>L.Gardner, L.Ayers, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>M4</td><td>07.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>G.Witt, A.Parsons, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>M5</td><td>07.32</td><td class="rm_nowrap">Sheffield</td><td class="rm_ta_right">&nbsp;</td><td>J.Behrmann, I.Ritter, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>M6</td><td>07.22</td><td class="rm_nowrap">Kingston High/Marist</td><td class="rm_ta_right">&nbsp;</td><td>A.Pratt [MCOLL], P.Kennett [KHS], Coaches:&nbsp;A.Bain, M.Wilson</td></tr>
+<tr><td>M7</td><td>07.10</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>P.Clarke, K.Hayes, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>M8</td><td>07.34</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>O.Walter, F.Tsakirakis, Coaches:&nbsp;M.Lamb, C.Stanley</td></tr>
+
+</table><a id="R138" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 138</td><td>7. SG U15 2X : Schoolgirls Under 15 Double Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 9:42 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>N1</td><td>07.17</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>C.Knowles, S.Dunne, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>N2</td><td>07.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>M.Healy, M.Ferguson, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>N3</td><td>07.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Welch, L.Barker, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>N4</td><td>07.18</td><td class="rm_nowrap">Grammar 2</td><td class="rm_ta_right">&nbsp;</td><td>Y.Wyly, C.Lockrey, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>N5</td><td>07.12</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Ralph, H.Wigston</td></tr>
+<tr><td>N6</td><td>07.07</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Dalton, G.Leicester, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>N7</td><td>07.15</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Gardner, A.Edwards</td></tr>
+<tr><td>N8</td><td>07.04</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>C.Leicester, E.Kingston, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+
+</table><a id="R139" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 139</td><td>8. SB U14 4X+ : Schoolboys Under 14 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 9:46 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>O1</td><td>08.16</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>K.Polley, T.Coad, D.Mulcahy, H.Todd, Cox:&nbsp;M.Pinelli</td></tr>
+<tr><td>O2</td><td>08.04</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>B.Stewart, F.Mayes, G.Beacham, H.Cuming, Cox:&nbsp;L.White, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>O3</td><td>08.19</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Volta, S.Igarashi-Myers, S.Murray, N.Haas, Cox:&nbsp;E.Higginson</td></tr>
+<tr><td>O4</td><td>08.14</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>L.Hoare, S.Taylor, F.Wagner, O.Dowling, Cox:&nbsp;C.Ball, Coaches:&nbsp;W.Birchmore, L.Paige, J.Malisauskas</td></tr>
+<tr><td>O5</td><td>08.11</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>T.Stewart, E.Brown, J.Fielding, J.Gibson, Cox:&nbsp;C.Morgan, Coach:&nbsp;K.Morgan</td></tr>
+<tr><td>O6</td><td>08.05</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>W.Hill, M.Smith, O.Nicholls, F.Glynn, Cox:&nbsp;M.Wall, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>O7</td><td>08.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Maning, R.Middendorf, H.Chuter, C.Fox, Cox:&nbsp;O.Shearing</td></tr>
+<tr><td>O8</td><td>08.09</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>C.Fiedler, D.Shulman, H.Wilkins, D.Sillifant, Cox:&nbsp;F.Dobson, Coach:&nbsp;T.Fiedler</td></tr>
+
+</table><a id="R140" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 140</td><td>10. SB U13 1X : Schoolboys Under 13 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 9:54 AM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>P1</td><td>10.19</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Lamprey</td></tr>
+<tr><td>P2</td><td>10.15</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>W.Symons, Coaches:&nbsp;R.Clark, O.Marsden</td></tr>
+<tr><td>P3</td><td>10.16</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>L.Tonelly, Coaches:&nbsp;R.Clark, O.Marsden</td></tr>
+<tr><td>P4</td><td>10.10</td><td class="rm_nowrap">Friends 8</td><td class="rm_ta_right">&nbsp;</td><td>T.Bowerman, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>P5</td><td>10.02</td><td class="rm_nowrap">Friends 10</td><td class="rm_ta_right">&nbsp;</td><td>L.Everett, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>P6</td><td>10.20</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>H.Costelloe</td></tr>
+<tr><td>P7</td><td>10.05</td><td class="rm_nowrap">Friends 3</td><td class="rm_ta_right">&nbsp;</td><td>J.Wong, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>P8</td><td>10.04</td><td class="rm_nowrap">Friends 2</td><td class="rm_ta_right">&nbsp;</td><td>W.Petty, Coach:&nbsp;J.Morgan</td></tr>
+
+</table><a id="R141" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 141</td><td>10. SB U13 1X : Schoolboys Under 13 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 9:58 AM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Q1</td><td>10.23</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Parkinson</td></tr>
+<tr><td>Q2</td><td>10.27</td><td class="rm_nowrap">Clarence</td><td class="rm_ta_right">&nbsp;</td><td>S.Anderson</td></tr>
+<tr><td>Q3</td><td>10.12</td><td class="rm_nowrap">Marist</td><td class="rm_ta_right">&nbsp;</td><td>W.Jackson, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>Q4</td><td>10.17</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>M.Sylvester, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>Q5</td><td>10.22</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>L.Gray</td></tr>
+<tr><td><s>Q6</s></td><td>10.24</td><td class="rm_nowrap"><s>St Virgils</s></td><td class="rm_ta_right">&nbsp;</td><td>K.King</td></tr>
+<tr><td>Q7</td><td>10.01</td><td class="rm_nowrap">Friends 1</td><td class="rm_ta_right">&nbsp;</td><td>D.Rumsby, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>Q8</td><td>10.08</td><td class="rm_nowrap">Friends 6</td><td class="rm_ta_right">&nbsp;</td><td>M.Ikedife, Coach:&nbsp;J.Morgan</td></tr>
+
+</table><a id="R142" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 142</td><td>12. SG U13 2X : Schoolgirls Under 13 Double Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 10:02 AM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>R1</td><td>12.08</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Goodey, R.Grosvenor, Coaches:&nbsp;S.Gregg, S.Baxter</td></tr>
+<tr><td>R2</td><td>12.22</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>P.Brown, I.Skirving, Coaches:&nbsp;V.Wilson, R.McDonald</td></tr>
+<tr><td>R3</td><td>12.11</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>M.Hopster, I.Calvert</td></tr>
+<tr><td>R4</td><td>12.06</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>Z.Bury, E.Mazengarb, Coaches:&nbsp;S.Gregg, S.Baxter</td></tr>
+<tr><td>R5</td><td>12.30</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>J.Marley, A.Smith, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>R6</td><td>12.27</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Wanandy, B.Carter, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>R7</td><td>12.29</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>T.Millhouse, A.King, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>R8</td><td>12.31</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>R.Milne, I.Miedecke, Coaches:&nbsp;C.Miedecke, G.Axman-Friend</td></tr>
+
+</table><a id="R143" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 143</td><td>12. SG U13 2X : Schoolgirls Under 13 Double Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 10:06 AM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>S1</td><td>12.04</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>L.Palmer, C.Brown, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>S2</td><td>12.24</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>M.Graves, L.Crowe, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>S3</td><td>12.25</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>R.Berry, S.Thomas, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>S4</td><td>12.12</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>L.Wells, M.Jotic</td></tr>
+<tr><td>S5</td><td>12.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>C.Roff, A.Heath, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>S6</td><td>12.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Rule, L.Jamieson, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>S7</td><td>12.28</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>Z.Brooks, T.Wise, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>S8</td><td>12.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>S.Weissel, E.Brown, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+
+</table><a id="R144" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 144</td><td>13. SB 2- : Schoolboys Pair</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:16 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>T1</td><td>13.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>T.Doyle, A.Ibbott</td></tr>
+<tr><td><s>T2</s></td><td>13.06</td><td class="rm_nowrap"><s>Hutchins</s></td><td class="rm_ta_right">&nbsp;</td><td>J.Dalton, T.Bayley, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>T3</td><td>13.09</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>W.Gray, H.Birchmore, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>T4</td><td>13.05</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>H.Sillifant, O.Newbury, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>T5</td><td>13.07</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>D.Matson, H.Mounter, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>T6</td><td>13.04</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>B.Boman, S.Mounter, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>T7</td><td>13.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Wilkins, T.Neal</td></tr>
+<tr><td><s>T8</s></td><td>13.08</td><td class="rm_nowrap"><s>Hutchins</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Vermey, S.Henning, Coaches:&nbsp;R.Matson, A.Palmer, T.Allwright</td></tr>
+
+</table><a id="R145" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 145</td><td>14. SB 2X : Schoolboys Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:22 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>U1</td><td>14.10</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>M.Riches, S.Fry, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td>U2</td><td>14.14</td><td class="rm_nowrap">Scotch Oakburn 2</td><td class="rm_ta_right">&nbsp;</td><td>W.Dowling, A.Neville - Clark, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>U3</td><td>14.09</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>J.Connolly, A.Paynter</td></tr>
+<tr><td>U4</td><td>14.03</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>J.Downie, C.Colhoun</td></tr>
+<tr><td>U5</td><td>14.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>R.Fox, C.Johnson</td></tr>
+<tr><td>U6</td><td>14.17</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>C.Rae, J.Mineall, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>U7</td><td>14.13</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>J.Lawrence, W.Hurd, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>U8</td><td>14.02</td><td class="rm_nowrap">Elizabeth</td><td class="rm_ta_right">&nbsp;</td><td>P.Loring, N.Stozki, Coaches:&nbsp;J.Bannon, P.Nichols, L.Geappen</td></tr>
+
+</table><a id="R146" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 146</td><td>15. SG 4X+ : Schoolgirls Coxed Quad Sculls</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:28 AM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>V1</td><td>15.07</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>U.Harris, C.Forster, A.Raymond, E.Triffett, Cox:&nbsp;C.Mead, Coach:&nbsp;C.Harris</td></tr>
+<tr><td><s>V2</s></td><td>15.03</td><td class="rm_nowrap"><s>Friends</s></td><td class="rm_ta_right">&nbsp;</td><td>K.Fajrianto, C.Balmforth, E.Underwood, I.Nation, Cox:&nbsp;I.Fox</td></tr>
+<tr><td>V3</td><td>15.04</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Brown, E.Tucker, M.Dowling, P.White, Cox:&nbsp;O.Frost</td></tr>
+<tr><td>V4</td><td>15.12</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>A.Roberts, A.Schrader, G.Woodhouse, P.Teale, Cox:&nbsp;M.Pinelli, Coach:&nbsp;M.Stott</td></tr>
+<tr><td>V5</td><td>15.06</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Fryett, I.Goss, A.Billing, E.Swan, Cox:&nbsp;P.Eastaugh</td></tr>
+<tr><td>V6</td><td>15.13</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>E.March, B.Duffy, M.Brown, E.Morrow, Cox:&nbsp;A.White</td></tr>
+<tr><td>V7</td><td>15.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>R.Skirving, S.Grave, E.Spaulding, C.Greenhill, Cox:&nbsp;M.Nield, Coaches:&nbsp;D.Tippett, M.Tippett, G.Scattergood</td></tr>
+<tr><td>V8</td><td>15.08</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>H.Woolston, E.Jepson, G.Taylor, M.MacKenzie, Cox:&nbsp;L.Cleeland, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+
+</table><a id="R147" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 147</td><td>16. SB U16 1X : Schoolboys Under 16 Single Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:38 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>W1</td><td>16.02</td><td class="rm_nowrap">Dominic</td><td class="rm_ta_right">&nbsp;</td><td>J.Triffett, Coaches:&nbsp;J.Bannon, P.Nichols</td></tr>
+<tr><td>W2</td><td>16.11</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>K.Glynn, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>W3</td><td>16.29</td><td class="rm_nowrap">Ulverstone SC</td><td class="rm_ta_right">&nbsp;</td><td>L.Baker, Coaches:&nbsp;H.Lewis, M.Wilson</td></tr>
+<tr><td>W4</td><td>16.14</td><td class="rm_nowrap">Hobart</td><td class="rm_ta_right">&nbsp;</td><td>P.Robbie, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td><s>W5</s></td><td>16.10</td><td class="rm_nowrap"><s>Grammar</s></td><td class="rm_ta_right">&nbsp;</td><td>N.Adkins, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>W6</td><td>16.15</td><td class="rm_nowrap">Huonville</td><td class="rm_ta_right">&nbsp;</td><td>J.Wynter, Coach:&nbsp;P.Newbon</td></tr>
+<tr><td>W7</td><td>16.12</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>T.Carins, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>W8</td><td>16.25</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>C.James, Coach:&nbsp;P.Bird</td></tr>
+
+</table><a id="R148" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 148</td><td>17. SG U16 4+ : Schoolgirls Under 16 Coxed Four</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 10:42 AM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>X1</td><td>17.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>P.Loane, A.Bennett, L.Dunn, M.Bradfield, Cox:&nbsp;G.Robertson, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>X2</td><td>17.10</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Barnes, E.Atkins, E.Monks, C.Oliver, Cox:&nbsp;A.Graves</td></tr>
+<tr><td>X3</td><td>17.09</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>K.Napier, K.Atherton, J.Irani, A.Hughes, Cox:&nbsp;B.Lee-Archer, Coach:&nbsp;A.McLean</td></tr>
+<tr><td>X4</td><td>17.05</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Lo, B.Woolley, M.Bylsma, J.Wilcox, Cox:&nbsp;K.Gallen</td></tr>
+<tr><td>X5</td><td>17.06</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>T.Klower, L.Hucker, E.Henty, A.Dunne, Cox:&nbsp;L.Eastaugh, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>X6</td><td>17.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Ellis, L.Doonan, O.Yeates, M.Castles, Cox:&nbsp;M.Spaulding, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>X7</td><td>17.03</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Benyon, E.Banks-Smith, E.Hanna, A.Edwards, Cox:&nbsp;M.Reardon, Coaches:&nbsp;T.Skipworth, J.Campbell-Jones</td></tr>
+<tr><td>X8</td><td>17.02</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Crosby, L.Evans-Gregg, O.Sampson, T.McDonough, Cox:&nbsp;O.Farquer, Coaches:&nbsp;T.Skipworth, J.Campbell-Jones</td></tr>
+
+</table><a id="R149" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 149</td><td>18. SG U14 1X : Schoolgirls Under 14 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 11:42 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Y1</td><td>18.25</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>A.Loring, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>Y2</td><td>18.30</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>M.Mackey, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>Y3</td><td>18.08</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>P.Leditschke, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>Y4</td><td>18.18</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Dunn, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>Y5</td><td>18.19</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>J.Johnston, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>Y6</td><td>18.22</td><td class="rm_nowrap">Marist</td><td class="rm_ta_right">&nbsp;</td><td>A.Pratt, Coach:&nbsp;M.Wilson</td></tr>
+<tr><td>Y7</td><td>18.20</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Loane, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>Y8</td><td>18.26</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>S.Midgley, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+
+</table><a id="R150" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 150</td><td>18. SG U14 1X : Schoolgirls Under 14 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 11:46 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Z1</td><td>18.23</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>C.Fenton, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>Z2</td><td>18.24</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>M.North, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>Z3</td><td>18.12</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>U.Nation</td></tr>
+<tr><td>Z4</td><td>18.09</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Cocker, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>Z5</td><td>18.14</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>A.Farquhar, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>Z6</td><td>18.29</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>H.Bingley, Coaches:&nbsp;J.Wilson, J.Wever, T.Brient</td></tr>
+<tr><td>Z7</td><td>18.04</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>L.Lawler, Coach:&nbsp;R.Griffiths</td></tr>
+<tr><td>Z8</td><td>18.05</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>E.Manson, Coach:&nbsp;J.Withers</td></tr>
+
+</table><a id="R151" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 151</td><td>19. SB U14 2X : Schoolboys Under 14 Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 11:50 AM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>A1</td><td>19.09</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>W.Hill, M.Smith, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>A2</td><td>19.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Beacham, H.Cuming, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>A3</td><td>19.35</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>S.Murray, N.Haas</td></tr>
+<tr><td>A4</td><td>19.31</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>S.Taylor, O.Dowling, Coaches:&nbsp;W.Birchmore, L.Paige, J.Malisauskas</td></tr>
+<tr><td>A5</td><td>19.18</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>H.Wilkins, D.Sillifant, Coach:&nbsp;T.Fiedler</td></tr>
+<tr><td>A6</td><td>19.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Maning, R.Middendorf</td></tr>
+<tr><td>A7</td><td>19.36</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Volta, S.Igarashi-Myers</td></tr>
+<tr><td>A8</td><td>19.24</td><td class="rm_nowrap">Hutchins 2</td><td class="rm_ta_right">&nbsp;</td><td>J.Gibson, T.Stewart, Coach:&nbsp;K.Morgan</td></tr>
+
+</table><a id="R152" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 152</td><td>20. SG U13 4X+ : Schoolgirls Under 13 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 11:58 AM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>B1</td><td>20.12</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Wanandy, T.Millhouse, A.Graves, B.Carter, Cox:&nbsp;A.Carter, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>B2</td><td>20.05</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>C.Atkins, M.Porter, K.Edwards, I.Dickson, Cox:&nbsp;S.Bury, Coaches:&nbsp;S.Gregg, S.Baxter</td></tr>
+<tr><td>B3</td><td>20.07</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>M.Hopster, M.Ebeli, L.Wells, M.Jotic, Cox:&nbsp;E.Ralph</td></tr>
+<tr><td>B4</td><td>20.15</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>Z.Brooks, T.Wise, R.Berry, S.Thomas, Cox:&nbsp;L.Pinelli, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>B5</td><td>20.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Heath, C.Brown, C.Roff, E.Einoder, Cox:&nbsp;L.Jamieson, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>B6</td><td>20.08</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>C.Barron, E.Popa, S.Storay, I.Wilson, Cox:&nbsp;E.Breden, Coaches:&nbsp;V.Wilson, R.McDonald</td></tr>
+<tr><td>B7</td><td>20.14</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>J.Marley, A.Smith, S.Fidanza, L.Crowe, Cox:&nbsp;S.Carter, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>B8</td><td>20.09</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>L.van der Aa, O.Stevens, L.Gurudoss, S.Christie, Cox:&nbsp;E.Knaggs, Coaches:&nbsp;W.Birchmore, R.McDonald</td></tr>
+
+</table><a id="R153" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 153</td><td>21. SB U15 1X : Schoolboys Under 15 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 12:06 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>C1</s></td><td>21.22</td><td class="rm_nowrap"><s>St Patricks</s></td><td class="rm_ta_right">&nbsp;</td><td>J.Clark, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+<tr><td>C2</td><td>21.19</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>F.Viney, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td>C3</td><td>21.28</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>J.Mitchell, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>C4</td><td>21.29</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>M.Woods, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>C5</td><td>21.17</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>G.Russell, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td><s>C6</s></td><td>21.21</td><td class="rm_nowrap"><s>St Patricks</s></td><td class="rm_ta_right">&nbsp;</td><td>D.Rae, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+<tr><td><s>C7</s></td><td>21.24</td><td class="rm_nowrap"><s>St Patricks</s></td><td class="rm_ta_right">&nbsp;</td><td>M.Roney, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+<tr><td>C8</td><td>21.18</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>N.Neville - Clark, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+
+</table><a id="R154" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 154</td><td>21. SB U15 1X : Schoolboys Under 15 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 12:10 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>D1</td><td>21.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Clyne, Coach:&nbsp;I.McMahon</td></tr>
+<tr><td>D2</td><td>21.31</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>H.Paynter, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>D3</td><td>21.15</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>C.Parker, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td>D4</td><td>21.06</td><td class="rm_nowrap">Grammar 2</td><td class="rm_ta_right">&nbsp;</td><td>J.Stedman, Coach:&nbsp;M.Rowan</td></tr>
+<tr><td>D5</td><td>21.05</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>O.Quinn, Coach:&nbsp;M.Rowan</td></tr>
+<tr><td>D6</td><td>21.27</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>T.Weeding, Coaches:&nbsp;O.Wilson-Haffenden, D.Martin</td></tr>
+<tr><td>D7</td><td>21.11</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>C.Leesong, Coaches:&nbsp;J.McIntosh, A.Hall, H.Vermey</td></tr>
+<tr><td>D8</td><td>21.16</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>O.O'Connor, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+
+</table><a id="R155" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 155</td><td>22. SB U13 2X : Schoolboys Under 13 Double Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 12:18 PM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>E1</td><td>22.16</td><td class="rm_nowrap">Hutchins 10</td><td class="rm_ta_right">&nbsp;</td><td>A.Rowley, T.Waterworth</td></tr>
+<tr><td>E2</td><td>22.05</td><td class="rm_nowrap">Friends 4</td><td class="rm_ta_right">&nbsp;</td><td>H.Leis, T.Bowerman, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>E3</td><td>22.04</td><td class="rm_nowrap">Friends 3</td><td class="rm_ta_right">&nbsp;</td><td>M.Ikedife, J.Wong, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>E4</td><td>22.32</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>T.Clark, L.Tonelly, Coaches:&nbsp;R.Clark, O.Marsden</td></tr>
+<tr><td>E5</td><td>22.30</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>O.Davey, H.Dennis</td></tr>
+<tr><td>E6</td><td>22.22</td><td class="rm_nowrap">Hutchins 2</td><td class="rm_ta_right">&nbsp;</td><td>H.King, H.Cooper</td></tr>
+<tr><td>E7</td><td>22.15</td><td class="rm_nowrap">Hutchins 1</td><td class="rm_ta_right">&nbsp;</td><td>L.Hanna, T.Banks-Smith</td></tr>
+<tr><td>E8</td><td>22.18</td><td class="rm_nowrap">Hutchins 12</td><td class="rm_ta_right">&nbsp;</td><td>S.Archer, H.McCoid</td></tr>
+
+</table><a id="R156" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 156</td><td>22. SB U13 2X : Schoolboys Under 13 Double Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 12:22 PM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>F1</td><td>22.35</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Lamprey, H.Costelloe, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>F2</td><td>22.01</td><td class="rm_nowrap">Clarence/Marist</td><td class="rm_ta_right">&nbsp;</td><td>W.Jackson [MCOLL], S.Anderson [CHS]</td></tr>
+<tr><td>F3</td><td>22.39</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>M.Sylvester, L.Grubb, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>F4</td><td>22.36</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Godfrey, L.Gray, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>F5</td><td>22.08</td><td class="rm_nowrap">Friends 7</td><td class="rm_ta_right">&nbsp;</td><td>H.Heathercote, M.Vickers, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>F6</td><td>22.02</td><td class="rm_nowrap">Friends 1</td><td class="rm_ta_right">&nbsp;</td><td>W.Petty, D.Rumsby, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>F7</td><td>22.37</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Parkinson, K.King, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>F8</td><td>22.03</td><td class="rm_nowrap">Friends 2</td><td class="rm_ta_right">&nbsp;</td><td>B.Rugen, L.Clyne, Coach:&nbsp;J.Morgan</td></tr>
+
+</table><a id="R157" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 157</td><td>23. SB 4X+ : Schoolboys Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 12:32 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>G1</td><td>23.09</td><td class="rm_nowrap">Scotch Oakburn 2</td><td class="rm_ta_right">&nbsp;</td><td>J.Briggs, H.Wagner, J.Lawrence, W.Dowling, Cox:&nbsp;G.Russell, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>G2</td><td>23.02</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>Z.Finlay, C.Townsend, H.Hirst, W.Bates, Cox:&nbsp;L.White, Coaches:&nbsp;D.Lalor, L.Malcolm</td></tr>
+<tr><td>G3</td><td>23.08</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>H.Birchmore, W.Gray, A.Neville - Clark, W.Hurd, Cox:&nbsp;L.Cleeland, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>G4</td><td>23.06</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>T.Gibson, T.Neuberger, J.Maumill, T.Chilcott, Cox:&nbsp;R.Cousins, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td>G5</td><td>23.03</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>A.Farquhar, L.Dean, L.Pohan, A.Ralph, Cox:&nbsp;G.Robertson, Coaches:&nbsp;D.Lalor, L.Malcolm</td></tr>
+<tr><td><s>G6</s></td><td>23.05</td><td class="rm_nowrap"><s>Hutchins</s></td><td class="rm_ta_right">&nbsp;</td><td>H.Johnstone, A.Bradley, A.Vermey, S.Henning, Cox:&nbsp;C.Boman, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td><s>G7</s></td><td>23.01</td><td class="rm_nowrap"><s>Elizabeth/Dominic</s></td><td class="rm_ta_right">&nbsp;</td><td>P.Loring [EC], T.Browning [DOMC], N.Stozki [EC], A.Midson [EC], Cox:&nbsp;J.Triffett [DOMC], Coaches:&nbsp;K.Graham, J.Bannon, P.Nichols</td></tr>
+<tr><td>G8</td><td>23.07</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>M.Riches, J.Lucas, C.Parnham, S.Fry, Cox:&nbsp;H.West, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+
+</table><a id="R158" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 158</td><td>24. SG 1X : Schoolgirls Single Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 12:38 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td><s>H1</s></td><td>24.26</td><td class="rm_nowrap"><s>St Patricks</s></td><td class="rm_ta_right">&nbsp;</td><td>E.Morrow, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>H2</td><td>24.22</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>P.Teale, Coach:&nbsp;M.Stott</td></tr>
+<tr><td>H3</td><td>24.20</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>L.Calvert, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td><s>H4</s></td><td>24.21</td><td class="rm_nowrap"><s>Scotch Oakburn</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Florance, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td>H5</td><td>24.04</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>E.Spaulding, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>H6</td><td>24.27</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>E.Hepburn, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td><s>H7</s></td><td>24.11</td><td class="rm_nowrap"><s>Grammar</s></td><td class="rm_ta_right">&nbsp;</td><td>I.Goss</td></tr>
+<tr><td>H8</td><td>24.02</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>J.Welch, Coach:&nbsp;G.Scattergood</td></tr>
+
+</table><a id="R159" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 159</td><td>25. SB U16 8+ : Schoolboys Under 16 Eight</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 12:48 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>I2</td><td>25.06</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>X.Nichols, N.Blackwell, O.Dinnessen, O.McLaren, C.James, F.Di Ubaldo, E.Kounelis, H.Grubb, Cox:&nbsp;D.Berry, Coach:&nbsp;P.Bird</td></tr>
+<tr><td>I3</td><td>25.02</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>J.Gray, F.Billing, T.Peck, T.Carins, G.Collette, M.Mitchell, N.Adkins, K.Glynn, Cox:&nbsp;H.Barrenger, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>I4</td><td>25.05</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>C.Auton, L.James-Wever, S.Brown, R.MacKenzie, J.Bamford, S.Stopford, H.Fyffe, M.Russell, Cox:&nbsp;M.Fulton, Coaches:&nbsp;M.Cameron, M.Bonham</td></tr>
+<tr><td>I5</td><td>25.03</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>L.Healy, J.Fiedler, T.Daengdej, L.O'Brien, A.Stewart, R.Sanderson, B.Brown, F.Palmer, Cox:&nbsp;J.Richards</td></tr>
+<tr><td>I6</td><td>25.04</td><td class="rm_nowrap">New Town Composite</td><td class="rm_ta_right">&nbsp;</td><td>E.Raymond [NTHS], N.Lisson [NTHS], T.Browning [DOMC], J.Wynter [HHS], P.Robbie [HC], J.Triffett [DOMC], O.Coulson [NTHS], H.Thomas [NTHS], Cox:&nbsp;J.Triffett [DOMC], Coaches:&nbsp;J.Bannon, P.Nichols, P.Newbon</td></tr>
+<tr><td>I7</td><td>25.01</td><td class="rm_nowrap">Friends/Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>A.Rackham [TFNDS], A.Ballard [TFNDS], G.Williams [TFNDS], E.Russell [TFNDS], O.Atwell [TFNDS], W.Terry [THS], C.Gibson [TFNDS], B.Stankovich [TFNDS], Cox:&nbsp;A.Hooper [TFNDS], Coach:&nbsp;M.McQueeney</td></tr>
+
+</table><a id="R160" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 160</td><td>26. SG U16 4X+ : Schoolgirls Under 16 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 12:52 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>J1</td><td>26.08</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>P.Loane, L.Hucker, A.Bennett, A.Dunne, Cox:&nbsp;L.Eastaugh, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>J2</td><td>26.17</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Newman, L.Cooper, O.Cowen, S.Bryant, Cox:&nbsp;K.Gallen</td></tr>
+<tr><td>J3</td><td>26.13</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>B.Sice, E.Atkins, H.Kelly, C.Oliver, Cox:&nbsp;B.Carter</td></tr>
+<tr><td>J4</td><td>26.11</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>C.Wright, R.Morgan, L.Morgan, S.North, Cox:&nbsp;H.Midgley, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>J5</td><td>26.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Ellis, L.Doonan, O.Yeates, M.Castles, Cox:&nbsp;M.Spaulding, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>J6</td><td>26.09</td><td class="rm_nowrap">Grammar 2</td><td class="rm_ta_right">&nbsp;</td><td>L.Johnstone, L.Andersen, T.Klower, M.Bradfield, Cox:&nbsp;O.Frost, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>J7</td><td>26.03</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Crosby, L.Evans-Gregg, O.Sampson, T.McDonough, Cox:&nbsp;O.Farquer, Coaches:&nbsp;T.Skipworth, J.Campbell-Jones</td></tr>
+<tr><td>J8</td><td>26.02</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Benyon, E.Banks-Smith, E.Hanna, A.Edwards, Cox:&nbsp;M.Reardon, Coaches:&nbsp;T.Skipworth, J.Campbell-Jones</td></tr>
+
+</table><a id="R161" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 161</td><td>27. SG U14 2X : Schoolgirls Under 14 Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:00 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>K1</td><td>27.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>T.Brown, L.Lawler, Coach:&nbsp;R.Griffiths</td></tr>
+<tr><td>K2</td><td>27.12</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Waddingham, J.Johnston, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>K3</td><td>27.13</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>P.Cuming, E.Dunn, Coach:&nbsp;M.Waddingham</td></tr>
+<tr><td>K4</td><td>27.06</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>P.Leditschke, M.Cocker, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>K5</td><td>27.05</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>S.Jones, G.Parnham, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>K6</td><td>27.25</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>H.Lynch, H.Bingley, Coaches:&nbsp;J.Wilson, T.Brient, J.Wever</td></tr>
+<tr><td>K7</td><td>27.19</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>C.Fenton, M.North, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>K8</td><td>27.15</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>N.Farquhar, A.Farquhar, Coach:&nbsp;M.Waddingham</td></tr>
+
+</table><a id="R162" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 162</td><td>28. SG U15 4X+ : Schoolgirl Under 15 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:04 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>L1</td><td>28.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>S.Johnston, A.Acuna, C.Elrick, E.Kingston, Cox:&nbsp;M.Rogers, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>L2</td><td>28.05</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>P.Clarke, O.Wilson, S.Lang, K.Hayes, Cox:&nbsp;S.Bury, Coaches:&nbsp;J.Withers, J.Withers</td></tr>
+<tr><td>L3</td><td>28.08</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Knowles, Y.Wyly, S.Dunne, C.Lockrey, Cox:&nbsp;L.White, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>L4</td><td>28.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>M.Healy, G.Witt, G.Leicester, M.Ferguson, Cox:&nbsp;Z.Carr, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>L5</td><td>28.15</td><td class="rm_nowrap">Sheffield/Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Welch [SBSC], L.Barker [SBSC], J.Behrmann [SHEFF], I.Ritter [SHEFF], Cox:&nbsp;T.Jago [SHEFF]</td></tr>
+<tr><td>L6</td><td>28.07</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Ralph, H.Wigston, E.Gardner, A.Edwards, Cox:&nbsp;E.Falloon</td></tr>
+<tr><td>L7</td><td>28.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>C.Leicester, A.Dalton, A.Parsons, M.Cummings, Cox:&nbsp;I.Leicester, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>L8</td><td>28.18</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>J.Axman-Friend, A.Duffy, A.McNeair, E.Donovan, Cox:&nbsp;L.Mansfield, Coaches:&nbsp;C.Miedecke, A.Izbicki</td></tr>
+
+</table><a id="R163" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 163</td><td>29. SB 1X : Schoolboys Single Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:14 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>M1</td><td>29.02</td><td class="rm_nowrap">Elizabeth</td><td class="rm_ta_right">&nbsp;</td><td>A.Midson, Coach:&nbsp;K.Graham</td></tr>
+<tr><td>M2</td><td>29.12</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>C.Rae, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>M3</td><td>29.10</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>J.Connolly</td></tr>
+<tr><td>M4</td><td>29.11</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>O.Birtwistle, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>M5</td><td>29.09</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>A.Paynter</td></tr>
+<tr><td>M6</td><td>29.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>H.Nield, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>M7</td><td>29.15</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>L.Dean, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>M8</td><td>29.03</td><td class="rm_nowrap">Elizabeth</td><td class="rm_ta_right">&nbsp;</td><td>N.Stozki, Coaches:&nbsp;J.Bannon, P.Nichols</td></tr>
+
+</table><a id="R164" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 164</td><td>30. SG 2- : Schoolgirls Pair</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:20 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>N1</td><td>30.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>E.Spaulding, C.Greenhill, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>N2</td><td>30.04</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Jones, L.Ansell, Coaches:&nbsp;S.Manson, C.Parnham</td></tr>
+<tr><td>N3</td><td>30.07</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>O.Wilkins, D.Maning, Coaches:&nbsp;S.Manson, C.Parnham</td></tr>
+<tr><td>N4</td><td>30.08</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>C.Hornett, E.Underwood</td></tr>
+<tr><td>N5</td><td>30.12</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>L.Calvert, H.Schouten, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td>N6</td><td>30.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>H.Curry, P.Davis, Coach:&nbsp;N.Stump</td></tr>
+<tr><td><s>N7</s></td><td>30.13</td><td class="rm_nowrap"><s>Scotch Oakburn 2</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Jepson, A.Florance, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td><s>N8</s></td><td>30.09</td><td class="rm_nowrap"><s>Friends</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Gardner, C.Ralph</td></tr>
+
+</table><a id="R165" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 165</td><td>31. SG 2X : Schoolgirls Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 1:26 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>O1</td><td>31.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>R.Curry, E.Bird, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>O2</td><td>31.15</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>M.Dowling, P.White</td></tr>
+<tr><td>O3</td><td>31.06</td><td class="rm_nowrap">Don</td><td class="rm_ta_right">&nbsp;</td><td>L.Tippett, P.Tippett</td></tr>
+<tr><td>O4</td><td>31.11</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Fryett, E.Swan</td></tr>
+<tr><td>O5</td><td>31.10</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>A.Billing, I.Goss</td></tr>
+<tr><td>O6</td><td>31.20</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>A.Schrader, P.Teale, Coach:&nbsp;M.Stott</td></tr>
+<tr><td>O7</td><td>31.25</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>E.Hepburn, M.Brown, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>O8</td><td>31.23</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Hutchinson, F.Carter, Coach:&nbsp;M.Stott</td></tr>
+
+</table><a id="R166" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 166</td><td>32. SB U16 4+ : Schoolboys Under 16 Coxed Four</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 2:26 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>P1</td><td>32.08</td><td class="rm_nowrap">Scotch Oakburn 2</td><td class="rm_ta_right">&nbsp;</td><td>C.Auton, J.Bamford, L.James-Wever, R.MacKenzie, Cox:&nbsp;S.Wells, Coaches:&nbsp;M.Cameron, M.Bonham</td></tr>
+<tr><td>P2</td><td>32.03</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>J.Gray, F.Billing, G.Collette, T.Carins, Cox:&nbsp;O.Frost, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>P3</td><td>32.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>G.Williams, C.Gibson, O.Atwell, B.Stankovich, Cox:&nbsp;A.Hooper, Coach:&nbsp;M.McQueeney</td></tr>
+<tr><td>P4</td><td>32.05</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>A.Stewart, R.Sanderson, B.Brown, F.Palmer, Cox:&nbsp;J.Richards</td></tr>
+<tr><td>P5</td><td>32.07</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>S.Brown, S.Stopford, H.Fyffe, M.Russell, Cox:&nbsp;M.Fulton, Coaches:&nbsp;M.Cameron, M.Bonham</td></tr>
+<tr><td>P6</td><td>32.04</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>T.Peck, M.Mitchell, N.Adkins, K.Glynn, Cox:&nbsp;H.Barrenger, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>P7</td><td>32.06</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>L.Healy, J.Fiedler, T.Daengdej, L.O'Brien, Cox:&nbsp;W.Terry</td></tr>
+<tr><td>P8</td><td>32.01</td><td class="rm_nowrap">Hutchins/Friends</td><td class="rm_ta_right">&nbsp;</td><td>A.Ballard [TFNDS], E.Russell [TFNDS], A.Rackham [TFNDS], J.Crehan [THS], Cox:&nbsp;A.Hope [TFNDS], Coach:&nbsp;M.McQueeney</td></tr>
+
+</table><a id="R167" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 167</td><td>33. SG U16 8+ : Schoolgirls under 16 Eight</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 2:30 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Q3</td><td>33.03</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>M.Bradfield, L.Dunn, A.Bennett, T.Klower, P.Loane, L.Hucker, E.Henty, A.Dunne, Cox:&nbsp;L.Eastaugh, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>Q4</td><td>33.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>E.Newman, J.Gunner, L.Cooper, S.Bryant, M.Bylsma, J.Wilcox, E.Lo, B.Woolley, Cox:&nbsp;K.Gallen, Coach:&nbsp;D.Pilkington</td></tr>
+<tr><td>Q5</td><td>33.01</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Benyon, E.Banks-Smith, E.Hanna, A.Edwards, A.Fry, L.Evans-Gregg, O.Sampson, T.McDonough, Cox:&nbsp;O.Farquer, Coaches:&nbsp;T.Skipworth, J.Campbell-Jones</td></tr>
+<tr><td><s>Q6</s></td><td>33.04</td><td class="rm_nowrap"><s>Grammar Composite</s></td><td class="rm_ta_right">&nbsp;</td><td>H.Kelly [SMC], B.Sice [SMC], M.Christie Johnston [SMC], C.Barnes [SMC], J.Webberley [OHS], E.Monks [SMC], E.Atkins [SMC], R.Rockliff [LCGS], Cox:&nbsp;G.Woodhouse [SMC]</td></tr>
+
+</table><a id="R168" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 168</td><td>34. SB U14 1X : Schoolboys Under 14 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 2:38 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>R1</td><td>34.14</td><td class="rm_nowrap">Hutchins 6</td><td class="rm_ta_right">&nbsp;</td><td>T.Stewart, Coach:&nbsp;K.Morgan</td></tr>
+<tr><td>R2</td><td>34.10</td><td class="rm_nowrap">Hutchins 2</td><td class="rm_ta_right">&nbsp;</td><td>F.Dobson, Coach:&nbsp;T.Fiedler</td></tr>
+<tr><td>R3</td><td>34.07</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>M.Smith, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>R4</td><td>34.03</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Manning</td></tr>
+<tr><td>R5</td><td>34.05</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>O.Nicholls, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>R6</td><td>34.21</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>F.Wagner, Coaches:&nbsp;W.Birchmore, J.Malisauskas, L.Paige</td></tr>
+<tr><td>R7</td><td>34.08</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>W.Hill, Coaches:&nbsp;J.Cuming, E.Beacham</td></tr>
+<tr><td>R8</td><td>34.02</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>R.Middendorf</td></tr>
+
+</table><a id="R169" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 169</td><td>34. SB U14 1X : Schoolboys Under 14 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 2:42 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>S1</td><td>34.20</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>O.Dowling, Coaches:&nbsp;W.Birchmore, J.Malisauskas, L.Paige</td></tr>
+<tr><td>S2</td><td>34.27</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>S.Murray</td></tr>
+<tr><td>S3</td><td>34.25</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>N.Haas</td></tr>
+<tr><td>S4</td><td>34.22</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>S.Taylor, Coaches:&nbsp;W.Birchmore, J.Malisauskas, L.Paige</td></tr>
+<tr><td>S5</td><td>34.26</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>A.Volta</td></tr>
+<tr><td>S6</td><td>34.19</td><td class="rm_nowrap">New Town</td><td class="rm_ta_right">&nbsp;</td><td>O.Woolley, Coaches:&nbsp;P.Nichols, L.Geappen</td></tr>
+<tr><td>S7</td><td>34.18</td><td class="rm_nowrap">New Town</td><td class="rm_ta_right">&nbsp;</td><td>J.Charles-Wilkinson, Coaches:&nbsp;P.Nichols, L.Geappen</td></tr>
+<tr><td>S8</td><td>34.09</td><td class="rm_nowrap">Hutchins 1</td><td class="rm_ta_right">&nbsp;</td><td>H.Wilkins, Coach:&nbsp;T.Fiedler</td></tr>
+
+</table><a id="R170" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 170</td><td>35. SB U13 4X+ : Schoolboys Under 13 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 2:50 PM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>T1</td><td>35.02</td><td class="rm_nowrap">Friends 2</td><td class="rm_ta_right">&nbsp;</td><td>T.Bowerman, H.Leis, M.Ikedife, J.Wong, Cox:&nbsp;W.Baukes, Coach:&nbsp;J.Morgan</td></tr>
+<tr><td>T2</td><td>35.09</td><td class="rm_nowrap">Hutchins 3</td><td class="rm_ta_right">&nbsp;</td><td>A.Rowley, T.Waterworth, S.Taylor, H.Saunders, Cox:&nbsp;C.Davies</td></tr>
+<tr><td>T3</td><td>35.13</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>T.Clark, W.Symons, L.Mineall, L.Tonelly, Cox:&nbsp;G.Miedecke, Coaches:&nbsp;R.Clark, O.Marsden</td></tr>
+<tr><td>T4</td><td>35.15</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>L.Grubb, L.Gray, A.Lamprey, M.Sylvester, Cox:&nbsp;H.Costelloe, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>T5</td><td>35.07</td><td class="rm_nowrap">Hutchins 1</td><td class="rm_ta_right">&nbsp;</td><td>H.King, H.Cooper, L.Hanna, T.Banks-Smith, Cox:&nbsp;H.Kerr</td></tr>
+<tr><td>T6</td><td>35.01</td><td class="rm_nowrap">Friends 1</td><td class="rm_ta_right">&nbsp;</td><td>L.Clyne, D.Rumsby, B.Rugen, W.Petty, Cox:&nbsp;S.Williams</td></tr>
+<tr><td>T7</td><td>35.14</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>B.Riseley, A.Godfrey, K.King, A.Parkinson, Cox:&nbsp;P.Weeding, Coach:&nbsp;P.Vaszocz</td></tr>
+<tr><td>T8</td><td>35.12</td><td class="rm_nowrap">Scotch Oakburn/Hutchins 1</td><td class="rm_ta_right">&nbsp;</td><td>O.Davey [SCOAK], J.Bamford [SCOAK], O.Bourne [THS], H.Dennis [SCOAK], Cox:&nbsp;E.Breden [SCOAK]</td></tr>
+
+</table><a id="R171" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 171</td><td>36. SG U13 1X : Schoolgirls Under 13 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 2:54 PM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>U1</td><td>36.08</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Rule, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>U2</td><td>36.21</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>L.Crowe, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>U3</td><td>36.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>E.Einoder, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>U4</td><td>36.02</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>C.Roff, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>U5</td><td>36.04</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>C.Brown, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>U6</td><td>36.20</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>T.Wise, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>U7</td><td>36.24</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>A.King, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>U8</td><td>36.30</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>Z.Bury, Coaches:&nbsp;S.Baxter, S.Gregg</td></tr>
+
+</table><a id="R172" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 172</td><td>36. SG U13 1X : Schoolgirls Under 13 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 2:58 PM</td><td>500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>V1</td><td>36.05</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>S.Weissel, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>V2</td><td>36.09</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>M.Jotic</td></tr>
+<tr><td>V3</td><td>36.16</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>S.Thomas, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>V4</td><td>36.18</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>A.Smith, Coaches:&nbsp;M.Dixon, P.Schouten</td></tr>
+<tr><td>V5</td><td>36.14</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>L.Wells</td></tr>
+<tr><td>V6</td><td>36.07</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>A.Heath, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+<tr><td>V7</td><td>36.29</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>M.Spaulding</td></tr>
+<tr><td>V8</td><td>36.06</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>L.Palmer, Coaches:&nbsp;D.Sereviratne, M.Muller, J.Joscelyne</td></tr>
+
+</table><a id="R173" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 173</td><td>39. SB U15 2X : Schoolboys Under 15 Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:06 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>W1</td><td>39.09</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>O.Sproule, H.Bourne, Coaches:&nbsp;J.McIntosh, A.Hall, H.Vermey</td></tr>
+<tr><td>W2</td><td>39.21</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>N.Neville - Clark, C.Parker, Coaches:&nbsp;J.Wilson, D.Ottaway</td></tr>
+<tr><td>W3</td><td>39.04</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>J.Stedman, O.Quinn, Coach:&nbsp;M.Rowan</td></tr>
+<tr><td>W4</td><td>39.18</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>F.Viney, G.Russell, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td>W5</td><td>39.08</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>C.Boman, C.Leesong, Coaches:&nbsp;J.McIntosh, A.Hall, H.Vermey</td></tr>
+<tr><td>W6</td><td>39.32</td><td class="rm_nowrap">St Virgils</td><td class="rm_ta_right">&nbsp;</td><td>M.Woods, H.Paynter, Coach:&nbsp;O.Wilson-Haffenden</td></tr>
+<tr><td>W7</td><td>39.19</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>D.Hill, O.O'Connor, Coaches:&nbsp;A.Brown, D.Ottaway</td></tr>
+<tr><td>W8</td><td>39.11</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>J.Moy, C.Black, Coaches:&nbsp;J.McIntosh, A.Hall, H.Vermey</td></tr>
+
+</table><a id="R174" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 174</td><td>40. SG U14 4X+ : Schoolgirls Under 14 Coxed quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:10 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>X1</td><td>40.10</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>A.Napier, G.Wilson, M.Gray, H.Bingley, Cox:&nbsp;S.Donlon, Coaches:&nbsp;J.Wilson, J.Wever, T.Brient</td></tr>
+<tr><td>X2</td><td>40.09</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>S.Midgley, C.Fenton, M.North, A.Loring, Cox:&nbsp;H.Midgley, Coaches:&nbsp;M.McCausland, R.Kerr</td></tr>
+<tr><td>X3</td><td>40.06</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>E.Dunn, P.Cuming, C.Waddingham, J.Johnston, Cox:&nbsp;M.Wall</td></tr>
+<tr><td>X4</td><td>40.03</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>E.Stoksik, S.Jones, G.Parnham, L.Tomlin, Cox:&nbsp;S.Bury, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>X5</td><td>40.05</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>U.Nation, H.Zalstein, E.Grimm, J.MacIntyre, Cox:&nbsp;I.Atwell</td></tr>
+<tr><td>X6</td><td>40.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>S.Quilliam, C.Luders, L.Lawler, T.Brown, Cox:&nbsp;G.Ward, Coach:&nbsp;R.Griffiths</td></tr>
+<tr><td>X7</td><td>40.02</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>J.Clark, E.Manson, P.Leditschke, M.Cocker, Cox:&nbsp;O.Farquer, Coach:&nbsp;J.Withers</td></tr>
+<tr><td>X8</td><td>40.19</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>G.Crack, N.Mulder, C.Anderson, E.Johnson, Cox:&nbsp;J.Axman-Friend, Coach:&nbsp;C.Miedecke</td></tr>
+
+</table><a id="R175" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 175</td><td>41. SG U15 1X : Schoolgirls Under 15 Single Scull</td><td>B Final</td></tr>
+<tr><td></td><td>Start Time: 3:14 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Y1</td><td>41.10</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>O.Bridgeman, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>Y2</td><td>41.05</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>G.Witt, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>Y3</td><td>41.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Welch, Coach:&nbsp;D.Tippett</td></tr>
+<tr><td>Y4</td><td>41.23</td><td class="rm_nowrap">Grammar 3</td><td class="rm_ta_right">&nbsp;</td><td>Y.Wyly, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>Y5</td><td>41.30</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>H.Teale, Coaches:&nbsp;M.Lamb, C.Stanley</td></tr>
+<tr><td><s>Y6</s></td><td>41.08</td><td class="rm_nowrap"><s>Collegiate</s></td><td class="rm_ta_right">&nbsp;</td><td>C.Leicester, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>Y7</td><td>41.22</td><td class="rm_nowrap">Grammar 2</td><td class="rm_ta_right">&nbsp;</td><td>L.Ayers, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>Y8</td><td>41.18</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>S.Mitchelmore</td></tr>
+<tr><td><s>Y9</s></td><td>41.09</td><td class="rm_nowrap"><s>Collegiate</s></td><td class="rm_ta_right">&nbsp;</td><td>A.Dalton, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td><s>Y10</s></td><td>41.06</td><td class="rm_nowrap"><s>Collegiate</s></td><td class="rm_ta_right">&nbsp;</td><td>M.Healy, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+
+</table><a id="R176" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 176</td><td>41. SG U15 1X : Schoolgirls Under 15 Single Scull</td><td>A Final</td></tr>
+<tr><td></td><td>Start Time: 3:18 PM</td><td>1000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>Z1</td><td>41.16</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>A.Edwards</td></tr>
+<tr><td>Z2</td><td>41.03</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>G.Leicester, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>Z3</td><td>41.29</td><td class="rm_nowrap">Sheffield</td><td class="rm_ta_right">&nbsp;</td><td>I.Ritter, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>Z4</td><td>41.02</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>L.Barker, Coach:&nbsp;G.Scattergood</td></tr>
+<tr><td>Z5</td><td>41.21</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>C.Knowles, Coaches:&nbsp;A.White, D.Wyly</td></tr>
+<tr><td>Z6</td><td>41.15</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>H.Wigston</td></tr>
+<tr><td><s>Z7</s></td><td>41.04</td><td class="rm_nowrap"><s>Collegiate</s></td><td class="rm_ta_right">&nbsp;</td><td>M.Ferguson, Coaches:&nbsp;S.Mollard, S.Sluce</td></tr>
+<tr><td>Z8</td><td>41.25</td><td class="rm_nowrap">Kingston High</td><td class="rm_ta_right">&nbsp;</td><td>P.Kennett, Coach:&nbsp;A.Bain</td></tr>
+
+</table><a id="R177" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 177</td><td>42. SB U16 4X+ : Schoolboys Under 16 Coxed Quad Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:26 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>A1</td><td>42.17</td><td class="rm_nowrap">Scotch Oakburn 2</td><td class="rm_ta_right">&nbsp;</td><td>L.James-Wever, S.Stopford, J.Bamford, C.Auton, Cox:&nbsp;S.Wells, Coaches:&nbsp;M.Cameron, R.McDonald</td></tr>
+<tr><td>A2</td><td>42.01</td><td class="rm_nowrap">Dominic Composite</td><td class="rm_ta_right">&nbsp;</td><td>M.Nield [SBSC], L.Baker [USC], T.Browning [DOMC], J.Triffett [DOMC], Cox:&nbsp;J.Triffett [DOMC], Coaches:&nbsp;J.Bannon, P.Nichols</td></tr>
+<tr><td>A3</td><td>42.14</td><td class="rm_nowrap">St Patricks 1</td><td class="rm_ta_right">&nbsp;</td><td>M.Roney, J.Clark, D.Rae, N.McCullagh, Cox:&nbsp;I.McCullagh, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+<tr><td>A4</td><td>42.08</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>A.Stewart, R.Sanderson, B.Brown, F.Palmer, Cox:&nbsp;J.Richards</td></tr>
+<tr><td>A5</td><td>42.11</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>H.Fyffe, R.MacKenzie, S.Brown, M.Russell, Cox:&nbsp;M.Fulton, Coaches:&nbsp;M.Cameron, M.Bonham</td></tr>
+<tr><td>A6</td><td>42.04</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>G.Collette, T.Carins, K.Glynn, N.Adkins, Cox:&nbsp;H.Barrenger, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>A7</td><td>42.05</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>F.Billing, J.Gray, M.Mitchell, T.Peck, Cox:&nbsp;A.Bennett, Coach:&nbsp;W.Adkins</td></tr>
+<tr><td>A8</td><td>42.13</td><td class="rm_nowrap">St Patricks 1</td><td class="rm_ta_right">&nbsp;</td><td>T.Mineall, H.McGovern, J.Humphreys, D.Wilkins, Cox:&nbsp;L.Humphreys, Coaches:&nbsp;J.McCullagh, R.Clark</td></tr>
+
+</table><a id="R178" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 178</td><td>43. SG U16 2X : Schoolgirls Under 16 Double Scull</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:30 PM</td><td>1500M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>B1</td><td>43.14</td><td class="rm_nowrap">Grammar 2</td><td class="rm_ta_right">&nbsp;</td><td>L.Andersen, L.Hucker, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>B2</td><td>43.17</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>C.Wright, S.North, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>B3</td><td>43.23</td><td class="rm_nowrap">St Marys</td><td class="rm_ta_right">&nbsp;</td><td>C.Oliver, E.Atkins</td></tr>
+<tr><td>B4</td><td>43.01</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>O.Yeates, M.Castles, Coaches:&nbsp;D.Tippett, M.Tippett</td></tr>
+<tr><td>B5</td><td>43.13</td><td class="rm_nowrap">Grammar 1</td><td class="rm_ta_right">&nbsp;</td><td>M.Bradfield, L.Dunn, Coaches:&nbsp;F.Woolcock, P.Dehnert</td></tr>
+<tr><td>B6</td><td>43.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>M.Bylsma, J.Wilcox</td></tr>
+<tr><td>B7</td><td>43.18</td><td class="rm_nowrap">Ogilvie</td><td class="rm_ta_right">&nbsp;</td><td>R.Morgan, L.Morgan, Coach:&nbsp;P.Hansen</td></tr>
+<tr><td>B8</td><td>43.29</td><td class="rm_nowrap">Brendan Shaw</td><td class="rm_ta_right">&nbsp;</td><td>S.Ellis, L.Doonan</td></tr>
+
+</table><a id="R179" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 179</td><td>44. SB 4+ (2) : Schoolboys Four (Seconds)</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:40 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>C1</td><td>44.03</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>H.Johnstone, A.Bradley, A.Vermey, S.Henning, Cox:&nbsp;C.Boman, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td>C2</td><td>44.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>C.Colhoun, J.Downie, T.Doyle, A.Ibbott, Cox:&nbsp;K.Gallen</td></tr>
+<tr><td>C3</td><td>44.02</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>C.Townsend, T.Cannell, W.Bates, Z.Finlay, Cox:&nbsp;L.White, Coaches:&nbsp;D.Lalor, L.Malcolm</td></tr>
+<tr><td><s>C4</s></td><td>44.07</td><td class="rm_nowrap"><s>Scotch Oakburn 2</s></td><td class="rm_ta_right">&nbsp;</td><td>L.Breden, S.McTaggart Williams, P.Brown, S.Stopford, Cox:&nbsp;C.Ball, Coaches:&nbsp;M.Cameron, M.Bonham, J.Breden</td></tr>
+<tr><td>C5</td><td>44.04</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>T.Gibson, T.Neuberger, J.Maumill, T.Chilcott, Cox:&nbsp;H.West, Coaches:&nbsp;R.Matson, T.Allwright, A.Palmer</td></tr>
+<tr><td>C6</td><td>44.05</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>J.Dalton, H.Mounter, D.Matson, T.Bayley, Cox:&nbsp;R.Cousins, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>C7</td><td>44.06</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>J.Briggs, H.Wagner, A.Neville - Clark, W.Dowling, Cox:&nbsp;G.Russell, Coach:&nbsp;J.Russell</td></tr>
+
+</table><a id="R180" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 180</td><td>45. SG 8+ : Schoolgirls Eight</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:46 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>D1</td><td>45.12</td><td class="rm_nowrap">Brendan Shaw/Don</td><td class="rm_ta_right">&nbsp;</td><td>L.Mansell [SBSC], J.Welch [SBSC], R.Skirving [SBSC], L.Tippett [DC], P.Tippett [DC], E.Spaulding [SBSC], S.Grave [SBSC], C.Greenhill [SBSC], Cox:&nbsp;M.Spaulding [SBSC], Coaches:&nbsp;D.Tippett, M.Tippett, G.Scattergood</td></tr>
+<tr><td>D2</td><td>45.04</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>K.Fajrianto, C.Balmforth, A.Gardner, C.Ralph, C.Hornett, E.Underwood, J.Powell-Davies, M.White, Cox:&nbsp;I.Fox</td></tr>
+<tr><td>D3</td><td>45.02</td><td class="rm_nowrap">Fahan</td><td class="rm_ta_right">&nbsp;</td><td>M.Jones, H.Riches, S.Lambert, M.Jones, L.Cooper, L.Ansell, O.Wilkins, D.Maning, Cox:&nbsp;S.Bury, Coaches:&nbsp;S.Manson, C.Parnham</td></tr>
+<tr><td>D4</td><td>45.01</td><td class="rm_nowrap">Collegiate</td><td class="rm_ta_right">&nbsp;</td><td>H.Gregory, A.McCoid, M.Prescott, A.McMahon, O.Viney, E.Bird, H.Curry, P.Davis, Cox:&nbsp;C.Bayley, Coach:&nbsp;N.Stump</td></tr>
+<tr><td>D5</td><td>45.08</td><td class="rm_nowrap">Scotch Oakburn 1</td><td class="rm_ta_right">&nbsp;</td><td>M.Duigan, O.Willows, A.Jepson, C.Loane, L.Calvert, A.Florance, J.Finnigan, H.Schouten, Cox:&nbsp;L.Cleeland, Coaches:&nbsp;A.Foot, S.Guest</td></tr>
+<tr><td>D6</td><td>45.05</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>E.Fryett, E.Brown, E.Tucker, M.Dowling, A.Billing, P.White, I.Goss, E.Swan, Cox:&nbsp;P.Eastaugh</td></tr>
+<tr><td>D7</td><td>45.11</td><td class="rm_nowrap">St Patricks</td><td class="rm_ta_right">&nbsp;</td><td>L.Brooks, R.Hudson, M.Brown, A.Cherry, B.Duffy, E.Morrow, L.Waud, E.March, Cox:&nbsp;A.White, Coach:&nbsp;D.Birtwistle</td></tr>
+<tr><td>D8</td><td>45.07</td><td class="rm_nowrap">Guilford Composite</td><td class="rm_ta_right">&nbsp;</td><td>H.Sice [SMC], J.Bremner [SMC], C.Stanley [SMC], R.Curry [STMIC], C.Forster [GYC], E.Triffett [GYC], A.Raymond [GYC], U.Harris [GYC], Cox:&nbsp;C.Mead [GYC], Coach:&nbsp;M.Stott</td></tr>
+
+</table><a id="R181" href="#top"><div class="rm_hr_top"></div></a>
+<table class="rm_tbl"><col style="width:100px;"><col style="width:450px;"><col style="width:100px;">
+<tr><td>Race 181</td><td>46. SB 4+ (1) : Schoolboys Four (Firsts)</td><td>Final</td></tr>
+<tr><td></td><td>Start Time: 3:52 PM</td><td>2000M</td></tr></table>
+
+<table class="rm_tbl" style="max-width:900px;">
+<col style="min-width:30px"><col style="min-width:68px;"><col style="min-width:180px;"><col><col style="min-width:500px">
+
+<tr><td>E2</td><td>46.04</td><td class="rm_nowrap">Hutchins</td><td class="rm_ta_right">&nbsp;</td><td>H.Sillifant, O.Newbury, S.Mounter, B.Boman, Cox:&nbsp;A.Whatling, Coaches:&nbsp;A.Palmer, T.Allwright, R.Matson</td></tr>
+<tr><td>E3</td><td>46.01</td><td class="rm_nowrap">Friends</td><td class="rm_ta_right">&nbsp;</td><td>R.Fox, E.Wilkins, T.Neal, C.Johnson, Cox:&nbsp;D.Ibbott</td></tr>
+<tr><td>E4</td><td>46.02</td><td class="rm_nowrap">Grammar</td><td class="rm_ta_right">&nbsp;</td><td>A.Farquhar, L.Dean, L.Pohan, A.Ralph, Cox:&nbsp;G.Robertson, Coaches:&nbsp;D.Lalor, L.Malcolm</td></tr>
+<tr><td>E5</td><td>46.05</td><td class="rm_nowrap">Scotch Oakburn</td><td class="rm_ta_right">&nbsp;</td><td>H.Birchmore, W.Gray, J.Lawrence, W.Hurd, Cox:&nbsp;M.Russell, Coach:&nbsp;J.Russell</td></tr>
+<tr><td>E6</td><td>46.03</td><td class="rm_nowrap">Guilford</td><td class="rm_ta_right">&nbsp;</td><td>T.Oliver, H.King, S.Woodhouse, J.Woods, Cox:&nbsp;M.Pinelli</td></tr>
+
+</table>
+</div>
+</div> <!--end tabs-->
+</div>
+
+<!--END RM-->
+
+
+</div> <!-- rm_container -->
+
+</div> <!-- pageContent -->
+
+<div class="footerContainer">  
+<div class="footer">
+          
+<div class="footer-block">
+  <a href="http://www.rowingtasmania.com.au"><img src="/images/rtas/rtas-w.png" alt="Rowing Tasmania" style="width:180px;" /></a>
+</div>
+
+<div class="footer-block">
+<a class="footer-link" href="http://www.rowingtasmania.com.au">&copy; Rowing Tasmania</a>
+<br /><br />
+PO Box 912 Launceston Tasmania. 7250  <br /><br />
+<a href="tel:0418130758">0418130758</a>
+<br />
+<a href="mailto:admin@rowingtasmania.com.au">admin@rowingtasmania.com.au</a>
+</div>
+
+<div class="footer-block right">
+  <a class="social" target="_blank" href="https://www.facebook.com/RowingTasmania"><i class="fa fa-facebook"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.twitter.com/RowingTas"><i class="fa fa-twitter"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.youtube.com/channel/UCnW2-aHRHlIU2Eq_ZMT3cPQ"><i class="fa fa-youtube"></i></a>
+</div>
+          
+</div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+event_id,code,name,gender,stroke,seats,distance
+29,SB 1X,Schoolboys Single Scull,Male,Sculling,1,2000M
+13,SB 2-,Schoolboys Pair,Male,Sweep,2,2000M
+14,SB 2X,Schoolboys Double Scull,Male,Sculling,2,2000M
+46,SB 4+ (1),Schoolboys Four (Firsts),Male,Sweep,4,2000M
+44,SB 4+ (2),Schoolboys Four (Seconds),Male,Sweep,4,2000M
+23,SB 4X+,Schoolboys Coxed Quad Scull,Male,Sculling,4,2000M
+2,SB 8+,Schoolboys Eights,Male,Sweep,8,2000M
+10,SB U13 1X,Schoolboys Under 13 Single Scull,Male,Sculling,1,500M
+22,SB U13 2X,Schoolboys Under 13 Double Scull,Male,Sculling,2,1000M
+35,SB U13 4X+,Schoolboys Under 13 Coxed Quad Scull,Male,Sculling,4,1000M
+11,SB U13 4X+ (B),School Boys Under 13 coxed quad scull (B),Male,Sculling,4,500M
+34,SB U14 1X,Schoolboys Under 14 Single Scull,Male,Sculling,1,1000M
+19,SB U14 2X,Schoolboys Under 14 Double Scull,Male,Sculling,2,1000M
+8,SB U14 4X+,Schoolboys Under 14 Coxed Quad Scull,Male,Sculling,4,1000M
+21,SB U15 1X,Schoolboys Under 15 Single Scull,Male,Sculling,1,1000M
+39,SB U15 2X,Schoolboys Under 15 Double Scull,Male,Sculling,2,1000M
+6,SB U15 4X+,Schoolboys Under 15 Coxed Quad Scull,Male,Sculling,4,1000M
+16,SB U16 1X,Schoolboys Under 16 Single Scull,Male,Sculling,1,1500M
+4,SB U16 2X,Schoolboys Under 16 Double Scull,Male,Sculling,2,1500M
+32,SB U16 4+,Schoolboys Under 16 Coxed Four,Male,Sweep,4,1500M
+42,SB U16 4X+,Schoolboys Under 16 Coxed Quad Scull,Male,Sculling,4,1500M
+25,SB U16 8+,Schoolboys Under 16 Eight,Male,Sweep,8,1500M
+9,SB/SG PARA 1X,Schoolboys/Schoolgirls Para Single Scull,Mixed,Sculling,1,500M
+38,SB/SG PARA 2X,Schoolboys/Schoolgirls Para Double Scull,Mixed,Sculling,2,1000M
+24,SG 1X,Schoolgirls Single Scull,Female,Sculling,1,2000M
+30,SG 2-,Schoolgirls Pair,Female,Sweep,2,2000M
+31,SG 2X,Schoolgirls Double Scull,Female,Sculling,2,2000M
+1,SG 4+ (1),Schoolgirls Four (Firsts),Female,Sweep,4,2000M
+3,SG 4+ (2),Schoolgirls Four (Seconds),Female,Sweep,4,2000M
+15,SG 4X+,Schoolgirls Coxed Quad Sculls,Female,Sculling,4,2000M
+45,SG 8+,Schoolgirls Eight,Female,Sweep,8,2000M
+36,SG U13 1X,Schoolgirls Under 13 Single Scull,Female,Sculling,1,500M
+12,SG U13 2X,Schoolgirls Under 13 Double Scull,Female,Sculling,2,500M
+20,SG U13 4X+,Schoolgirls Under 13 Coxed Quad Scull,Female,Sculling,4,500M
+37,SG U13 4X+ (B),School Girls Under 13 coxed quad scull (B),Female,Sculling,4,500M
+18,SG U14 1X,Schoolgirls Under 14 Single Scull,Female,Sculling,1,1000M
+27,SG U14 2X,Schoolgirls Under 14 Double Scull,Female,Sculling,2,1000M
+40,SG U14 4X+,Schoolgirls Under 14 Coxed quad Scull,Female,Sculling,4,1000M
+41,SG U15 1X,Schoolgirls Under 15 Single Scull,Female,Sculling,1,1000M
+7,SG U15 2X,Schoolgirls Under 15 Double Scull,Female,Sculling,2,1000M
+28,SG U15 4X+,Schoolgirl Under 15 Coxed Quad Scull,Female,Sculling,4,1000M
+5,SG U16 1X,Schoolgirls Under 16 Single Scull,Female,Sculling,1,1500M
+43,SG U16 2X,Schoolgirls Under 16 Double Scull,Female,Sculling,2,1500M
+17,SG U16 4+,Schoolgirls Under 16 Coxed Four,Female,Sweep,4,1500M
+26,SG U16 4X+,Schoolgirls Under 16 Coxed Quad Scull,Female,Sculling,4,1500M
+33,SG U16 8+,Schoolgirls under 16 Eight,Female,Sweep,8,1500M

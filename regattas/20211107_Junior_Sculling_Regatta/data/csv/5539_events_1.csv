@@ -1,0 +1,23 @@
+event_id,code,name,gender,stroke,seats,distance
+13,SB U13 1X,Schoolboys Under 13 Single Scull,Male,Scull,1,500M
+19,SB U13 2X,Schoolboys Under 13 Double Scull,Male,Scull,2,500M
+1,SB U13 4X+,Schoolboys Under 13 Coxed Quad Scull,Male,Scull,4,500M
+14,SB U13 4X+ (B),Schoolboys Under 13 coxed quad scull (B),Male,Scull,4,500M
+21,SB U14 1X,Schoolboys Under 14 Single Scull,Male,Scull,1,1000M
+4,SB U14 2X,Schoolboys Under 14 Double Scull,Male,Scull,2,1000M
+9,SB U14 4X+,Schoolboys Under 14 Coxed Quad Scull,Male,Scull,4,1000M
+6,SB U15 1X,Schoolboys Under 15 Single Scull,Male,Scull,1,1000M
+11,SB U15 2X,Schoolboys Under 15 Double Scull,Male,Scull,2,1000M
+17,SB U15 4X+,Schoolboys Under 15 Coxed Quad Scull,Male,Scull,4,1000M
+16,SB/SG PARA 1X,Schoolboys/Schoolgirls Para Single Scull,Mixed,Scull,1,500M
+8,SB/SG PARA 2X,Schoolboys/Schoolgirls Para Double Scull,Mixed,Scull,2,1000M
+2,SG U13 1X,Schoolgirls Under 13 Single Scull,Female,Scull,1,500M
+15,SG U13 2X,Schoolgirls Under 13 Double Scull,Female,Scull,2,500M
+20,SG U13 4X+,Schoolgirls Under 13 Coxed Quad Scull,Female,Scull,4,500M
+3,SG U13 4X+ (B),Schoolgirls Under 13 coxed quad scull (B),Female,Scull,4,500M
+10,SG U14 1X,Schoolgirls Under 14 Single Scull,Female,Scull,1,1000M
+22,SG U14 2X,Schoolgirls Under 14 Double Scull,Female,Scull,2,1000M
+5,SG U14 4X+,Schoolgirls Under 14 Coxed quad Scull,Female,Scull,4,1000M
+18,SG U15 1X,Schoolgirls Under 15 Single Scull,Female,Scull,1,1000M
+7,SG U15 2X,Schoolgirls Under 15 Double Scull,Female,Scull,2,1000M
+12,SG U15 4X+,Schoolgirls Under 15 Coxed Quad Scull,Female,Scull,4,1000M

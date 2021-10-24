@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rowing Tasmania Regattas</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" href="/css/rowing/regattas-TAS.css?v=5"  rel="stylesheet" /> 
+<link type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+table.events_table td { padding:3px 10px; }
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5607;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+
+$("#events_table").tablesorter({sortList: [[0,0]],headers: { 0: { sorter: 'metadata' },3: { sorter: 'digit' },7: { sorter: 'digit' },8: { sorter: 'digit' },9: { sorter: false }}});$(".tablesorter >thead>tr>th").attr('title','Click to sort. Use Shift key to sort on multiple columns.');$(".tablesorter").bind("sortStart",function(e,tbl){$(".no_sort").show();$(".entries_container").remove();});$(".tablesorter").bind("sortBegin",function(e,tbl){var list = tbl.config.sortList;if( list[0] && list[0][0] != 0 )$(".no_sort").hide(); });
+});
+
+function ShowEntries(rId,en){if( $("#row_entries_"+en).length )$("#row_entries_"+en).remove();else
+{$('#row_'+en).after('<tr id="row_entries_'+en+'" class="entries_container rm_non_list_item"><td></td><td></td><td colspan="7"><img src="/images/ajax_loader_small.gif"/></td>');$.ajax({type: "GET",url: '/regattas/' + rId + '/entries?event=' + en + ';ajax=1;inline=1',dataType: "text",error: function(XMLHttpRequest,textStatus,errorThrown){alert("SERVER REQUEST ERROR..\r\n\r\n" + XMLHttpRequest.responseText);},success: function(data, textStatus){$('#row_entries_'+en).html('<td></td><td></td><td colspan="7">'+data+'</td>');}});}}
+</script>
+</head>  
+<body>    
+
+<div class="headerContainer">
+<div class="headerInner">
+
+<div class="topbox">
+<a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a>&nbsp;|&nbsp;
+<a href="http://www.rowingtasmania.com.au" title="Rowing Tasmania Website">Rowing Tasmania Home <i class="fa fa-chevron-right rm_fs_100"></i></a>
+</div>
+
+<table>
+  <tr>
+<td style="padding:3px 0px 0px 26px; width:240px;"><a href="http://www.rowingtasmania.com.au/"><img src="/images/rtas/rtas.png" alt="Rowing Tasmania" style="width:200px;"/></a></td>
+<td style="vertical-align:bottom;"><span class="headerTxt">Regattas</span></td>
+  </tr>
+</table>
+
+</div>
+</div>
+
+<div class="headerContainerNav">
+<div class="headerInner">
+
+<div id="nav_menu">
+    <ul>
+<li class="nav" id="first"><a href="/tas">Regatta Calendar</a></li>
+<li class="nav"><a href="/tas/mobile">Mobile Results</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+              
+<div class="pageContent">          
+<div class="rm_content">
+
+
+
+<!--START RM-->
+
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2021 Tasmanian State Club Regatta No 1</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Sat 23rd October, 2021</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Franklin</div></td></tr>
+</table>
+
+<table id="rm_tabs_container" class="rm_noprint rm_pad_2"><tr><td id="rm_tabs_cell"><ul id="rm_tabs"><li><a href="/regattas/5607">Regatta Home</a></li><li class="tab_active"><a href="/regattas/5607/events">Events</a></li><li ><a href="/regattas/5607/entries">Entries</a></li></ul></td></tr></table>
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="rm_bq">
+<b class="rm_big">Regatta Events</b><br>
+<div class="rm_inline" style="min-width:920px;">
+<a class="rm_lnk rm_float_r rm_noprint" style="top:-10px;margin-right:8px;" href="/regattas/5607/events?download=true"><img src="/images/icon_excel.png" alt="" class="rm_va_text" style="margin-right:3px;">Download</a>
+<br class="rm_clear" />
+<table class="rm_tbl rm_list_items tablesorter events_table" id="events_table" style="min-width:920px !important;">
+<thead>
+<tr><th>#</th><th>Code</th><th>Title</th><th>Entries</th><th class="rowing_only">Type</th><th>Gender</th><th>Boat Type</th><th>Seats</th><th style="text-align:right;">Distance</th><th>&nbsp;</th></tr>
+</thead>
+<tbody>
+<tr class="no_sort"><td class='{"sortValue":1}'>&nbsp;</td><td><b>Saturday</b></td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="no_sort"><td class='{"sortValue":36}'>&nbsp;</td><td><b>Sunday</b></td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr  id="row_80"><td class='{"sortValue":13}'>12</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,80);">M  Mixed 2X</a></td><td class="rm_nowrap">Master's Mixed Double Scull</td><td class="rm_ta_center">11</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":46}'>44</td><td class="rm_nowrap">M M 2-</td><td class="rm_nowrap">Masters Men's Pair</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_6"><td class='{"sortValue":22}'>21</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,6);">M M 2X</a></td><td class="rm_nowrap">Mens Masters Double Scull</td><td class="rm_ta_center">9</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_56"><td class='{"sortValue":59}'>57</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,56);">M M 4-</a></td><td class="rm_nowrap">Masters Men's Coxless Four</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_33"><td class='{"sortValue":33}'>32</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,33);">M M 4X-</a></td><td class="rm_nowrap">Masters Men's Coxless Quad Scull</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_81"><td class='{"sortValue":49}'>47</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,81);">M Mixed 4X-</a></td><td class="rm_nowrap">Masters Mixed Quad Scull 1000m</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_31"><td class='{"sortValue":32}'>31</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,31);">M W 1X</a></td><td class="rm_nowrap">Masters Women's Single Scull</td><td class="rm_ta_center">10</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_75"><td class='{"sortValue":47}'>45</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,75);">M W 2-</a></td><td class="rm_nowrap">Masters Women's Pair</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_54"><td class='{"sortValue":58}'>56</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,54);">M W 2X</a></td><td class="rm_nowrap">Masters Women's Double Scull</td><td class="rm_ta_center">8</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_71"><td class='{"sortValue":23}'>22</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,71);">M W 4-</a></td><td class="rm_nowrap">Masters Women's Coxless Four</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_68"><td class='{"sortValue":71}'>69</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,68);">M W 4X-</a></td><td class="rm_nowrap">Masters Women's Coxless Quad Scull</td><td class="rm_ta_center">5</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_10"><td class='{"sortValue":11}'>10</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,10);">M/W 8+</a></td><td class="rm_nowrap">Mens/Womens Eight</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Mixed</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_66"><td class='{"sortValue":70}'>68</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,66);">MM 1X</a></td><td class="rm_nowrap">Masters Men's Single Scull</td><td class="rm_ta_center">4</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_26"><td class='{"sortValue":24}'>23</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,26);">Para 1000m</a></td><td class="rm_nowrap">Para 1000 M</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":48}'>46</td><td class="rm_nowrap">Para 1000M(2)</td><td class="rm_nowrap">Para Single Scull 1000m</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":31}'>30</td><td class="rm_nowrap">PARA 2X</td><td class="rm_nowrap">Para Double Scull</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":60}'>58</td><td class="rm_nowrap">PARA 500 (2)</td><td class="rm_nowrap">Para Single Scull 500m</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":12}'>11</td><td class="rm_nowrap">PARA 500M</td><td class="rm_nowrap">Para Single Scull 500m</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Mixed</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_3"><td class='{"sortValue":4}'>3</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,3);">S M 1X</a></td><td class="rm_nowrap">Senior Men's Single Scull</td><td class="rm_ta_center">23</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_44"><td class='{"sortValue":41}'>39</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,44);">S M 1X (2)</a></td><td class="rm_nowrap">Senior Men's Single Scull</td><td class="rm_ta_center">23</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_9"><td class='{"sortValue":9}'>8</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,9);">S M 2-</a></td><td class="rm_nowrap">Senior Men's Pair</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_61"><td class='{"sortValue":61}'>59</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,61);">S M 2X</a></td><td class="rm_nowrap">Senior Men's Double Scull</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":67}'>65</td><td class="rm_nowrap">S M 4+</td><td class="rm_nowrap">Senior Men's Coxed Four</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_51"><td class='{"sortValue":52}'>50</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,51);">S M 4-</a></td><td class="rm_nowrap">Senior Men's Coxless Four</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_24"><td class='{"sortValue":19}'>18</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,24);">S M 4X-</a></td><td class="rm_nowrap">Senior Men's Coxless Quad Scull</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_19"><td class='{"sortValue":35}'>34</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,19);">S M 8+</a></td><td class="rm_nowrap">Senior Men's Eight</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_8"><td class='{"sortValue":6}'>5</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,8);">S W 1X</a></td><td class="rm_nowrap">Senior Women's Single Scull</td><td class="rm_ta_center">23</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_39"><td class='{"sortValue":39}'>37</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,39);">S W 1X (2)</a></td><td class="rm_nowrap">Senior Women's Single Scull</td><td class="rm_ta_center">14</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_45"><td class='{"sortValue":44}'>42</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,45);">S W 2-</a></td><td class="rm_nowrap">Senior Women's Pair</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_25"><td class='{"sortValue":66}'>64</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,25);">S W 2X</a></td><td class="rm_nowrap">Senior Women's Double Scull</td><td class="rm_ta_center">9</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_15"><td class='{"sortValue":15}'>14</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,15);">S W 4-</a></td><td class="rm_nowrap">Senior Women's Coxless Four</td><td class="rm_ta_center">4</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_60"><td class='{"sortValue":56}'>54</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,60);">S W 4X-</a></td><td class="rm_nowrap">Senior Women's Coxless Quad Scull</td><td class="rm_ta_center">4</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_36"><td class='{"sortValue":34}'>33</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,36);">S W 8+</a></td><td class="rm_nowrap">Senior Women's Eight</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_21"><td class='{"sortValue":20}'>19</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,21);">U17 M 1X</a></td><td class="rm_nowrap">Under 17 Men's Single Scull</td><td class="rm_ta_center">16</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_48"><td class='{"sortValue":45}'>43</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,48);">U17 M 2X</a></td><td class="rm_nowrap">Under 17 Men's Double Scull</td><td class="rm_ta_center">5</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_20"><td class='{"sortValue":30}'>29</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,20);">U17 M 2X 1000</a></td><td class="rm_nowrap">Under 17 Men's Double Scull 1000m</td><td class="rm_ta_center">6</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr ><td class='{"sortValue":50}'>48</td><td class="rm_nowrap">U17 M 4+ 1000</td><td class="rm_nowrap">Under 17 Men's Coxed Four 1000m</td><td class="rm_ta_center">-</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_4"><td class='{"sortValue":2}'>1</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,4);">U17 M 4X+</a></td><td class="rm_nowrap">Under 17 Men's Coxed Quad Scull</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_67"><td class='{"sortValue":68}'>66</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,67);">U17 M 4X+ 1000</a></td><td class="rm_nowrap">U17 Men's Coxed Quad Scull 1000m</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_57"><td class='{"sortValue":57}'>55</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,57);">U17 W 1X</a></td><td class="rm_nowrap">Under 17 Women's Single Scull</td><td class="rm_ta_center">23</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_13"><td class='{"sortValue":10}'>9</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,13);">U17 W 2X</a></td><td class="rm_nowrap">Under 17 Women's Double Scull</td><td class="rm_ta_center">14</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_73"><td class='{"sortValue":69}'>67</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,73);">U17 W 2X 1000</a></td><td class="rm_nowrap">U17 Women's Double Scull 1000m</td><td class="rm_ta_center">6</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_16"><td class='{"sortValue":21}'>20</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,16);">U17 W 4+ 1000</a></td><td class="rm_nowrap">Under 17 Women's Coxed Four 1000m</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_40"><td class='{"sortValue":37}'>35</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,40);">U17 W 4X+</a></td><td class="rm_nowrap">Under 17 Women's Coxed Quad Scull</td><td class="rm_ta_center">9</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1500M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_32"><td class='{"sortValue":29}'>28</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,32);">U17 W 4X+ 1000</a></td><td class="rm_nowrap">Under 17 Women's Coxed Quad Scull 1000m</td><td class="rm_ta_center">8</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">1000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_63"><td class='{"sortValue":63}'>61</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,63);">U19 M 1X</a></td><td class="rm_nowrap">Under 19 Men's Single Scull</td><td class="rm_ta_center">10</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_41"><td class='{"sortValue":42}'>40</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,41);">U19 M 2-</a></td><td class="rm_nowrap">Under 19 Men's Pair</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_30"><td class='{"sortValue":28}'>27</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,30);">U19 M 2X</a></td><td class="rm_nowrap">Under 19 Men's Double Scull</td><td class="rm_ta_center">5</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_7"><td class='{"sortValue":5}'>4</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,7);">U19 M 4+</a></td><td class="rm_nowrap">Under 19 Men's Coxed Four</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_53"><td class='{"sortValue":53}'>51</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,53);">U19 M 4X+</a></td><td class="rm_nowrap">Under 19 Men's Coxed Quad Scull</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_27"><td class='{"sortValue":14}'>13</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,27);">U19 M 8+</a></td><td class="rm_nowrap">Under 19 Men's Eight</td><td class="rm_ta_center">1</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_28"><td class='{"sortValue":26}'>25</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,28);">U19 W 1X</a></td><td class="rm_nowrap">Under 19 Women's Single Scull</td><td class="rm_ta_center">17</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_5"><td class='{"sortValue":7}'>6</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,5);">U19 W 2-</a></td><td class="rm_nowrap">Under 19 Women's Pair</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_65"><td class='{"sortValue":65}'>63</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,65);">U19 W 2X</a></td><td class="rm_nowrap">Under 19 Women's Double Scull</td><td class="rm_ta_center">15</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_43"><td class='{"sortValue":40}'>38</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,43);">U19 W 4+</a></td><td class="rm_nowrap">Under 19 Women's Coxed Four</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_17"><td class='{"sortValue":16}'>15</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,17);">U19 W 4X+</a></td><td class="rm_nowrap">Under 19 Women's Coxed Quad Scull</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_49"><td class='{"sortValue":51}'>49</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,49);">U19 W 8+</a></td><td class="rm_nowrap">Under 19 Women's Eight</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_12"><td class='{"sortValue":8}'>7</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,12);">U21 M 1X</a></td><td class="rm_nowrap">Under 21 Men's Single Scull</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_2"><td class='{"sortValue":25}'>24</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,2);">U21 M 2-</a></td><td class="rm_nowrap">Under 21 Men's Pair</td><td class="rm_ta_center">2</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_59"><td class='{"sortValue":64}'>62</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,59);">U21 M 2X</a></td><td class="rm_nowrap">Under 21 Men's Double Scull</td><td class="rm_ta_center">3</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_78"><td class='{"sortValue":55}'>53</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,78);">U21 M 4-</a></td><td class="rm_nowrap">Under 21 Men's Coxless Four</td><td class="rm_ta_center">1</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_77"><td class='{"sortValue":18}'>17</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,77);">U21 M 4X-</a></td><td class="rm_nowrap">Under 21 Men's Coxless Quad</td><td class="rm_ta_center">1</td><td class="rowing_only">Club</td><td>Male</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_37"><td class='{"sortValue":38}'>36</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,37);">U21 M 8+</a></td><td class="rm_nowrap">U21 Men's Eight</td><td class="rm_ta_center">1</td><td class="rowing_only">Club</td><td>Male</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_47"><td class='{"sortValue":43}'>41</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,47);">U21 W 1X</a></td><td class="rm_nowrap">Under 21 Women's Single Scull</td><td class="rm_ta_center">12</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">1</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_11"><td class='{"sortValue":62}'>60</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,11);">U21 W 2-</a></td><td class="rm_nowrap">Under 21 Women's Pair</td><td class="rm_ta_center">16</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_23"><td class='{"sortValue":27}'>26</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,23);">U21 W 2X</a></td><td class="rm_nowrap">Under 21 Women's Double Scull</td><td class="rm_ta_center">10</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">2</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_76"><td class='{"sortValue":17}'>16</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,76);">U21 W 4-</a></td><td class="rm_nowrap">Under 21 Women's  Coxless Four</td><td class="rm_ta_center">7</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_79"><td class='{"sortValue":54}'>52</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,79);">U21 W 4X-</a></td><td class="rm_nowrap">Under 21 Women's Coxless Quad</td><td class="rm_ta_center">8</td><td class="rowing_only">Club</td><td>Female</td><td>Scull</td><td class="rm_ta_center">4</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+<tr  id="row_1"><td class='{"sortValue":3}'>2</td><td class="rm_nowrap"><a class="rm_lnk" href="javascript:" onclick="ShowEntries(5607,1);">U21 W 8+</a></td><td class="rm_nowrap">U21 Women's 8+</td><td class="rm_ta_center">4</td><td class="rowing_only">Club</td><td>Female</td><td>Sweep</td><td class="rm_ta_center">8</td><td class="rm_ta_right">2000M</td><td class="rm_noprint"></td></tr>
+
+</tbody>
+</table></div></div>
+
+<!--END RM-->
+
+
+</div> <!-- rm_container -->
+
+</div> <!-- pageContent -->
+
+<div class="footerContainer">  
+<div class="footer">
+          
+<div class="footer-block">
+  <a href="http://www.rowingtasmania.com.au"><img src="/images/rtas/rtas-w.png" alt="Rowing Tasmania" style="width:180px;" /></a>
+</div>
+
+<div class="footer-block">
+<a class="footer-link" href="http://www.rowingtasmania.com.au">&copy; Rowing Tasmania</a>
+<br /><br />
+PO Box 912 Launceston Tasmania. 7250  <br /><br />
+<a href="tel:0418130758">0418130758</a>
+<br />
+<a href="mailto:admin@rowingtasmania.com.au">admin@rowingtasmania.com.au</a>
+</div>
+
+<div class="footer-block right">
+  <a class="social" target="_blank" href="https://www.facebook.com/RowingTasmania"><i class="fa fa-facebook"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.twitter.com/RowingTas"><i class="fa fa-twitter"></i></a>
+  &emsp;<a class="social" target="_blank" href="https://www.youtube.com/channel/UCnW2-aHRHlIU2Eq_ZMT3cPQ"><i class="fa fa-youtube"></i></a>
+</div>
+          
+</div>
+</div>
+
+</body>
+</html>
+

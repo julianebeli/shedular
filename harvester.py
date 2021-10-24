@@ -1,8 +1,10 @@
 from typing import Dict, Set
 import requests
-from requests_cache import install_cache
+from requests_cache import install_cache  # type: ignore[import]
 from regattas import Regatta
 from bs4 import BeautifulSoup as soup
+import json
+import hashlib
 
 cache_time = 60 * 60 * 24
 install_cache("html_cache", backend="sqlite", expire_after=cache_time)
@@ -78,6 +80,34 @@ def harvest(regatta: Dict, ext: str) -> None:
     return
 
 
+def clean_string(s):
+    return s.strip().replace('\xa0', '')
+
+
+def get_page_links(s):
+    return list(filter(lambda x: x, map(clean_string, s)))
+
+
+def get_regatta_data(s):
+    s = list(filter(lambda x: x, map(clean_string, s)))
+    keys = "Regatta:,Date:,Venue:".split(",")
+    indexes = list(map(lambda x: s.index(x), keys))
+    name = s[indexes[0] + 1]
+    venue = s[indexes[-1] + 1]
+    date = ""
+    x = indexes[1] + 1
+    while x <= indexes[-1] - 1:
+        date += s[x]
+        x += 1
+    d = dict(name=name, venue=venue, date=date)
+
+    return d
+
+
+def get_doc_data(s):
+    return list(filter(lambda x: x and x != 'Documents', map(clean_string, s)))
+
+
 def probe(regatta: Regatta):
     '''
     find what files are available, and what aren't
@@ -90,31 +120,67 @@ def probe(regatta: Regatta):
     so get events page, events xlsx, get draw page and draw.xlsx
     get document draw_html, pdf
     '''
-    url = urls['home'].format(regatta.id)
-    print(url)
-    print("getting", url)
+    with open("data_files.json") as f:
+        files = json.loads(f.read())
+
+    if not files['home_page']['url']:
+        files['home_page']['url'] = urls['home'].format(regatta.id)
+    url = files['home_page']['url']
+    print("getting", f"{url}")
     m = requests.get(url, headers=headers)
+
+    with open("file.html", "w", encoding="utf8") as f:
+        f.write(m.text)
+    checksum = hashlib.md5(m.text.encode('utf8')).hexdigest()
+    print("check", checksum)
+    if checksum != files['home_page']['checksum']:
+        files['home_page']['checksum'] = checksum
+
     s = soup(m.text, "lxml")
+    tables = s.find_all('table')
+    # print(tables[1].tr)
+    [links, data, docs] = list(
+        filter(lambda x: not isinstance(x, str), tables[1].tr.children)
+    )
+    # [links, data, docs] = tables[1].tr.children
 
-    # for res in s.find_all("tr"):
-    #     print(res)
-    #     print("*" * 48)
-    docs = []
+    # links = tables[1].tr.td[0]
+    print("links", get_page_links(links.strings))
+    print(">" * 48)
+    # data = tables[1].tr.td[1]
+    print("data", get_regatta_data(data.strings))
+    print(">" * 48)
+    # docs = tables[1].tr.td[2]
+    print("docs", get_doc_data(docs.strings))
+    print(">" * 48)
 
-    for res in s.find_all("a"):
-        # print(res)
-        try:
-            c = res['class']
-        except:
-            c = []
-        S = list(filter(lambda x: "draw" in x.lower(), res.strings))
-        print(S)
-        if S:
-            docs.append([res['href'], c, list(res.strings)])
 
-        print(res['href'], c, list(res.strings))
-        print("*" * 48)
-    print(docs)
+# for t in s.find_all('table'):
+#     print(t)
+#     print(list(t.strings))
+
+
+# for res in s.find_all("tr"):
+#     print(res)
+#     print("*" * 48)
+
+
+# docs = []
+
+# for res in s.find_all("a"):
+#     # print(res)
+#     try:
+#         c = res['class']
+#     except:
+#         c = []
+#     S = list(filter(lambda x: "draw" in x.lower(), res.strings))
+#     print(S)
+#     if S:
+#         docs.append([res['href'], c, list(res.strings)])
+
+#     print(res['href'], c, list(res.strings))
+#     print("*" * 48)
+# print(docs)
 
 
 # with open(regatta.data / "home.html", "w", encoding="utf8") as f:
@@ -123,3 +189,16 @@ def probe(regatta: Regatta):
 
 if __name__ == "__main__":
     pass
+
+    data_files = {
+        "event_page": {"url": "http://", "exists": False, "checksum": 0},
+        "event_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
+        "draw_page": {"url": "http://", "exists": False, "checksum": 0},
+        "draw_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
+        "documents": [
+            {"url": "http://", 'title': "document", "type": "html", "checksum": 0},
+            {"url": "http://", 'title': "document", "type": "pdf", "checksum": 0},
+        ],
+    }
+    with open("data_files.json", "w", encoding="utf8") as f:
+        f.write(json.dumps(data_files, indent=4))

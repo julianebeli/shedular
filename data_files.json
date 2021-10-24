@@ -1,0 +1,43 @@
+{
+    "home_page":
+    {
+        "url": "",
+        "exists": true,
+        "checksum": 0
+    },
+    "event_page": [
+    {
+        "type": "html",
+        "url": "",
+        "exists": false,
+        "checksum": 0
+    },
+    {
+        "type": "xlsx",
+        "url": "",
+        "exists": false,
+        "checksum": 0
+    }],
+    "draw_page": [
+        {
+            "type": "html",
+            "url": "",
+            "exists": false,
+            "checksum": 0
+        },
+
+        {
+            "type": "xlsx",
+            "url": "",
+            "exists": false,
+            "checksum": 0
+        }
+    ],
+    "documents": [
+    {
+        "url": "",
+        "title": "document",
+        "type": "html",
+        "checksum": 0
+    }]
+}

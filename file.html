@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Rowing Australia Regattas</title>
+<link type="text/css" href="/css/rowing/regattas-AUS.css?v=6"  rel="stylesheet" />
+
+<link rel="stylesheet" href="/css/regatta.css?v=11" type="text/css" />
+<link rel="stylesheet" href="/css/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-1.11.4/jquery-ui.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/jquery-ui-rm-custom.css?v=4" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/tablesorter/style.css" type="text/css" />
+<link rel="stylesheet" href="/jquery/css/chosen/chosen.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css?v=470">
+<script type="text/javascript" src="/js/rmgr.js?v=3"></script>
+<script type="text/javascript" src="/js/regatta_v24.js"></script>
+<script type="text/javascript" src="/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.select_tablerow.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.tablesorter.js?v=2"></script>
+<script type="text/javascript" src="/jquery/jquery.metadata.js?v=2"></script>
+<script type="text/javascript" src="/jquery/chosen.jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/jquery/jquery.scrollintoview.js"></script>
+
+<style type="text/css">
+
+.ui-tooltip {background:#ffc;}
+</style>
+<script type="text/javascript">
+var loader = '<img src="/images/ajax_loader_small.gif"/>';
+var regattaId=5609;
+$(document).ready(function(){
+InitRegattaPage();
+$("#search_help").tooltip({content:'<div style="font-size:11px !important;line-height:14px !important;">ATHLETE SEARCH:<br>Partial name searches are accepted:<br>eg.&nbsp; <b><i>J Joh</i></b>&nbsp; - will find John Johnson, Jeff Johanson &nbsp;<br><br>Single word searches will find last names only:<br>eg.&nbsp; <b><i>Jones</i></b>&nbsp; - will find Jeff Jones, Sally Jones<br><br>Names can be entered as either:<br><b><i>Firstname&nbsp;Lastname</i></b> or <b><i>Lastname,&nbsp;Firstname</i></b><br><br>All searches are case insensitive.</div>'});
+$("#tz").tooltip({content: $("#tz").data('zones')});
+});
+
+</script>
+</head>
+<body>
+
+<!--div id="page"-->
+<header id="main-header" class="et_nav_text_color_dark">
+<div class="sub-header">
+<div class="header-container">
+                
+<div class="menu-left-header-container">
+<ul id="menu-left-menu-header" class="menu">
+<li id="menu-item-1" class="menu-item"><a href="/au">Regatta Calendar</a></li>
+<li id="menu-item-2" class="menu-item"><a href="/au/mobile/">Mobile Results</a></li>
+</ul>
+</div>
+
+<div class="menu-center-header-container">
+<a href="http://www.rowingaustralia.com.au/"><img src="/images/ra/logo.png" alt="Rowing Australia" id="logo" /></a>
+</div>
+
+<div class="menu-right-header-container">
+<ul id="menu-right-menu-header" class="menu">
+<li id="menu-item-1" class="menu-item"><a href="#" id="login_link" onclick="SiteLogin();"><i class="fa fa-user rm_fs_100"></i>&nbsp;Log In</a></li>
+<li id="menu-item-2" class="menu-item"><a href="https://rowingaustralia.com.au/">Rowing Australia Home &nbsp;<i style="font-size:14px !important;" class="fa fa-chevron-right"></i></a></li>
+</ul>
+</div>
+
+</div> <!-- .header-container -->
+</div> <!-- .sub-header -->
+</header> <!-- #main-header -->
+
+<div id="main-content">  
+<div class="rm_content">
+<!--START RM-->
+<div style="height:0; width:980px;"><div style="float:right;margin-top:0px;margin-right:8px;"><select name="SELECT_REGATTA" class="chosen_select rm_noprint" data-big-text="1" data-placeholder="Select 2022 Regatta"
+style="width:220px; max-width:220px;" data-drop-width="300" onchange="if(this.value>0)self.location='/regattas/' + this.value;">
+<option value=""></option>
+<optgroup label="National Regattas"><option value="5610">2022 Australian Masters Rowing Championships</option>
+<option value="5609">2022 Australian Rowing Championships</option>
+</optgroup>
+ 
+</select></div></div>
+
+<table class="rm_tbl rm_pad_2" style="max-width:980px;">
+<tr><td rowspan="2" style="vertical-align:middle;"></td>
+<td><h2>2022 Australian Rowing Championships</h2></td>
+<td rowspan="2" style="vertical-align:middle;"></td>
+</tr>
+<tr><td class="rm_nowrap"><div style="float:left;"><b>Date: </b>Mon 28th March&nbsp;-&nbsp;Sun 3rd April&nbsp;, 2022</div><div style="float:left; width:60px;"></div><div style="float:right;"><b>Venue: </b>Sydney International Regatta Centre, NSW</div></td></tr>
+</table>
+
+
+<script type="text/javascript">AjaxBrowserCheck();</script>
+<div class="">
+<div style="padding:10px; clear:both; max-width:960px;">
+<table style="border:1px solid #ddd;">
+<tr><td style="padding:4px; vertical-align:top; width:200px; max-width:200px; overflow-x:hidden; border:1px solid #ddd;"></td>
+<td style="padding:4px; vertical-align:top; border:1px solid #ddd;">
+
+<table class="rm_pad_2">
+<tr><td>Regatta:</td><td><b>2022 Australian Rowing Championships</b></td></tr>
+<tr><td>Date:</td><td><b>28/3/2022 <span class="ws_nowrap">-&nbsp;3/4/2022</span></b></td></tr>
+<tr><td>Venue:</td><td class="rm_nowrap"><b>Sydney International Regatta Centre, NSW</b><small>&nbsp;&nbsp;(<a class="rm_lnk" target="_blank" href="https://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=100934308591806464378.00046f9239e0da892815b&source=embed&ll=-33.722055,150.682983&spn=0.041334,0.058365&z=14">map</a>)</small></td></tr><tr><td>Distance:</td><td class="rm_nowrap"><b>2000</b></td></tr><tr><td>Website:</td><td><a target="_blank" rel="noopener noreferrer" href="http://arc.rowingaustralia.com.au">Event Website</a></td></tr></table></td>
+<td style="vertical-align:top; min-width:200px;  "><b>Documents</b><br/>
+<table class="pad_2 rm_tbl rm_pad_2 ">
+
+</table>
+
+</td>
+</tr></table>
+</div>
+<div style="padding-left:8px; width:780px;">
+
+</div>
+</div>
+
+<!--END RM-->
+</div>
+
+<div id="member_states">
+<div class="fwidget"><h4 class="title">Member Rowing Associations</h4>
+<div class="sso_icons">
+<a href="http://regattas.rowingact.org.au/" target="_blank"><img src="/images/ra/act.png" alt="rowing act" title="Rowing ACT" /></a>
+<a href="http://regattas.rowingnsw.asn.au/" target="_blank"><img src="/images/ra/nsw.png" alt="rowing nsw" title="Rowing New South Wales" /></a>
+<a href="http://qld.rowingmanager.com/" target="_blank"><img src="/images/ra/qld.png" alt="rowing qld" title="Rowing Queensland" /></a>
+<a href="http://sa.rowingmanager.com/" target="_blank"><img src="/images/ra/sa.png" alt="rowing sa" title="Rowing SA" /></a>
+<a href="http://tas.rowingmanager.com/" target="_blank"><img src="/images/ra/tas.png" alt="rowing tas" title="Rowing Tasmania" /></a>
+<a href="http://vic.rowingmanager.com" target="_blank"><img src="/images/ra/vic.png" alt="rowing vic" title="Rowing Victoria" /></a>
+<a href="http://wa.rowingmanager.com" target="_blank"><img src="/images/ra/wa.png" alt="rowing wa" title="Rowing WA" /></a>
+</div>
+</div>
+</div> <!-- #member_states -->
+
+</div> <!-- #main-content -->
+
+
+
+<div id="main-footer">
+
+<div id="footer-nav">
+<div class="container">
+</div>
+</div> <!-- #footer-nav -->
+
+<div id="footer-bottom">
+<div class="footer-container">
+<div id="footer-icons">
+<a target="_blank" href="https://www.facebook.com/rowingaustralia" class="social-icons"><i class="fa fa-facebook"></i></a>
+<a target="_blank" href="https://www.twitter.com/rowingaust" class="social-icons"><i class="fa fa-twitter"></i></a>
+<a target="_blank" href="https://www.youtube.com/channel/UCQw4UHHQtnjKjhc_sBWdvHQ" class="social-icons"><i class="fa fa-youtube-play"></i></a>
+<a target="_blank" href="https://www.instagram.com/rowingaustralia" class="social-icons"><i class="fa fa-instagram"></i></a>
+</div>
+<div id="footer-contact">PO BOX 7147, Yarralumla ACT 2600 &nbsp;&nbsp; T.02 6100 1115</div>
+<div id="footer-info">&copy; Rowing Australia Ltd.</div>
+</div><!-- .container -->
+</div>
+
+</div> <!-- #main-footer -->
+
+</body>
+</html>

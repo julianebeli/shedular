@@ -21,6 +21,7 @@ def structure(p: Path) -> None:
     d = p / "data"
     if not d.exists():
         d.mkdir(mode=0o777)
+        (d / "home").mkdir(mode=0o777)
         (d / "events").mkdir(mode=0o777)
         (d / "draw").mkdir(mode=0o777)
 

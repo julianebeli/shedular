@@ -1,18 +1,74 @@
-which regatta?
-
-with regatta
-	create regatta name
-		name/data
-		name/data/html/
-		name/data/xlxs
-
-	regatta file path -> param {rootpath:path, sourcedata: path + "data"}
-	which data source html/xlsx? -> param ['html','xlsx']
-
 with regatta with source type
 	which data is required? -> function list [get_events_html, get_draw_html]
 
+a new regatta is a chicken and egg problem.
+the only data required is the regatta id.
 
+with that 
+    the homepage of the event can be referenced.
+    the regatta particulars can be gathered
+    the required documents can be sourced or updated or not
+    the entry list can be calculated
+    the boats can be allocated
+    the reports can be produced.
+what's missing is a way to manage changes to the published reports
+    if there is a scratching
+    a boat is broken
+    some other change occurs
+    a boats properties are changed (eg from coxed to coxless)
+
+start:
+    input regatta id?:
+        if know:
+            restore details.
+        else:
+            get details
+            build
+        check docs
+        alert for recalculation.
+        compute
+        report
+
+file structure
+    regatta
+        id_date_name
+            details.json
+            data
+                home.html
+                event
+                    event_page.html
+                    events.xlsx
+                draw
+                    draw_page.html
+                    draw.xlsx
+                documents
+                    draw.html
+                    draw.pdf
+            events.csv
+            draw.csv
+            entries.csv
+            allocation.csv
+            boat_schedule.csv
+
+
+Solomon [23] suggests an insertion heuristic for obtaining an initial solution to VRPTW,
+which was proven to give optimal or near optimal results in a reasonable amount of time. In
+his approach the number of vehicles (corresponding to HCPs in our problem) are unlimited.
+The algorithm is greedy; in each step it chooses the best move in order to optimize the
+result. 
+    - pick a boat from the trailer which is correctly rigged
+A seed customer (corresponding to a visit) is selected and inserted in a route. Then
+the routes are filled successively with customers until the capacity (corresponding to work
+hours) of the vehicle is filled. The seed customer is the first customer in the route, and
+is selected among the unplanned customers by some criterion, or a combination of criteria
+(for example farthest customer from the depot (corresponding to the hospital)). The idea
+is to use the seeds to get a good clustering of visits for each vehicle, then the following
+customers are selected by a minimization function. When the capacity of one vehicle is filled
+the procedure starts over with a new vehicle, until all customers are served. The result
+is widely accepted and used in subsequent research (e.g. [24, 25]) as an initial solution to
+VRPTW or extensions of it. Potvin and Rousseau [25] show that parallel construction of
+the routes improve the result with random distributed instances, compared with sequential
+construction that Solomon performs.
 
 boat picking algorithm
 tries to match all the attributes but it needs a backout plan.
@@ -21,49 +77,21 @@ then back out to pick a new boat from the shed.
 need to back out of age_group restriction
 need to backout of gender restriction
 
-start with the boats on the trailer.
+start with the boats all the boats
 filter for seats and cox
+    if the result is empty pass back the original list - there is no boat for this race in the shed!
 then
-	filter the result for stroke -> filtered | not_filtered 
+	filter the result for stroke -> filtered | not_filtered
+        if the result is empty pass back the original list
 	filter the result for rigged -> filtered | not_filtered
+        if the result is empty pass back the original list
 	filter the result for gender -> filtered | not_filtered
+        if the result is empty pass back the original list
 	filter the result for age_group -> filtered | not_filtered
+        if the result is empty pass back the original list
+    filter the result for location -> filtered | not_filtered
+        if the result is empty pass back the original list
+    return result
 
-		if the result is empty pass back the original list
 
-def find_boats(this_event, location):
-    # print(">", this_event)
-    rigged = list(
-        filter(
-            lambda x: (this_event.stroke in x.stroke)
-            and (x.seats == this_event.seats)
-            and (x.rig in [Stroke.NONE, this_event.stroke])
-            and (this_event.gender in x.gender)
-            and (this_event.age_group in x.age_group)
-            and (this_event.cox == x.cox)
-            and (x.location == location),
-            boats,
-        )
-    )
-    # print(location, ">>>>>>>rigged", rigged)
-    if not rigged:
-        # print(
-        #     "did not find a boat with the right rigging at"
-        #     f" {location}.>>>>>>>>>>>>>>>"
-        # )
-        rigged = list(
-            filter(
-                lambda x: (this_event.stroke in x.stroke)
-                and (x.seats == this_event.seats)
-                # and (x.rig in [Stroke.NONE, this_event.stroke])
-                and (this_event.gender in x.gender)
-                and (this_event.age_group in x.age_group)
-                and (this_event.cox == x.cox)
-                and (x.location == location),
-                boats,
-            )
-        )
-        # print()
-        # print(location, "rigged<<<<<<<", rigged)
-    # print()
-    return rigged
+

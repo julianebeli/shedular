@@ -18,6 +18,8 @@ def main():
     r.update(dict(date=date, folder=Path(), data=Path()))
     regatta = Regatta(**r)
     print(regatta)
+    probe(regatta)
+    exit()
     build(regatta)
     print(regatta)
     probe(regatta)

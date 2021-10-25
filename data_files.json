@@ -7,27 +7,27 @@
     },
     "event_page": [
     {
-        "type": "html",
+        "filetype": "html",
         "url": "",
         "exists": false,
         "checksum": 0
     },
     {
-        "type": "xlsx",
+        "filetype": "xlsx",
         "url": "",
         "exists": false,
         "checksum": 0
     }],
     "draw_page": [
         {
-            "type": "html",
+            "filetype": "html",
             "url": "",
             "exists": false,
             "checksum": 0
         },
 
         {
-            "type": "xlsx",
+            "filetype": "xlsx",
             "url": "",
             "exists": false,
             "checksum": 0
@@ -37,7 +37,7 @@
     {
         "url": "",
         "title": "document",
-        "type": "html",
+        "filetype": "html",
         "checksum": 0
     }]
 }

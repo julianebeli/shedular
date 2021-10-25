@@ -120,6 +120,7 @@ def probe(regatta: Regatta):
     so get events page, events xlsx, get draw page and draw.xlsx
     get document draw_html, pdf
     '''
+    print(regatta)
     with open("data_files.json") as f:
         files = json.loads(f.read())
 
@@ -190,15 +191,15 @@ def probe(regatta: Regatta):
 if __name__ == "__main__":
     pass
 
-    data_files = {
-        "event_page": {"url": "http://", "exists": False, "checksum": 0},
-        "event_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
-        "draw_page": {"url": "http://", "exists": False, "checksum": 0},
-        "draw_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
-        "documents": [
-            {"url": "http://", 'title': "document", "type": "html", "checksum": 0},
-            {"url": "http://", 'title': "document", "type": "pdf", "checksum": 0},
-        ],
-    }
-    with open("data_files.json", "w", encoding="utf8") as f:
-        f.write(json.dumps(data_files, indent=4))
+# data_files = {
+#     "event_page": {"url": "http://", "exists": False, "checksum": 0},
+#     "event_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
+#     "draw_page": {"url": "http://", "exists": False, "checksum": 0},
+#     "draw_page_xlsx": {"url": "http://", "exists": False, "checksum": 0},
+#     "documents": [
+#         {"url": "http://", 'title': "document", "type": "html", "checksum": 0},
+#         {"url": "http://", 'title': "document", "type": "pdf", "checksum": 0},
+#     ],
+# }
+# with open("data_files.json", "w", encoding="utf8") as f:
+#     f.write(json.dumps(data_files, indent=4))

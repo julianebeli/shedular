@@ -2,22 +2,25 @@ import config
 from typing import Dict
 from inventory_loader import regattas, current_regatta
 from constructor import build
-
 from harvester import harvest, probe
-from events import process_events
-from draw import process_draw
-from allocation import do_allocation
-from regattas import Regatta
+from objects import Regatta
 import arrow
 from pathlib import Path
+
+# from events import process_events
+# from draw import process_draw
+# from allocation import do_allocation
 
 
 def main():
     r = current_regatta()
-    date = arrow.get(r['date'], 'DD/M/YYYY')
-    r.update(dict(date=date, folder=Path(), data=Path()))
+    date = arrow.get(r['date'], 'D/M/YYYY')
+    r.update(dict(date=date, folder=Path()))
     regatta = Regatta(**r)
-    print(regatta)
+    build(regatta)
+    probe(regatta)
+
+    exit()
     probe(regatta)
     exit()
     build(regatta)

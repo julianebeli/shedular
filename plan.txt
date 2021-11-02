@@ -17,7 +17,7 @@ with regatta with source type
 
 a new regatta is a chicken and egg problem.
 the only data required is the regatta id.
-
+get regatta id from season db/csv
 with that 
     the homepage of the event can be referenced.
     the regatta particulars can be gathered
@@ -33,7 +33,7 @@ what's missing is a way to manage changes to the published reports
 
 start:
     input regatta id?:
-        if know:
+        if known:
             restore details.
         else:
             get details

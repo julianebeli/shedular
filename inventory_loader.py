@@ -1,6 +1,6 @@
 from typing import List, Dict
-from pathlib import Path
 import csv
+from config import season
 
 
 def load_csv(file):
@@ -17,7 +17,7 @@ def load_db_table(name):
 
 
 def regattas() -> List:
-    return load_csv(Path("inventories/season.csv"))
+    return load_csv(season)
 
 
 def current_regatta() -> Dict:

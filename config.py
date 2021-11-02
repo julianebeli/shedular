@@ -1,7 +1,11 @@
-projects_folder = "regattas"
-# source = "html"
-source = "html"
+from pathlib import Path
+
 rebuild = False
-data_tables = ["boats", "season", "venues"]
-data_pages = ['events', 'draw']
-data_files = ['draw']
+website = "https://rowingmanager.com/regattas/{}/"
+inventories = Path("inventories")
+regattas = Path("regattas")
+boats = inventories / "boats.csv"
+season = inventories / "season.csv"
+venues = inventories / "venues.csv"
+# data_pages = ['events', 'draw']
+# data_files = ['draw']

@@ -1,10 +1,11 @@
 from typing import Dict, Set
+import config
 import requests
+import hashlib
 from requests_cache import install_cache  # type: ignore[import]
 from regattas import Regatta
-from bs4 import BeautifulSoup as soup
-import json
-import hashlib
+from page_processing.home import home_page_processor
+
 
 cache_time = 60 * 60 * 24
 install_cache("html_cache", backend="sqlite", expire_after=cache_time)
@@ -13,7 +14,13 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0"
 }
 
-urls = {"home": "https://rowingmanager.com/regattas/{}/"}
+# urls = {"home": "https://rowingmanager.com/regattas/{}/"}
+
+
+def get_home_page(regatta: Regatta) -> str:
+    url = config.website.format(regatta.id)
+    s = requests.get(url, headers=headers)
+    return s.text
 
 
 # https://stackoverflow.com/questions/16694907/download-large-file-in-python-with-requests
@@ -80,32 +87,9 @@ def harvest(regatta: Dict, ext: str) -> None:
     return
 
 
-def clean_string(s):
-    return s.strip().replace('\xa0', '')
-
-
-def get_page_links(s):
-    return list(filter(lambda x: x, map(clean_string, s)))
-
-
-def get_regatta_data(s):
-    s = list(filter(lambda x: x, map(clean_string, s)))
-    keys = "Regatta:,Date:,Venue:".split(",")
-    indexes = list(map(lambda x: s.index(x), keys))
-    name = s[indexes[0] + 1]
-    venue = s[indexes[-1] + 1]
-    date = ""
-    x = indexes[1] + 1
-    while x <= indexes[-1] - 1:
-        date += s[x]
-        x += 1
-    d = dict(name=name, venue=venue, date=date)
-
-    return d
-
-
-def get_doc_data(s):
-    return list(filter(lambda x: x and x != 'Documents', map(clean_string, s)))
+def store_home_page(regatta, page, checksum):
+    with open(regatta.folder / "home" / checksum, "w", encoding="utf8") as f:
+        f.write(page)
 
 
 def probe(regatta: Regatta):
@@ -115,77 +99,24 @@ def probe(regatta: Regatta):
     there are several versions of the files.
     the regatta has an events tab and a draw tab
     the urls will respond even if there is no data
-    then there is the landing page. It has a list of documents
+    then there is the landing - home - page. It has a list of documents
     There is also an xlsx version of the events and draw.
     so get events page, events xlsx, get draw page and draw.xlsx
     get document draw_html, pdf
     '''
     print(regatta)
-    with open("data_files.json") as f:
-        files = json.loads(f.read())
-
-    if not files['home_page']['url']:
-        files['home_page']['url'] = urls['home'].format(regatta.id)
-    url = files['home_page']['url']
-    print("getting", f"{url}")
-    m = requests.get(url, headers=headers)
-
-    with open("file.html", "w", encoding="utf8") as f:
-        f.write(m.text)
-    checksum = hashlib.md5(m.text.encode('utf8')).hexdigest()
-    print("check", checksum)
-    if checksum != files['home_page']['checksum']:
-        files['home_page']['checksum'] = checksum
-
-    s = soup(m.text, "lxml")
-    tables = s.find_all('table')
-    # print(tables[1].tr)
-    [links, data, docs] = list(
-        filter(lambda x: not isinstance(x, str), tables[1].tr.children)
-    )
-    # [links, data, docs] = tables[1].tr.children
-
-    # links = tables[1].tr.td[0]
-    print("links", get_page_links(links.strings))
-    print(">" * 48)
-    # data = tables[1].tr.td[1]
-    print("data", get_regatta_data(data.strings))
-    print(">" * 48)
-    # docs = tables[1].tr.td[2]
-    print("docs", get_doc_data(docs.strings))
-    print(">" * 48)
-
-
-# for t in s.find_all('table'):
-#     print(t)
-#     print(list(t.strings))
-
-
-# for res in s.find_all("tr"):
-#     print(res)
-#     print("*" * 48)
-
-
-# docs = []
-
-# for res in s.find_all("a"):
-#     # print(res)
-#     try:
-#         c = res['class']
-#     except:
-#         c = []
-#     S = list(filter(lambda x: "draw" in x.lower(), res.strings))
-#     print(S)
-#     if S:
-#         docs.append([res['href'], c, list(res.strings)])
-
-#     print(res['href'], c, list(res.strings))
-#     print("*" * 48)
-# print(docs)
-
-
-# with open(regatta.data / "home.html", "w", encoding="utf8") as f:
-#     f.write(m.text)
+    home_page = get_home_page(regatta)
+    checksum = hashlib.md5(home_page.encode('utf8')).hexdigest()
+    print(checksum)
+    if (regatta.folder / "home" / checksum).exists():
+        print("home page unchanged ...")
+        # return
+    else:
+        store_home_page(regatta, home_page, checksum)
+    [links, data, docs] = home_page_processor(home_page)
+    print(links, data, docs)
+    print("now deal with links ...")
+    return
 
 
 if __name__ == "__main__":

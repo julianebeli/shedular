@@ -1,6 +1,7 @@
 import json
 import os
-import sys
+
+# import sys
 from pathlib import Path
 
 
@@ -13,7 +14,7 @@ def pp(s):
 
 
 def read_json(fn):
-    with open(fn) as f:
+    with open(fn, encoding="utf8") as f:
         return json.loads(f.read())
 
 
@@ -38,16 +39,17 @@ def root(f):
     # return os.sep.join(p[:p.index('canvas') + 1])
 
 
-canvas = root(__file__)
-canvas_tools = canvas / "tools"
+# canvas = root(__file__)
+# canvas_tools = canvas / "tools"
 
-sys.path.append(str(canvas_tools))
+# sys.path.append(str(canvas_tools))
 
-here = os.path.split(os.path.realpath(__file__))[0]
-staging = os.path.join(here, "staging")
-warehouse = os.path.join(here, "tasc_data")
+# here = os.path.split(os.path.realpath(__file__))[0]
+# staging = os.path.join(here, "staging")
+# warehouse = os.path.join(here, "tasc_data")
 
 if __name__ == "__main__":
-    print(canvas)
-    print(canvas_tools)
-    print(sys.path)
+    pass
+# print(canvas)
+# print(canvas_tools)
+# print(sys.path)

@@ -1,9 +1,9 @@
-from typing import List, Dict
+# from typing import List, Dict
 from pathlib import Path
-from dataclasses import dataclass, field
-
+from dataclasses import dataclass  # , field
 from arrow import Arrow
-from inventory_loader import current_regatta
+
+# from inventory_loader import current_regatta
 
 
 @dataclass
@@ -16,7 +16,6 @@ class Regatta:
     complete: bool
     organisation: str
     folder: Path
-    data: Path
 
 
 # @dataclass

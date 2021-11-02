@@ -5,11 +5,15 @@ https://github.com/julianebeli/shedular.git
 
 
 git remote set-url origin https://github.com/julianebeli/shedular.git
-git remote set-url origin https://julianebeli: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@github.com/julianebeli/shedular.git
+git remote set-url origin https://julianebeli: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@github.com/julianebeli/shedular.git
 iQSZ8DVi3RH23NCJf
 
 git config --global user.name "julianebeli"
 git config --global user.password "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"
+
+latest token: 3/11/21
+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
+
 
 with regatta with source type
 	which data is required? -> function list [get_events_html, get_draw_html]
